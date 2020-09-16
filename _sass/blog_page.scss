@@ -1,5 +1,29 @@
 $page-title-height: 400px;
 
+
+
+.tags {
+	// position: relative;
+	// top: -80px;
+	padding: 60px 100px 0 0;
+}
+.tags:after {
+	@extend %clear;
+}
+.tags li {
+	float: right;
+	font-size: 12px;
+	margin-right: 10px;
+	color: $font-gray;
+	padding: 5px 7px;
+	display: inline-block;
+	text-align: center;
+	border: 1px solid $font-gray;
+	border-radius: 15px;
+	background-color: $white;
+}
+
+
 .none-background {
 
 	background-color: #efefef;
@@ -55,7 +79,7 @@ $page-title-height: 400px;
 }
 
 .page-contents {
-	padding: 40px 0 200px;
+	padding: 40px 0 160px;
 }
 
 
@@ -88,7 +112,20 @@ $page-title-height: 400px;
 			@extend %clear;
 		}
 		.title-area-wrap {
+			position: relative;
 			padding: 30px 0px 20px;
+
+			.bar {
+				position: absolute;
+				top: 45px;
+				color: $font-gray;
+			}
+			#right-bar {
+				right: -20px;
+			}
+			#left-bar {
+				right: 30px;
+			}
 		}
 		.title-area {
 			float: left;
@@ -152,25 +189,6 @@ $page-title-height: 400px;
 			font-size: 14px;
 			color: rgba($white, 0.8);
 		}
-	}
-	.tags {
-		position: relative;
-		top: -80px;
-	}
-	.tags:after {
-		@extend %clear;
-	}
-	.tags li {
-		float: left;
-		font-size: 12px;
-		margin-right: 10px;
-		color: $font-gray;
-		padding: 5px 7px;
-		display: inline-block;
-		text-align: center;
-		border: 1px solid $font-gray;
-		border-radius: 15px;
-		background-color: $white;
 	}
 
 }

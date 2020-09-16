@@ -32,6 +32,14 @@
     <article class="page-contents">
       <div class="inner-wrap">
         {{ content }}
+
+        <ul class="tags">
+          <li>태그1</li>
+          <li>태그2</li>
+          <li>태그3</li>
+        </ul>
+
+
       </div>
     </article>
 
@@ -50,18 +58,19 @@
 
               <div class="title-area-wrap">
                 <ul class="title-area">
-                  <li class="bar"><span href="#" id="left-bar"><ion-icon name="chevron-back-outline"></ion-icon></span></li>
                   <li class="section">{{ page.big_group }}</li>
                   <li class="main-title">{{ page.small_group }}</li>
-                  <li class="bar"><span href="#" id="right-bar"><ion-icon name="chevron-forward-outline"></ion-icon></span></li>
                 </ul>
                 
+                <span class="bar" id="left-bar"><ion-icon name="chevron-back-outline"></ion-icon></span></li>
                 {% for j in (1..page_total) %}
                 <ul class="count count_{{j}}">
                   <li class="now">{{ j }}</li>
                   <li class="total">{{ page_total }}</li>
                 </ul>
                 {% endfor %}
+                <span class="bar" id="right-bar"><ion-icon name="chevron-forward-outline"></ion-icon></span>
+
               </div>
 
               {% for k in (1..page_total) %}
@@ -79,12 +88,6 @@
           </div>
           <!-- cover-area:e -->
         </div>
-
-        <ul class="tags">
-          <li>태그1</li>
-          <li>태그2</li>
-          <li>태그3</li>
-        </ul>
       
       </div>
     </div>
