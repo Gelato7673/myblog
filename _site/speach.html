@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+  <head>
+        <meta charset="utf-8">
+    <title>Gelato7673</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/img/favicon/favicon.png">
+  </head>
+  <body>
+
+  	<div class="wrap">
+      <header>
+	<ul>
+		<li class="logo">
+			<a href="#"><ion-icon name="menu-outline"></ion-icon></a>
+			<a href="/"><img src="/assets/img/favicon/favicon.png" alt=""></a>
+		</li>
+		<li class="title">
+			<span>Gelato</span>
+		</li>
+		<li class="search">
+			<ion-icon name="search-outline"></ion-icon>
+		</li>
+	</ul>
+</header>
+
+<nav>
+	<dl class="profile-area">
+		<dt class="profile-images">
+			<p>profile-image</p>
+		</dt>
+		<dd class="writer">
+			by.Gelato
+		</dd>
+	</dl>
+
+	<dl>
+		<dt class="post-it">My Blog</dt>
+		<dd>
+			<ul>
+				
+				<li><a href="/campusnote.html">오답노트</a></li>
+				<li><a href="/speach.html">IT 기술</a></li>
+			</ul>
+		</dd>
+		
+	</dl>
+</nav>
+
+  		<div class="inner-wrap">
+  			<section class="book-intro">
+	  			<ul>
+            <li>
+              <div class="book-cover" style="background:url(/assets/img/speach.jpg) no-repeat;background-size: cover;">
+                <p class="title">IT 기술</p>
+                <p class="writer">My Blog</p>
+              </div>
+            </li>
+            <li>
+              <div class="book-about">
+                <p class="title-area">
+                  <span class="title">IT 기술</span>
+                  <span class="count"><i class="fas fa-book-reader"></i><span id="exp_count">30</span> 글</span>
+                </p>
+                <p class="book-descript">
+                  IT기술에 관한 페이지 입니다.<br> 이페이지에서는, 현재 기술의 트렌드, 업계의 소식, 프로젝트나 스터디를 하면서 알게된 점들 중에 깊이 있게 다루고 싶은 내용들, 공부하고 있는 컴퓨터나 데이터 관련 이론들을 정리해서 포스팅 하는 장소 입니다.
+                </p>
+                <ul class="tags">
+                  
+                    <li>Programming</li>
+                  
+                    <li>Front-end</li>
+                  
+                    <li>toyproject</li>
+                  
+                    <li>career</li>
+                  
+                </ul>
+              </div>
+            </li>
+          </ul>
+  			</section>
+
+  			<article class="blog-list">
+        
+        
+        
+          
+          
+          
+          
+    				<dl class="list">
+              <dt>
+                <ul>
+                  <li class="title">
+                    <span class="count">1</span>
+                    <span class="main-title"><a href="/2020/08/29/check-makingblog.html">포트폴리오 및 블로그 만들면서 느끼는 점.29 </a></span>
+                  </li>
+                  <li class="date">
+                    <span>08. 29 - 09. 08. 2020</span>
+                    <!-- <span>September 16, 2020</span> -->
+                  </li>
+                </ul>
+              </dt>
+              <dd>
+                <p class="contents">
+                    
+                    <span class="sub-title">
+                      산다는건 정말이지
+                    </span>
+                    
+                    
+                  <span class="part-content">
+                    html5 sementic tag https://www.w3schools.com/html/html5_semantic_elements.asp 지킬에 검색창 달기 https://imyeonn.github.io/blog/blog/30/ 폰트 아이콘 https://m.blog.naver.com/PostView.nhn?blogId=reactionweb&amp;logNo=220337009100&amp;proxyReferer=https:%2F%2Fwww.google.com%2F sass를 이용해서, 각 페이지에 맞게 배경화면을 바꿀 수 있을까??...
+                  </span>
+                </p>
+
+                
+                  <ul class="tags">
+                    
+                      <li>jekyll</li>
+                    
+                      <li>tags</li>
+                    
+                      <li>tree</li>
+                    
+                  </ul>
+                
+
+              </dd>
+            </dl>
+            
+          
+
+          <span id ="all_count" style="display: none;">1</span>
+
+  			</article>
+  		</div>
+  	</div>	
+
+    <!--  -->
+
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <script>
+      var count = document.getElementById('all_count');
+      var all_count = count.innerHTML;
+      var exp_count = document.getElementById('exp_count');
+      exp_count.innerHTML = all_count;
+    </script>
+  </body>
+</html>

@@ -1,0 +1,184 @@
+@charset "UTF-8";
+body { font: 100% Helvetica, sans-serif; color: #333; }
+
+body, ul, li, p, dd { margin: 0; padding: 0; }
+
+li { list-style: none; }
+
+div, p { box-sizing: border-box; }
+
+a, a:hover, a:link, a:visited, a:active { color: #333; text-decoration: none; oueline: none; }
+
+.inner-wrap { width: 1000px; margin: 0 auto; }
+
+header { border-bottom: 1px solid #ddd; }
+
+header .logo img { width: 30px; }
+
+header ul { display: table; width: 100%; }
+
+header ul li { display: table-cell; line-height: 60px; }
+
+header ul .logo { width: 30%; padding-left: 15px; text-align: left; font-size: 32px; }
+
+header ul .title { text-align: center; width: 40%; font-size: 23px; }
+
+header ul .search { width: 30%; padding-right: 15px; text-align: right; font-size: 27px; /*width 30%의 퍼센트로 padding-right를 지정할 수 있음 좋겠다.*/ }
+
+.footer .list-area .title-area-wrap:after, .footer .other-pages:after, .page-title .page-info:after, .tags:after, .blog-list .list .tags:after, .blog-list .list > dt ul:after, .book-about .tags:after, .book-intro > ul:after { content: ''; display: block; clear: both; }
+
+.blog-list .list .tags li { float: left; font-size: 10px; margin-right: 10px; color: #B2B2B2; padding: 3px 5px; display: inline-block; text-align: center; border: 1px solid #B2B2B2; border-radius: 10px; }
+
+body { position: relative; }
+
+nav { position: absolute; top: 62px; left: 0; width: 260px; height: 1700px; background: url(/assets/img/paper.jpg); z-index: 100; font-family: 'Nanum Myeongjo', serif; }
+
+nav a { text-decoration: none; }
+
+nav a:hover { text-decoration-line: underline; text-decoration-style: solid; text-decoration-color: #FAED7D; text-decoration-thickness: 5px; }
+
+nav .profile-area { margin: 20px 0 30px; }
+
+nav .profile-area p { margin: 0 auto; text-indent: -9999px; width: 180px; height: 180px; background: url(/assets/img/gelato_rose.jpg) center center no-repeat; background-size: cover; border: 1px solid transparent; border-radius: 50%; }
+
+nav .profile-area .writer { padding: 10px 0 0 0; text-align: center; color: rgba(255, 255, 255, 0.9); }
+
+nav .post-it { font-weight: 600; margin-left: 15px; display: inline-block; width: 190px; height: 30px; background-color: rgba(255, 255, 255, 0.2); vertical-align: middle; -moz-box-shadow: 2px 3px 5px 2px rgba(0, 0, 0, 0.1); -webkit-box-shadow: 2px 3px 5px 2px rgba(0, 0, 0, 0.1); box-shadow: 2px 3px 5px 2px rgba(0, 0, 0, 0.1); }
+
+nav .post-it:before { content: ''; display: inline-block; margin-right: 10px; width: 48px; height: 30px; background-color: rgba(255, 0, 0, 0.2); vertical-align: middle; }
+
+nav .solo { margin-bottom: 40px; }
+
+nav dd:not(.writer) { padding: 20px 0 40px 50px; }
+
+nav dd:not(.writer) li { line-height: 1.6; }
+
+nav dd:not(.writer) li:before { content: '-'; padding-right: 10px; }
+
+.book-intro { margin-top: 20px; }
+
+.book-intro > ul li { float: left; }
+
+.book-cover { position: relative; height: 450px; width: 320px; padding-top: 112.5px; border-radius: 5px; text-align: center; -webkit-box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.2); -moz-box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.2); box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.2); }
+
+.book-cover .title { margin: 0 auto; padding: 20px; width: 160px; height: 225px; background-color: rgba(255, 255, 255, 0.8); font-size: 20px; }
+
+.book-cover .writer { position: absolute; width: 320px; text-align: center; bottom: 30px; color: #fff; }
+
+.book-about { width: 650px; height: 450px; position: relative; margin-left: 20px; padding: 25px; border: 1px solid #efefef; -webkit-box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.2); -moz-box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.2); box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.2); }
+
+.book-about .title-area:after { content: ''; display: block; clear: both; }
+
+.book-about .title { float: left; font-size: 25px; }
+
+.book-about .count { float: right; color: #B2B2B2; font-size: 15px; }
+
+.book-about .count i { padding-right: 10px; }
+
+.book-about .book-descript { margin-top: 25px; }
+
+.book-about .tags { position: absolute; bottom: 20px; left: 20px; }
+
+.book-about .tags li { float: left; font-size: 10px; margin-right: 10px; color: #B2B2B2; padding: 3px 5px; display: inline-block; text-align: center; border: 1px solid #B2B2B2; border-radius: 10px; }
+
+.blog-list { padding: 40px 10px 0 0; }
+
+.blog-list .list { border-top: 1px solid #efefef; border-bottom: 1px solid #efefef; padding: 30px 0 30px; }
+
+.blog-list .list .title { float: left; }
+
+.blog-list .list .title span { font-size: 18px; font-weight: 600; }
+
+.blog-list .list .title .count { display: inline-block; }
+
+.blog-list .list .title .main-title { padding-left: 10px; }
+
+.blog-list .list .date { float: right; color: #B2B2B2; }
+
+.blog-list .list > dd { padding-top: 15px; }
+
+.blog-list .list .contents { color: #9a9595; word-break: break-all; text-align: justify; }
+
+.blog-list .list .contents span { line-height: 1.6; }
+
+.blog-list .list .contents .sub-title { font-weight: 600; padding-right: 3px; }
+
+.blog-list .list .contents .sub-title:after { display: inline-block; padding-left: 5px; content: '|'; }
+
+.blog-list .list .tags { padding-top: 15px; }
+
+.tags { padding: 60px 100px 0 0; }
+
+.tags li { float: right; font-size: 12px; margin-right: 10px; color: #B2B2B2; padding: 5px 7px; display: inline-block; text-align: center; border: 1px solid #B2B2B2; border-radius: 15px; background-color: #fff; }
+
+.none-background { background-color: #efefef; border-bottom: 1px solid #ddd; }
+
+.none-background .main-title { color: #333 !important; }
+
+.none-background .sub-title { color: #333 !important; }
+
+.none-background .page-info { color: #9a9595 !important; }
+
+.page-title { height: 400px; color: #fff; }
+
+.page-title .main-title { padding-top: 230px; font-size: 34px; }
+
+.page-title .sub-title { padding-top: 10px; font-size: 15px; color: rgba(255, 255, 255, 0.7); }
+
+.page-title .page-info { padding-top: 50px; font-size: 12px; }
+
+.page-title .page-info li { display: inline; }
+
+.page-title .page-info .writer:before { padding-right: 5px; content: 'by'; text-decoration: italic; color: rgba(255, 255, 255, 0.7); }
+
+.page-title .page-info .writer:after { content: 'ㆍ'; }
+
+.page-title .page-info .date { color: rgba(255, 255, 255, 0.7); }
+
+.page-contents { padding: 40px 0 160px; }
+
+.footer { background-color: #F0F0F0; }
+
+.footer .inner-wrap { width: 800px; }
+
+.footer .other-pages { position: relative; top: -125px; border: 1px solid #B2B2B2; background-color: #fff; }
+
+.footer .list-area { float: left; height: 250px; width: 75%; padding: 0 30px; }
+
+.footer .list-area .title-area-wrap { position: relative; padding: 30px 0px 20px; }
+
+.footer .list-area .title-area-wrap .bar { position: absolute; top: 45px; color: #B2B2B2; }
+
+.footer .list-area .title-area-wrap #right-bar { right: -20px; }
+
+.footer .list-area .title-area-wrap #left-bar { right: 30px; }
+
+.footer .list-area .title-area { float: left; }
+
+.footer .list-area .title-area > li { display: block; }
+
+.footer .list-area .title-area .section { font-size: 13px; color: #B2B2B2; padding-bottom: 5px; }
+
+.footer .list-area .title-area .main-title { font-size: 20px; }
+
+.footer .list-area .title-area .bar span { cursor: pointer; }
+
+.footer .list-area .count { float: right; font-size: 18px; padding-top: 13px; }
+
+.footer .list-area .count .now { float: left; }
+
+.footer .list-area .count .total { float: right; color: #B2B2B2; }
+
+.footer .list-area .count .total:before { content: '/'; }
+
+.footer .list-area li span:first-child { padding-right: 10px; }
+
+.footer .list-area li span { font-size: 14px; line-height: 2; }
+
+.footer .cover-area { float: left; height: 250px; width: 25%; text-align: center; }
+
+.footer .cover-area .title { margin: 25%; padding: 10px; width: 50%; height: 125px; background-color: #fff; }
+
+.footer .cover-area .writer { font-size: 14px; color: rgba(255, 255, 255, 0.8); }
+
+/*# sourceMappingURL=styles.css.map */
