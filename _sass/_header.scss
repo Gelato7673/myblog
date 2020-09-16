@@ -1,0 +1,36 @@
+header {
+	border-bottom: 1px solid #ddd;
+
+	.logo img {
+		width: 30px;
+	}
+
+	ul {
+		display: table;
+		width: 100%;
+		li {
+			display: table-cell;
+			line-height: 60px;
+		}
+		.logo {
+			width: 30%;
+			padding-left: 15px;
+			text-align: left;
+			font-size: 32px;
+		}
+		.title {
+			text-align: center;
+			width: 40%;
+			font-size: 23px;
+		}
+		.search {
+			width: 30%;
+			padding-right: 15px;
+			text-align: right;
+			font-size: 27px;
+
+			/*width 30%의 퍼센트로 padding-right를 지정할 수 있음 좋겠다.*/
+		}
+
+	}
+}

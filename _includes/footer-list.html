@@ -1,0 +1,13 @@
+
+  {% assign calS = {{include.number}} | minus : 1 | times : 4 %}
+  {% assign array_s = 0 | plus : calS %}
+  {% assign array_e = array_s | plus : 3 %}
+    <!-- list:s -->
+
+  {% for i in (array_s..array_e) %}
+  <li>
+    <span class="title">{{ sorted[i].title }}</span>
+  </li>
+  {% endfor %}
+    
+  <!-- list:e -->

@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+
+		<!-- {% include navigation.html %} -->
+
+    {% if page.background != none %}
+		<section class="page-title" style="background: url('/assets/img/{{ page.background }}') center 2000px;">
+      {% else %}
+    <section class="page-title none-background">
+    {% endif %}
+
+      <div class="inner-wrap">
+        <p class="main-title">
+          {{ page.title }}
+        </p>
+        <p class="sub-title">
+          {{ page.subtitle }}
+        </p>
+
+        <ul class="page-info">
+          <li class="writer">Gelato</li>
+          <li class="date">Aug 8. 2020</li>
+        </ul>
+      </div>
+
+    </section>
+
+    <article class="page-contents">
+      <div class="inner-wrap">
+        {{ content }}
+      </div>
+    </article>
+
+
+    <!-- footer:s -->
+    <div class="footer">
+
+      <div class="inner-wrap">
+
+        <div class="other-pages">
+          <!-- list-area:s -->
+          <div class="list-area">
+            {% assign sorted = site.posts |where: 'menu', page.menu |sort: 'date_end' | reverse%}
+            {% assign total = sorted.size %}
+            {% assign page_total = total | divided_by: 4 | plus:1 %}
+
+              <div class="title-area-wrap">
+                <ul class="title-area">
+                  <li class="bar"><span href="#" id="left-bar"><ion-icon name="chevron-back-outline"></ion-icon></span></li>
+                  <li class="section">{{ page.big_group }}</li>
+                  <li class="main-title">{{ page.small_group }}</li>
+                  <li class="bar"><span href="#" id="right-bar"><ion-icon name="chevron-forward-outline"></ion-icon></span></li>
+                </ul>
+                
+                {% for j in (1..page_total) %}
+                <ul class="count count_{{j}}">
+                  <li class="now">{{ j }}</li>
+                  <li class="total">{{ page_total }}</li>
+                </ul>
+                {% endfor %}
+              </div>
+
+              {% for k in (1..page_total) %}
+                <ul class="list list_{{k}}">
+                {% include footer-list.html number=k %}
+                </ul>
+              {% endfor %}
+          </div>
+          <!-- list-area:e -->
+
+          <!-- cover-area:s -->
+          <div class="cover-area"style="background:url(/assets/img/{{page.menu}}.jpg) no-repeat;background-size: cover;">
+            <p class="title">{{ page.small_group }}</p>
+            <p class="writer">by. Gelato</p>
+          </div>
+          <!-- cover-area:e -->
+        </div>
+
+        <ul class="tags">
+          <li>태그1</li>
+          <li>태그2</li>
+          <li>태그3</li>
+        </ul>
+      
+      </div>
+    </div>
+    <!-- footer:e -->
+
+    <script src="/assets/js/page.js"></script>
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+  </body>
+</html>

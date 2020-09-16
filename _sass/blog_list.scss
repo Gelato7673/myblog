@@ -1,0 +1,160 @@
+$book-height: 450px;
+$cover-width: 320px;
+$cover-after-width: 30px;
+$about-width: 650px;
+
+
+.book- {
+
+	&intro {
+		margin-top: 20px;
+		>ul li {
+			float: left;
+		}
+		>ul:after {
+			@extend %clear;
+		}
+	}
+
+	&cover {
+		position: relative;
+		height: $book-height;
+		width: $cover-width;
+		padding-top: $book-height/4;
+		border-radius: 5px;
+		text-align: center;
+		@include prefix(box-shadow, 2px 2px 3px 0px rgba($dark,0.2), webkit moz)
+
+		.title {
+			margin: 0 auto;
+			padding: 20px;
+			width: $cover-width / 2;
+			height: $book-height / 2;
+			background-color: rgba($white, 0.8);
+			font-size: 20px;
+		}
+
+		.writer {
+			position: absolute;
+			width: $cover-width;
+			text-align: center;
+			bottom: 30px;
+			color: #fff;
+		}
+	}
+
+	&about {
+		width: $about-width;
+		height: $book-height;
+		position: relative;
+		margin-left: 20px;
+		padding: 25px;
+		border: 1px solid #efefef;
+		@include prefix(box-shadow, 2px 2px 3px 0px rgba($dark,0.2), webkit moz);
+
+		.title-area:after {
+			content: '';
+			display: block;
+			clear: both;
+		}
+		.title {
+			float: left;
+			font-size: 25px;
+		}
+		.count {
+			float: right;
+			color: $font-gray;
+			font-size: 15px;
+
+			i {
+				padding-right: 10px;
+			}
+		}
+		.book-descript {
+			margin-top: 25px;
+		}
+		.tags:after {
+			@extend %clear;
+		}
+		.tags {
+			position: absolute;
+			bottom: 20px;
+			left: 20px;
+		}
+		.tags li {
+			float: left;
+			font-size: 10px;
+			margin-right: 10px;
+			color: $font-gray;
+			padding: 3px 5px;
+			display: inline-block;
+			text-align: center;
+			border: 1px solid $font-gray;
+			border-radius: 10px;
+		}
+
+	}
+}
+
+
+// listpage
+.blog-list {
+	padding: 40px 10px 0 0;
+	.list {
+		border-top: 1px solid #efefef;
+		border-bottom: 1px solid #efefef;
+		padding: 30px 0 30px;
+		
+		>dt ul:after {
+			@extend %clear;
+		}
+		.title {
+			float: left;
+			span {
+				font-size: 18px;
+				font-weight: 600;
+			}
+			.count {
+				display: inline-block;
+				// margin-left: -40px;
+			}
+			.main-title {
+				padding-left: 10px;
+			}
+		}
+		.date {
+			float: right;
+			color: $font-gray;
+		}
+		>dd {
+			padding-top: 15px;
+		}
+		.contents {
+			color: $font-thick-gray;
+			word-break: break-all;
+			text-align: justify;
+			span {
+				line-height: 1.6;
+			}
+			.sub-title {
+				font-weight: 600;
+				padding-right: 3px;
+			}
+			.sub-title:after {
+				display: inline-block;
+				padding-left: 5px;
+				content:'|';
+			}
+		}
+		.tags:after {
+			@extend %clear;
+		}
+		.tags {
+			padding-top: 15px;
+		}
+		.tags li {
+			@extend %tagLi;
+		}
+
+	}
+}

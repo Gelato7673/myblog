@@ -1,0 +1,176 @@
+$page-title-height: 400px;
+
+.none-background {
+
+	background-color: #efefef;
+	.main-title {
+		color: $font-black !important;
+	}
+	.sub-title {
+		color: $font-black !important;
+	}
+	.page-info {
+		color: $font-thick-gray !important;
+	}
+	border-bottom: 1px solid #ddd;
+}
+
+
+.page-title {
+	height: $page-title-height;
+	color: $white;
+
+	.main-title {
+		padding-top: 230px;
+		font-size: 34px;
+	}
+	.sub-title {
+		padding-top: 10px;
+		font-size: 15px;
+		color: rgba($white, 0.7);
+	}
+	.page-info:after {
+		@extend %clear;
+	}
+	.page-info{
+		padding-top: 50px;
+		font-size: 12px;
+
+		li {
+			display: inline;
+		}
+		.writer:before {
+			padding-right: 5px;
+			content:'by';
+			text-decoration: italic;
+			color:rgba($white, 0.7);
+		}
+		.writer:after {
+			content: 'ㆍ';
+		}
+		.date {
+			color:rgba($white, 0.7);
+		}
+	}
+}
+
+.page-contents {
+	padding: 40px 0 200px;
+}
+
+
+.footer {
+	background-color: #F0F0F0;
+
+	.inner-wrap {
+		width: $inner-wrap/5*4;
+	}
+
+	$footer-book-height: 250px;
+	
+	.other-pages {
+		position: relative;
+		top: -125px;
+		border: 1px solid $font-gray;
+		background-color: $white;
+	}
+	.other-pages:after {
+		@extend %clear;
+	}
+
+	.list-area {
+		float: left;
+		height: $footer-book-height;
+		width: 75%;
+		padding: 0 30px;
+
+		.title-area-wrap:after {
+			@extend %clear;
+		}
+		.title-area-wrap {
+			padding: 30px 0px 20px;
+		}
+		.title-area {
+			float: left;
+			>li {
+				display: block;
+			}
+			.section {
+				font-size: 13px;
+				color: $font-gray;
+				padding-bottom: 5px;
+			}
+			.main-title {
+				font-size: 20px;
+			}
+			.bar span {
+				cursor: pointer;
+			}
+		}
+
+		.count {
+			float: right;
+			font-size: 18px;
+			padding-top: 13px;
+
+			.now {
+				float: left;
+			}
+			.total {
+				float: right;
+				color: $font-gray;
+			}
+			.total:before {
+				content: '/'
+			}
+		}
+		li {
+			span:first-child {
+				padding-right: 10px;
+			}
+			span {
+				font-size: 14px;
+				line-height: 2;
+			}
+		}
+	}
+	.cover-area {
+		float: left;
+		height: $footer-book-height;
+		width: 25%;
+		// @include background($blog_title);
+		text-align: center;
+
+		.title {
+			margin: 25%;
+			padding: 10px;
+			width: 50%;
+			height: $footer-book-height/2;
+			background-color:$white;
+		}
+		.writer {
+			font-size: 14px;
+			color: rgba($white, 0.8);
+		}
+	}
+	.tags {
+		position: relative;
+		top: -80px;
+	}
+	.tags:after {
+		@extend %clear;
+	}
+	.tags li {
+		float: left;
+		font-size: 12px;
+		margin-right: 10px;
+		color: $font-gray;
+		padding: 5px 7px;
+		display: inline-block;
+		text-align: center;
+		border: 1px solid $font-gray;
+		border-radius: 15px;
+		background-color: $white;
+	}
+
+}

@@ -1,0 +1,149 @@
+$font-stack: Helvetica, sans-serif;
+$font-black: #333;
+$font-gray: #B2B2B2;
+$font-thick-gray: #9a9595;
+$white: #fff;
+$dark: #000;
+$inner-wrap : 1000px;
+
+body {
+  font: 100% $font-stack;
+  color: $font-black;
+}
+body, ul, li, p, dd {
+	margin: 0;
+	padding: 0;
+}
+li {
+	list-style: none;
+}
+div, p {
+	box-sizing: border-box;
+}
+
+a, a:hover, a:link, a:visited, a:active {
+	color: $font-black;
+	text-decoration: none;
+	oueline: none;
+}
+.inner-wrap {
+	width: $inner-wrap;
+	margin: 0 auto;
+}
+
+// header 부분
+@import "_header";
+
+
+// blog-list 부분
+
+@mixin background($coverimg) {
+	background: url(/assets/img/#{$coverimg}.jpg) center center no-repeat;
+	background-size: cover;
+}
+
+@mixin prefix($property,$value,$prefixes) {
+	@each $prefix in $prefixes {
+		-#{$prefix}-#{$property} : $value;
+	}
+	#{$property} : $value;
+}
+
+%clear {
+		content: '';
+		display: block;
+		clear: both;
+	}
+
+%tagLi {
+	float: left;
+	font-size: 10px;
+	margin-right: 10px;
+	color: $font-gray;
+	padding: 3px 5px;
+	display: inline-block;
+	text-align: center;
+	border: 1px solid $font-gray;
+	border-radius: 10px;
+}
+
+//navigation
+
+body {
+	position: relative;
+}
+
+nav {
+	position: absolute;
+	top: 62px;
+	left: 0;
+	width: 260px;
+	height: 1700px;
+	background: url(/assets/img/paper.jpg);
+	z-index: 100;
+	font-family: 'Nanum Myeongjo', serif;
+
+	a {
+		text-decoration: none;
+		&:hover {
+			text-decoration-line: underline;
+			text-decoration-style: solid;
+			text-decoration-color: #FAED7D;
+			text-decoration-thickness: 5px;
+		}
+	}
+
+	.profile-area {
+		margin: 20px 0 30px;
+		p {
+			margin: 0 auto;
+			text-indent: -9999px;
+			width: 180px;
+			height: 180px;
+			@include background(gelato_rose);
+			border: 1px solid transparent;
+			border-radius: 50%;
+		}
+		.writer {
+			padding: 10px 0 0 0;
+			text-align: center;
+			color: rgba($white, 0.9);
+		}
+	}
+	.post-it {
+		font-weight: 600;
+		margin-left: 15px;
+		display: inline-block;
+		width: 190px;
+		height: 30px;
+		background-color: rgba(255, 255, 255, 0.2);
+		vertical-align: middle;
+		// box-shadow: 2px 3px 5px 2px rgba($dark, 0.1)
+		@include prefix(box-shadow, 2px 3px 5px 2px rgba($dark, 0.1), moz webkit);
+
+		&:before {
+			content:'';
+			display: inline-block;
+			margin-right: 10px;
+			width: 48px;
+			height: 30px;
+			background-color: rgba(255, 0, 0, 0.2);
+			vertical-align: middle;
+		}
+	}
+	.solo {
+		margin-bottom: 40px;
+	}
+
+
+	dd:not(.writer) {
+		padding: 20px 0 40px 50px;
+		li {
+			&:before {
+				content: '-';
+				padding-right: 10px;
+			}
+			line-height: 1.6;
+		}
+	}
+}
