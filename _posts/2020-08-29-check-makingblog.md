@@ -157,3 +157,7 @@ https://dreamgonfly.github.io/blog/jekyll-remote-theme/
 
 git 삭제하기
 https://stackoverflow.com/questions/1514054/how-do-i-delete-a-local-repository-in-git
+
+
+github모를땐 여기부터 찾아봐야해~
+https://docs.github.com/en/github/using-git/removing-a-remote
