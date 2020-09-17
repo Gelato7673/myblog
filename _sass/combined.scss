@@ -38,7 +38,7 @@ a, a:hover, a:link, a:visited, a:active {
 // blog-list 부분
 
 @mixin background($coverimg) {
-	background: url(/assets/img/#{$coverimg}.jpg) center center no-repeat;
+	background: url(../img/#{$coverimg}.jpg) center center no-repeat;
 	background-size: cover;
 }
 
@@ -72,7 +72,7 @@ nav {
 	left: 0;
 	width: 260px;
 	height: 1700px;
-	background: url(/assets/img/paper.jpg);
+	background: url(../img/paper.jpg);
 	z-index: 100;
 	font-family: 'Nanum Myeongjo', serif;
 
