@@ -32,11 +32,13 @@
       <div class="inner-wrap">
         {{ content }}
 
-        <ul class="tags">
-          <li>태그1</li>
-          <li>태그2</li>
-          <li>태그3</li>
-        </ul>
+        {% if page.tags != empty %}
+          <ul class="tags">
+            {% for tag in page.tags %}
+              <li>{{ tag }}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
 
         <!-- disque:s -->
         {% if page.comments %}
