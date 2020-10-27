@@ -197,7 +197,7 @@ nav dd:not(.writer) li a, nav dd:not(.writer) li a:hover, nav dd:not(.writer) li
 
 .blog-page .footer .cover-area .writer { font-size: 14px; color: rgba(255, 255, 255, 0.8); }
 
-.intro-spot { position: relative; width: 100%; }
+.intro-spot { display: none; position: relative; width: 100%; }
 
 .intro-spot span { display: block; width: 555px; position: absolute; bottom: 20px; right: 10px; padding: 10px 20px; background-color: rgba(0, 0, 0, 0.5); color: #fff; font-size: 12px; }
 
