@@ -6,7 +6,7 @@
 
   {% for i in (array_s..array_e) %}
   <li>
-    <span class="title">{{ sorted[i].title }}</span>
+    <a class="title" href="{{sorted[i].url | prepend: site.baseurl }}">{{ sorted[i].title }}</a>
   </li>
   {% endfor %}
     

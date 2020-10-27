@@ -1,0 +1,15 @@
+.intro-spot {
+	position: relative;
+	width: 100%;
+	span {
+		display: block;
+		width: 555px;
+		position: absolute;
+		bottom: 20px;
+		right: 10px;
+		padding: 10px 20px;
+		background-color: rgba(0,0,0,0.5);
+		color: #fff;
+		font-size: 12px;
+	}
+}

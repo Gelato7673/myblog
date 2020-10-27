@@ -52,4 +52,3 @@ right.addEventListener("click", Fright);
 left.addEventListener("click", Fleft);
 
 
-

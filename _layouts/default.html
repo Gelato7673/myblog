@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+
+  	<div class="wrap">
+      {% include navigation.html %}
+
+  		<div class="inner-wrap">
+  			<section class="intro-spot">
+	  			<img src="{{site.baseurl}}/assets/img/intro4.jpg" alt="">
+<!--           <span>
+            부다페스트에 가면 gelato rosa라는 젤라또 가게가 있다.<br>
+            성 이스트반 성당 바로 맞은 편에 있는 이 가게는 기술자들이 젤라또를 이용해 장미모양의 아이스크림을 즉석에서 만들어 준다.<br> 
+            신기하기도 하고 맛도 있어서 입소문이 나는 바람에 많은 여행자들이 들르는 가게였다.<br>
+            나는 컨디션이 안 좋아서 부다페스트 여행 내내 힘들어 하고 있었는데, 이 젤라또 가게에서 만들어준 장미모양의 젤라또가 나한테 얼마나 위로가 되던지 ㅎㅎ <br>
+            이것저것 공부할것도 많고, 지칠때 마다 블로그에 와서 쉬어가면 좋겠다는 생각이 들어서 블로그 이름은 gelato로 짓게 되었다. 
+          </span> -->
+  			</section>
+
+  			<article class="blog-list">
+        {% assign sorted = site.posts | sort: 'date_end' | reverse%}
+        {% assign i=0 %}
+        {% for post in sorted %}
+          
+          {% assign i = i | plus:1 %}
+    				<dl class="list">
+              <dt>
+                <ul>
+                  <li class="title">
+                    <span class="main-title">
+                      <a href="{{ post.url | prepend: site.baseurl }}">
+                        <span class="count">{{ i }}.</span>
+                        {{ post.title }}
+                      </a>
+                    </span>
+                  </li>
+                  <li class="date">
+                    <span>{{ post.date_start | date: '%m. %d' }} - {{ post.date_end | date: '%m. %d. %Y' }}</span>
+                    <!-- <span>{{ site.time | date: '%B %d, %Y' }}</span> -->
+                  </li>
+                </ul>
+              </dt>
+              <dd>
+                <p class="contents">
+                    {% if post.subtitle != none %}
+                    <span class="sub-title">
+                      {{ post.subtitle }}
+                    </span>
+                    {% endif %}
+                    
+                    {{ post.content | strip_html | truncatewords:200 }}
+                  
+                </p>
+
+                {% if post.tags != empty %}
+                  <ul class="tags">
+                    {% for tag in post.tags %}
+                      <li>{{ tag }}</li>
+                    {% endfor %}
+                  </ul>
+                {% endif %}
+
+              </dd>
+            </dl>
+            
+          {% endfor %}
+
+  			</article>
+  		</div>
+  	</div>	
+
+  </body>
+</html>

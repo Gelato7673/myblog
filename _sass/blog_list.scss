@@ -32,8 +32,10 @@ $about-width: 650px;
 			padding: 20px;
 			width: $cover-width / 2;
 			height: $book-height / 2;
-			background-color: rgba($white, 0.8);
+			background-color: rgba($white, 0.5);
 			font-size: 20px;
+			line-height: 1.8;
+			font-weight: 600;
 		}
 
 		.writer {
@@ -50,7 +52,8 @@ $about-width: 650px;
 		height: $book-height;
 		position: relative;
 		margin-left: 20px;
-		padding: 25px;
+		// padding: 25px;
+		padding: 35px;
 		border: 1px solid #efefef;
 		box-shadow: 2px 2px 3px 0px rgba($dark, 0.2);
 		-webkit-box-shadow: 2px 2px 3px 0px rgba($dark, 0.2);
@@ -76,21 +79,22 @@ $about-width: 650px;
 		}
 		.book-descript {
 			margin-top: 25px;
+			line-height: 1.6;
 		}
 		.tags:after {
 			@extend %clear;
 		}
 		.tags {
 			position: absolute;
-			bottom: 20px;
-			left: 20px;
+			bottom: 35px;
+			left: 35px;
 		}
 		.tags li {
 			float: left;
-			font-size: 10px;
+			font-size: 12px;
 			margin-right: 10px;
 			color: $font-gray;
-			padding: 3px 5px;
+			padding: 4px 8px;
 			display: inline-block;
 			text-align: center;
 			border: 1px solid $font-gray;
@@ -107,23 +111,27 @@ $about-width: 650px;
 	.list {
 		border-top: 1px solid #efefef;
 		border-bottom: 1px solid #efefef;
-		padding: 30px 0 30px;
-		
+		padding: 15px 10px;
+		margin: 30px 0;
+
 		>dt ul:after {
 			@extend %clear;
 		}
 		.title {
 			float: left;
 			span {
-				font-size: 18px;
+				font-size: 18px !important;
 				font-weight: 600;
+
+				b{
+					padding-right:10px;
+					color:#1897c4;
+				}
 			}
 			.count {
 				display: inline-block;
+				padding-right: 10px;
 				// margin-left: -40px;
-			}
-			.main-title {
-				padding-left: 10px;
 			}
 		}
 		.date {
@@ -135,8 +143,8 @@ $about-width: 650px;
 		}
 		.contents {
 			color: $font-thick-gray;
-			word-break: break-all;
-			text-align: justify;
+			@extend %ellipsis;
+			
 			span {
 				line-height: 1.6;
 			}
@@ -154,7 +162,7 @@ $about-width: 650px;
 			@extend %clear;
 		}
 		.tags {
-			padding-top: 15px;
+			padding-top: 20px;
 		}
 		.tags li {
 			@extend %tagLi;

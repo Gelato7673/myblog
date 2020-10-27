@@ -31,8 +31,8 @@ url: "https://gelato7673.github.io" # the base hostname & protocol for your site
 
 # Build settings
 theme: minima
-plugins:
-   - jekyll-paginate
+#plugins:
+#   - jekyll-paginate
 #  - jekyll-feed
 
 #paginate
@@ -62,3 +62,8 @@ plugins:
 
 #defaults:
 
+
+highlighter: rouge
+
+disqus_url: https://gelato7673.disqus.com
+disqus_id: gelato7673

@@ -1,14 +1,16 @@
 <header>
 	<ul>
 		<li class="logo">
-			<a href="#"><ion-icon name="menu-outline"></ion-icon></a>
-			<a href="/"><img src="/assets/img/favicon/favicon.png" alt=""></a>
+			<a href="#"><i class="fas fa-align-justify"></i></a>
 		</li>
 		<li class="title">
-			<span>Gelato</span>
+			<a href="{{site.baseurl}}/index.html">
+				<img src="{{site.baseurl}}/assets/img/favicon/favicon.png" alt="">
+				<span>Gelato</span>
+			</a>
 		</li>
 		<li class="search">
-			<ion-icon name="search-outline"></ion-icon>
+			
 		</li>
 	</ul>
 </header>
@@ -30,6 +32,9 @@
 				{% if jekyll.environment == "admin" %}
 				<li><a href="{{site.baseurl}}/graffiti">Graffiti</a></li>
 				<li><a href="{{site.baseurl}}/workingspace">작가의 서랍</a></li>
+				<li><a href="{{site.baseurl}}/search">검색서비스의 역사</a></li>
+				<li><a href="{{site.baseurl}}/algorithm">1일 1알고리즘</a></li>
+				<li><a href="{{site.baseurl}}/community">커뮤니티활동</a></li>
 				{% endif %}
 				<li><a href="{{site.baseurl}}/campusnote">오답노트</a></li>
 				<li><a href="{{site.baseurl}}/speach">IT 기술</a></li>
@@ -39,14 +44,13 @@
 		<dt class="post-it">My currial</dt>
 		<dd>
 			<ul>
-				<li><a href="{{site.baseurl}}">포트폴리오(CRIC이후)</a></li>
+				<li><a href="#">포트폴리오(CRIC이후)</a></li>
 			</ul>
 		</dd>
 		<dt class="post-it">인생의 공부들</dt>
 		<dd>
 			<ul>
-				<li><a href="{{site.baseurl}}/current">하고있는일</a></li>
-				<li><a href="{{site.baseurl}}/english">영어</a></li>
+				<li><a href="{{site.baseurl}}/english">English</a></li>
 				<li><a href="{{site.baseurl}}/stock">증권</a></li>
 				<li><a href="{{site.baseurl}}/realestate">부동산</a></li>
 				<li><a href="{{site.baseurl}}/datascientist">Datascientist</a></li>
@@ -73,9 +77,9 @@
 				<li><a href="{{site.baseurl}}/business">사업</a></li>
 			</ul>
 		</dd>
-		<dt class="post-it solo"><a href="{{site.baseurl}}/aboutLife">삶에 대하여</a></dt>
-		<dt class="post-it solo"><a href="javascript:alert('준비중 입니다.');">Medium</a></dt>
-		<dt class="post-it solo"><a href="javascript:alert('준비중 입니다.');">인스타</a></dt>
+		<dt class="post-it solo"><a href="#">삶에 대하여</a></dt>
+		<dt class="post-it solo"><a href="#">Medium</a></dt>
+		<dt class="post-it solo"><a href="#">인스타</a></dt>
 		<dt class="post-it">기타 이야기들</dt>
 		<dd>
 			<ul>

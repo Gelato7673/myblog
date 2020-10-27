@@ -1,10 +1,6 @@
 header {
 	border-bottom: 1px solid #ddd;
 
-	.logo img {
-		width: 30px;
-	}
-
 	ul {
 		display: table;
 		width: 100%;
@@ -22,6 +18,19 @@ header {
 			text-align: center;
 			width: 40%;
 			font-size: 23px;
+			a {
+				vertical-align: middle;
+				span {
+					font-size: 25px;
+					vertical-align: middle;
+				}
+				img {
+					vertical-align: middle;
+					width: 35px;
+					padding-right: 5px;
+				}
+			}
+
 		}
 		.search {
 			width: 30%;

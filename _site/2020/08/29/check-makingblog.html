@@ -2,63 +2,34 @@
 <html>
   <head>
         <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Gelato7673</title>
-	<link rel="stylesheet" href="/myblog/assets/css/styles.css">
+
+    <!-- favicon -->
+	<link rel="shortcut icon" type="image/x-icon" href="/myblog/assets/img/favicon/favicon.png" />
+	
+	<!-- css vendor -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" crossorigin="anonymous"/>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" type="image/x-icon" href="/myblog/assets/img/favicon/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Poor+Story&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="/myblog/assets/css/syntax.css">
+
+    <!-- sass style -->
+    <link rel="stylesheet" href="/myblog/assets/css/styles.css">
   </head>
-  <body>
-
-		<!-- <header>
-	<ul>
-		<li class="logo">
-			<a href="#"><ion-icon name="menu-outline"></ion-icon></a>
-			<a href="/"><img src="/assets/img/favicon/favicon.png" alt=""></a>
-		</li>
-		<li class="title">
-			<span>Gelato</span>
-		</li>
-		<li class="search">
-			<ion-icon name="search-outline"></ion-icon>
-		</li>
-	</ul>
-</header>
-
-<nav>
-	<dl class="profile-area">
-		<dt class="profile-images">
-			<p>profile-image</p>
-		</dt>
-		<dd class="writer">
-			by.Gelato
-		</dd>
-	</dl>
-
-	<dl>
-		<dt class="post-it">My Blog</dt>
-		<dd>
-			<ul>
-				
-				<li><a href="/myblog/campusnote">오답노트</a></li>
-				<li><a href="/myblog/speach">IT 기술</a></li>
-			</ul>
-		</dd>
-		
-	</dl>
-</nav> -->
+  <body class="blog-page">
 
     
-		<section class="page-title" style="background: url('/assets/img/logo.png') center 2000px;">
+		<section class="page-title">
+      <img src="/myblog/assets/img/map.jpg" alt="">
       
 
       <div class="inner-wrap">
         <p class="main-title">
-          포트폴리오 및 블로그 만들면서 느끼는 점.29 
+          <b>[blog]</b>github pages에서 블로그 만들고 관리하기
         </p>
         <p class="sub-title">
-          산다는건 정말이지
+          jekyll, liquid, fireball
         </p>
 
         <ul class="page-info">
@@ -69,138 +40,74 @@
 
     </section>
 
-    <article class="page-contents">
+    <article class="page-contents Myblog">
       <div class="inner-wrap">
-        <p>html5 sementic tag
-https://www.w3schools.com/html/html5_semantic_elements.asp</p>
+        <h3 id="여기에-기록하려고-하는것은">여기에 기록하려고 하는것은..</h3>
 
-<p>지킬에 검색창 달기
-https://imyeonn.github.io/blog/blog/30/</p>
+<p>일단, 거창한 기록을 하려는 것이 아니다. 그저, 만들때 찾아봤던 사이트들의 링크를 남김으로써, 이후에도 참고 자료로 쓰고 싶을 뿐이다.
+만약, jekyll로 githubpage를 만들고 싶어서 찾아왔다면, 블로그들을 찾아보기보다는 <strong>jekyll의 original document</strong>를 꼭 참고하라고 이야기 하고 싶다. <br />
+어떤 개발이든, original document를 보는것은 정말 좋은 습관이고, 특히나 jekyll은 docs가 매우 잘되어있다. 중요한 앞부분의 tutorial은 심지어 마음씨 좋은 분이 한국어로 번역도 해두셔서 읽기가 매우 쉽다.!!</p>
 
-<p>폰트 아이콘
-https://m.blog.naver.com/PostView.nhn?blogId=reactionweb&amp;logNo=220337009100&amp;proxyReferer=https:%2F%2Fwww.google.com%2F</p>
+<h3 id="중요-참고-사이트들">중요 참고 사이트들</h3>
+<ol>
+  <li><a href="https://jekyllrb-ko.github.io/">지킬(Jekyll) Docs : https://jekyllrb-ko.github.io/</a></li>
+  <li><a href="https://shopify.github.io/liquid/">liquid문법 : https://shopify.github.io/liquid/</a></li>
+  <li><a href="https://daringfireball.net/projects/markdown/syntax">markdown문법 : https://daringfireball.net/projects/markdown/syntax</a></li>
+  <li><a href="http://thesassway.com/">sass문법 : http://thesassway.com/</a></li>
+  <li><a href="https://stackoverflow.com/">언제나 그렇듯 stackoverflow에 왠만한건 다 있다</a></li>
+</ol>
 
-<p>sass를 이용해서, 각 페이지에 맞게 배경화면을 바꿀 수 있을까??</p>
+<h3 id="추후에-구현하고-싶은-내용들">추후에 구현하고 싶은 내용들</h3>
+<ol>
+  <li>지킬에 검색창 달기 <a href="https://imyeonn.github.io/blog/blog/30/">https://imyeonn.github.io/blog/blog/30/</a></li>
+  <li>태그모음달기</li>
+</ol>
 
-<p>use는 import와 달라. 
-모두 가져오는게, 아니라 
-‘mixin’,’function’,’variables’만 데려오는거야.
-그래서, 어떤 모듈을 계속 변경해 가면서 쓸 수 있게 해주는거지!
-https://sass-lang.com/documentation/at-rules/use</p>
+<h3 id="오답노트">오답노트</h3>
 
-<p>https://sass-lang.com/documentation/at-rules/forward</p>
+<h4 id="github-pages">github pages</h4>
+<ul>
+  <li><a href="https://dreamgonfly.github.io/blog/jekyll-remote-theme/">프로젝트 별로 github pages 만들기</a></li>
+  <li><a href="https://hhj6212.github.io/blog/2020/08/22/Jekyll%EC%97%90%EC%84%9C-%EC%BD%94%EB%93%9C%EB%B8%94%EB%A1%9D-%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8%ED%95%98%EA%B8%B0.html">github pages에서 코드 그대로 보이도록 만들기</a></li>
+  <li>rouge 파일을 이용해서 코드의 syntax highlight 사용하기(https://moon9342.github.io/jekyll-rouge)</li>
+  <li>rouge 파일을 이용한 코드 추가 예시
+    <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">sample</span><span class="p">(</span><span class="nx">highlight</span><span class="p">)</span> <span class="p">{</span>
+ <span class="kd">var</span> <span class="nx">foo</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">Hello World</span><span class="dl">'</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div>    </div>
+  </li>
+</ul>
 
-<p>fork 하는것과 오픈소스로 이용해서 작업하는 것에 대하여서 알아보자.</p>
+<h4 id="jekyll">jekyll</h4>
+<ul>
+  <li><a href="https://jekyllrb.com/docs/configuration/front-matter-defaults/">front-matter</a></li>
+  <li><a href="https://jekyllrb.com/docs/configuration/front-matter-defaults/">front-matter default 설정하기</a></li>
+  <li><a href="https://jekyllrb.com/docs/pagination/">pagination</a></li>
+  <li><a href="http://alanwsmith.com/jekyll-liquid-date-formatting-examples">data formatting</a></li>
+  <li><a href="https://stackoverflow.com/questions/12464656/get-todays-date-in-jekyll-with-liquid-markup">liquid 문법으로, 현재 데이터 얻는법</a></li>
+  <li><a href="https://jekyllrb.com/docs/variables/">variables</a></li>
+  <li><a href="https://jekyllrb.com/docs/step-by-step/09-collections/">collection</a></li>
+  <li><a href="https://stackoverflow.com/questions/8991995/using-liquid-to-sort-posts-alphabetically">alphabetically sorting으로 변경</a></li>
+  <li><a href="https://stackoverflow.com/questions/48046411/how-to-increment-the-counter-inside-a-liquid-for-loop">count만들기 : stackoverflow</a></li>
+  <li><a href="https://gist.github.com/Phlow/1f27dfafdf2bbcc5c48e">count만들기 : github</a></li>
+  <li><a href="https://jekyllrb.com/docs/static-files/">이미지 파일 추가</a></li>
+  <li><a href="http://hamishwillee.github.io/2014/11/13/jekyll-includes-are-functions/">liquid문법의 include를 이용해서, 함수처럼 사용할수 있다고?!</a></li>
+  <li><a href="https://jekyllrb.com/docs/includes/">include문법 소개</a></li>
+  <li><a href="https://stackoverflow.com/questions/12423658/how-do-i-chain-if-statements-in-jekyll">깜빡하기 쉬운 liquid문법, elseif가 아니라 elsif다. 헉.</a></li>
+  <li><a href="https://jekyllrb.com/docs/plugins/installation/">jekyll 에 gem 파일 추가하는 법</a></li>
+  <li>subtitle이 없을 경우에 나오지 않도록 처리 (if문 사용)</li>
+</ul>
+<pre class="highlight"><code>
+{% if post.subtitle != none %}
+	{{ post.subtitle }}
+{% endif %} 
+</code></pre>
 
-<p>jekyll 을 환경을 설정해서 서버를 구동시킬때에 regeneration-auto가 disable로 나오는 문제에 대하여</p>
+<h4 id="markdown">markdown</h4>
+<ul>
+  <li><a href="https://daringfireball.net/projects/markdown/basics">daringfireball</a></li>
+</ul>
 
-<p>중요한것! build와 serve는 다르다. build가 안되는것은. 여러가지 문제가 있어.
-안올라가 있다던가 배포 상의 문제나.. 그건 별개고,</p>
-
-<p>환경에서 자꾸 build를 쓰는 경향이 있는데 (github에 그렇게 적혀있기 때문이지.)</p>
-
-<p>build를 쓰지말고, serve를 쓰면 된다.</p>
-
-<p>기억하자
-css not 선택자!
-https://developer.mozilla.org/en-US/docs/Web/CSS/:not</p>
-
-<p>presued element로 fontawesome 사용하기
-https://stackoverflow.com/questions/20782368/use-font-awesome-icon-as-css-content</p>
-
-<p>https://fontawesome.com/how-to-use/on-the-web/advanced/css-pseudo-elements</p>
-
-<p>까먹을까봐. a에 관해서
-https://aboooks.tistory.com/88</p>
-
-<p>text-decoration
-text-underline
-https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-thickness</p>
-
-<p>태그에 관련된 내용
-https://jekyllrb.com/docs/posts/</p>
-
-<p>page 안에서 array 하는법
-https://learn.cloudcannon.com/jekyll/introduction-to-jekyll-front-matter/</p>
-
-<p>데이터 스타일
-https://jekyllrb.com/docs/front-matter/</p>
-
-<p>한 폴더에 같은 데이터 스타일을 지정할때
-https://jekyllrb.com/docs/configuration/front-matter-defaults/</p>
-
-<p>liquid 문법에 관한여
-https://shopify.github.io/liquid/basics/types/#array</p>
-
-<p>date 관련해서 변경할때에.</p>
-
-<p>http://alanwsmith.com/jekyll-liquid-date-formatting-examples</p>
-
-<p>https://stackoverflow.com/questions/7395520/how-does-jekyll-date-formatting-work</p>
-
-<p>지금데이터 얻는법
-https://stackoverflow.com/questions/12464656/get-todays-date-in-jekyll-with-liquid-markup</p>
-
-<p>각종 variable
-https://jekyllrb.com/docs/variables/</p>
-
-<p>지킬 collection
-https://jekyllrb.com/docs/step-by-step/09-collections/</p>
-
-<p>지킬 sorting에 관해서
-https://stackoverflow.com/questions/8991995/using-liquid-to-sort-posts-alphabetically</p>
-
-<p>https://gist.github.com/Phlow/1f27dfafdf2bbcc5c48e</p>
-
-<p>지킬 count
-https://stackoverflow.com/questions/48046411/how-to-increment-the-counter-inside-a-liquid-for-loop
-https://gist.github.com/Phlow/1f27dfafdf2bbcc5c48e</p>
-
-<p>알맞는것 모으기
-https://jekyllrb.com/docs/liquid/filters/</p>
-
-<p>지킬에서, 내용이 있을때와 없을때를 구분
-https://jekyllrb.com/docs/liquid/filters/</p>
-
-<p>subtitle이 없다면? 이라고 하고 싶을때</p>
-
-<p>text-align
-https://www.w3schools.com/cssref/pr_text_text-align.ASP</p>
-
-<p>wordbreak
-https://www.w3schools.com/cssref/css3_pr_word-break.asp</p>
-
-<p>이미지 파일 추가
-https://jekyllrb.com/docs/static-files/</p>
-
-<p>defaults property
-https://jekyllrb.com/docs/configuration/front-matter-defaults/</p>
-
-<p>pagination
-https://jekyllrb.com/docs/pagination/</p>
-
-<p>jekyll 에 gem 파일 추가하는 법
-https://jekyllrb.com/docs/plugins/installation/</p>
-
-<p>아. 진짜 힘들다. 거의 다 온것 같은데. 정말로 힘내보자.
-include로 함수 만들기.
-http://hamishwillee.github.io/2014/11/13/jekyll-includes-are-functions/</p>
-
-<p>지킬 include 함수
-https://jekyllrb.com/docs/includes/</p>
-
-<p>헐..elseif가 아니라
-elsif였다..헐..
-https://stackoverflow.com/questions/12423658/how-do-i-chain-if-statements-in-jekyll</p>
-
-<p>프로젝트별로 pages 만들기
-https://dreamgonfly.github.io/blog/jekyll-remote-theme/</p>
-
-<p>git 삭제하기
-https://stackoverflow.com/questions/1514054/how-do-i-delete-a-local-repository-in-git</p>
-
-<p>github모를땐 여기부터 찾아봐야해~
-https://docs.github.com/en/github/using-git/removing-a-remote</p>
 
 
         <ul class="tags">
@@ -209,9 +116,35 @@ https://docs.github.com/en/github/using-git/removing-a-remote</p>
           <li>태그3</li>
         </ul>
 
+        <!-- disque:s -->
+        
+          <div id="disqus_thread"></div>
+<script>
 
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+
+var disqus_config = function () {
+this.page.url = 'http://localhost:4000/myblog/2020/08/29/check-makingblog.html';  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = 'http://localhost:4000/myblog/2020/08/29/check-makingblog.html'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://gelato7673.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        
+        <!-- disque:e -->
       </div>
     </article>
+
+
+
 
 
     <!-- footer:s -->
@@ -228,15 +161,20 @@ https://docs.github.com/en/github/using-git/removing-a-remote</p>
 
               <div class="title-area-wrap">
                 <ul class="title-area">
-                  <li class="section">My blog</li>
-                  <li class="main-title">IT 기술</li>
+                  <li class="section">Myblog</li>
+                  <li class="main-title"><a href="/myblog/campusnote">오답노트</a></li>
                 </ul>
                 
                 <span class="bar" id="left-bar"><ion-icon name="chevron-back-outline"></ion-icon></span></li>
                 
                 <ul class="count count_1">
                   <li class="now">1</li>
-                  <li class="total">1</li>
+                  <li class="total">2</li>
+                </ul>
+                
+                <ul class="count count_2">
+                  <li class="now">2</li>
+                  <li class="total">2</li>
                 </ul>
                 
                 <span class="bar" id="right-bar"><ion-icon name="chevron-forward-outline"></ion-icon></span>
@@ -253,19 +191,48 @@ https://docs.github.com/en/github/using-git/removing-a-remote</p>
 
   
   <li>
-    <span class="title">포트폴리오 및 블로그 만들면서 느끼는 점.29 </span>
+    <a class="title" href="/myblog/2020/10/24/check-css.html">CSS</a>
   </li>
   
   <li>
-    <span class="title"></span>
+    <a class="title" href="/myblog/2020/08/29/check-font_icon.html">Font-icon</a>
   </li>
   
   <li>
-    <span class="title"></span>
+    <a class="title" href="/myblog/2020/08/29/check-git.html">GIT</a>
   </li>
   
   <li>
-    <span class="title"></span>
+    <a class="title" href="/myblog/2020/08/29/check-html.html">HTML</a>
+  </li>
+  
+    
+  <!-- list:e -->
+
+                </ul>
+              
+                <ul class="list list_2">
+                
+  
+  
+  
+    <!-- list:s -->
+
+  
+  <li>
+    <a class="title" href="/myblog/2020/08/29/check-makingblog.html"><b>[blog]</b>github pages에서 블로그 만들고 관리하기</a>
+  </li>
+  
+  <li>
+    <a class="title" href="/myblog/2020/09/20/check-sublimetext3.html">각종 프로그램 단축키</a>
+  </li>
+  
+  <li>
+    <a class="title" href="/myblog"></a>
+  </li>
+  
+  <li>
+    <a class="title" href="/myblog"></a>
   </li>
   
     
@@ -277,8 +244,8 @@ https://docs.github.com/en/github/using-git/removing-a-remote</p>
           <!-- list-area:e -->
 
           <!-- cover-area:s -->
-          <div class="cover-area"style="background:url(/assets/img/speach.jpg) no-repeat;background-size: cover;">
-            <p class="title">IT 기술</p>
+          <div class="cover-area"style="background:url(/myblog/assets/img/campusnote.jpg) no-repeat;background-size: cover;">
+            <p class="title">오답노트</p>
             <p class="writer">by. Gelato</p>
           </div>
           <!-- cover-area:e -->
@@ -287,8 +254,7 @@ https://docs.github.com/en/github/using-git/removing-a-remote</p>
       </div>
     </div>
     <!-- footer:e -->
-
-    <script src="/assets/js/page.js"></script>
-    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <script id="dsq-count-scr" src="//gelato7673.disqus.com/count.js" async></script>
+    <script src="/myblog/assets/js/page.js"></script>
   </body>
 </html>

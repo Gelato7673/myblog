@@ -1,163 +1,76 @@
 ---
 layout: blog_page
-menu: speach
-big_group: My blog
-small_group: IT 기술
-background: logo.png
-title:  "포트폴리오 및 블로그 만들면서 느끼는 점.29 "
-subtitle: "산다는건 정말이지"
+menu: campusnote
+big_group: Myblog
+small_group: 오답노트
+background: map.jpg
+title:  <b>[blog]</b>github pages에서 블로그 만들고 관리하기
+subtitle: "jekyll, liquid, fireball"
 date_start: 2020-08-29
-date_end: 2020-09-08
-tags: jekyll tags tree
+date_end: 2020-10-26
+tags: githubpage
+comments: true
 ---
 
-html5 sementic tag
-https://www.w3schools.com/html/html5_semantic_elements.asp
+### 여기에 기록하려고 하는것은..
+
+일단, 거창한 기록을 하려는 것이 아니다. 그저, 만들때 찾아봤던 사이트들의 링크를 남김으로써, 이후에도 참고 자료로 쓰고 싶을 뿐이다.
+만약, jekyll로 githubpage를 만들고 싶어서 찾아왔다면, 블로그들을 찾아보기보다는 **jekyll의 original document**를 꼭 참고하라고 이야기 하고 싶다.   
+어떤 개발이든, original document를 보는것은 정말 좋은 습관이고, 특히나 jekyll은 docs가 매우 잘되어있다. 중요한 앞부분의 tutorial은 심지어 마음씨 좋은 분이 한국어로 번역도 해두셔서 읽기가 매우 쉽다.!!
 
 
-지킬에 검색창 달기
-https://imyeonn.github.io/blog/blog/30/
+### 중요 참고 사이트들
+1. [지킬(Jekyll) Docs : https://jekyllrb-ko.github.io/](https://jekyllrb-ko.github.io/)
+2. [liquid문법 : https://shopify.github.io/liquid/](https://shopify.github.io/liquid/)
+3. [markdown문법 : https://daringfireball.net/projects/markdown/syntax](https://daringfireball.net/projects/markdown/syntax)
+4. [sass문법 : http://thesassway.com/](http://thesassway.com/)
+5. [언제나 그렇듯 stackoverflow에 왠만한건 다 있다](https://stackoverflow.com/)
 
 
-폰트 아이콘
-https://m.blog.naver.com/PostView.nhn?blogId=reactionweb&logNo=220337009100&proxyReferer=https:%2F%2Fwww.google.com%2F
-
-sass를 이용해서, 각 페이지에 맞게 배경화면을 바꿀 수 있을까??
-
-
-use는 import와 달라. 
-모두 가져오는게, 아니라 
-'mixin','function','variables'만 데려오는거야.
-그래서, 어떤 모듈을 계속 변경해 가면서 쓸 수 있게 해주는거지!
-https://sass-lang.com/documentation/at-rules/use
-
-https://sass-lang.com/documentation/at-rules/forward
-
-fork 하는것과 오픈소스로 이용해서 작업하는 것에 대하여서 알아보자.
-
-jekyll 을 환경을 설정해서 서버를 구동시킬때에 regeneration-auto가 disable로 나오는 문제에 대하여
-
-중요한것! build와 serve는 다르다. build가 안되는것은. 여러가지 문제가 있어.
-안올라가 있다던가 배포 상의 문제나.. 그건 별개고,
-
-환경에서 자꾸 build를 쓰는 경향이 있는데 (github에 그렇게 적혀있기 때문이지.)
-
-build를 쓰지말고, serve를 쓰면 된다.
-
-기억하자
-css not 선택자!
-https://developer.mozilla.org/en-US/docs/Web/CSS/:not
+### 추후에 구현하고 싶은 내용들
+1. 지킬에 검색창 달기 [https://imyeonn.github.io/blog/blog/30/](https://imyeonn.github.io/blog/blog/30/)
+2. 태그모음달기
 
 
-presued element로 fontawesome 사용하기
-https://stackoverflow.com/questions/20782368/use-font-awesome-icon-as-css-content
+### 오답노트
 
-https://fontawesome.com/how-to-use/on-the-web/advanced/css-pseudo-elements
+#### github pages
+- [프로젝트 별로 github pages 만들기](https://dreamgonfly.github.io/blog/jekyll-remote-theme/)
+- [github pages에서 코드 그대로 보이도록 만들기](https://hhj6212.github.io/blog/2020/08/22/Jekyll%EC%97%90%EC%84%9C-%EC%BD%94%EB%93%9C%EB%B8%94%EB%A1%9D-%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8%ED%95%98%EA%B8%B0.html)
+- rouge 파일을 이용해서 코드의 syntax highlight 사용하기(https://moon9342.github.io/jekyll-rouge)
+- rouge 파일을 이용한 코드 추가 예시
+~~~javascript
+function sample(highlight) {
+   var foo = 'Hello World';
+}
+~~~
 
-까먹을까봐. a에 관해서
-https://aboooks.tistory.com/88
-
-text-decoration
-text-underline
-https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-thickness
-
-
-태그에 관련된 내용
-https://jekyllrb.com/docs/posts/
-
-
-page 안에서 array 하는법
-https://learn.cloudcannon.com/jekyll/introduction-to-jekyll-front-matter/
-
-
-데이터 스타일
-https://jekyllrb.com/docs/front-matter/
-
-
-한 폴더에 같은 데이터 스타일을 지정할때
-https://jekyllrb.com/docs/configuration/front-matter-defaults/
-
-liquid 문법에 관한여
-https://shopify.github.io/liquid/basics/types/#array
-
-date 관련해서 변경할때에.
-
-http://alanwsmith.com/jekyll-liquid-date-formatting-examples
-
-https://stackoverflow.com/questions/7395520/how-does-jekyll-date-formatting-work
-
-
-
-지금데이터 얻는법
-https://stackoverflow.com/questions/12464656/get-todays-date-in-jekyll-with-liquid-markup
-
-
-각종 variable
-https://jekyllrb.com/docs/variables/
-
-지킬 collection
-https://jekyllrb.com/docs/step-by-step/09-collections/
-
-지킬 sorting에 관해서
-https://stackoverflow.com/questions/8991995/using-liquid-to-sort-posts-alphabetically
-
-https://gist.github.com/Phlow/1f27dfafdf2bbcc5c48e
-
-
-지킬 count
-https://stackoverflow.com/questions/48046411/how-to-increment-the-counter-inside-a-liquid-for-loop
-https://gist.github.com/Phlow/1f27dfafdf2bbcc5c48e
-
-
-알맞는것 모으기
-https://jekyllrb.com/docs/liquid/filters/
-
-지킬에서, 내용이 있을때와 없을때를 구분
-https://jekyllrb.com/docs/liquid/filters/
-
-
-subtitle이 없다면? 이라고 하고 싶을때
+#### jekyll
+- [front-matter](https://jekyllrb.com/docs/configuration/front-matter-defaults/)
+- [front-matter default 설정하기](https://jekyllrb.com/docs/configuration/front-matter-defaults/)
+- [pagination](https://jekyllrb.com/docs/pagination/)
+- [data formatting](http://alanwsmith.com/jekyll-liquid-date-formatting-examples)
+- [liquid 문법으로, 현재 데이터 얻는법](https://stackoverflow.com/questions/12464656/get-todays-date-in-jekyll-with-liquid-markup)
+- [variables](https://jekyllrb.com/docs/variables/)
+- [collection](https://jekyllrb.com/docs/step-by-step/09-collections/)
+- [alphabetically sorting으로 변경](https://stackoverflow.com/questions/8991995/using-liquid-to-sort-posts-alphabetically)
+- [count만들기 : stackoverflow](https://stackoverflow.com/questions/48046411/how-to-increment-the-counter-inside-a-liquid-for-loop)
+- [count만들기 : github](https://gist.github.com/Phlow/1f27dfafdf2bbcc5c48e)
+- [이미지 파일 추가](https://jekyllrb.com/docs/static-files/)
+- [liquid문법의 include를 이용해서, 함수처럼 사용할수 있다고?!](http://hamishwillee.github.io/2014/11/13/jekyll-includes-are-functions/)
+- [include문법 소개](https://jekyllrb.com/docs/includes/)
+- [깜빡하기 쉬운 liquid문법, elseif가 아니라 elsif다. 헉.](https://stackoverflow.com/questions/12423658/how-do-i-chain-if-statements-in-jekyll)
+- [jekyll 에 gem 파일 추가하는 법](https://jekyllrb.com/docs/plugins/installation/)
+- subtitle이 없을 경우에 나오지 않도록 처리 (if문 사용)
+<pre class="highlight"><code>{% raw %}
 {% if post.subtitle != none %}
 	{{ post.subtitle }}
-{% endif %}
+{% endif %} 
+{% endraw %}</code></pre>
 
 
-text-align
-https://www.w3schools.com/cssref/pr_text_text-align.ASP
 
-wordbreak
-https://www.w3schools.com/cssref/css3_pr_word-break.asp
-
-이미지 파일 추가
-https://jekyllrb.com/docs/static-files/
-
-defaults property
-https://jekyllrb.com/docs/configuration/front-matter-defaults/
-
-pagination
-https://jekyllrb.com/docs/pagination/
-
-jekyll 에 gem 파일 추가하는 법
-https://jekyllrb.com/docs/plugins/installation/
+#### markdown
+- [daringfireball](https://daringfireball.net/projects/markdown/basics)
 
 
-아. 진짜 힘들다. 거의 다 온것 같은데. 정말로 힘내보자.
-include로 함수 만들기.
-http://hamishwillee.github.io/2014/11/13/jekyll-includes-are-functions/
-
-지킬 include 함수
-https://jekyllrb.com/docs/includes/
-
-헐..elseif가 아니라
-elsif였다..헐..
-https://stackoverflow.com/questions/12423658/how-do-i-chain-if-statements-in-jekyll
-
-프로젝트별로 pages 만들기
-https://dreamgonfly.github.io/blog/jekyll-remote-theme/
-
-git 삭제하기
-https://stackoverflow.com/questions/1514054/how-do-i-delete-a-local-repository-in-git
-
-
-github모를땐 여기부터 찾아봐야해~
-https://docs.github.com/en/github/using-git/removing-a-remote

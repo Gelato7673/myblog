@@ -3,12 +3,11 @@
   <head>
     {% include head.html %}
   </head>
-  <body>
-
-		<!-- {% include navigation.html %} -->
+  <body class="blog-page">
 
     {% if page.background != none %}
-		<section class="page-title" style="background: url('/assets/img/{{ page.background }}') center 2000px;">
+		<section class="page-title">
+      <img src="{{site.baseurl}}/assets/img/{{ page.background }}" alt="">
       {% else %}
     <section class="page-title none-background">
     {% endif %}
@@ -29,7 +28,7 @@
 
     </section>
 
-    <article class="page-contents">
+    <article class="page-contents {{ page.big_group}}">
       <div class="inner-wrap">
         {{ content }}
 
@@ -39,9 +38,16 @@
           <li>태그3</li>
         </ul>
 
-
+        <!-- disque:s -->
+        {% if page.comments %}
+          {% include disques_comments.html %}
+        {% endif %}
+        <!-- disque:e -->
       </div>
     </article>
+
+
+
 
 
     <!-- footer:s -->
@@ -54,12 +60,12 @@
           <div class="list-area">
             {% assign sorted = site.posts |where: 'menu', page.menu |sort: 'date_end' | reverse%}
             {% assign total = sorted.size %}
-            {% assign page_total = total | divided_by: 4 | plus:1 %}
+            {% assign page_total = total | divided_by: 4.0 | ceil %}
 
               <div class="title-area-wrap">
                 <ul class="title-area">
                   <li class="section">{{ page.big_group }}</li>
-                  <li class="main-title">{{ page.small_group }}</li>
+                  <li class="main-title"><a href="{{ site.baseurl }}{{ page.menu | prepend : '/' }}">{{ page.small_group }}</a></li>
                 </ul>
                 
                 <span class="bar" id="left-bar"><ion-icon name="chevron-back-outline"></ion-icon></span></li>
@@ -82,7 +88,7 @@
           <!-- list-area:e -->
 
           <!-- cover-area:s -->
-          <div class="cover-area"style="background:url(/assets/img/{{page.menu}}.jpg) no-repeat;background-size: cover;">
+          <div class="cover-area"style="background:url({{site.baseurl}}/assets/img/{{page.menu}}.jpg) no-repeat;background-size: cover;">
             <p class="title">{{ page.small_group }}</p>
             <p class="writer">by. Gelato</p>
           </div>
@@ -92,8 +98,7 @@
       </div>
     </div>
     <!-- footer:e -->
-
-    <script src="/assets/js/page.js"></script>
-    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <script id="dsq-count-scr" src="//gelato7673.disqus.com/count.js" async></script>
+    <script src="{{site.baseurl}}/assets/js/page.js"></script>
   </body>
 </html>

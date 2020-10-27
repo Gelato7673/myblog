@@ -1,130 +1,100 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/myblog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/myblog/" rel="alternate" type="text/html" /><updated>2020-10-15T17:50:42+09:00</updated><id>http://localhost:4000/myblog/feed.xml</id><entry><title type="html">test</title><link href="http://localhost:4000/myblog/2020/08/29/sample.html" rel="alternate" type="text/html" title="test" /><published>2020-08-29T00:00:00+09:00</published><updated>2020-08-29T00:00:00+09:00</updated><id>http://localhost:4000/myblog/2020/08/29/sample</id><content type="html" xml:base="http://localhost:4000/myblog/2020/08/29/sample.html"></content><author><name></name></author><category term="jekyll" /><category term="tags" /><category term="tree" /><summary type="html"></summary></entry><entry><title type="html">포트폴리오 및 블로그 만들면서 느끼는 점.29</title><link href="http://localhost:4000/myblog/2020/08/29/check-makingblog.html" rel="alternate" type="text/html" title="포트폴리오 및 블로그 만들면서 느끼는 점.29" /><published>2020-08-29T00:00:00+09:00</published><updated>2020-08-29T00:00:00+09:00</updated><id>http://localhost:4000/myblog/2020/08/29/check-makingblog</id><content type="html" xml:base="http://localhost:4000/myblog/2020/08/29/check-makingblog.html">&lt;p&gt;html5 sementic tag
-https://www.w3schools.com/html/html5_semantic_elements.asp&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/myblog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/myblog/" rel="alternate" type="text/html" /><updated>2020-10-27T16:00:32+09:00</updated><id>http://localhost:4000/myblog/feed.xml</id><entry><title type="html">CSS</title><link href="http://localhost:4000/myblog/2020/10/24/check-css.html" rel="alternate" type="text/html" title="CSS" /><published>2020-10-24T00:00:00+09:00</published><updated>2020-10-24T00:00:00+09:00</updated><id>http://localhost:4000/myblog/2020/10/24/check-css</id><content type="html" xml:base="http://localhost:4000/myblog/2020/10/24/check-css.html">&lt;h3 id=&quot;css-관련-기술들-정리&quot;&gt;CSS 관련 기술들 정리&lt;/h3&gt;
 
-&lt;p&gt;지킬에 검색창 달기
-https://imyeonn.github.io/blog/blog/30/&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Glossary/CSS_Selector&quot;&gt;인접형제 선택자&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.w3schools.com/cssref/css3_pr_word-break.asp&quot;&gt;word-break&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/:not&quot;&gt;css not 선택자&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ellipsis 처리하기&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;폰트 아이콘
-https://m.blog.naver.com/PostView.nhn?blogId=reactionweb&amp;amp;logNo=220337009100&amp;amp;proxyReferer=https:%2F%2Fwww.google.com%2F&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;white-space&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;nowrap&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;overflow&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;hidden&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;text-overflow&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ellipsis&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;sass를 이용해서, 각 페이지에 맞게 배경화면을 바꿀 수 있을까??&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.educative.io/edpresso/how-to-crop-an-image-in-css&quot;&gt;css로 이미지 요소 crop하기&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/filter&quot;&gt;filter css&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="githubpage" /><summary type="html">CSS 관련 기술들 정리</summary></entry><entry><title type="html">각종 프로그램 단축키</title><link href="http://localhost:4000/myblog/2020/09/20/check-sublimetext3.html" rel="alternate" type="text/html" title="각종 프로그램 단축키" /><published>2020-09-20T00:00:00+09:00</published><updated>2020-09-20T00:00:00+09:00</updated><id>http://localhost:4000/myblog/2020/09/20/check-sublimetext3</id><content type="html" xml:base="http://localhost:4000/myblog/2020/09/20/check-sublimetext3.html">&lt;h3 id=&quot;sublime-text3&quot;&gt;sublime-text3&lt;/h3&gt;
 
-&lt;p&gt;use는 import와 달라. 
-모두 가져오는게, 아니라 
-‘mixin’,’function’,’variables’만 데려오는거야.
-그래서, 어떤 모듈을 계속 변경해 가면서 쓸 수 있게 해주는거지!
-https://sass-lang.com/documentation/at-rules/use&lt;/p&gt;
+&lt;p&gt;파일 바로열기 : ctrl+p
+https://zzznara2.tistory.com/276&lt;/p&gt;</content><author><name></name></author><category term="sublimetext3" /><summary type="html">sublime-text3</summary></entry><entry><title type="html">Font-icon</title><link href="http://localhost:4000/myblog/2020/08/29/check-font_icon.html" rel="alternate" type="text/html" title="Font-icon" /><published>2020-08-29T00:00:00+09:00</published><updated>2020-08-29T00:00:00+09:00</updated><id>http://localhost:4000/myblog/2020/08/29/check-font_icon</id><content type="html" xml:base="http://localhost:4000/myblog/2020/08/29/check-font_icon.html">&lt;h3 id=&quot;폰트아이콘-관련-기술들-정리&quot;&gt;폰트아이콘 관련 기술들 정리&lt;/h3&gt;
 
-&lt;p&gt;https://sass-lang.com/documentation/at-rules/forward&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://m.blog.naver.com/PostView.nhn?blogId=reactionweb&amp;amp;logNo=220337009100&amp;amp;proxyReferer=https:%2F%2Fwww.google.com%2F&quot;&gt;폰트 아이콘 모음&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/20782368/use-font-awesome-icon-as-css-content&quot;&gt;presued element로 fontawesome 사용하기&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="githubpage" /><summary type="html">폰트아이콘 관련 기술들 정리</summary></entry><entry><title type="html">HTML</title><link href="http://localhost:4000/myblog/2020/08/29/check-html.html" rel="alternate" type="text/html" title="HTML" /><published>2020-08-29T00:00:00+09:00</published><updated>2020-08-29T00:00:00+09:00</updated><id>http://localhost:4000/myblog/2020/08/29/check-html</id><content type="html" xml:base="http://localhost:4000/myblog/2020/08/29/check-html.html">&lt;h3 id=&quot;html-관련-기술들-정리&quot;&gt;html 관련 기술들 정리&lt;/h3&gt;
 
-&lt;p&gt;fork 하는것과 오픈소스로 이용해서 작업하는 것에 대하여서 알아보자.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.w3schools.com/html/html5_semantic_elements.asp&quot;&gt;html5 시맨틱 태그&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="githubpage" /><summary type="html">html 관련 기술들 정리</summary></entry><entry><title type="html">[blog]github pages에서 블로그 만들고 관리하기</title><link href="http://localhost:4000/myblog/2020/08/29/check-makingblog.html" rel="alternate" type="text/html" title="[blog]github pages에서 블로그 만들고 관리하기" /><published>2020-08-29T00:00:00+09:00</published><updated>2020-08-29T00:00:00+09:00</updated><id>http://localhost:4000/myblog/2020/08/29/check-makingblog</id><content type="html" xml:base="http://localhost:4000/myblog/2020/08/29/check-makingblog.html">&lt;h3 id=&quot;여기에-기록하려고-하는것은&quot;&gt;여기에 기록하려고 하는것은..&lt;/h3&gt;
 
-&lt;p&gt;jekyll 을 환경을 설정해서 서버를 구동시킬때에 regeneration-auto가 disable로 나오는 문제에 대하여&lt;/p&gt;
+&lt;p&gt;일단, 거창한 기록을 하려는 것이 아니다. 그저, 만들때 찾아봤던 사이트들의 링크를 남김으로써, 이후에도 참고 자료로 쓰고 싶을 뿐이다.
+만약, jekyll로 githubpage를 만들고 싶어서 찾아왔다면, 블로그들을 찾아보기보다는 &lt;strong&gt;jekyll의 original document&lt;/strong&gt;를 꼭 참고하라고 이야기 하고 싶다. &lt;br /&gt;
+어떤 개발이든, original document를 보는것은 정말 좋은 습관이고, 특히나 jekyll은 docs가 매우 잘되어있다. 중요한 앞부분의 tutorial은 심지어 마음씨 좋은 분이 한국어로 번역도 해두셔서 읽기가 매우 쉽다.!!&lt;/p&gt;
 
-&lt;p&gt;중요한것! build와 serve는 다르다. build가 안되는것은. 여러가지 문제가 있어.
-안올라가 있다던가 배포 상의 문제나.. 그건 별개고,&lt;/p&gt;
+&lt;h3 id=&quot;중요-참고-사이트들&quot;&gt;중요 참고 사이트들&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jekyllrb-ko.github.io/&quot;&gt;지킬(Jekyll) Docs : https://jekyllrb-ko.github.io/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://shopify.github.io/liquid/&quot;&gt;liquid문법 : https://shopify.github.io/liquid/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://daringfireball.net/projects/markdown/syntax&quot;&gt;markdown문법 : https://daringfireball.net/projects/markdown/syntax&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://thesassway.com/&quot;&gt;sass문법 : http://thesassway.com/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/&quot;&gt;언제나 그렇듯 stackoverflow에 왠만한건 다 있다&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;환경에서 자꾸 build를 쓰는 경향이 있는데 (github에 그렇게 적혀있기 때문이지.)&lt;/p&gt;
+&lt;h3 id=&quot;추후에-구현하고-싶은-내용들&quot;&gt;추후에 구현하고 싶은 내용들&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;지킬에 검색창 달기 &lt;a href=&quot;https://imyeonn.github.io/blog/blog/30/&quot;&gt;https://imyeonn.github.io/blog/blog/30/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;태그모음달기&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;p&gt;build를 쓰지말고, serve를 쓰면 된다.&lt;/p&gt;
+&lt;h3 id=&quot;오답노트&quot;&gt;오답노트&lt;/h3&gt;
 
-&lt;p&gt;기억하자
-css not 선택자!
-https://developer.mozilla.org/en-US/docs/Web/CSS/:not&lt;/p&gt;
+&lt;h4 id=&quot;github-pages&quot;&gt;github pages&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://dreamgonfly.github.io/blog/jekyll-remote-theme/&quot;&gt;프로젝트 별로 github pages 만들기&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hhj6212.github.io/blog/2020/08/22/Jekyll%EC%97%90%EC%84%9C-%EC%BD%94%EB%93%9C%EB%B8%94%EB%A1%9D-%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8%ED%95%98%EA%B8%B0.html&quot;&gt;github pages에서 코드 그대로 보이도록 만들기&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;rouge 파일을 이용해서 코드의 syntax highlight 사용하기(https://moon9342.github.io/jekyll-rouge)&lt;/li&gt;
+  &lt;li&gt;rouge 파일을 이용한 코드 추가 예시
+    &lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;sample&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;highlight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+ &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;foo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;Hello World&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;presued element로 fontawesome 사용하기
-https://stackoverflow.com/questions/20782368/use-font-awesome-icon-as-css-content&lt;/p&gt;
+&lt;h4 id=&quot;jekyll&quot;&gt;jekyll&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jekyllrb.com/docs/configuration/front-matter-defaults/&quot;&gt;front-matter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jekyllrb.com/docs/configuration/front-matter-defaults/&quot;&gt;front-matter default 설정하기&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jekyllrb.com/docs/pagination/&quot;&gt;pagination&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://alanwsmith.com/jekyll-liquid-date-formatting-examples&quot;&gt;data formatting&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/12464656/get-todays-date-in-jekyll-with-liquid-markup&quot;&gt;liquid 문법으로, 현재 데이터 얻는법&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jekyllrb.com/docs/variables/&quot;&gt;variables&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jekyllrb.com/docs/step-by-step/09-collections/&quot;&gt;collection&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/8991995/using-liquid-to-sort-posts-alphabetically&quot;&gt;alphabetically sorting으로 변경&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/48046411/how-to-increment-the-counter-inside-a-liquid-for-loop&quot;&gt;count만들기 : stackoverflow&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gist.github.com/Phlow/1f27dfafdf2bbcc5c48e&quot;&gt;count만들기 : github&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jekyllrb.com/docs/static-files/&quot;&gt;이미지 파일 추가&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://hamishwillee.github.io/2014/11/13/jekyll-includes-are-functions/&quot;&gt;liquid문법의 include를 이용해서, 함수처럼 사용할수 있다고?!&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jekyllrb.com/docs/includes/&quot;&gt;include문법 소개&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/12423658/how-do-i-chain-if-statements-in-jekyll&quot;&gt;깜빡하기 쉬운 liquid문법, elseif가 아니라 elsif다. 헉.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jekyllrb.com/docs/plugins/installation/&quot;&gt;jekyll 에 gem 파일 추가하는 법&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;subtitle이 없을 경우에 나오지 않도록 처리 (if문 사용)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+{% if post.subtitle != none %}
+	{{ post.subtitle }}
+{% endif %} 
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;https://fontawesome.com/how-to-use/on-the-web/advanced/css-pseudo-elements&lt;/p&gt;
+&lt;h4 id=&quot;markdown&quot;&gt;markdown&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://daringfireball.net/projects/markdown/basics&quot;&gt;daringfireball&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="githubpage" /><summary type="html">여기에 기록하려고 하는것은..</summary></entry><entry><title type="html">GIT</title><link href="http://localhost:4000/myblog/2020/08/29/check-git.html" rel="alternate" type="text/html" title="GIT" /><published>2020-08-29T00:00:00+09:00</published><updated>2020-08-29T00:00:00+09:00</updated><id>http://localhost:4000/myblog/2020/08/29/check-git</id><content type="html" xml:base="http://localhost:4000/myblog/2020/08/29/check-git.html">&lt;h3 id=&quot;git-관련-기술들-정리&quot;&gt;git 관련 기술들 정리&lt;/h3&gt;
 
-&lt;p&gt;까먹을까봐. a에 관해서
-https://aboooks.tistory.com/88&lt;/p&gt;
-
-&lt;p&gt;text-decoration
-text-underline
-https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration-thickness&lt;/p&gt;
-
-&lt;p&gt;태그에 관련된 내용
-https://jekyllrb.com/docs/posts/&lt;/p&gt;
-
-&lt;p&gt;page 안에서 array 하는법
-https://learn.cloudcannon.com/jekyll/introduction-to-jekyll-front-matter/&lt;/p&gt;
-
-&lt;p&gt;데이터 스타일
-https://jekyllrb.com/docs/front-matter/&lt;/p&gt;
-
-&lt;p&gt;한 폴더에 같은 데이터 스타일을 지정할때
-https://jekyllrb.com/docs/configuration/front-matter-defaults/&lt;/p&gt;
-
-&lt;p&gt;liquid 문법에 관한여
-https://shopify.github.io/liquid/basics/types/#array&lt;/p&gt;
-
-&lt;p&gt;date 관련해서 변경할때에.&lt;/p&gt;
-
-&lt;p&gt;http://alanwsmith.com/jekyll-liquid-date-formatting-examples&lt;/p&gt;
-
-&lt;p&gt;https://stackoverflow.com/questions/7395520/how-does-jekyll-date-formatting-work&lt;/p&gt;
-
-&lt;p&gt;지금데이터 얻는법
-https://stackoverflow.com/questions/12464656/get-todays-date-in-jekyll-with-liquid-markup&lt;/p&gt;
-
-&lt;p&gt;각종 variable
-https://jekyllrb.com/docs/variables/&lt;/p&gt;
-
-&lt;p&gt;지킬 collection
-https://jekyllrb.com/docs/step-by-step/09-collections/&lt;/p&gt;
-
-&lt;p&gt;지킬 sorting에 관해서
-https://stackoverflow.com/questions/8991995/using-liquid-to-sort-posts-alphabetically&lt;/p&gt;
-
-&lt;p&gt;https://gist.github.com/Phlow/1f27dfafdf2bbcc5c48e&lt;/p&gt;
-
-&lt;p&gt;지킬 count
-https://stackoverflow.com/questions/48046411/how-to-increment-the-counter-inside-a-liquid-for-loop
-https://gist.github.com/Phlow/1f27dfafdf2bbcc5c48e&lt;/p&gt;
-
-&lt;p&gt;알맞는것 모으기
-https://jekyllrb.com/docs/liquid/filters/&lt;/p&gt;
-
-&lt;p&gt;지킬에서, 내용이 있을때와 없을때를 구분
-https://jekyllrb.com/docs/liquid/filters/&lt;/p&gt;
-
-&lt;p&gt;subtitle이 없다면? 이라고 하고 싶을때&lt;/p&gt;
-
-&lt;p&gt;text-align
-https://www.w3schools.com/cssref/pr_text_text-align.ASP&lt;/p&gt;
-
-&lt;p&gt;wordbreak
-https://www.w3schools.com/cssref/css3_pr_word-break.asp&lt;/p&gt;
-
-&lt;p&gt;이미지 파일 추가
-https://jekyllrb.com/docs/static-files/&lt;/p&gt;
-
-&lt;p&gt;defaults property
-https://jekyllrb.com/docs/configuration/front-matter-defaults/&lt;/p&gt;
-
-&lt;p&gt;pagination
-https://jekyllrb.com/docs/pagination/&lt;/p&gt;
-
-&lt;p&gt;jekyll 에 gem 파일 추가하는 법
-https://jekyllrb.com/docs/plugins/installation/&lt;/p&gt;
-
-&lt;p&gt;아. 진짜 힘들다. 거의 다 온것 같은데. 정말로 힘내보자.
-include로 함수 만들기.
-http://hamishwillee.github.io/2014/11/13/jekyll-includes-are-functions/&lt;/p&gt;
-
-&lt;p&gt;지킬 include 함수
-https://jekyllrb.com/docs/includes/&lt;/p&gt;
-
-&lt;p&gt;헐..elseif가 아니라
-elsif였다..헐..
-https://stackoverflow.com/questions/12423658/how-do-i-chain-if-statements-in-jekyll&lt;/p&gt;
-
-&lt;p&gt;프로젝트별로 pages 만들기
-https://dreamgonfly.github.io/blog/jekyll-remote-theme/&lt;/p&gt;
-
-&lt;p&gt;git 삭제하기
-https://stackoverflow.com/questions/1514054/how-do-i-delete-a-local-repository-in-git&lt;/p&gt;
-
-&lt;p&gt;github모를땐 여기부터 찾아봐야해~
-https://docs.github.com/en/github/using-git/removing-a-remote&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="tags" /><category term="tree" /><summary type="html">html5 sementic tag https://www.w3schools.com/html/html5_semantic_elements.asp</summary></entry></feed>
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.github.com/en/github/using-git/removing-a-remote&quot;&gt;git을 잘 모르겠다?! 그럼 여기부터 찾아봐야해~ github docs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/1514054/how-do-i-delete-a-local-repository-in-git&quot;&gt;git 삭제하기&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="githubpage" /><summary type="html">git 관련 기술들 정리</summary></entry></feed>

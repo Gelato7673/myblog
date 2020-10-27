@@ -1,0 +1,62 @@
+@media screen and (max-width: 1000px) {
+	.inner-wrap {
+		width: 100% !important;
+	}
+	.other-pages {
+		display: none !important;
+	}
+
+	#disqus_thread {
+		width: 100%;
+	}
+	.page-contents {
+		padding: 40px 0 0 !important;
+	}
+
+	.blog-page {
+		.inner-wrap {
+			padding: 0 10px;
+		}
+		.page-title {
+			height: 200px;
+			padding-top: 30px;
+			
+			.main-title {
+				padding-top: 30px;
+			}
+			img {
+				height: 200px;
+			}
+			.page-info {
+				padding-top: 20px;
+			}
+		}
+	}
+
+	nav {
+		display: none !important;
+	}
+	.book-intro {
+		display: none !important;
+	}
+	.intro-spot img {
+		width: 100%;
+	}
+	.blog-list .list {
+		border-bottom: 0 solid transparent;
+		margin: 10px 0;
+		li {
+			float:none !important;
+		}
+		.date {
+			display: none;
+		}
+		.title .main-title a {
+			display: block;
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+	}
+
+}
