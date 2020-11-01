@@ -7,7 +7,9 @@
 
     {% if page.background != none %}
 		<section class="page-title">
-      <img src="{{site.baseurl}}/assets/img/{{ page.background }}" alt="">
+      <p class="img-area">
+        <img src="{{site.baseurl}}/assets/img/{{ page.background }}" alt="">
+      </p>
       {% else %}
     <section class="page-title none-background">
     {% endif %}

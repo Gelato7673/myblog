@@ -1,4 +1,4 @@
-$font-stack: 'Noto Sans KR', sans-serif;
+$font-stack: 'Helvetica', sans-serif;
 $font-black: #333;
 $font-gray: #B2B2B2;
 $font-thick-gray: #9a9595;
@@ -90,10 +90,7 @@ nav {
 	}
 
 		a:hover {
-			text-decoration-line: underline;
-			text-decoration-style: solid;
-			text-decoration-color: #FAED7D;
-			text-decoration-thickness: 5px;
+			text-decoration: underline;
 		}
 
 	.profile-area {

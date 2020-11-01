@@ -19,13 +19,15 @@
 		}
 		.page-title {
 			height: 200px;
-			padding-top: 30px;
 			
 			.main-title {
 				padding-top: 30px;
 			}
-			img {
+			.img-area {
 				height: 200px;
+			}
+			img {
+				top: 0;
 			}
 			.page-info {
 				padding-top: 20px;
