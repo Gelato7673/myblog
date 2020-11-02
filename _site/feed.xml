@@ -1,98 +1,76 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/myblog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/myblog/" rel="alternate" type="text/html" /><updated>2020-11-01T20:30:09+09:00</updated><id>http://localhost:4000/myblog/feed.xml</id><entry><title type="html">2020 10 5주차 trend search</title><link href="http://localhost:4000/myblog/2020/10/31/check-trend.html" rel="alternate" type="text/html" title="2020 10 5주차 trend search" /><published>2020-10-31T00:00:00+09:00</published><updated>2020-10-31T00:00:00+09:00</updated><id>http://localhost:4000/myblog/2020/10/31/check-trend</id><content type="html" xml:base="http://localhost:4000/myblog/2020/10/31/check-trend.html">&lt;h3 id=&quot;front-end-기술들&quot;&gt;Front-end 기술들&lt;/h3&gt;
-&lt;p&gt;구인구직 광고를 보거나, 최근 트렌드 글들을 읽으면 공통적으로 언급되는 요즘의 Front-end 기술들 4가지를 정리해 보자.&lt;/p&gt;
-
-&lt;h4 id=&quot;javascript-es6-와-javascript-발전동향&quot;&gt;Javascript (ES6) 와 Javascript 발전동향&lt;/h4&gt;
-
-&lt;hr /&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;정식명칭은 ECMA Script 6로써, 2015년에 만들어졌으니 최신기술이라고 하기엔 무리가 있다. ^^;;
-책에서 보아하니 ES6문법부터는 이전 버전의 브라우저에서는 지원되지 않는 문법이 많아 협업에서 ES5까지의 문법을 주로 사용 했었다고 하니,
-아마도. CSS33같은 애가 아니었을까 싶다.
-지금의 브라우저는 2015년과는 다르게 확실히 스펙업이 빠르게 되어가고 있고,
-익스플로러는 사라지고 있고, 모바일 세상은 기본 스펙부터가 다르기 때문에 아마도 충분히 앞으로 많이 쓰이지 않을까 생각해 본다.&lt;/p&gt;
-
-&lt;p&gt;D2에 게시된 2018년과 이후 JavaScript의 동향 - JavaScript(ECMAScript)
-https://d2.naver.com/helloworld/7495331 을 첨부해 본다.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“ECMAScript 2015 발표 이후 해마다 표준 명세가 발표됐고, 브라우저는 표준 명세를 빠르게(명세가 발표되기 전에라도) 구현했습니다. 그래서 ‘명세’로만 존재하는 것이 아니라 바로 ‘사용’이 가능한 기술의 범위가 점점 확대되고 있습니다.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;조사하다가-알게된-부수적인-개념들&quot;&gt;조사하다가 알게된 부수적인 개념들&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://gelato7673.github.io/myblog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://gelato7673.github.io/myblog/" rel="alternate" type="text/html" /><updated>2020-11-02T15:48:42+09:00</updated><id>https://gelato7673.github.io/myblog/feed.xml</id><entry><title type="html">공부해서, 써봐야지 하는 일들의 목록</title><link href="https://gelato7673.github.io/myblog/2020/11/01/document.html" rel="alternate" type="text/html" title="공부해서, 써봐야지 하는 일들의 목록" /><published>2020-11-01T00:00:00+09:00</published><updated>2020-11-01T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2020/11/01/document</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2020/11/01/document.html">&lt;h3 id=&quot;나중에-포스팅하고-싶은-내용들&quot;&gt;나중에 포스팅하고 싶은 내용들&lt;/h3&gt;
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://webassembly.org/&quot;&gt;WEBASSEMBLY&lt;/a&gt;
-WebAssembly (abbreviated Wasm) is a binary instruction format for a stack-based virtual machine. Wasm is designed as a portable compilation target for programming languages, enabling deployment on the web for client and server applications.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;크로미움
-https://ykarma1996.tistory.com/72&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;브라우저 벤더란?
-브라우저 벤더란 브라우저를 만들거나 파는 회사들이다.
-예) Microsoft (Internet Explorer and Edge), Google (Chrome), Apple (Safari), Opera Software (Opera) and Mozilla (Firefox)
-각 회사들이 브라우저 벤더들이다.
-https://hi-sharingworld.tistory.com/389&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;plyglot
-멀티 컴파일러쯤으로 생각하면 될듯.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;2016년도
-https://d2.naver.com/helloworld/3618177&lt;/p&gt;
-
-&lt;p&gt;es의 특징
-https://web-front-end.tistory.com/21
-https://medium.com/sjk5766/ecma-script-es-%EC%A0%95%EB%A6%AC%EC%99%80-%EB%B2%84%EC%A0%84%EB%B3%84-%ED%8A%B9%EC%A7%95-77715f696dcb&lt;/p&gt;
-
-&lt;p&gt;WOW 특징 잘 설명되어있다.
-http://es6-features.org/#DefaultParameterValues&lt;/p&gt;
-
-&lt;p&gt;OVERview
-http://www.ecma-international.org/ecma-262/6.0/&lt;/p&gt;
-
-&lt;p&gt;ECMA 스크립트 사이트를 안가본듯.. 가봐야 하지 않을까?&lt;/p&gt;
-
-&lt;p&gt;feature
-https://github.com/lukehoban/es6features/&lt;/p&gt;
-
-&lt;p&gt;이책 살꺼야? 안 읽을 꺼 같은데??
-https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=100942112#K452536075_MyReview&lt;/p&gt;
-
-&lt;p&gt;2020과 2016을 같이 보는 것도 의미가 있을듯.&lt;/p&gt;
-
-&lt;h4 id=&quot;vuejs&quot;&gt;Vue.js&lt;/h4&gt;
-
-&lt;p&gt;어떤 분이 연속으로 써 놓으신 글
-https://k39335.tistory.com/60&lt;/p&gt;
-
-&lt;h4 id=&quot;typescript&quot;&gt;Typescript&lt;/h4&gt;
-&lt;p&gt;https://hyunseob.github.io/2018/08/12/do-you-need-to-use-ts/&lt;/p&gt;
-
-&lt;p&gt;MPA
-Multi Page Application(MPA)&lt;/p&gt;
-
-&lt;p&gt;SPA
-Single Page Application(SPA)&lt;/p&gt;
-
-&lt;p&gt;정적 타이핑과 안정성 문제&lt;/p&gt;
-
-&lt;p&gt;type script를 한눈에 볼 수 있는 글
-https://namu.wiki/w/TypeScript&lt;/p&gt;
-
-&lt;h3 id=&quot;나중에-포스팅하고-싶은-내용들&quot;&gt;나중에 포스팅하고 싶은 내용들&lt;/h3&gt;
-&lt;ul&gt;
+  &lt;li&gt;Javascript trend를 봐가면서 해야할지도.&lt;/li&gt;
   &lt;li&gt;vue.js / Typescript&lt;/li&gt;
   &lt;li&gt;React.js / Angular&lt;/li&gt;
   &lt;li&gt;Dependency Manager (npm / gulp / grunt…)&lt;/li&gt;
   &lt;li&gt;Pre-Processor (sass / less…)&lt;/li&gt;
   &lt;li&gt;Phythone 그리고 Django..&lt;/li&gt;
   &lt;li&gt;Node.js 그리고 Angular..&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="githubpage" /><summary type="html">Front-end 기술들 구인구직 광고를 보거나, 최근 트렌드 글들을 읽으면 공통적으로 언급되는 요즘의 Front-end 기술들 4가지를 정리해 보자.</summary></entry><entry><title type="html">2020 10 3주차 trend search</title><link href="http://localhost:4000/myblog/2020/10/27/check-trend.html" rel="alternate" type="text/html" title="2020 10 3주차 trend search" /><published>2020-10-27T00:00:00+09:00</published><updated>2020-10-27T00:00:00+09:00</updated><id>http://localhost:4000/myblog/2020/10/27/check-trend</id><content type="html" xml:base="http://localhost:4000/myblog/2020/10/27/check-trend.html">&lt;h3 id=&quot;trend-search&quot;&gt;Trend search?!&lt;/h3&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="front-end," /><category term="javascript," /><category term="dependency-manager" /><summary type="html">나중에 포스팅하고 싶은 내용들 Javascript trend를 봐가면서 해야할지도. vue.js / Typescript React.js / Angular Dependency Manager (npm / gulp / grunt…) Pre-Processor (sass / less…) Phythone 그리고 Django.. Node.js 그리고 Angular..</summary></entry><entry><title type="html">하고싶은 프로젝트들 목록</title><link href="https://gelato7673.github.io/myblog/2020/11/01/toyproject.html" rel="alternate" type="text/html" title="하고싶은 프로젝트들 목록" /><published>2020-11-01T00:00:00+09:00</published><updated>2020-11-01T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2020/11/01/toyproject</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2020/11/01/toyproject.html">&lt;h3 id=&quot;해보고-싶은-프로젝트-목록들&quot;&gt;해보고 싶은 프로젝트 목록들&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;생산성 관리툴 (Monday.com) 같은것? : 간트 차트랑, 캘랜더 형식, to-do list 등으로 제공해 주는 기본 생산성 관리툴들&lt;/li&gt;
+  &lt;li&gt;프랭클린 다이어리 같은것 말야. (데이터 공간 확보가 애매한데.. 그건 생각을 해보자구.)&lt;/li&gt;
+  &lt;li&gt;좌석 배치도 : 코로 나 시대에 쉽게 사용할 수 있는 좌석 배치도를 하나 만들어서 사용해 보고 싶다.&lt;/li&gt;
+  &lt;li&gt;간단하게 홈페이지를 만드는 앱을 만들어 보자. (nomad coder에서 말했던것)&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="toyproject," /><category term="sideproject" /><summary type="html">해보고 싶은 프로젝트 목록들 생산성 관리툴 (Monday.com) 같은것? : 간트 차트랑, 캘랜더 형식, to-do list 등으로 제공해 주는 기본 생산성 관리툴들 프랭클린 다이어리 같은것 말야. (데이터 공간 확보가 애매한데.. 그건 생각을 해보자구.) 좌석 배치도 : 코로 나 시대에 쉽게 사용할 수 있는 좌석 배치도를 하나 만들어서 사용해 보고 싶다. 간단하게 홈페이지를 만드는 앱을 만들어 보자. (nomad coder에서 말했던것)</summary></entry><entry><title type="html">[trend search]2020 10 5주차</title><link href="https://gelato7673.github.io/myblog/2020/10/31/check-trend.html" rel="alternate" type="text/html" title="[trend search]2020 10 5주차" /><published>2020-10-31T00:00:00+09:00</published><updated>2020-10-31T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2020/10/31/check-trend</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2020/10/31/check-trend.html">&lt;h3 id=&quot;javascript-vuejs-typescript&quot;&gt;Javascript, Vue.js, Typescript&lt;/h3&gt;
+&lt;p&gt;Front-end에서 중요한 기술들 3가지에 대해 이것저것 찾아보는 시간을 가졌다.
+첫 술에 배부를 생각 말고, 앞으로도 열심히 찾아보고 읽어봐야지..라는 생각을 하면서. ^^;;
+이것저것 알아본 내용들을 정리해 본다.&lt;/p&gt;
+
+&lt;h3 id=&quot;javascriptes6와-이후의-발전동향&quot;&gt;Javascript(ES6)와 이후의 발전동향&lt;/h3&gt;
+
+&lt;h4 id=&quot;es6란&quot;&gt;ES6란?&lt;/h4&gt;
+&lt;p&gt;ES6는 ECMA Script 6의 줄임말로, 다른이름으로 ECMA Script 2015라는 이름이 있다. 따라서, 2015년에 나왔다.
+ES5와 ES6사이에는 꽤 긴 공백이 있었고, ES6가 처음나왔을때 많은 브라우저에서 그 스펙을 뒷받침해 주지 못했다.
+그러나, 이후에 개발된 다양한 프레임워크에서 ES6를 채택하였고, 브라우저의 지원율 또한 늘어났다.
+그럼, ES6는 무엇이 다를까?&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://es6-features.org/#Constants&quot;&gt;ES6-Features.org 개인적으로 추천! 달라진 코드를 한눈에 비교할 수 있다.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/lukehoban/es6features&quot;&gt;ES6-Features.org : github repository&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.ecma-international.org/ecma-262/6.0/&quot;&gt;ECMAScript official website&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.slideshare.net/mixed/ecmascript2015&quot;&gt;W3C HTML5 Korean Interest Group 에서 진행한 W3C HTML5 KIG 회의 발표자료&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;es6까지의-발전을-기록한-글&quot;&gt;ES6까지의 발전을 기록한 글.&lt;/h4&gt;
+&lt;p&gt;Naver D2를 보다가 “ECMAScript 6 에디터이기도 했던 Allen Wirfs-Brock과 Brendan Eich는 매우 간헐적(13~15년 주기)으로 열리는 The History of Programming Languages Conference에서 지난 20년(1995~2015)간의 JavaScript 역사를 다룬 190페이지 분량의 방대한 내용의 문서 JavaScript: the first 20 years를 3년의 작업 시간을 거쳐 완성 후 공개했습니다” 라는 내용을 발견하여서 관련 링크를 따라가 글을 읽어보았다. 이번엔 대강 읽어서 딱히 정리까진 어렵겠지만, 정독해 볼만한 가치가 있는 글 이었다.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;링크: &lt;a href=&quot;https://dl.acm.org/doi/abs/10.1145/3386327&quot;&gt;JavaScript: the first 20 years - Allen Wirfs-Brock, Brendan Eich&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;es6이후의-발전을-기록한-글&quot;&gt;ES6이후의 발전을 기록한 글.&lt;/h4&gt;
+&lt;p&gt;이번에 Javascript에 관한 글을 찾아보면서 Naver D2의 ‘Javascript 동향’관련 글들에서 배울 수 있는 점이 참 많았다.
+특히, ‘2020년과 이후 JavaScript의 동향’ 편에서 WEBASSEMBLY의 개념이 잘 정리되어있는데, 많은 도움이 되었다. 이후에 찬찬히 읽어보고 좋은 내용들은 따로 리뷰해야겠다.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://d2.naver.com/helloworld/4268738&quot;&gt;2020년과 이후 Javascript의 동향&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://d2.naver.com/helloworld/3618177&quot;&gt;2016년과 이후 Javascript의 동향&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;vuejs&quot;&gt;Vue.js&lt;/h3&gt;
+&lt;p&gt;ES6 출시이후 여러 프레임워크가 등장하였다. Angular, React등.. 둘다 학습곡선이 약간 있는데(Angular는 약간은 아닌듯 ^^;), vue.js의 경우 배우기가 일단 매우 쉽다! 화면제어를 위해서 많이 사용된다.
+vue.js 홈페이지에 들어가면 따라하면서 쉽게 시작해 볼 수 있다.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://vuejs.org/&quot;&gt;https://vuejs.org/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://kr.vuejs.org/v2/guide/index.html&quot;&gt;한글버전 가이드 : https://kr.vuejs.org/v2/guide/index.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;typescript&quot;&gt;Typescript&lt;/h3&gt;
+&lt;p&gt;Microsoft에서 개발한 타입스크립트. JS 가 단순한 기능을 넘어서 서버제어의 영역까지 넘어가면서, 정적 타입 언어가 가지는 안정성이 중시되었다. 이 부분을 보완해 줄 수 있는 것이 Typescript의 장점이라고 생각되어진다.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.typescriptlang.org/&quot;&gt;https://www.typescriptlang.org/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://namu.wiki/w/TypeScript&quot;&gt;Typescript 나무위키&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hyunseob.github.io/2018/08/12/do-you-need-to-use-ts/&quot;&gt;‘타입스크립트, 써야할까? - HyunSeob’&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@ehddnjs8989/typescript-%ED%95%98%EA%B8%B0-%EC%A0%84%EC%97%90-%EC%9D%B4%EC%A0%95%EB%8F%84%EB%8A%94-%EC%95%8C%EC%95%84%EC%95%BC%EC%A7%80-5179d8269193&quot;&gt;‘TypeScript 하기 전에 이정도는 알아야지! - dongwon kim’ : 타입스크립트의 장점을 잘 설명해 놓은글&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;조사하면서-알게된-용어들&quot;&gt;조사하면서 알게된 용어들&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://webassembly.org/&quot;&gt;WEBASSEMBLY&lt;/a&gt;: WebAssembly (abbreviated Wasm) is a binary instruction format for a stack-based virtual machine. Wasm is designed as a portable compilation target for programming languages, enabling deployment on the web for client and server applications.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ykarma1996.tistory.com/72&quot;&gt;크로미움&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;브라우저 벤더란? 브라우저 벤더란 브라우저를 만들거나 파는 회사들&lt;/li&gt;
+  &lt;li&gt;MPA : Multi Page Application(MPA)&lt;/li&gt;
+  &lt;li&gt;SPA : Single Page Application(SPA)&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="githubpage" /><summary type="html">Javascript, Vue.js, Typescript Front-end에서 중요한 기술들 3가지에 대해 이것저것 찾아보는 시간을 가졌다. 첫 술에 배부를 생각 말고, 앞으로도 열심히 찾아보고 읽어봐야지..라는 생각을 하면서. ^^;; 이것저것 알아본 내용들을 정리해 본다.</summary></entry><entry><title type="html">[trend search] 한 주간 개발과 관련된 내용을 모아서 정리해보자</title><link href="https://gelato7673.github.io/myblog/2020/10/27/check-trend.html" rel="alternate" type="text/html" title="[trend search] 한 주간 개발과 관련된 내용을 모아서 정리해보자" /><published>2020-10-27T00:00:00+09:00</published><updated>2020-10-27T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2020/10/27/check-trend</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2020/10/27/check-trend.html">&lt;h3 id=&quot;trend-search&quot;&gt;Trend search?!&lt;/h3&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;한 주 동안 개발과 관련되서 ‘search’했던 내용들 중에, 나중에도 읽어보면 좋을 것 같은 내용들을 잘 정리해 두어야지.&lt;/p&gt;
@@ -160,8 +138,7 @@ https://namu.wiki/w/TypeScript&lt;/p&gt;
       &lt;dd&gt;가끔 들여다 보면, 꼭 필요하다고 생각하는 것들의 강의는 꾸준히 업데이트 되는 편.&lt;/dd&gt;
     &lt;/dl&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="githubpage" /><summary type="html">Trend search?!</summary></entry><entry><title type="html">[clone-coding] 웹 어플리케이션 만들기(구버전) -생활코딩</title><link href="http://localhost:4000/myblog/2020/10/27/check-clone-webapplication.html" rel="alternate" type="text/html" title="[clone-coding] 웹 어플리케이션 만들기(구버전) -생활코딩" /><published>2020-10-27T00:00:00+09:00</published><updated>2020-10-27T00:00:00+09:00</updated><id>http://localhost:4000/myblog/2020/10/27/check-clone-webapplication</id><content type="html" xml:base="http://localhost:4000/myblog/2020/10/27/check-clone-webapplication.html">&lt;p&gt;###&lt;/p&gt;</content><author><name></name></author><category term="webapplication" /><summary type="html">###</summary></entry><entry><title type="html">Check Clone Todolist</title><link href="http://localhost:4000/myblog/2020/10/27/check-clone-todolist.html" rel="alternate" type="text/html" title="Check Clone Todolist" /><published>2020-10-27T00:00:00+09:00</published><updated>2020-10-27T00:00:00+09:00</updated><id>http://localhost:4000/myblog/2020/10/27/check-clone-todolist</id><content type="html" xml:base="http://localhost:4000/myblog/2020/10/27/check-clone-todolist.html"></content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Check Clone Pagenation</title><link href="http://localhost:4000/myblog/2020/10/27/check-clone-pagenation.html" rel="alternate" type="text/html" title="Check Clone Pagenation" /><published>2020-10-27T00:00:00+09:00</published><updated>2020-10-27T00:00:00+09:00</updated><id>http://localhost:4000/myblog/2020/10/27/check-clone-pagenation</id><content type="html" xml:base="http://localhost:4000/myblog/2020/10/27/check-clone-pagenation.html"></content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">[book] Doit! 지옥에서 온 문서 관리자 깃&amp;amp;깃허브 입문</title><link href="http://localhost:4000/myblog/2020/10/27/check-book-github.html" rel="alternate" type="text/html" title="[book] Doit! 지옥에서 온 문서 관리자 깃&amp;amp;깃허브 입문" /><published>2020-10-27T00:00:00+09:00</published><updated>2020-10-27T00:00:00+09:00</updated><id>http://localhost:4000/myblog/2020/10/27/check-book-github</id><content type="html" xml:base="http://localhost:4000/myblog/2020/10/27/check-book-github.html">&lt;h3 id=&quot;책소개&quot;&gt;책소개&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;&quot; alt=&quot;책표지&quot; /&gt;&lt;/p&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="githubpage" /><summary type="html">Trend search?!</summary></entry><entry><title type="html">[clone-coding] 웹 어플리케이션 만들기(구버전) -생활코딩</title><link href="https://gelato7673.github.io/myblog/2020/10/27/check-clone-webapplication.html" rel="alternate" type="text/html" title="[clone-coding] 웹 어플리케이션 만들기(구버전) -생활코딩" /><published>2020-10-27T00:00:00+09:00</published><updated>2020-10-27T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2020/10/27/check-clone-webapplication</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2020/10/27/check-clone-webapplication.html">&lt;p&gt;###&lt;/p&gt;</content><author><name></name></author><category term="webapplication" /><summary type="html">###</summary></entry><entry><title type="html">Check Clone Todolist</title><link href="https://gelato7673.github.io/myblog/2020/10/27/check-clone-todolist.html" rel="alternate" type="text/html" title="Check Clone Todolist" /><published>2020-10-27T00:00:00+09:00</published><updated>2020-10-27T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2020/10/27/check-clone-todolist</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2020/10/27/check-clone-todolist.html"></content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Check Clone Pagenation</title><link href="https://gelato7673.github.io/myblog/2020/10/27/check-clone-pagenation.html" rel="alternate" type="text/html" title="Check Clone Pagenation" /><published>2020-10-27T00:00:00+09:00</published><updated>2020-10-27T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2020/10/27/check-clone-pagenation</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2020/10/27/check-clone-pagenation.html"></content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">[book] Doit! 지옥에서 온 문서 관리자 깃&amp;amp;깃허브 입문</title><link href="https://gelato7673.github.io/myblog/2020/10/27/check-book-github.html" rel="alternate" type="text/html" title="[book] Doit! 지옥에서 온 문서 관리자 깃&amp;amp;깃허브 입문" /><published>2020-10-27T00:00:00+09:00</published><updated>2020-10-27T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2020/10/27/check-book-github</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2020/10/27/check-book-github.html">&lt;h3 id=&quot;책소개&quot;&gt;책소개&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;책 제목 : Doit! 지옥에서 온 문서 관리자 깃&amp;amp;깃허브 입문&lt;/li&gt;
   &lt;li&gt;지은이 : 이고잉, 고경희&lt;/li&gt;
@@ -177,13 +154,11 @@ https://namu.wiki/w/TypeScript&lt;/p&gt;
 
 &lt;p&gt;그런데, 이미 아는 내용이기도 하고.. 강의를 천천히 다 듣고 있기에는 스킵할 부분이 많은것 같고, (원래 전자책 보다 종이 책을 선호하기도 하고), 생활코딩을 늘 잘 사용하니까 후원(?)의 의미도 담아 ㅋㅋㅋ.. 그래서 이 책을 구입하게 된 것이다.&lt;/p&gt;
 
-&lt;p&gt;만약, 책을 사기보다 강의를 선호하는 분이라면 아래 링크에서 바로 생활코딩의 git강의를 들을 수 있다.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://opentutorials.org/course/3837&quot;&gt;생활코딩 git강의들으러 바로가기&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;만약, 책을 사기보다 강의를 선호하는 분이라면 아래 링크에서 바로 생활코딩의 git강의를 들을 수 있다.&lt;br /&gt;
+⇒ &lt;a href=&quot;https://opentutorials.org/course/3837&quot;&gt;생활코딩 git강의들으러 바로가기&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;따라 하면서 이해도 잘되고, 지금도 까먹으면 옆에두고 볼 수 있는 책 ^^!
-덕분에 공부 잘했습니다~ !&lt;/p&gt;</content><author><name></name></author><category term="git," /><category term="github" /><summary type="html">책소개 책 제목 : Doit! 지옥에서 온 문서 관리자 깃&amp;amp;깃허브 입문 지은이 : 이고잉, 고경희 출판사 : 이지스퍼블리싱</summary></entry><entry><title type="html">CSS</title><link href="http://localhost:4000/myblog/2020/10/24/check-css.html" rel="alternate" type="text/html" title="CSS" /><published>2020-10-24T00:00:00+09:00</published><updated>2020-10-24T00:00:00+09:00</updated><id>http://localhost:4000/myblog/2020/10/24/check-css</id><content type="html" xml:base="http://localhost:4000/myblog/2020/10/24/check-css.html">&lt;h3 id=&quot;css-관련-기술들-정리&quot;&gt;CSS 관련 기술들 정리&lt;/h3&gt;
+덕분에 공부 잘했습니다~ !&lt;/p&gt;</content><author><name></name></author><category term="git," /><category term="github" /><summary type="html">책소개 책 제목 : Doit! 지옥에서 온 문서 관리자 깃&amp;amp;깃허브 입문 지은이 : 이고잉, 고경희 출판사 : 이지스퍼블리싱</summary></entry><entry><title type="html">CSS</title><link href="https://gelato7673.github.io/myblog/2020/10/24/check-css.html" rel="alternate" type="text/html" title="CSS" /><published>2020-10-24T00:00:00+09:00</published><updated>2020-10-24T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2020/10/24/check-css</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2020/10/24/check-css.html">&lt;h3 id=&quot;css-관련-기술들-정리&quot;&gt;CSS 관련 기술들 정리&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Glossary/CSS_Selector&quot;&gt;인접형제 선택자&lt;/a&gt;&lt;/li&gt;
@@ -201,17 +176,5 @@ https://namu.wiki/w/TypeScript&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.educative.io/edpresso/how-to-crop-an-image-in-css&quot;&gt;css로 이미지 요소 crop하기&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/filter&quot;&gt;filter css&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="githubpage" /><summary type="html">CSS 관련 기술들 정리</summary></entry><entry><title type="html">[Toy Project] 블로그에서 쓸 drawer를 만들어보자!!</title><link href="http://localhost:4000/myblog/2020/10/16/makingdrawer.html" rel="alternate" type="text/html" title="[Toy Project] 블로그에서 쓸 drawer를 만들어보자!!" /><published>2020-10-16T00:00:00+09:00</published><updated>2020-10-16T00:00:00+09:00</updated><id>http://localhost:4000/myblog/2020/10/16/makingdrawer</id><content type="html" xml:base="http://localhost:4000/myblog/2020/10/16/makingdrawer.html"></content><author><name></name></author><category term="javascript" /><summary type="html"></summary></entry><entry><title type="html">각종 프로그램 단축키</title><link href="http://localhost:4000/myblog/2020/09/20/check-sublimetext3.html" rel="alternate" type="text/html" title="각종 프로그램 단축키" /><published>2020-09-20T00:00:00+09:00</published><updated>2020-09-20T00:00:00+09:00</updated><id>http://localhost:4000/myblog/2020/09/20/check-sublimetext3</id><content type="html" xml:base="http://localhost:4000/myblog/2020/09/20/check-sublimetext3.html">&lt;h3 id=&quot;sublime-text3&quot;&gt;sublime-text3&lt;/h3&gt;
-
-&lt;p&gt;파일 바로열기 : ctrl+p
-https://zzznara2.tistory.com/276&lt;/p&gt;</content><author><name></name></author><category term="sublimetext3" /><summary type="html">sublime-text3</summary></entry><entry><title type="html">검색 서비스</title><link href="http://localhost:4000/myblog/2020/09/19/wanted.html" rel="alternate" type="text/html" title="검색 서비스" /><published>2020-09-19T00:00:00+09:00</published><updated>2020-09-19T00:00:00+09:00</updated><id>http://localhost:4000/myblog/2020/09/19/wanted</id><content type="html" xml:base="http://localhost:4000/myblog/2020/09/19/wanted.html">&lt;p&gt;프로그래머에게 무엇을 만들고 싶어? 라고 묻는 것은 상당히 중요한 질문이다.&lt;/p&gt;
-
-&lt;p&gt;글쎄, 처음에도 지금도, 내가 생각하는 것 중에 하나는 정보에 있다.&lt;/p&gt;
-
-&lt;p&gt;“검색 서비스”의 발전과 진화 과정에 대해 배우고 싶고, 검색서비스의 구현에 대해서 배우고 싶다.&lt;/p&gt;
-
-&lt;p&gt;이 문제를 깊게 파고 들어가다 보면 좋은 소스가 나올 것 같다.&lt;/p&gt;
-
-&lt;p&gt;검색 서비스에서 어떻게 사람들이 소외되게 되는지. 이런것에 초점을 맞추면, 분명 더 나은 서비스라던가 세상의 중요한 것들을 알 수 있을 것 같다.&lt;/p&gt;
-
-&lt;p&gt;세상은 점차 검색 서비스를 중심으로 움직이고 있는것 같으니까 말이다.&lt;/p&gt;</content><author><name></name></author><category term="search" /><summary type="html">프로그래머에게 무엇을 만들고 싶어? 라고 묻는 것은 상당히 중요한 질문이다.</summary></entry></feed>
+  &lt;li&gt;text-decoration-thickness : only working in Firefox&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="githubpage" /><summary type="html">CSS 관련 기술들 정리</summary></entry><entry><title type="html">[Toy Project] 블로그에서 쓸 drawer를 만들어보자!!</title><link href="https://gelato7673.github.io/myblog/2020/10/16/makingdrawer.html" rel="alternate" type="text/html" title="[Toy Project] 블로그에서 쓸 drawer를 만들어보자!!" /><published>2020-10-16T00:00:00+09:00</published><updated>2020-10-16T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2020/10/16/makingdrawer</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2020/10/16/makingdrawer.html"></content><author><name></name></author><category term="javascript" /><summary type="html"></summary></entry></feed>

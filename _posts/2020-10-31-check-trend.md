@@ -4,120 +4,64 @@ menu: speach
 big_group: Myblog
 small_group: IT 기술
 background: map.jpg
-title:  "2020 10 5주차 trend search"
+title: <b>[trend search]</b>2020 10 5주차
 subtitle: "dependency-manager, preprocessors, phython"
-date_start: 2020-10-18
-date_end: 2020-10-24
+date_start: 2020-10-23
+date_end: 2020-10-29
 tags: githubpage
 comments: true
 ---
 
-### Front-end 기술들
-구인구직 광고를 보거나, 최근 트렌드 글들을 읽으면 공통적으로 언급되는 요즘의 Front-end 기술들 4가지를 정리해 보자.
-
-#### Javascript (ES6) 와 Javascript 발전동향
-
-
+### Javascript, Vue.js, Typescript 
+Front-end에서 중요한 기술들 3가지에 대해 이것저것 찾아보는 시간을 가졌다.
+첫 술에 배부를 생각 말고, 앞으로도 열심히 찾아보고 읽어봐야지..라는 생각을 하면서. ^^;;
+이것저것 알아본 내용들을 정리해 본다.
 
 
+### Javascript(ES6)와 이후의 발전동향
 
-------------------
-
-
------------------
-정식명칭은 ECMA Script 6로써, 2015년에 만들어졌으니 최신기술이라고 하기엔 무리가 있다. ^^;;
-책에서 보아하니 ES6문법부터는 이전 버전의 브라우저에서는 지원되지 않는 문법이 많아 협업에서 ES5까지의 문법을 주로 사용 했었다고 하니,
-아마도. CSS33같은 애가 아니었을까 싶다.
-지금의 브라우저는 2015년과는 다르게 확실히 스펙업이 빠르게 되어가고 있고,
-익스플로러는 사라지고 있고, 모바일 세상은 기본 스펙부터가 다르기 때문에 아마도 충분히 앞으로 많이 쓰이지 않을까 생각해 본다.
-
-D2에 게시된 2018년과 이후 JavaScript의 동향 - JavaScript(ECMAScript)
-https://d2.naver.com/helloworld/7495331 을 첨부해 본다.
-
-> "ECMAScript 2015 발표 이후 해마다 표준 명세가 발표됐고, 브라우저는 표준 명세를 빠르게(명세가 발표되기 전에라도) 구현했습니다. 그래서 '명세'로만 존재하는 것이 아니라 바로 '사용'이 가능한 기술의 범위가 점점 확대되고 있습니다."
+#### ES6란?
+ES6는 ECMA Script 6의 줄임말로, 다른이름으로 ECMA Script 2015라는 이름이 있다. 따라서, 2015년에 나왔다.
+ES5와 ES6사이에는 꽤 긴 공백이 있었고, ES6가 처음나왔을때 많은 브라우저에서 그 스펙을 뒷받침해 주지 못했다.
+그러나, 이후에 개발된 다양한 프레임워크에서 ES6를 채택하였고, 브라우저의 지원율 또한 늘어났다.
+그럼, ES6는 무엇이 다를까? 
+- [ES6-Features.org 개인적으로 추천! 달라진 코드를 한눈에 비교할 수 있다.](http://es6-features.org/#Constants)
+- [ES6-Features.org : github repository](https://github.com/lukehoban/es6features)
+- [ECMAScript official website](http://www.ecma-international.org/ecma-262/6.0/)
+- [W3C HTML5 Korean Interest Group 에서 진행한 W3C HTML5 KIG 회의 발표자료](https://www.slideshare.net/mixed/ecmascript2015)
 
 
-
-### 조사하다가 알게된 부수적인 개념들
-- [WEBASSEMBLY](https://webassembly.org/)
-WebAssembly (abbreviated Wasm) is a binary instruction format for a stack-based virtual machine. Wasm is designed as a portable compilation target for programming languages, enabling deployment on the web for client and server applications.
-
-- 크로미움
-https://ykarma1996.tistory.com/72
-
-- 브라우저 벤더란?
-브라우저 벤더란 브라우저를 만들거나 파는 회사들이다.
-예) Microsoft (Internet Explorer and Edge), Google (Chrome), Apple (Safari), Opera Software (Opera) and Mozilla (Firefox)
-각 회사들이 브라우저 벤더들이다.
-https://hi-sharingworld.tistory.com/389
-
-- plyglot
-멀티 컴파일러쯤으로 생각하면 될듯.
-
-2016년도
-https://d2.naver.com/helloworld/3618177
-
-es의 특징
-https://web-front-end.tistory.com/21
-https://medium.com/sjk5766/ecma-script-es-%EC%A0%95%EB%A6%AC%EC%99%80-%EB%B2%84%EC%A0%84%EB%B3%84-%ED%8A%B9%EC%A7%95-77715f696dcb
+#### ES6까지의 발전을 기록한 글.
+Naver D2를 보다가 "ECMAScript 6 에디터이기도 했던 Allen Wirfs-Brock과 Brendan Eich는 매우 간헐적(13~15년 주기)으로 열리는 The History of Programming Languages Conference에서 지난 20년(1995~2015)간의 JavaScript 역사를 다룬 190페이지 분량의 방대한 내용의 문서 JavaScript: the first 20 years를 3년의 작업 시간을 거쳐 완성 후 공개했습니다" 라는 내용을 발견하여서 관련 링크를 따라가 글을 읽어보았다. 이번엔 대강 읽어서 딱히 정리까진 어렵겠지만, 정독해 볼만한 가치가 있는 글 이었다.
+- 링크: [JavaScript: the first 20 years - Allen Wirfs-Brock, Brendan Eich](https://dl.acm.org/doi/abs/10.1145/3386327)
 
 
-WOW 특징 잘 설명되어있다.
-http://es6-features.org/#DefaultParameterValues
-
-OVERview
-http://www.ecma-international.org/ecma-262/6.0/
-
-
-ECMA 스크립트 사이트를 안가본듯.. 가봐야 하지 않을까?
+#### ES6이후의 발전을 기록한 글.
+이번에 Javascript에 관한 글을 찾아보면서 Naver D2의 'Javascript 동향'관련 글들에서 배울 수 있는 점이 참 많았다.
+특히, '2020년과 이후 JavaScript의 동향' 편에서 WEBASSEMBLY의 개념이 잘 정리되어있는데, 많은 도움이 되었다. 이후에 찬찬히 읽어보고 좋은 내용들은 따로 리뷰해야겠다.
+- [2020년과 이후 Javascript의 동향](https://d2.naver.com/helloworld/4268738)
+- [2016년과 이후 Javascript의 동향](https://d2.naver.com/helloworld/3618177)
 
 
-feature
-https://github.com/lukehoban/es6features/
+### Vue.js
+ES6 출시이후 여러 프레임워크가 등장하였다. Angular, React등.. 둘다 학습곡선이 약간 있는데(Angular는 약간은 아닌듯 ^^;), vue.js의 경우 배우기가 일단 매우 쉽다! 화면제어를 위해서 많이 사용된다.
+vue.js 홈페이지에 들어가면 따라하면서 쉽게 시작해 볼 수 있다.
+- [https://vuejs.org/](https://vuejs.org/)
+- [한글버전 가이드 : https://kr.vuejs.org/v2/guide/index.html](https://kr.vuejs.org/v2/guide/index.html)
 
 
-이책 살꺼야? 안 읽을 꺼 같은데??
-https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=100942112#K452536075_MyReview
+### Typescript
+Microsoft에서 개발한 타입스크립트. JS 가 단순한 기능을 넘어서 서버제어의 영역까지 넘어가면서, 정적 타입 언어가 가지는 안정성이 중시되었다. 이 부분을 보완해 줄 수 있는 것이 Typescript의 장점이라고 생각되어진다. 
+- [https://www.typescriptlang.org/](https://www.typescriptlang.org/)
+- [Typescript 나무위키](https://namu.wiki/w/TypeScript)
+- ['타입스크립트, 써야할까? - HyunSeob'](https://hyunseob.github.io/2018/08/12/do-you-need-to-use-ts/)
+- ['TypeScript 하기 전에 이정도는 알아야지! - dongwon kim' : 타입스크립트의 장점을 잘 설명해 놓은글](https://medium.com/@ehddnjs8989/typescript-%ED%95%98%EA%B8%B0-%EC%A0%84%EC%97%90-%EC%9D%B4%EC%A0%95%EB%8F%84%EB%8A%94-%EC%95%8C%EC%95%84%EC%95%BC%EC%A7%80-5179d8269193)
 
 
-
-2020과 2016을 같이 보는 것도 의미가 있을듯.
-
-
-
-#### Vue.js
-
-어떤 분이 연속으로 써 놓으신 글
-https://k39335.tistory.com/60
-
-
-#### Typescript
-https://hyunseob.github.io/2018/08/12/do-you-need-to-use-ts/
-
-MPA
-Multi Page Application(MPA) 
-
-SPA
-Single Page Application(SPA)
-
-
-정적 타이핑과 안정성 문제
-
-type script를 한눈에 볼 수 있는 글
-https://namu.wiki/w/TypeScript
-
-
-
-
-
-
-
-### 나중에 포스팅하고 싶은 내용들
-- vue.js / Typescript
-- React.js / Angular
-- Dependency Manager (npm / gulp / grunt...)
-- Pre-Processor (sass / less...)
-- Phythone 그리고 Django..
-- Node.js 그리고 Angular..
-
+### 조사하면서 알게된 용어들
+- [WEBASSEMBLY](https://webassembly.org/): WebAssembly (abbreviated Wasm) is a binary instruction format for a stack-based virtual machine. Wasm is designed as a portable compilation target for programming languages, enabling deployment on the web for client and server applications.
+- [크로미움](https://ykarma1996.tistory.com/72)
+- 브라우저 벤더란? 브라우저 벤더란 브라우저를 만들거나 파는 회사들
+- MPA : Multi Page Application(MPA)
+- SPA : Single Page Application(SPA)
 

@@ -4,7 +4,7 @@ menu: speach
 big_group: Myblog
 small_group: IT 기술
 background: map.jpg
-title:  "2020 10 3주차 trend search"
+title:  "<b>[trend search]</b> 한 주간 개발과 관련된 내용을 모아서 정리해보자"
 subtitle: "dependency-manager, preprocessors, phython"
 date_start: 2020-10-18
 date_end: 2020-10-24

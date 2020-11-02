@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://gelato7673.github.io/myblog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://gelato7673.github.io/myblog/" rel="alternate" type="text/html" /><updated>2020-11-02T15:50:26+09:00</updated><id>https://gelato7673.github.io/myblog/feed.xml</id><entry><title type="html">[trend search]2020 10 5주차</title><link href="https://gelato7673.github.io/myblog/2020/10/31/check-trend.html" rel="alternate" type="text/html" title="[trend search]2020 10 5주차" /><published>2020-10-31T00:00:00+09:00</published><updated>2020-10-31T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2020/10/31/check-trend</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2020/10/31/check-trend.html">&lt;h3 id=&quot;javascript-vuejs-typescript&quot;&gt;Javascript, Vue.js, Typescript&lt;/h3&gt;
+&lt;p&gt;Front-end에서 중요한 기술들 3가지에 대해 이것저것 찾아보는 시간을 가졌다.
+첫 술에 배부를 생각 말고, 앞으로도 열심히 찾아보고 읽어봐야지..라는 생각을 하면서. ^^;;
+이것저것 알아본 내용들을 정리해 본다.&lt;/p&gt;
+
+&lt;h3 id=&quot;javascriptes6와-이후의-발전동향&quot;&gt;Javascript(ES6)와 이후의 발전동향&lt;/h3&gt;
+
+&lt;h4 id=&quot;es6란&quot;&gt;ES6란?&lt;/h4&gt;
+&lt;p&gt;ES6는 ECMA Script 6의 줄임말로, 다른이름으로 ECMA Script 2015라는 이름이 있다. 따라서, 2015년에 나왔다.
+ES5와 ES6사이에는 꽤 긴 공백이 있었고, ES6가 처음나왔을때 많은 브라우저에서 그 스펙을 뒷받침해 주지 못했다.
+그러나, 이후에 개발된 다양한 프레임워크에서 ES6를 채택하였고, 브라우저의 지원율 또한 늘어났다.
+그럼, ES6는 무엇이 다를까?&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://es6-features.org/#Constants&quot;&gt;ES6-Features.org 개인적으로 추천! 달라진 코드를 한눈에 비교할 수 있다.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/lukehoban/es6features&quot;&gt;ES6-Features.org : github repository&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.ecma-international.org/ecma-262/6.0/&quot;&gt;ECMAScript official website&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.slideshare.net/mixed/ecmascript2015&quot;&gt;W3C HTML5 Korean Interest Group 에서 진행한 W3C HTML5 KIG 회의 발표자료&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;es6까지의-발전을-기록한-글&quot;&gt;ES6까지의 발전을 기록한 글.&lt;/h4&gt;
+&lt;p&gt;Naver D2를 보다가 “ECMAScript 6 에디터이기도 했던 Allen Wirfs-Brock과 Brendan Eich는 매우 간헐적(13~15년 주기)으로 열리는 The History of Programming Languages Conference에서 지난 20년(1995~2015)간의 JavaScript 역사를 다룬 190페이지 분량의 방대한 내용의 문서 JavaScript: the first 20 years를 3년의 작업 시간을 거쳐 완성 후 공개했습니다” 라는 내용을 발견하여서 관련 링크를 따라가 글을 읽어보았다. 이번엔 대강 읽어서 딱히 정리까진 어렵겠지만, 정독해 볼만한 가치가 있는 글 이었다.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;링크: &lt;a href=&quot;https://dl.acm.org/doi/abs/10.1145/3386327&quot;&gt;JavaScript: the first 20 years - Allen Wirfs-Brock, Brendan Eich&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;es6이후의-발전을-기록한-글&quot;&gt;ES6이후의 발전을 기록한 글.&lt;/h4&gt;
+&lt;p&gt;이번에 Javascript에 관한 글을 찾아보면서 Naver D2의 ‘Javascript 동향’관련 글들에서 배울 수 있는 점이 참 많았다.
+특히, ‘2020년과 이후 JavaScript의 동향’ 편에서 WEBASSEMBLY의 개념이 잘 정리되어있는데, 많은 도움이 되었다. 이후에 찬찬히 읽어보고 좋은 내용들은 따로 리뷰해야겠다.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://d2.naver.com/helloworld/4268738&quot;&gt;2020년과 이후 Javascript의 동향&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://d2.naver.com/helloworld/3618177&quot;&gt;2016년과 이후 Javascript의 동향&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;vuejs&quot;&gt;Vue.js&lt;/h3&gt;
+&lt;p&gt;ES6 출시이후 여러 프레임워크가 등장하였다. Angular, React등.. 둘다 학습곡선이 약간 있는데(Angular는 약간은 아닌듯 ^^;), vue.js의 경우 배우기가 일단 매우 쉽다! 화면제어를 위해서 많이 사용된다.
+vue.js 홈페이지에 들어가면 따라하면서 쉽게 시작해 볼 수 있다.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://vuejs.org/&quot;&gt;https://vuejs.org/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://kr.vuejs.org/v2/guide/index.html&quot;&gt;한글버전 가이드 : https://kr.vuejs.org/v2/guide/index.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;typescript&quot;&gt;Typescript&lt;/h3&gt;
+&lt;p&gt;Microsoft에서 개발한 타입스크립트. JS 가 단순한 기능을 넘어서 서버제어의 영역까지 넘어가면서, 정적 타입 언어가 가지는 안정성이 중시되었다. 이 부분을 보완해 줄 수 있는 것이 Typescript의 장점이라고 생각되어진다.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.typescriptlang.org/&quot;&gt;https://www.typescriptlang.org/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://namu.wiki/w/TypeScript&quot;&gt;Typescript 나무위키&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hyunseob.github.io/2018/08/12/do-you-need-to-use-ts/&quot;&gt;‘타입스크립트, 써야할까? - HyunSeob’&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@ehddnjs8989/typescript-%ED%95%98%EA%B8%B0-%EC%A0%84%EC%97%90-%EC%9D%B4%EC%A0%95%EB%8F%84%EB%8A%94-%EC%95%8C%EC%95%84%EC%95%BC%EC%A7%80-5179d8269193&quot;&gt;‘TypeScript 하기 전에 이정도는 알아야지! - dongwon kim’ : 타입스크립트의 장점을 잘 설명해 놓은글&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;조사하면서-알게된-용어들&quot;&gt;조사하면서 알게된 용어들&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://webassembly.org/&quot;&gt;WEBASSEMBLY&lt;/a&gt;: WebAssembly (abbreviated Wasm) is a binary instruction format for a stack-based virtual machine. Wasm is designed as a portable compilation target for programming languages, enabling deployment on the web for client and server applications.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ykarma1996.tistory.com/72&quot;&gt;크로미움&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;브라우저 벤더란? 브라우저 벤더란 브라우저를 만들거나 파는 회사들&lt;/li&gt;
+  &lt;li&gt;MPA : Multi Page Application(MPA)&lt;/li&gt;
+  &lt;li&gt;SPA : Single Page Application(SPA)&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="githubpage" /><summary type="html">Javascript, Vue.js, Typescript Front-end에서 중요한 기술들 3가지에 대해 이것저것 찾아보는 시간을 가졌다. 첫 술에 배부를 생각 말고, 앞으로도 열심히 찾아보고 읽어봐야지..라는 생각을 하면서. ^^;; 이것저것 알아본 내용들을 정리해 본다.</summary></entry><entry><title type="html">[book] Doit! 지옥에서 온 문서 관리자 깃&amp;amp;깃허브 입문</title><link href="https://gelato7673.github.io/myblog/2020/10/27/check-book-github.html" rel="alternate" type="text/html" title="[book] Doit! 지옥에서 온 문서 관리자 깃&amp;amp;깃허브 입문" /><published>2020-10-27T00:00:00+09:00</published><updated>2020-10-27T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2020/10/27/check-book-github</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2020/10/27/check-book-github.html">&lt;h3 id=&quot;책소개&quot;&gt;책소개&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;책 제목 : Doit! 지옥에서 온 문서 관리자 깃&amp;amp;깃허브 입문&lt;/li&gt;
+  &lt;li&gt;지은이 : 이고잉, 고경희&lt;/li&gt;
+  &lt;li&gt;출판사 : 이지스퍼블리싱&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;git과 github에 관한 내용을 전혀 모르는 것은 아니었다. 이전에 프로젝트도 해 본적이 있고 해서..
+그렇지만, 시간이 흐르고.. ^^; 이전회사에서는 svn을 더 선호하는 경향이 있어서 개인 프로젝트가 아니면 git을 쓸 일이 많이 없었던 것 같다. 그러다 보니까 가물가물 한 것 같길래, 간단히 쓱 리뷰할 수 있는 책을 한권 구입하고 싶다는 생각이 들었다. 
+그러니까, 약간 쿡북같은. 간단히 쓱 리뷰하고, 생각 안날때 찾아볼수 있고, 옆에 놓아둘 수 있는. 
+그렇지만 중요한 원리는 잘 설명되어 있길 바라는..(바라는것도 많다.) 뭐 그런 책을 찾고 있었다.&lt;/p&gt;
+
+&lt;p&gt;마침, 그 당시에 생활코딩을 통해서 ‘웹 어플리케이션 만들기’ 프로젝트를 진행하고 있었는데, (사실 이 프로젝트를 진행하면서 역시 개인프로젝트는 뭔가 기록하면서 해야해!! 전에 git을 썼었는데, 기억이 가물가물하네 ㅜㅜ 다시 써봐야겠다!! 이렇게 된것임..tmi) 이 고잉 님의 강의가 만드는 것 자체는 심플하면서(기초에 충실하면서), 중요한 원리는 시간을 들여서 설명해 주는 그런 강의였다. 덕분에, front-end 부분과 back-end부분이 한번에 정리되는 느낌을 이 프로젝트를 통해서 받을 수 있었기  때문에, git강의도 관심이 생긴 찰나였다.&lt;/p&gt;
+
+&lt;p&gt;그런데, 이미 아는 내용이기도 하고.. 강의를 천천히 다 듣고 있기에는 스킵할 부분이 많은것 같고, (원래 전자책 보다 종이 책을 선호하기도 하고), 생활코딩을 늘 잘 사용하니까 후원(?)의 의미도 담아 ㅋㅋㅋ.. 그래서 이 책을 구입하게 된 것이다.&lt;/p&gt;
+
+&lt;p&gt;만약, 책을 사기보다 강의를 선호하는 분이라면 아래 링크에서 바로 생활코딩의 git강의를 들을 수 있다.&lt;br /&gt;
+⇒ &lt;a href=&quot;https://opentutorials.org/course/3837&quot;&gt;생활코딩 git강의들으러 바로가기&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;따라 하면서 이해도 잘되고, 지금도 까먹으면 옆에두고 볼 수 있는 책 ^^!
+덕분에 공부 잘했습니다~ !&lt;/p&gt;</content><author><name></name></author><category term="git," /><category term="github" /><summary type="html">책소개 책 제목 : Doit! 지옥에서 온 문서 관리자 깃&amp;amp;깃허브 입문 지은이 : 이고잉, 고경희 출판사 : 이지스퍼블리싱</summary></entry><entry><title type="html">[trend search] 한 주간 개발과 관련된 내용을 모아서 정리해보자</title><link href="https://gelato7673.github.io/myblog/2020/10/27/check-trend.html" rel="alternate" type="text/html" title="[trend search] 한 주간 개발과 관련된 내용을 모아서 정리해보자" /><published>2020-10-27T00:00:00+09:00</published><updated>2020-10-27T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2020/10/27/check-trend</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2020/10/27/check-trend.html">&lt;h3 id=&quot;trend-search&quot;&gt;Trend search?!&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;한 주 동안 개발과 관련되서 ‘search’했던 내용들 중에, 나중에도 읽어보면 좋을 것 같은 내용들을 잘 정리해 두어야지.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;이런 마음으로 시작하게 된 게시물 이다. 이름은 거창하지만, 굳이말하자면 한주간의 주제별 스크랩 자료랄까.&lt;/p&gt;
+
+&lt;p&gt;trend라는 말이 들어간건, 그래도 웹 개발의 빠른 흐름을 놓치면 안되겠다는 생각에, 현재 웹trend를 반영하는 스크랩 자료들도 꼭 넣고 싶다는 하나의 바램이랄까. ^^;;&lt;/p&gt;
+
+&lt;p&gt;그런데, 실제로는 trend를  좇기보다는 그때그때 내가 필요한 것들, 내가 알아봐야 하는 것들을 중심으로 스크랩 될 것 같다.&lt;/p&gt;
+
+&lt;p&gt;하지만, 그때로써는 가장 최신의 내용을 스크랩 할 것이고, 매주 그렇게 알아보다보면 나름대로 새로운 trend에 관해 캐치 될 테니까 매주 이 렇게 정리하는 일 자체가 나름대로 trend를 좇는 방법이지 않을까 하고 위안삼아 본다.&lt;/p&gt;
+
+&lt;p&gt;일단, 이번페이지에서는 ‘트렌드’를 위주로 살펴볼 수 있는 사이트 들을 정리해두고, 이 부분은 추후에도 계속 추가해 나가야 할 것 같다. (즐겨 찾기 목록은 늘 바뀌니까 ^^;;) 한주간 주간 스크랩은 다음글에서 따로 올리기로~&lt;/p&gt;
+
+&lt;h3 id=&quot;웹-트렌드-어디에서-알아볼까&quot;&gt;웹 트렌드. 어디에서 알아볼까?&lt;/h3&gt;
+
+&lt;h4 id=&quot;youtube&quot;&gt;Youtube&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;dl&gt;
+      &lt;dt&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCUpJs89fSBXNolQGOYKn0YQ&quot;&gt;Nomad coder&lt;/a&gt;&lt;/dt&gt;
+      &lt;dd&gt;웹 트렌드에 관한 게시물들이 꽤 올라오는데, 인상적인 것들이 있었다. 
+만약, 강의가 듣고 싶다면 Nomad coder 홈페이지로 이동해서 들을 수 있다. 무료강의도 간혹 있고, 무엇보다 challenge코스가 있으니 참고하시길.&lt;/dd&gt;
+    &lt;/dl&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;dl&gt;
+      &lt;dt&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCQ2DWm5Md16Dc3xRwwhVE7Q&quot;&gt;EO&lt;/a&gt;&lt;/dt&gt;
+      &lt;dd&gt;Enterpreneurship &amp;amp; Opportunities 라는 이름의 채널, 스타트업이나 새로운 사업등에 도전한 사람들의 이야기가 많이 올라오고, 그러다보니 자연스럽게 스타트업에서 일하는 개발자들의 이야기를 들을 수 있다.&lt;/dd&gt;
+    &lt;/dl&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;medium&quot;&gt;Medium&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;dl&gt;
+      &lt;dt&gt;&lt;a href=&quot;https://medium.com/&quot;&gt;Medium&lt;/a&gt;&lt;/dt&gt;
+      &lt;dd&gt;아직 무엇을 딱히 구독해서 읽는 정도는 아니고, 그냥 전반적으로 검색해서 읽는중&lt;/dd&gt;
+    &lt;/dl&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;facebook&quot;&gt;facebook&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.facebook.com&quot;&gt;Facebook&lt;/a&gt;
+:아직 소개할만큼 적극적으로 활동하는 커뮤니티는 없지만, 그래도 전반적으로 읽는듯&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;기술-블로그&quot;&gt;기술 블로그&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;추후 업데이트&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://woowabros.github.io/techcourse/2020/10/06/woowacourse.html&quot;&gt;우아한 형제들&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/daangn&quot;&gt;당근마켓&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://tech.kakao.com/blog/&quot;&gt;kakao tech&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://d2.naver.com/home&quot;&gt;Naver D2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;코딩교육-사이트&quot;&gt;코딩교육 사이트&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;dl&gt;
+      &lt;dt&gt;&lt;a href=&quot;https://opentutorials.org/course/1&quot;&gt;생활코딩&lt;/a&gt;&lt;/dt&gt;
+      &lt;dd&gt;가끔 들여다 보면, 꼭 필요하다고 생각하는 것들의 강의는 꾸준히 업데이트 되는 편.&lt;/dd&gt;
+    &lt;/dl&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="githubpage" /><summary type="html">Trend search?!</summary></entry><entry><title type="html">[clone-coding] 웹 어플리케이션 만들기(구버전) -생활코딩</title><link href="https://gelato7673.github.io/myblog/2020/10/27/check-clone-webapplication.html" rel="alternate" type="text/html" title="[clone-coding] 웹 어플리케이션 만들기(구버전) -생활코딩" /><published>2020-10-27T00:00:00+09:00</published><updated>2020-10-27T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2020/10/27/check-clone-webapplication</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2020/10/27/check-clone-webapplication.html">&lt;p&gt;###&lt;/p&gt;</content><author><name></name></author><category term="webapplication" /><summary type="html">###</summary></entry><entry><title type="html">Check Clone Todolist</title><link href="https://gelato7673.github.io/myblog/2020/10/27/check-clone-todolist.html" rel="alternate" type="text/html" title="Check Clone Todolist" /><published>2020-10-27T00:00:00+09:00</published><updated>2020-10-27T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2020/10/27/check-clone-todolist</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2020/10/27/check-clone-todolist.html"></content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Check Clone Pagenation</title><link href="https://gelato7673.github.io/myblog/2020/10/27/check-clone-pagenation.html" rel="alternate" type="text/html" title="Check Clone Pagenation" /><published>2020-10-27T00:00:00+09:00</published><updated>2020-10-27T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2020/10/27/check-clone-pagenation</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2020/10/27/check-clone-pagenation.html"></content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">CSS</title><link href="https://gelato7673.github.io/myblog/2020/10/24/check-css.html" rel="alternate" type="text/html" title="CSS" /><published>2020-10-24T00:00:00+09:00</published><updated>2020-10-24T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2020/10/24/check-css</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2020/10/24/check-css.html">&lt;h3 id=&quot;css-관련-기술들-정리&quot;&gt;CSS 관련 기술들 정리&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Glossary/CSS_Selector&quot;&gt;인접형제 선택자&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.w3schools.com/cssref/css3_pr_word-break.asp&quot;&gt;word-break&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/:not&quot;&gt;css not 선택자&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ellipsis 처리하기&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;white-space&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;nowrap&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;overflow&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;hidden&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;text-overflow&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ellipsis&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.educative.io/edpresso/how-to-crop-an-image-in-css&quot;&gt;css로 이미지 요소 crop하기&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/filter&quot;&gt;filter css&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;text-decoration-thickness : only working in Firefox&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="githubpage" /><summary type="html">CSS 관련 기술들 정리</summary></entry><entry><title type="html">각종 프로그램 단축키</title><link href="https://gelato7673.github.io/myblog/2020/09/20/check-sublimetext3.html" rel="alternate" type="text/html" title="각종 프로그램 단축키" /><published>2020-09-20T00:00:00+09:00</published><updated>2020-09-20T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2020/09/20/check-sublimetext3</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2020/09/20/check-sublimetext3.html">&lt;h3 id=&quot;sublime-text3&quot;&gt;sublime-text3&lt;/h3&gt;
+
+&lt;p&gt;파일 바로열기 : ctrl+p
+https://zzznara2.tistory.com/276&lt;/p&gt;</content><author><name></name></author><category term="sublimetext3" /><summary type="html">sublime-text3</summary></entry><entry><title type="html">Font-icon</title><link href="https://gelato7673.github.io/myblog/2020/08/29/check-font_icon.html" rel="alternate" type="text/html" title="Font-icon" /><published>2020-08-29T00:00:00+09:00</published><updated>2020-08-29T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2020/08/29/check-font_icon</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2020/08/29/check-font_icon.html">&lt;h3 id=&quot;폰트아이콘-관련-기술들-정리&quot;&gt;폰트아이콘 관련 기술들 정리&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://m.blog.naver.com/PostView.nhn?blogId=reactionweb&amp;amp;logNo=220337009100&amp;amp;proxyReferer=https:%2F%2Fwww.google.com%2F&quot;&gt;폰트 아이콘 모음&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/20782368/use-font-awesome-icon-as-css-content&quot;&gt;presued element로 fontawesome 사용하기&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="githubpage" /><summary type="html">폰트아이콘 관련 기술들 정리</summary></entry><entry><title type="html">[blog]github pages에서 블로그 만들고 관리하기</title><link href="https://gelato7673.github.io/myblog/2020/08/29/check-makingblog.html" rel="alternate" type="text/html" title="[blog]github pages에서 블로그 만들고 관리하기" /><published>2020-08-29T00:00:00+09:00</published><updated>2020-08-29T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2020/08/29/check-makingblog</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2020/08/29/check-makingblog.html">&lt;h3 id=&quot;여기에-기록하려고-하는것은&quot;&gt;여기에 기록하려고 하는것은..&lt;/h3&gt;
+
+&lt;p&gt;일단, 거창한 기록을 하려는 것이 아니다. 그저, 만들때 찾아봤던 사이트들의 링크를 남김으로써, 이후에도 참고 자료로 쓰고 싶을 뿐이다.
+만약, jekyll로 githubpage를 만들고 싶어서 찾아왔다면, 블로그들을 찾아보기보다는 &lt;strong&gt;jekyll의 original document&lt;/strong&gt;를 꼭 참고하라고 이야기 하고 싶다. &lt;br /&gt;
+어떤 개발이든, original document를 보는것은 정말 좋은 습관이고, 특히나 jekyll은 docs가 매우 잘되어있다. 중요한 앞부분의 tutorial은 심지어 마음씨 좋은 분이 한국어로 번역도 해두셔서 읽기가 매우 쉽다.!!&lt;/p&gt;
+
+&lt;h3 id=&quot;중요-참고-사이트들&quot;&gt;중요 참고 사이트들&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jekyllrb-ko.github.io/&quot;&gt;지킬(Jekyll) Docs : https://jekyllrb-ko.github.io/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://shopify.github.io/liquid/&quot;&gt;liquid문법 : https://shopify.github.io/liquid/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://daringfireball.net/projects/markdown/syntax&quot;&gt;markdown문법 : https://daringfireball.net/projects/markdown/syntax&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://thesassway.com/&quot;&gt;sass문법 : http://thesassway.com/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/&quot;&gt;언제나 그렇듯 stackoverflow에 왠만한건 다 있다&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;추후에-구현하고-싶은-내용들&quot;&gt;추후에 구현하고 싶은 내용들&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;지킬에 검색창 달기 &lt;a href=&quot;https://imyeonn.github.io/blog/blog/30/&quot;&gt;https://imyeonn.github.io/blog/blog/30/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;태그모음달기&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;오답노트&quot;&gt;오답노트&lt;/h3&gt;
+
+&lt;h4 id=&quot;github-pages&quot;&gt;github pages&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://dreamgonfly.github.io/blog/jekyll-remote-theme/&quot;&gt;프로젝트 별로 github pages 만들기&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hhj6212.github.io/blog/2020/08/22/Jekyll%EC%97%90%EC%84%9C-%EC%BD%94%EB%93%9C%EB%B8%94%EB%A1%9D-%ED%95%98%EC%9D%B4%EB%9D%BC%EC%9D%B4%ED%8A%B8%ED%95%98%EA%B8%B0.html&quot;&gt;github pages에서 코드 그대로 보이도록 만들기&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;rouge 파일을 이용해서 코드의 syntax highlight 사용하기(https://moon9342.github.io/jekyll-rouge)&lt;/li&gt;
+  &lt;li&gt;rouge 파일을 이용한 코드 추가 예시
+    &lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;sample&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;highlight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+ &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;foo&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;Hello World&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;jekyll&quot;&gt;jekyll&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jekyllrb.com/docs/configuration/front-matter-defaults/&quot;&gt;front-matter&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jekyllrb.com/docs/configuration/front-matter-defaults/&quot;&gt;front-matter default 설정하기&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jekyllrb.com/docs/pagination/&quot;&gt;pagination&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://alanwsmith.com/jekyll-liquid-date-formatting-examples&quot;&gt;data formatting&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/12464656/get-todays-date-in-jekyll-with-liquid-markup&quot;&gt;liquid 문법으로, 현재 데이터 얻는법&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jekyllrb.com/docs/variables/&quot;&gt;variables&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jekyllrb.com/docs/step-by-step/09-collections/&quot;&gt;collection&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/8991995/using-liquid-to-sort-posts-alphabetically&quot;&gt;alphabetically sorting으로 변경&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/48046411/how-to-increment-the-counter-inside-a-liquid-for-loop&quot;&gt;count만들기 : stackoverflow&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gist.github.com/Phlow/1f27dfafdf2bbcc5c48e&quot;&gt;count만들기 : github&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jekyllrb.com/docs/static-files/&quot;&gt;이미지 파일 추가&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://hamishwillee.github.io/2014/11/13/jekyll-includes-are-functions/&quot;&gt;liquid문법의 include를 이용해서, 함수처럼 사용할수 있다고?!&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jekyllrb.com/docs/includes/&quot;&gt;include문법 소개&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/12423658/how-do-i-chain-if-statements-in-jekyll&quot;&gt;깜빡하기 쉬운 liquid문법, elseif가 아니라 elsif다. 헉.&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://jekyllrb.com/docs/plugins/installation/&quot;&gt;jekyll 에 gem 파일 추가하는 법&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;subtitle이 없을 경우에 나오지 않도록 처리 (if문 사용)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+{% if post.subtitle != none %}
+	{{ post.subtitle }}
+{% endif %} 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&quot;markdown&quot;&gt;markdown&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://daringfireball.net/projects/markdown/basics&quot;&gt;daringfireball&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="githubpage" /><summary type="html">여기에 기록하려고 하는것은..</summary></entry></feed>
