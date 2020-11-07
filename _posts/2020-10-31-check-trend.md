@@ -4,7 +4,7 @@ menu: speach
 big_group: Myblog
 small_group: IT 기술
 background: map.jpg
-title: <b>[trend search]</b>2020 10 5주차
+title: <b>[trend search]</b>2020. 10. 5주차
 subtitle: "dependency-manager, preprocessors, phython"
 date_start: 2020-10-23
 date_end: 2020-10-29

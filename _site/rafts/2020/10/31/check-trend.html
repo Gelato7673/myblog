@@ -1,0 +1,223 @@
+<!doctype html>
+<html>
+  <head>
+        <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gelato7673</title>
+
+    <!-- favicon -->
+	<link rel="shortcut icon" type="image/x-icon" href="/myblog/assets/img/favicon/favicon.png" />
+	
+	<!-- css vendor -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Poor+Story&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="/myblog/assets/css/syntax.css">
+
+    <!-- sass style -->
+    <link rel="stylesheet" href="/myblog/assets/css/styles.css">
+  </head>
+  <body class="blog-page">
+
+    
+		<section class="page-title">
+      <p class="img-area">
+        <img src="/myblog/assets/img/map.jpg" alt="">
+      </p>
+      
+
+      <div class="inner-wrap">
+        <p class="main-title">
+          <b>[trend search]</b>2020 10 5주차
+        </p>
+        <p class="sub-title">
+          dependency-manager, preprocessors, phython
+        </p>
+
+        <ul class="page-info">
+          <li class="writer">Gelato</li>
+          <li class="date">Aug 8. 2020</li>
+        </ul>
+      </div>
+
+    </section>
+
+    <article class="page-contents Myblog">
+      <div class="inner-wrap">
+        <h3 id="javascript-vuejs-typescript">Javascript, Vue.js, Typescript</h3>
+<p>Front-end에서 중요한 기술들 3가지에 대해 이것저것 찾아보는 시간을 가졌다.
+첫 술에 배부를 생각 말고, 앞으로도 열심히 찾아보고 읽어봐야지..라는 생각을 하면서. ^^;;
+이것저것 알아본 내용들을 정리해 본다.</p>
+
+<h3 id="javascriptes6와-이후의-발전동향">Javascript(ES6)와 이후의 발전동향</h3>
+
+<h4 id="es6란">ES6란?</h4>
+<p>ES6는 ECMA Script 6의 줄임말로, 다른이름으로 ECMA Script 2015라는 이름이 있다. 따라서, 2015년에 나왔다.
+ES5와 ES6사이에는 꽤 긴 공백이 있었고, ES6가 처음나왔을때 많은 브라우저에서 그 스펙을 뒷받침해 주지 못했다.
+그러나, 이후에 개발된 다양한 프레임워크에서 ES6를 채택하였고, 브라우저의 지원율 또한 늘어났다.
+그럼, ES6는 무엇이 다를까?</p>
+<ul>
+  <li><a href="http://es6-features.org/#Constants">ES6-Features.org 개인적으로 추천! 달라진 코드를 한눈에 비교할 수 있다.</a></li>
+  <li><a href="https://github.com/lukehoban/es6features">ES6-Features.org : github repository</a></li>
+  <li><a href="http://www.ecma-international.org/ecma-262/6.0/">ECMAScript official website</a></li>
+  <li><a href="https://www.slideshare.net/mixed/ecmascript2015">W3C HTML5 Korean Interest Group 에서 진행한 W3C HTML5 KIG 회의 발표자료</a></li>
+</ul>
+
+<h4 id="es6까지의-발전을-기록한-글">ES6까지의 발전을 기록한 글.</h4>
+<p>Naver D2를 보다가 “ECMAScript 6 에디터이기도 했던 Allen Wirfs-Brock과 Brendan Eich는 매우 간헐적(13~15년 주기)으로 열리는 The History of Programming Languages Conference에서 지난 20년(1995~2015)간의 JavaScript 역사를 다룬 190페이지 분량의 방대한 내용의 문서 JavaScript: the first 20 years를 3년의 작업 시간을 거쳐 완성 후 공개했습니다” 라는 내용을 발견하여서 관련 링크를 따라가 글을 읽어보았다. 이번엔 대강 읽어서 딱히 정리까진 어렵겠지만, 정독해 볼만한 가치가 있는 글 이었다.</p>
+<ul>
+  <li>링크: <a href="https://dl.acm.org/doi/abs/10.1145/3386327">JavaScript: the first 20 years - Allen Wirfs-Brock, Brendan Eich</a></li>
+</ul>
+
+<h4 id="es6이후의-발전을-기록한-글">ES6이후의 발전을 기록한 글.</h4>
+<p>이번에 Javascript에 관한 글을 찾아보면서 Naver D2의 ‘Javascript 동향’관련 글들에서 배울 수 있는 점이 참 많았다.
+특히, ‘2020년과 이후 JavaScript의 동향’ 편에서 WEBASSEMBLY의 개념이 잘 정리되어있는데, 많은 도움이 되었다. 이후에 찬찬히 읽어보고 좋은 내용들은 따로 리뷰해야겠다.</p>
+<ul>
+  <li><a href="https://d2.naver.com/helloworld/4268738">2020년과 이후 Javascript의 동향</a></li>
+  <li><a href="https://d2.naver.com/helloworld/3618177">2016년과 이후 Javascript의 동향</a></li>
+</ul>
+
+<h3 id="vuejs">Vue.js</h3>
+<p>ES6 출시이후 여러 프레임워크가 등장하였다. Angular, React등.. 둘다 학습곡선이 약간 있는데(Angular는 약간은 아닌듯 ^^;), vue.js의 경우 배우기가 일단 매우 쉽다! 화면제어를 위해서 많이 사용된다.
+vue.js 홈페이지에 들어가면 따라하면서 쉽게 시작해 볼 수 있다.</p>
+<ul>
+  <li><a href="https://vuejs.org/">https://vuejs.org/</a></li>
+  <li><a href="https://kr.vuejs.org/v2/guide/index.html">한글버전 가이드 : https://kr.vuejs.org/v2/guide/index.html</a></li>
+</ul>
+
+<h3 id="typescript">Typescript</h3>
+<p>Microsoft에서 개발한 타입스크립트. JS 가 단순한 기능을 넘어서 서버제어의 영역까지 넘어가면서, 정적 타입 언어가 가지는 안정성이 중시되었다. 이 부분을 보완해 줄 수 있는 것이 Typescript의 장점이라고 생각되어진다.</p>
+<ul>
+  <li><a href="https://www.typescriptlang.org/">https://www.typescriptlang.org/</a></li>
+  <li><a href="https://namu.wiki/w/TypeScript">Typescript 나무위키</a></li>
+  <li><a href="https://hyunseob.github.io/2018/08/12/do-you-need-to-use-ts/">‘타입스크립트, 써야할까? - HyunSeob’</a></li>
+  <li><a href="https://medium.com/@ehddnjs8989/typescript-%ED%95%98%EA%B8%B0-%EC%A0%84%EC%97%90-%EC%9D%B4%EC%A0%95%EB%8F%84%EB%8A%94-%EC%95%8C%EC%95%84%EC%95%BC%EC%A7%80-5179d8269193">‘TypeScript 하기 전에 이정도는 알아야지! - dongwon kim’ : 타입스크립트의 장점을 잘 설명해 놓은글</a></li>
+</ul>
+
+<h3 id="조사하면서-알게된-용어들">조사하면서 알게된 용어들</h3>
+<ul>
+  <li><a href="https://webassembly.org/">WEBASSEMBLY</a>: WebAssembly (abbreviated Wasm) is a binary instruction format for a stack-based virtual machine. Wasm is designed as a portable compilation target for programming languages, enabling deployment on the web for client and server applications.</li>
+  <li><a href="https://ykarma1996.tistory.com/72">크로미움</a></li>
+  <li>브라우저 벤더란? 브라우저 벤더란 브라우저를 만들거나 파는 회사들</li>
+  <li>MPA : Multi Page Application(MPA)</li>
+  <li>SPA : Single Page Application(SPA)</li>
+</ul>
+
+
+
+        
+          <ul class="tags">
+            
+              <li>githubpage</li>
+            
+          </ul>
+        
+
+        <!-- disque:s -->
+        
+          <div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+
+var disqus_config = function () {
+this.page.url = 'https://gelato7673.github.io/myblog/2020/10/31/check-trend.html';  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = 'https://gelato7673.github.io/myblog/2020/10/31/check-trend.html'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://gelato7673.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        
+        <!-- disque:e -->
+      </div>
+    </article>
+
+
+
+
+
+    <!-- footer:s -->
+    <div class="footer">
+
+      <div class="inner-wrap">
+
+        <div class="other-pages">
+          <!-- list-area:s -->
+          <div class="list-area">
+            
+            
+            
+
+              <div class="title-area-wrap">
+                <ul class="title-area">
+                  <li class="section">Myblog</li>
+                  <li class="main-title"><a href="/myblog/speach">IT 기술</a></li>
+                </ul>
+                
+                <span class="bar" id="left-bar"><ion-icon name="chevron-back-outline"></ion-icon></span></li>
+                
+                <ul class="count count_1">
+                  <li class="now">1</li>
+                  <li class="total">1</li>
+                </ul>
+                
+                <span class="bar" id="right-bar"><ion-icon name="chevron-forward-outline"></ion-icon></span>
+
+              </div>
+
+              
+                <ul class="list list_1">
+                
+  
+  
+  
+    <!-- list:s -->
+
+  
+  <li>
+    <a class="title" href="/myblog/2020/10/31/check-trend.html"><b>[trend search]</b>2020 10 5주차</a>
+  </li>
+  
+  <li>
+    <a class="title" href="/myblog/2020/10/27/check-trend.html"><b>[trend search]</b> 한 주간 개발과 관련된 내용을 모아서 정리해보자</a>
+  </li>
+  
+  <li>
+    <a class="title" href="/myblog/2020/10/27/check-book-github.html"><b>[book]</b> Doit! 지옥에서 온 문서 관리자 깃&깃허브 입문</a>
+  </li>
+  
+  <li>
+    <a class="title" href="/myblog/2020/10/27/check-clone-webapplication.html"><b>[clone-coding]</b> 웹 어플리케이션 만들기(구버전) -생활코딩</a>
+  </li>
+  
+    
+  <!-- list:e -->
+
+                </ul>
+              
+          </div>
+          <!-- list-area:e -->
+
+          <!-- cover-area:s -->
+          <div class="cover-area"style="background:url(/myblog/assets/img/speach.jpg) no-repeat;background-size: cover;">
+            <p class="title">IT 기술</p>
+            <p class="writer">by. Gelato</p>
+          </div>
+          <!-- cover-area:e -->
+        </div>
+      
+      </div>
+    </div>
+    <!-- footer:e -->
+    <script id="dsq-count-scr" src="//gelato7673.disqus.com/count.js" async></script>
+    <script src="/myblog/assets/js/page.js"></script>
+  </body>
+</html>
