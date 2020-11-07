@@ -8,7 +8,7 @@ title: <b>[trend search]</b>2020. 11. 5주차
 subtitle: "community"
 date_start: 2020-11-01
 date_end: 2020-11-07
-tags: community, reddit, stack-overflow
+tags: community reddit stack-overflow
 comments: true
 ---
 
