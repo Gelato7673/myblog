@@ -1,4 +1,66 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://gelato7673.github.io/myblog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://gelato7673.github.io/myblog/" rel="alternate" type="text/html" /><updated>2020-11-07T22:30:06+09:00</updated><id>https://gelato7673.github.io/myblog/feed.xml</id><entry><title type="html">Doit Javascript</title><link href="https://gelato7673.github.io/myblog/2020/11/07/doit-javascript.html" rel="alternate" type="text/html" title="Doit Javascript" /><published>2020-11-07T00:00:00+09:00</published><updated>2020-11-07T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2020/11/07/doit-javascript</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2020/11/07/doit-javascript.html"></content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">[trend search]2020. 11. 5주차</title><link href="https://gelato7673.github.io/myblog/2020/11/07/trend.html" rel="alternate" type="text/html" title="[trend search]2020. 11. 5주차" /><published>2020-11-07T00:00:00+09:00</published><updated>2020-11-07T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2020/11/07/trend</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2020/11/07/trend.html">&lt;h3 id=&quot;reddit-stack-overflow-facebook-okky&quot;&gt;reddit, stack-overflow, facebook, okky&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://gelato7673.github.io/myblog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://gelato7673.github.io/myblog/" rel="alternate" type="text/html" /><updated>2020-11-11T14:37:41+09:00</updated><id>https://gelato7673.github.io/myblog/feed.xml</id><entry><title type="html">[trend search] 한 주간 개발과 관련된 내용을 모아서 정리해보자</title><link href="https://gelato7673.github.io/myblog/2020/11/10/trend.html" rel="alternate" type="text/html" title="[trend search] 한 주간 개발과 관련된 내용을 모아서 정리해보자" /><published>2020-11-10T00:00:00+09:00</published><updated>2020-11-10T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2020/11/10/trend</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2020/11/10/trend.html">&lt;h3 id=&quot;기억에-남는-youtube-or-posting&quot;&gt;기억에 남는 youtube or posting&lt;/h3&gt;
+&lt;h4 id=&quot;goodbye-j-query&quot;&gt;goodbye j-Query&lt;/h4&gt;
+&lt;p&gt;처음 퍼블리싱을 배울 때만해도, j-Query가 괜찮았었는데 ㅎㅎ 어느덧 뒤안길로 밀려나고 있다는 사실이 약간 씁쓸하기도 하고, 기술이란 이런건가 싶기도 하고. 그런 심경이 들었다. 어쩄든 한 동안은 잘썼고, 이래저래 편리한 점이 많기도 하지만. j-query만 쓰게되면 javascript 공부를 소홀히 하게 될 수도 있다는 점에 동감한다. 정말이지 계속 성장하는 개발자가 된다는 것은 힘들다는 생각 등을 하면서..&lt;/p&gt;
+
+&lt;h4 id=&quot;nlp-자연어-처리&quot;&gt;NLP 자연어 처리&lt;/h4&gt;
+&lt;p&gt;나는 자연어 처리와 검색시스템에 전부터 관심을 가지고 있었다. 그냥, 늘 관심이 있다. 일단 내 현업에서 써야 하는걸 배우느 라고 자꾸만 뒤로 밀려나는 기분이 들어서 좀 그렇지만. 어쟀든 관심은 있으니까 늘 리스트에는 올라와 있는 그런 기분이다. 
+간단히 php로 해서 NLP API를 만드는 그런 과정 이었는데, 꽤나 흥미로웠다.&lt;/p&gt;</content><author><name></name></author><category term="githubpage" /><summary type="html">기억에 남는 youtube or posting goodbye j-Query 처음 퍼블리싱을 배울 때만해도, j-Query가 괜찮았었는데 ㅎㅎ 어느덧 뒤안길로 밀려나고 있다는 사실이 약간 씁쓸하기도 하고, 기술이란 이런건가 싶기도 하고. 그런 심경이 들었다. 어쩄든 한 동안은 잘썼고, 이래저래 편리한 점이 많기도 하지만. j-query만 쓰게되면 javascript 공부를 소홀히 하게 될 수도 있다는 점에 동감한다. 정말이지 계속 성장하는 개발자가 된다는 것은 힘들다는 생각 등을 하면서..</summary></entry><entry><title type="html">[book] Doit! 웹 프로그래밍을 위한 자바스크립트 기본편</title><link href="https://gelato7673.github.io/myblog/2020/11/07/check-book-doitjavascript.html" rel="alternate" type="text/html" title="[book] Doit! 웹 프로그래밍을 위한 자바스크립트 기본편" /><published>2020-11-07T00:00:00+09:00</published><updated>2020-11-07T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2020/11/07/check-book-doitjavascript</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2020/11/07/check-book-doitjavascript.html">&lt;h3 id=&quot;책소개&quot;&gt;책소개&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;책 제목 : Doit! 웹 프로그래밍을 위한 자바스크립트 기본편&lt;/li&gt;
+  &lt;li&gt;지은이 : 고경희&lt;/li&gt;
+  &lt;li&gt;출판사 : 이지스퍼블리싱&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Javascript API를 사용하거나, 홈페이지 속 Componenet를 만들어 본 경험도 많이 있지만, 그래도 한번쯤 Javascript를 다시 한번 정리해 보고 싶었던 것 같다. 과거에 Javascript와 관련해서 head first 책이나, 다른 책들도 읽어본 적이 있었는데 그 당시에는 언어에 관련된 설명 (변수 설정하는법, if문 등등..) 이 주된 내용이어서, 그보다는 좀더 실무적인 내용이 많았으면 좋겠다고 생각 했었는데, 이 책은 가볍게 이론도 정리해 주면서 실무에서 많이 쓰이는 용법과 내용도 함께 담고 있어서, 한번쯤 그동안 썼던 Javascript를 정리하기에 좋은 기회가 되었다.&lt;/p&gt;
+
+&lt;p&gt;처음 책을 사서 펼쳤을때, ES5로 설명되어있다고 해서 조금.. 내가 원한것과는 다른데? 라고 생각했었다. (나는 ES6로 자바스크립트를 다시 한번 정리하고 싶은 마음이 컸기에 최근 출간된 책을 다시 산건데..) 그러나, 중요 개념을 설명한 다음에 밑에 ES6로 변경하여 구현할때의 문법을 함께 정리해 주어서 읽고나서는 만족스러웠던 책이었다.&lt;/p&gt;
+
+&lt;p&gt;특히, 이 책은 실제로 홈페이지 제작시에 자주 사용되는 component들을 실습 과제로 설정해 두고, 설명해 주는 부분이 많아서 이 책으로 입문하신다면 실무에서 매우 유용하리라는 생각이 들었다. 
+사실, 만들어 보는 것만큼 유용한 것이 어디있으랴. 그런 부분에서 실습과제와 설명의 양의 배치가 적절하다는 느낌(!) 이었던 것 같다. ^^&lt;/p&gt;
+
+&lt;p&gt;이 책의 장점을 한번에 요약하면 다음과 같다.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;이론을 간편하게 정리할 수 있다. (350페이지 미만)&lt;/li&gt;
+  &lt;li&gt;ES5로 쓰여졌으나, 중요한 ES6문법은 함께 정리해 준다.&lt;/li&gt;
+  &lt;li&gt;기본적인 내용만 있지않고, 실무에서 많이 쓰이는 event나 form, Dom, BOM에 관한 내용도 반 정도 차지하고 있다는 점이 특히 좋았다.&lt;/li&gt;
+  &lt;li&gt;실제로 component를 만드는 실습과제가 많이 있어서 좋다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;이벤트-캡처링과-버블링&quot;&gt;이벤트 캡처링과 버블링&lt;/h4&gt;
+
+&lt;p&gt;addEventListenr 함수에 관해 설명하면서, 이벤트 캡처링 여부를 지정할 수 있다고 나와있다. 
+책에는 간단히 이벤트 캡처링은 ‘부모 노드에서 자식 노드로 이벤트가 전달되는 것’ 이고,
+이벤트 버블링은 ‘자식 노드에서 부모 노드로 이벤트가 전달되는 것’이라고 설명되어있다. Javascript에서 뭔가 잘 안된다면 callback 과 이벤트일 확률이 꽤 있었기에, 여기에 좀 더 자세한 글들을 링크해 두고 싶다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ko.javascript.info/bubbling-and-capturing&quot;&gt;‘JAVASCRIPT.INFO 사이트의 버블링과 캡처링’&lt;/a&gt; 이라는 글이다.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://joshua1988.github.io/web-development/javascript/event-propagation-delegation/&quot;&gt;‘CAPTAIN PANGYO 님의 이벤트관련 글’&lt;/a&gt; 이 블로그는 우연히 찾게 되었는데, 지금 보니까 이 다음에 읽으려고 하는 Do it Vue.js 저자 이신듯. 블로그가 상당히 깔끔하다는 느낌을 받을 수 있다.&lt;/li&gt;
+  &lt;li&gt;이렇게 문득 event에 대해서 알아보다가 불현듯 기억난 이전 코드 ㅎㅎ&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;click&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;preventDefault&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;j-query로 이 코드 안써본 사람 없을 것 같았다. ㅎㅎ 여기서 e가 무슨 의미가 있는지 궁금했었는데, 그냥 매개변수 였다. 나 말고도 이거에 대해 궁금해 하는 사람이 많은 것 같다. 질문과 답변 링크가 있길래 걸어둔다.
+&lt;a href=&quot;https://qastack.kr/programming/10323392/in-javascript-jquery-what-does-e-mean&quot;&gt;qstack 사이트에서 ‘Javascript / jQuery에서 (e)는 무엇을 의미합니까?’ 라는 글&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;visual-studio-code&quot;&gt;visual studio code&lt;/h4&gt;
+&lt;p&gt;이번에 사용한 IDE는 visual studio code 이다. visual studio code가 나온지는 꽤 되었는데, 이전에 한번 사용해 보고 오랜만에 다시 다운받아서 사용해 본 것 같다. UI/UX 의 느낌은 여전히 visual studio 다웠고 ^^ㅋㅋ (아마, 뭔가 딱딱한듯, 섬세한 그 visual studio만의 감성적인 감성..Microsoft감성인가.. 나만 느끼나..) 음. 편리하기도 했고, 무엇보다 visual studio 처럼 보이지만 라이트 하다는 것이 가장 큰 장점이 아닌가 싶다. ^^&lt;/p&gt;
+
+&lt;h4 id=&quot;github-repository&quot;&gt;github repository&lt;/h4&gt;
+&lt;p&gt;이 책의 실습파일들은 모두 github repository에 올라가 있어서 clone하여 사용 하면 된다.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;original repository : &lt;a href=&quot;github.com/funnycom/js-basic-book&quot;&gt;github.com/funnycom/js-basic-book&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;mygithub repository : &lt;a href=&quot;https://github.com/Gelato7673/js-basic-book&quot;&gt;https://github.com/Gelato7673/js-basic-book&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;기억에-남는-한줄&quot;&gt;기억에 남는 한줄&lt;/h3&gt;
+&lt;p&gt;책 앞장에 써있는 글이 특히 기억에 남아서 여기에 적어두려고 한다.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;진짜 어려움은 극복할 수 있다. 정복할 수 없는 것은 상상 속의 어려움뿐이다. -시어도어 N.베일
+Real difficulties can be overcome; it is only the imaginary ones that are unconquerable. -Theodore N.Vail&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name></name></author><category term="javascript" /><summary type="html">책소개 책 제목 : Doit! 웹 프로그래밍을 위한 자바스크립트 기본편 지은이 : 고경희 출판사 : 이지스퍼블리싱</summary></entry><entry><title type="html">[trend search]2020. 11. 5주차</title><link href="https://gelato7673.github.io/myblog/2020/11/07/check-trend.html" rel="alternate" type="text/html" title="[trend search]2020. 11. 5주차" /><published>2020-11-07T00:00:00+09:00</published><updated>2020-11-07T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2020/11/07/check-trend</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2020/11/07/check-trend.html">&lt;h3 id=&quot;reddit-stack-overflow-facebook-okky&quot;&gt;reddit, stack-overflow, facebook, okky&lt;/h3&gt;
 &lt;p&gt;개발을 하면서 stack-overflow 외에 다른 커뮤니티는 그다지 이용할 생각을 하지 못했던 것 같다. 글을 읽는다거나, youtube, 기술 블로그 들을 보면서 기술 동향에 대한 이야기들을 다룬 잘 갖춰진 글들은 읽었지만, 커뮤니티 사이트는 많이 보지 않았던 것 같은데. 이번기회에 한번 둘러 보기로 했다. facebook과 okky는 일반적여서 딱히 이야기 할것은 없을 것 같고, reddidt과 stack-overflow를 위주로 이야기 하려고 한다.&lt;br /&gt;
 처음 시작은, 내가 평소에 즐겨 구독하는 개발자 한분이 trend search를 히는 주요 수단으로 reddit을 추천하면서 시작되었다.&lt;/p&gt;
 
@@ -33,7 +95,55 @@ stack-overflwo외에도 &lt;a href=&quot;https://stackexchange.com/&quot;&gt;sta
 쉽게 말해서, stackoverflow는 stackexchange를 통해서 갈 수 있는 커뮤니티 들 중 하나라고 생각하면 된다.
 stack exchange는 많은 커뮤니티 사이트 들을 연결해 주는 하나의 통합 사이트 인데, &lt;a href=&quot;https://stackexchange.com/sites#&quot;&gt;그중 가장 큰 비중을 차지하는 사이트가 바로 stackOverflow이기 때문이다. (이링크를 타고 가면, stackExchange가 연결해주는 모든 사이트를 볼 수 있다.)&lt;/a&gt;이 두 사이트의 비교에 관한 질문은 stackExchange에도 올라와 있고, 다음 &lt;a href=&quot;https://meta.stackexchange.com/questions/79593/what-is-the-difference-between-stack-overflow-and-stack-exchange&quot;&gt;링크를 타고 가면 볼 수있다.&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;내가, stack-overflow의 위엄(?)를 느끼는 순간중에 하나는 이 사이트의 &lt;a href=&quot;https://insights.stackoverflow.com/survey&quot;&gt;Annual Developer Survey&lt;/a&gt;를 볼때다. 현재 개발자들의 동향을 볼 수 있으니 참고해볼만 한다.&lt;/p&gt;</content><author><name></name></author><category term="community," /><category term="reddit," /><category term="stack-overflow" /><summary type="html">reddit, stack-overflow, facebook, okky 개발을 하면서 stack-overflow 외에 다른 커뮤니티는 그다지 이용할 생각을 하지 못했던 것 같다. 글을 읽는다거나, youtube, 기술 블로그 들을 보면서 기술 동향에 대한 이야기들을 다룬 잘 갖춰진 글들은 읽었지만, 커뮤니티 사이트는 많이 보지 않았던 것 같은데. 이번기회에 한번 둘러 보기로 했다. facebook과 okky는 일반적여서 딱히 이야기 할것은 없을 것 같고, reddidt과 stack-overflow를 위주로 이야기 하려고 한다. 처음 시작은, 내가 평소에 즐겨 구독하는 개발자 한분이 trend search를 히는 주요 수단으로 reddit을 추천하면서 시작되었다.</summary></entry><entry><title type="html">[trend search]2020. 10. 5주차</title><link href="https://gelato7673.github.io/myblog/2020/10/31/check-trend.html" rel="alternate" type="text/html" title="[trend search]2020. 10. 5주차" /><published>2020-10-31T00:00:00+09:00</published><updated>2020-10-31T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2020/10/31/check-trend</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2020/10/31/check-trend.html">&lt;h3 id=&quot;javascript-vuejs-typescript&quot;&gt;Javascript, Vue.js, Typescript&lt;/h3&gt;
+&lt;p&gt;내가, stack-overflow의 위엄(?)를 느끼는 순간중에 하나는 이 사이트의 &lt;a href=&quot;https://insights.stackoverflow.com/survey&quot;&gt;Annual Developer Survey&lt;/a&gt;를 볼때다. 현재 개발자들의 동향을 볼 수 있으니 참고해볼만 한다.&lt;/p&gt;</content><author><name></name></author><category term="community" /><category term="reddit" /><category term="stack-overflow" /><summary type="html">reddit, stack-overflow, facebook, okky 개발을 하면서 stack-overflow 외에 다른 커뮤니티는 그다지 이용할 생각을 하지 못했던 것 같다. 글을 읽는다거나, youtube, 기술 블로그 들을 보면서 기술 동향에 대한 이야기들을 다룬 잘 갖춰진 글들은 읽었지만, 커뮤니티 사이트는 많이 보지 않았던 것 같은데. 이번기회에 한번 둘러 보기로 했다. facebook과 okky는 일반적여서 딱히 이야기 할것은 없을 것 같고, reddidt과 stack-overflow를 위주로 이야기 하려고 한다. 처음 시작은, 내가 평소에 즐겨 구독하는 개발자 한분이 trend search를 히는 주요 수단으로 reddit을 추천하면서 시작되었다.</summary></entry><entry><title type="html">[강의] Nomad Coders - 바닐라 JS로 크롬 앱 만들기</title><link href="https://gelato7673.github.io/myblog/2020/11/01/check-nomad_javascript.html" rel="alternate" type="text/html" title="[강의] Nomad Coders - 바닐라 JS로 크롬 앱 만들기" /><published>2020-11-01T00:00:00+09:00</published><updated>2020-11-01T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2020/11/01/check-nomad_javascript</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2020/11/01/check-nomad_javascript.html">&lt;h3 id=&quot;nomad-coders&quot;&gt;Nomad coders&lt;/h3&gt;
+
+&lt;p&gt;니콜라스&amp;amp;린 부부가 함께 운영하는 Nomad coders는 Youtube채널과 강의사이트로 운영되고 있다. (아, 슬랙 채널도 있다.) 다양한 방식으로 의견을 주고 받을 수 있고, 최신 업데이트 되는 기술에 관한 내용도 피드 받을 수 있어서 늘 보고 있는 채널&amp;amp;사이트 이다. 
+다소 딱딱하게 소개를 했는데, 채널과 사이트는 전혀 딱딱하지 않은 느낌이니 오해 없으시길 ㅎㅎ&lt;/p&gt;
+
+&lt;p&gt;나는 개인적으로 잘 이용하고 있어서 심심한 감사의 인사를 전하고 싶다 :)&lt;/p&gt;
+
+&lt;h4 id=&quot;nomad-coders-youtube&quot;&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCUpJs89fSBXNolQGOYKn0YQ&quot;&gt;Nomad coders “Youtube”&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;일단 채널은 심심할때 보면 좋다. 이 채널의 가장 좋은 점은 무겁지 않다는 데에 있다. 무겁지 않지만, 중요한 것에 대해서는 훓고 지나가니까 보면서 더 관심이 생기면 책을 찾아보거나 전문 기술 사이트들을 들어가서 확인하면 된다. 강의 사이트로 가도 좋고 ~&lt;/p&gt;
+
+&lt;p&gt;얼마전에 j-query에 관한 영상을 봤는데. 정말이지, 나 처음배울때만 해도 j-query없이는 일하기 힘들 만큼 유행중이었다. 지금은 goodbye.. 현업에선 한동안 쓰겠지만.. 영상의 이야기 처럼, 요즘은 javascript의 스펙과 browser의 스펙이 너무 좋아졌기 때문에..안뇽..ㅜㅜ 슬프기도 하고, 새로운 기술에 기쁘기도 하고 ㅎㅎ&lt;/p&gt;
+
+&lt;p&gt;민트초코와 하와이안 피자에 대한 호불호를 조사하는 영상도 재미있게 봤었다 ㅋㅋㅋㅋ (보다가 민초가 먹고 싶어서 나가서 사와 버렸..) NLP에 대해서 관심은 있었으나 다른 할일에 밀려서 잘 알아보지 못 하고 있었는데, NLP관련 구글API를 이용해 twitter를 분석하는 것이 재미있어 보였다.&lt;/p&gt;
+
+&lt;p&gt;그외에도 해킹 영화에 관한 리액션이나 ㅋㅋㅋ 평소 공부하는 방법, 개발자의 하루등 재미있는 영상도 많다 ㅎㅎ&lt;/p&gt;
+
+&lt;h4 id=&quot;nomad-coders-website&quot;&gt;&lt;a href=&quot;https://nomadcoders.co/&quot;&gt;Nomad coders “Website”&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;Website의 강의들 역시 그렇게 무겁지는 않은 것 같다. 음.. 내가 들은건 Javascript 강의 뿐이어서 전반적인 강의에 대해 리뷰를 쓰기는 좀 어려울 것 같다.&lt;/p&gt;
+
+&lt;p&gt;그냥, 개인적으로 느낀점을 몇자 적자면…&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;강의가 Clone coding을 위주로 진행된다. 이론적인 설명을 많이하지는 않지만, 중요한 내용은 설명해 주신다. Deep하지 않은것. 그것이 이 강의의 특징이다. (사실 딥한 내용들은 책으로 찾아보는게 더 편한 경우가 많다.)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;내가 강의를 들으며 좋았던 점은, 우선 강의가 영어로 진행된다는점 이었다. 기술과 관련된 내용은 영어로 친숙한 것이 좋다. 나중에 기술문서를 볼려고해도 그렇고, 커뮤니티의 글들을 보기에도 그렇다.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;또 한가지는, 이미 다 외운 내용으로 강의를 하지 않고, 모를 때 어떻게 찾아가면서 프로그램을 완성하는 모습을 보여준 다는 점이 좋았다. 사실 개발은 배우는 것보다 문제를 해결하기 위한 길을 찾는방법, 그리고 기술을 익히는 방법을 배우는 것이 기술 만큼 중요하다는 생각을 하고있는 요즘이다. :)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;그래서-javascript강의에선-무엇을-배웠는고&quot;&gt;그래서, Javascript강의에선 무엇을 배웠는고?&lt;/h4&gt;
+&lt;p&gt;일단 이 강의는 ES6로 강의한다. 그점에서 일단 좋았고, ‘바닐라 자바스크립트를 한동안 많이 안써서 잊어버린 부분이 있다!’ 싶을때 리마인드 하기 좋았다. 처음 배우는 사람도 clone coding으로 재미있게 따라할 수 있을 것 같았다. 마지막 크롬앱 만들기를 아직 좀 덜 진행했는데, 그 부분은 보완해서 만든다음에 따로 관련해서 포스팅 하려고 한다. 기회가 된다면 다음에 다른강의 challeng에 참여해서 함께 만들어 봐도 재미있을 듯 !!&lt;/p&gt;</content><author><name></name></author><category term="javascript" /><summary type="html">Nomad coders</summary></entry><entry><title type="html">하고싶은 프로젝트들 목록</title><link href="https://gelato7673.github.io/myblog/2020/11/01/toyproject.html" rel="alternate" type="text/html" title="하고싶은 프로젝트들 목록" /><published>2020-11-01T00:00:00+09:00</published><updated>2020-11-01T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2020/11/01/toyproject</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2020/11/01/toyproject.html">&lt;h3 id=&quot;해보고-싶은-프로젝트-목록들&quot;&gt;해보고 싶은 프로젝트 목록들&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;생산성 관리툴 (Monday.com) 같은것? : 간트 차트랑, 캘랜더 형식, to-do list 등으로 제공해 주는 기본 생산성 관리툴들&lt;/li&gt;
+  &lt;li&gt;프랭클린 다이어리 같은것 말야. (데이터 공간 확보가 애매한데.. 그건 생각을 해보자구.)&lt;/li&gt;
+  &lt;li&gt;좌석 배치도 : 코로 나 시대에 쉽게 사용할 수 있는 좌석 배치도를 하나 만들어서 사용해 보고 싶다.&lt;/li&gt;
+  &lt;li&gt;간단하게 홈페이지를 만드는 앱을 만들어 보자. (nomad coder에서 말했던것)&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="toyproject," /><category term="sideproject" /><summary type="html">해보고 싶은 프로젝트 목록들 생산성 관리툴 (Monday.com) 같은것? : 간트 차트랑, 캘랜더 형식, to-do list 등으로 제공해 주는 기본 생산성 관리툴들 프랭클린 다이어리 같은것 말야. (데이터 공간 확보가 애매한데.. 그건 생각을 해보자구.) 좌석 배치도 : 코로 나 시대에 쉽게 사용할 수 있는 좌석 배치도를 하나 만들어서 사용해 보고 싶다. 간단하게 홈페이지를 만드는 앱을 만들어 보자. (nomad coder에서 말했던것)</summary></entry><entry><title type="html">공부해서, 써봐야지 하는 일들의 목록</title><link href="https://gelato7673.github.io/myblog/2020/11/01/document.html" rel="alternate" type="text/html" title="공부해서, 써봐야지 하는 일들의 목록" /><published>2020-11-01T00:00:00+09:00</published><updated>2020-11-01T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2020/11/01/document</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2020/11/01/document.html">&lt;h3 id=&quot;나중에-포스팅하고-싶은-내용들&quot;&gt;나중에 포스팅하고 싶은 내용들&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Javascript trend를 봐가면서 해야할지도.&lt;/li&gt;
+  &lt;li&gt;vue.js / Typescript&lt;/li&gt;
+  &lt;li&gt;React.js / Angular&lt;/li&gt;
+  &lt;li&gt;Dependency Manager (npm / gulp / grunt…)&lt;/li&gt;
+  &lt;li&gt;Pre-Processor (sass / less…)&lt;/li&gt;
+  &lt;li&gt;Phythone 그리고 Django..&lt;/li&gt;
+  &lt;li&gt;Node.js 그리고 Angular..&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="front-end," /><category term="javascript," /><category term="dependency-manager" /><summary type="html">나중에 포스팅하고 싶은 내용들 Javascript trend를 봐가면서 해야할지도. vue.js / Typescript React.js / Angular Dependency Manager (npm / gulp / grunt…) Pre-Processor (sass / less…) Phythone 그리고 Django.. Node.js 그리고 Angular..</summary></entry><entry><title type="html">[trend search]2020. 10. 5주차</title><link href="https://gelato7673.github.io/myblog/2020/10/31/check-trend.html" rel="alternate" type="text/html" title="[trend search]2020. 10. 5주차" /><published>2020-10-31T00:00:00+09:00</published><updated>2020-10-31T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2020/10/31/check-trend</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2020/10/31/check-trend.html">&lt;h3 id=&quot;javascript-vuejs-typescript&quot;&gt;Javascript, Vue.js, Typescript&lt;/h3&gt;
 &lt;p&gt;Front-end에서 중요한 기술들 3가지에 대해 이것저것 찾아보는 시간을 가졌다.
 첫 술에 배부를 생각 말고, 앞으로도 열심히 찾아보고 읽어봐야지..라는 생각을 하면서. ^^;;
 이것저것 알아본 내용들을 정리해 본다.&lt;/p&gt;
@@ -90,7 +200,27 @@ vue.js 홈페이지에 들어가면 따라하면서 쉽게 시작해 볼 수 있
   &lt;li&gt;브라우저 벤더란? 브라우저 벤더란 브라우저를 만들거나 파는 회사들&lt;/li&gt;
   &lt;li&gt;MPA : Multi Page Application(MPA)&lt;/li&gt;
   &lt;li&gt;SPA : Single Page Application(SPA)&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="githubpage" /><summary type="html">Javascript, Vue.js, Typescript Front-end에서 중요한 기술들 3가지에 대해 이것저것 찾아보는 시간을 가졌다. 첫 술에 배부를 생각 말고, 앞으로도 열심히 찾아보고 읽어봐야지..라는 생각을 하면서. ^^;; 이것저것 알아본 내용들을 정리해 본다.</summary></entry><entry><title type="html">[clone-coding] 웹 어플리케이션 만들기(구버전) -생활코딩</title><link href="https://gelato7673.github.io/myblog/2020/10/27/check-clone-webapplication.html" rel="alternate" type="text/html" title="[clone-coding] 웹 어플리케이션 만들기(구버전) -생활코딩" /><published>2020-10-27T00:00:00+09:00</published><updated>2020-10-27T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2020/10/27/check-clone-webapplication</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2020/10/27/check-clone-webapplication.html">&lt;p&gt;###&lt;/p&gt;</content><author><name></name></author><category term="webapplication" /><summary type="html">###</summary></entry><entry><title type="html">Check Clone Todolist</title><link href="https://gelato7673.github.io/myblog/2020/10/27/check-clone-todolist.html" rel="alternate" type="text/html" title="Check Clone Todolist" /><published>2020-10-27T00:00:00+09:00</published><updated>2020-10-27T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2020/10/27/check-clone-todolist</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2020/10/27/check-clone-todolist.html"></content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">[trend search] 한 주간 개발과 관련된 내용을 모아서 정리해보자</title><link href="https://gelato7673.github.io/myblog/2020/10/27/check-trend.html" rel="alternate" type="text/html" title="[trend search] 한 주간 개발과 관련된 내용을 모아서 정리해보자" /><published>2020-10-27T00:00:00+09:00</published><updated>2020-10-27T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2020/10/27/check-trend</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2020/10/27/check-trend.html">&lt;h3 id=&quot;trend-search&quot;&gt;Trend search?!&lt;/h3&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="githubpage" /><summary type="html">Javascript, Vue.js, Typescript Front-end에서 중요한 기술들 3가지에 대해 이것저것 찾아보는 시간을 가졌다. 첫 술에 배부를 생각 말고, 앞으로도 열심히 찾아보고 읽어봐야지..라는 생각을 하면서. ^^;; 이것저것 알아본 내용들을 정리해 본다.</summary></entry><entry><title type="html">[book] Doit! 지옥에서 온 문서 관리자 깃&amp;amp;깃허브 입문</title><link href="https://gelato7673.github.io/myblog/2020/10/27/check-book-github.html" rel="alternate" type="text/html" title="[book] Doit! 지옥에서 온 문서 관리자 깃&amp;amp;깃허브 입문" /><published>2020-10-27T00:00:00+09:00</published><updated>2020-10-27T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2020/10/27/check-book-github</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2020/10/27/check-book-github.html">&lt;h3 id=&quot;책소개&quot;&gt;책소개&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;책 제목 : Doit! 지옥에서 온 문서 관리자 깃&amp;amp;깃허브 입문&lt;/li&gt;
+  &lt;li&gt;지은이 : 이고잉, 고경희&lt;/li&gt;
+  &lt;li&gt;출판사 : 이지스퍼블리싱&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;git과 github에 관한 내용을 전혀 모르는 것은 아니었다. 이전에 프로젝트도 해 본적이 있고 해서..
+그렇지만, 시간이 흐르고.. ^^; 이전회사에서는 svn을 더 선호하는 경향이 있어서 개인 프로젝트가 아니면 git을 쓸 일이 많이 없었던 것 같다. 그러다 보니까 가물가물 한 것 같길래, 간단히 쓱 리뷰할 수 있는 책을 한권 구입하고 싶다는 생각이 들었다. 
+그러니까, 약간 쿡북같은. 간단히 쓱 리뷰하고, 생각 안날때 찾아볼수 있고, 옆에 놓아둘 수 있는. 
+그렇지만 중요한 원리는 잘 설명되어 있길 바라는..(바라는것도 많다.) 뭐 그런 책을 찾고 있었다.&lt;/p&gt;
+
+&lt;p&gt;마침, 그 당시에 생활코딩을 통해서 ‘웹 어플리케이션 만들기’ 프로젝트를 진행하고 있었는데, (사실 이 프로젝트를 진행하면서 역시 개인프로젝트는 뭔가 기록하면서 해야해!! 전에 git을 썼었는데, 기억이 가물가물하네 ㅜㅜ 다시 써봐야겠다!! 이렇게 된것임..tmi) 이 고잉 님의 강의가 만드는 것 자체는 심플하면서(기초에 충실하면서), 중요한 원리는 시간을 들여서 설명해 주는 그런 강의였다. 덕분에, front-end 부분과 back-end부분이 한번에 정리되는 느낌을 이 프로젝트를 통해서 받을 수 있었기  때문에, git강의도 관심이 생긴 찰나였다.&lt;/p&gt;
+
+&lt;p&gt;그런데, 이미 아는 내용이기도 하고.. 강의를 천천히 다 듣고 있기에는 스킵할 부분이 많은것 같고, (원래 전자책 보다 종이 책을 선호하기도 하고), 생활코딩을 늘 잘 사용하니까 후원(?)의 의미도 담아 ㅋㅋㅋ.. 그래서 이 책을 구입하게 된 것이다.&lt;/p&gt;
+
+&lt;p&gt;만약, 책을 사기보다 강의를 선호하는 분이라면 아래 링크에서 바로 생활코딩의 git강의를 들을 수 있다.&lt;br /&gt;
+⇒ &lt;a href=&quot;https://opentutorials.org/course/3837&quot;&gt;생활코딩 git강의들으러 바로가기&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;따라 하면서 이해도 잘되고, 지금도 까먹으면 옆에두고 볼 수 있는 책 ^^!
+덕분에 공부 잘했습니다~ !&lt;/p&gt;</content><author><name></name></author><category term="git," /><category term="github" /><summary type="html">책소개 책 제목 : Doit! 지옥에서 온 문서 관리자 깃&amp;amp;깃허브 입문 지은이 : 이고잉, 고경희 출판사 : 이지스퍼블리싱</summary></entry><entry><title type="html">[trend search] 한 주간 개발과 관련된 내용을 모아서 정리해보자</title><link href="https://gelato7673.github.io/myblog/2020/10/27/check-trend.html" rel="alternate" type="text/html" title="[trend search] 한 주간 개발과 관련된 내용을 모아서 정리해보자" /><published>2020-10-27T00:00:00+09:00</published><updated>2020-10-27T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2020/10/27/check-trend</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2020/10/27/check-trend.html">&lt;h3 id=&quot;trend-search&quot;&gt;Trend search?!&lt;/h3&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;한 주 동안 개발과 관련되서 ‘search’했던 내용들 중에, 나중에도 읽어보면 좋을 것 같은 내용들을 잘 정리해 두어야지.&lt;/p&gt;
@@ -143,7 +273,6 @@ vue.js 홈페이지에 들어가면 따라하면서 쉽게 시작해 볼 수 있
 
 &lt;h4 id=&quot;기술-블로그&quot;&gt;기술 블로그&lt;/h4&gt;
 &lt;ul&gt;
-  &lt;li&gt;추후 업데이트&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://woowabros.github.io/techcourse/2020/10/06/woowacourse.html&quot;&gt;우아한 형제들&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://medium.com/daangn&quot;&gt;당근마켓&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://tech.kakao.com/blog/&quot;&gt;kakao tech&lt;/a&gt;&lt;/li&gt;
@@ -158,46 +287,4 @@ vue.js 홈페이지에 들어가면 따라하면서 쉽게 시작해 볼 수 있
       &lt;dd&gt;가끔 들여다 보면, 꼭 필요하다고 생각하는 것들의 강의는 꾸준히 업데이트 되는 편.&lt;/dd&gt;
     &lt;/dl&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="githubpage" /><summary type="html">Trend search?!</summary></entry><entry><title type="html">Check Clone Pagenation</title><link href="https://gelato7673.github.io/myblog/2020/10/27/check-clone-pagenation.html" rel="alternate" type="text/html" title="Check Clone Pagenation" /><published>2020-10-27T00:00:00+09:00</published><updated>2020-10-27T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2020/10/27/check-clone-pagenation</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2020/10/27/check-clone-pagenation.html"></content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">[book] Doit! 지옥에서 온 문서 관리자 깃&amp;amp;깃허브 입문</title><link href="https://gelato7673.github.io/myblog/2020/10/27/check-book-github.html" rel="alternate" type="text/html" title="[book] Doit! 지옥에서 온 문서 관리자 깃&amp;amp;깃허브 입문" /><published>2020-10-27T00:00:00+09:00</published><updated>2020-10-27T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2020/10/27/check-book-github</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2020/10/27/check-book-github.html">&lt;h3 id=&quot;책소개&quot;&gt;책소개&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;책 제목 : Doit! 지옥에서 온 문서 관리자 깃&amp;amp;깃허브 입문&lt;/li&gt;
-  &lt;li&gt;지은이 : 이고잉, 고경희&lt;/li&gt;
-  &lt;li&gt;출판사 : 이지스퍼블리싱&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;git과 github에 관한 내용을 전혀 모르는 것은 아니었다. 이전에 프로젝트도 해 본적이 있고 해서..
-그렇지만, 시간이 흐르고.. ^^; 이전회사에서는 svn을 더 선호하는 경향이 있어서 개인 프로젝트가 아니면 git을 쓸 일이 많이 없었던 것 같다. 그러다 보니까 가물가물 한 것 같길래, 간단히 쓱 리뷰할 수 있는 책을 한권 구입하고 싶다는 생각이 들었다. 
-그러니까, 약간 쿡북같은. 간단히 쓱 리뷰하고, 생각 안날때 찾아볼수 있고, 옆에 놓아둘 수 있는. 
-그렇지만 중요한 원리는 잘 설명되어 있길 바라는..(바라는것도 많다.) 뭐 그런 책을 찾고 있었다.&lt;/p&gt;
-
-&lt;p&gt;마침, 그 당시에 생활코딩을 통해서 ‘웹 어플리케이션 만들기’ 프로젝트를 진행하고 있었는데, (사실 이 프로젝트를 진행하면서 역시 개인프로젝트는 뭔가 기록하면서 해야해!! 전에 git을 썼었는데, 기억이 가물가물하네 ㅜㅜ 다시 써봐야겠다!! 이렇게 된것임..tmi) 이 고잉 님의 강의가 만드는 것 자체는 심플하면서(기초에 충실하면서), 중요한 원리는 시간을 들여서 설명해 주는 그런 강의였다. 덕분에, front-end 부분과 back-end부분이 한번에 정리되는 느낌을 이 프로젝트를 통해서 받을 수 있었기  때문에, git강의도 관심이 생긴 찰나였다.&lt;/p&gt;
-
-&lt;p&gt;그런데, 이미 아는 내용이기도 하고.. 강의를 천천히 다 듣고 있기에는 스킵할 부분이 많은것 같고, (원래 전자책 보다 종이 책을 선호하기도 하고), 생활코딩을 늘 잘 사용하니까 후원(?)의 의미도 담아 ㅋㅋㅋ.. 그래서 이 책을 구입하게 된 것이다.&lt;/p&gt;
-
-&lt;p&gt;만약, 책을 사기보다 강의를 선호하는 분이라면 아래 링크에서 바로 생활코딩의 git강의를 들을 수 있다.&lt;br /&gt;
-⇒ &lt;a href=&quot;https://opentutorials.org/course/3837&quot;&gt;생활코딩 git강의들으러 바로가기&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;따라 하면서 이해도 잘되고, 지금도 까먹으면 옆에두고 볼 수 있는 책 ^^!
-덕분에 공부 잘했습니다~ !&lt;/p&gt;</content><author><name></name></author><category term="git," /><category term="github" /><summary type="html">책소개 책 제목 : Doit! 지옥에서 온 문서 관리자 깃&amp;amp;깃허브 입문 지은이 : 이고잉, 고경희 출판사 : 이지스퍼블리싱</summary></entry><entry><title type="html">CSS</title><link href="https://gelato7673.github.io/myblog/2020/10/24/check-css.html" rel="alternate" type="text/html" title="CSS" /><published>2020-10-24T00:00:00+09:00</published><updated>2020-10-24T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2020/10/24/check-css</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2020/10/24/check-css.html">&lt;h3 id=&quot;css-관련-기술들-정리&quot;&gt;CSS 관련 기술들 정리&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Glossary/CSS_Selector&quot;&gt;인접형제 선택자&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.w3schools.com/cssref/css3_pr_word-break.asp&quot;&gt;word-break&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/:not&quot;&gt;css not 선택자&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;ellipsis 처리하기&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;white-space&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;nowrap&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;overflow&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;hidden&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;text-overflow&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ellipsis&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.educative.io/edpresso/how-to-crop-an-image-in-css&quot;&gt;css로 이미지 요소 crop하기&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/filter&quot;&gt;filter css&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;text-decoration-thickness : only working in Firefox&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="githubpage" /><summary type="html">CSS 관련 기술들 정리</summary></entry><entry><title type="html">각종 프로그램 단축키</title><link href="https://gelato7673.github.io/myblog/2020/09/20/check-sublimetext3.html" rel="alternate" type="text/html" title="각종 프로그램 단축키" /><published>2020-09-20T00:00:00+09:00</published><updated>2020-09-20T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2020/09/20/check-sublimetext3</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2020/09/20/check-sublimetext3.html">&lt;h3 id=&quot;sublime-text3&quot;&gt;sublime-text3&lt;/h3&gt;
-
-&lt;p&gt;파일 바로열기 : ctrl+p
-https://zzznara2.tistory.com/276&lt;/p&gt;</content><author><name></name></author><category term="sublimetext3" /><summary type="html">sublime-text3</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="githubpage" /><summary type="html">Trend search?!</summary></entry><entry><title type="html">[clone-coding] 웹 어플리케이션 만들기(구버전) -생활코딩</title><link href="https://gelato7673.github.io/myblog/2020/10/27/check-clone-webapplication.html" rel="alternate" type="text/html" title="[clone-coding] 웹 어플리케이션 만들기(구버전) -생활코딩" /><published>2020-10-27T00:00:00+09:00</published><updated>2020-10-27T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2020/10/27/check-clone-webapplication</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2020/10/27/check-clone-webapplication.html">&lt;p&gt;###&lt;/p&gt;</content><author><name></name></author><category term="webapplication" /><summary type="html">###</summary></entry></feed>

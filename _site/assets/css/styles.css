@@ -233,7 +233,7 @@ nav dd:not(.writer) li a, nav dd:not(.writer) li a:hover, nav dd:not(.writer) li
 
 .page-contents ul li p { margin: 0; }
 
-.page-contents blockquote { font-style: italic; }
+.page-contents blockquote { font-style: italic; border-left: 3px solid #FFA932; margin-left: 0; padding-left: 40px; }
 
 .page-contents pre.highlight, .page-contents figure.highlight { margin: 0; padding: 10px 15px; line-height: 1.5; }
 

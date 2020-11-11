@@ -46,7 +46,6 @@ trend라는 말이 들어간건, 그래도 웹 개발의 빠른 흐름을 놓치
 :아직 소개할만큼 적극적으로 활동하는 커뮤니티는 없지만, 그래도 전반적으로 읽는듯
 
 #### 기술 블로그
-- 추후 업데이트
 - [우아한 형제들](https://woowabros.github.io/techcourse/2020/10/06/woowacourse.html)
 - [당근마켓](https://medium.com/daangn)
 - [kakao tech](https://tech.kakao.com/blog/)
