@@ -1,14 +1,13 @@
 ---
 layout: blog_page
-menu: campusnote
-big_group: Myblog
-small_group: 오답노트
+menu: tech_docu
+big_group: Daily Programming
+small_group: 기술별 참고사항
 background: map.jpg
 title:  "HTML"
-subtitle: "HyperText Markup Language, html5"
 date_start: 2020-08-29
 date_end: 2020-10-26
-tags: githubpage
+tags: HyperText Markup Language, html5
 comments: true
 ---
 

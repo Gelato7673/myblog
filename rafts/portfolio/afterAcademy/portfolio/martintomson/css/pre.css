@@ -1,0 +1,26 @@
+@charset "utf-8";
+.port_D{
+	width: 960px;
+	margin: 0 auto;
+	padding-top: 50px;
+}
+.port_D h1{
+	position: absolute;
+	top: -9999em;
+}
+.port_D img{
+	width: 960px;
+	height: auto;
+}
+.enter{
+	padding-bottom: 30px;
+}
+.enter a{
+	display: block;
+	width: 100px;
+	margin: 0 auto;
+	font-weight: bold;
+	font-size: 30px;
+	color: #c8c8c8;
+	text-decoration: none;
+}

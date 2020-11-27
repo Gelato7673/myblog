@@ -1,11 +1,10 @@
 ---
 layout: blog_page
-menu: speach
-big_group: Myblog
-small_group: IT 기술
+menu: study_program
+big_group: Daily Programming
+small_group: 강의/book/clonecoding
 background: map.jpg
 title:  <b>[book]</b> Doit! 지옥에서 온 문서 관리자 깃&깃허브 입문
-subtitle: "git, github"
 date_start: 2020-08-05
 date_end: 2020-08-07
 tags: git, github

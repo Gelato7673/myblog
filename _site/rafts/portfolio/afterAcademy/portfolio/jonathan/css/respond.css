@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+@media screen and (min-width: 750px) and (max-width: 1169px) {
+
+}
+@media screen and (min-width: 480px) and (max-width: 749px) {
+	#header .logo{
+		padding-right: 20px;
+	}
+	#header .gnb ul{
+		float: left;
+	}
+	#header .gnb ul li{
+		margin-right: 10px;
+	}
+	#header .gnb ul li a{
+		padding-right: 30px;
+	}
+	#contents ul li{
+		width: 50%;
+	}
+	#footer .sns{
+		position: relative;
+		right: 0;
+		top: 0;
+	}
+	#footer .sns li{
+		margin: 10px 10px 30px 0;
+	}
+}
+@media screen and (max-width: 479px) {
+	#header{
+		position: relative;
+	}
+	#header .logo{
+		padding-right: 20px;
+	}
+	#header .gnb ul{
+		display: none;
+	}
+	#header .gnb:after{
+		position: absolute;
+		top: 30px;
+		right: 20px;
+		content: '';
+		display: block;
+		width: 24px;
+		height: 24px;
+		background: url(../img/icon_gnb.png);
+		cursor: pointer;
+	}
+	#contents ul li{
+		width: 100%;
+	}
+	#footer .sns{
+		position: relative;
+		right: 0;
+		top: 0;
+	}
+	#footer .sns li{
+		margin: 10px 10px 30px 0;
+	}
+}

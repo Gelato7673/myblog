@@ -1,11 +1,10 @@
 ---
 layout: blog_page
-menu: speach
-big_group: Myblog
-small_group: IT 기술
+menu: study_program
+big_group: Daily Programming
+small_group: 강의/book/clonecoding
 background: map.jpg
 title:  <b>[book]</b> Doit! 웹 프로그래밍을 위한 자바스크립트 기본편
-subtitle: "Javascript"
 date_start: 2020-11-06
 date_end: 2020-11-10
 tags: javascript

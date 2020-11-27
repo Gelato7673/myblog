@@ -1,0 +1,200 @@
+@charset "utf-8";
+
+
+/*******************************************************************
+   common style
+******************************************************************* */
+body {
+	/*font-family: 'Noto Serif KR', serif;*/
+	/*font-family: 'Gugi', cursive;*/
+	font-family: 'Nanum Gothic', sans-serif;
+	/*font-family: 'Sunflower', sans-serif;*/
+	font-size: 62.5%;
+    font-weight: 400;
+	line-height: 1;
+
+	/*
+    font-family: 'Gugi', cursive;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-family: 'Noto Serif KR', serif;
+    font-family: 'Sunflower', sans-serif;
+
+	*/
+}
+.inner-wrap {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/*******************************************************************
+   layout style
+******************************************************************* */
+.header .logo-area {
+	padding: 40px 0 60px 0;
+	text-align: center;
+}
+.header .logo-area a {
+	display: inline-block;
+}
+.header .logo-area a img {
+	width: 120px;
+	vertical-align: middle;
+}
+.header .logo-area span {
+	font-family: 'Gugi', cursive;
+	padding-left: 15px;
+	font-size: 80px;
+	vertical-align: middle;
+	font-weight: 900;
+	letter-spacing: -10px;
+}
+
+/*nav*/
+.header .nav .inner-wrap {
+	border-top: 3px solid #000000;
+	border-bottom: 1px solid #000000;
+}
+
+.header .nav ul:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.header .nav ul {
+	width: 100%;
+}
+.header .nav ul li {
+	width: 25%;
+	float: left;
+}
+.header .nav ul li a {
+	display: block;
+	text-align: center;
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 65px;
+}
+.header .nav ul li:first-child a:hover {
+	background-color: rgba(49, 190, 246, 0.5);
+	color: #fff;
+}
+.header .nav ul li:nth-child(2) a:hover {
+	background-color: rgba(69, 246, 49, 0.5);
+	color: #fff;
+}
+.header .nav ul li:nth-child(3) a:hover {
+	background-color: rgba(235, 9, 13, 0.4);
+	color: #fff;
+}
+.header .nav ul li:last-child a:hover {
+	background-color: rgba(242, 203, 97, 1);
+	color: #fff;
+}
+
+.header .nav ul li:first-child a.active {
+	background-color: rgba(49, 190, 246, 0.5);
+	color: #fff;
+}
+.header .nav ul li:nth-child(2) a.active {
+	background-color: rgba(69, 246, 49, 0.5);
+	color: #fff;
+}
+.header .nav ul li:nth-child(3) a.active {
+	background-color: rgba(235, 9, 13, 0.4);
+	color: #fff;
+}
+.header .nav ul li:last-child a.active {
+	background-color: rgba(242, 203, 97, 1);
+	color: #fff;
+}
+
+
+/*spot*/
+.spot {
+	padding: 60px 0;
+}
+.spot .gold-bar:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.spot .gold-bar {
+	width: 100%;
+}
+.spot .gold-bar li {
+	display: inline-block;
+	float: left;
+	width: 33.33333%;
+}
+.spot .gold-bar li a {
+	display: block;
+	margin: 0 auto;
+	width: 90%;
+	height: 400px;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+.spot .gold-bar li a span {
+	box-sizing: border-box;
+	padding: 80px 30px 0 30px;
+	display: inline-block;
+	width: 100%;
+	font-size: 18px;
+	line-height: 1.8;
+	text-align: center;
+}
+
+/*
+파랑색, 녹색, 핑크색, 금색
+*/
+
+/*quick-menu*/
+.quick-menu .inner-wrap {
+	border-top: 1px solid #333;
+	border-bottom: 3px solid #333
+}
+.quick-menu ul:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.quick-menu ul {
+	width: 100%;
+}
+.quick-menu li {
+	padding-top: 20px;
+	box-sizing: border-box;
+	display: block;
+	width: 20%;
+	float: left;
+	text-align: center;
+	height: 100px;
+	position: relative;
+}
+.quick-menu li a {
+	display: inline-block;
+	text-align: center;
+	line-height: 1.1;
+}
+.quick-menu li a:hover span{
+	color: #E1404E
+}
+.quick-menu li span {
+	font-size: 16px;
+	font-weight: 600;
+	display: block;
+	text-align: center;
+}
+.quick-menu li a ion-icon {
+	display: inline-block;
+	font-size: 22px;
+	padding-bottom: 6px;
+}
+.quick-menu li a small {
+	font-size: 13px;
+}
+
+/*************************
+   Navigation style
+************************** */

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Kiwi's portfolio</title>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<link rel="stylesheet" type="text/css" href="../css/portfolio_practice.css">
+	<script type="text/javascript" src="../js/jquery.min.1.7.js"></script>
+	<script type="text/javascript" src="../js/modernizr.2.5.3.min.js"></script>
+	<style>
+		@import url(http://fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+
+		/*padding area*/
+		.paddingArea{
+			padding-bottom: 750px;
+		}
+
+		/*빗자루탄마녀*/
+		#wikid{
+			position: absolute;
+			top: 250px;
+			left: 135px;
+			-webkit-transition:all 2s;
+			-moz-transition:all 2s;
+			-o-transition:all 2s;
+			-ms-transition:all 2s;
+			transition:all 2s;
+
+			-webkit-transform: translateX(-50%) scale(0.5,0.5);
+			-moz-transform: translateX(-50%) scale(0.5,0.5);
+			-ms-transform: translateX(-50%) scale(0.5,0.5);
+			-o-transform: translateX(-50%) scale(0.5,0.5);
+			transform: translateX(-50%) scale(0.5,0.5);
+		}
+		#wikid p .home{
+			font-family: 'Nanum Pen Script', cursive;
+			font-size: 35px;
+			color: #333333;
+			position: absolute;
+			top: 160px;
+			right: 40px;
+		}
+
+		/*구슬 링크*/
+		#wikid p img{
+			width: 550px;
+			height: auto;
+		}
+		#wikid p .link01{
+			position: absolute;
+			top: 0;
+			right: 20px;
+			width: 75px;
+			height: 75px;
+			border:2px solid #a6a6a6;
+			border-radius: 50%;
+			font-family: 'Nanum Pen Script', cursive;
+			font-size: 45px;
+			color: #333333;
+			text-decoration: none;
+			text-indent: 5px;
+		}
+		#wikid p .link01:hover{
+			background-color: rgba(103,153,255,0.5);
+		}
+	</style>
+</head>
+
+<body>
+	<div class="paddingArea">
+		<div id="header">
+			<h1 class="blind">kiwi's portfolio</h1>
+			<div class="menu">
+				<p class="left"><a href="../index.html">Home</a></p>
+				<p class="left"><a href="about.html">About me</a></p>
+				<p class="right"><a href="http://goodforyou.dothome.co.kr">Blog</a></p>
+				<p class="right"><a href="practice.html">Practice</a></p>
+				<p class="right"><a href="#">Portfolio</a></p>
+			</div>
+		</div>
+
+		<div id="contentainer">
+			<div id="wikid">
+				<p class="content_01">
+					<span class="home">홈으로~ 얍!</span>
+					<img src="../img/wikid.png" alt="small_wikid">
+					<a href="../portfolio/Dmaris/index.html" class="link01" target="_blank">D'maris</a>
+				</p><!-- wikid end	 --> 			
+			</div><!-- content end -->
+
+			<div class="flipbook-viewport">
+				<div class="content_02">
+					<div class="flipbook">
+						<div class="page" style="background-image:url(../pages/first_port.png)"></div>
+						<div class="double" style="background-image:url(../pages/dmaris_02.png)"></div>
+						<div class="double" style="background-image:url(../pages/dmaris_03.png)"></div>
+						<div class="double" style="background-image:url(../pages/dmaris_04.png)"></div>
+						<div class="page" style="background-image:url(../pages/fin.png)"></div>
+					</div><!-- flipbook end -->
+				</div><!-- container end -->
+			</div><!-- flipbook-viewport end -->
+		</div><!-- contents end -->
+	</div><!-- paddingArea end -->
+
+<script type="text/javascript">
+
+function loadApp() {
+
+	var flipbook = $('.flipbook');
+
+ 	// Check if the CSS was already loaded
+	
+	if (flipbook.width()==0 || flipbook.height()==0) {
+		setTimeout(loadApp, 10);
+		return;
+	}
+
+	$('.flipbook .double').scissor();
+
+	// Create the flipbook
+
+	$('.flipbook').turn({
+			// Elevation
+
+			elevation: 50,
+			
+			// Enable gradients
+
+			gradients: true,
+			
+			// Auto center this flipbook
+
+			autoCenter: true
+
+	});
+}
+
+// Load the HTML4 version if there's not CSS transform
+
+yepnope({
+	test : Modernizr.csstransforms,
+	yep: ['../js/turn.min.js'],
+	nope: ['../js/turn.html4.min.js'],
+	both: ['../js/scissor.min.js', 'css/double-page.css'],
+	complete: loadApp
+});
+
+</script>
+</body>
+</html>

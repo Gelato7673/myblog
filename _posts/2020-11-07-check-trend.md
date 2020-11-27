@@ -1,11 +1,10 @@
 ---
 layout: blog_page
-menu: speach
-big_group: Myblog
-small_group: IT 기술
+menu: trend
+big_group: Daily Programming
+small_group: 기술트랜드
 background: map.jpg
 title: <b>[trend search]</b>2020. 11. 1주차
-subtitle: "community"
 date_start: 2020-11-01
 date_end: 2020-11-07
 tags: community reddit stack-overflow

@@ -1,0 +1,399 @@
+@charset "utf-8";
+@import url(common.css);
+@font-face{
+font-family:"Nanum Gothic";
+src:url('/fonts/NanumGothic.eot');
+src:url('/fonts/NanumGothic.eot?#iefix') format('embedded-opentype'),
+url('/fonts/NanumGothic.woff') format('woff'),
+url('/fonts/NanumGothic.ttf') format('truetype');
+url('/fonts/NanumGothic.svg#NanumGothic') format('svg')
+src:local(※), url('/fonts/NanumGothic.woff') format('woff');
+}
+@keyframes ani{
+	0%{
+		background: url(../img/visual_01.png) no-repeat 0 0;
+	}
+	33%{
+		background: url(../img/visual_02.png) no-repeat 0 0;
+	}
+	66%{
+		background: url(../img/visual_03.png) no-repeat 0 0;
+	}
+}
+@-webkit-keyframes ani{
+	0%{
+		background: url(../img/visual_01.png) no-repeat 0 0;
+	}
+	33%{
+		background: url(../img/visual_02.png) no-repeat 0 0;
+	}
+	66%{
+		background: url(../img/visual_03.png) no-repeat 0 0;
+	}	
+}
+
+.wrap{
+	width: 950px;
+	margin: 0 auto;
+}
+#header{
+	padding-top: 50px;
+	*zoom:1;
+}
+#header .logo{
+	float: left;
+}
+#header .navArea{
+	float: right;
+	padding-top: 10px;
+	*zoom:1;
+}
+#header .navArea #nav{
+	float: left;
+	padding-right: 30px;
+	position: relative;
+	*zoom:1;
+}
+#header .navArea #nav dt{
+	float: left;
+}
+#header .navArea #nav dt a{
+	display: block;
+	background: url(../img/nav.png) no-repeat 0 0;
+	width: 67px;
+	height: 17px;
+	margin-left: 6px;
+	text-indent: -9999em;
+}
+#header .navArea #nav dd{
+	border: 2px solid transparent;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	box-shadow: 1px 1px 1px #62615f;
+}
+#header .navArea #nav dd ul{
+	margin: 3px 0 3px 0;
+}
+#header .navArea #nav dd ul li{
+	float: left;
+	margin: 0 10px 0 5px; 
+}
+#header .navArea #nav dd ul li a{
+	font-family: 'NanumGothic','돋움';
+	font-size: 13px;
+	color: #b60050;
+	text-decoration: none;
+}
+#header .navArea #nav .nav_sub_03{
+	margin-left: 50px;
+}
+#header .navArea #nav .nav_sub_05{
+	margin-left: 92px;
+}
+#header .navArea #nav dt a:hover{
+	border-bottom: 2px solid #b60050;
+	text-decoration: none;
+}
+#header .navArea #nav dt a#nav_01{
+	background-position: 0 0;
+}
+#header .navArea #nav dt a#nav_02{
+	background-position: -73px 0;
+}
+#header .navArea #nav dt a#nav_03{
+	background-position: -146px 0 ;
+}
+#header .navArea #nav dt a#nav_04{
+	background-position: -219px 0;
+}
+#header .navArea #nav dt a#nav_05{
+	background-position: -292px 0;
+}
+
+#header .navArea #nav dd{
+	display: none;
+	position: absolute;
+	top: 18px;
+	left: 0;
+}
+#header .navArea #nav dd ul{
+	*zoom:1;
+}
+#header .navArea #nav dd ul li{
+	float: left;
+}
+#header .navArea #nav dd ul:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+#header .navArea #top_menu{
+	float: right;
+	*zoom:1;
+}
+#header .navArea #top_menu:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+#header .navArea #top_menu > li{
+	float: left;
+}
+#header .navArea #top_menu > li > a{
+	display: inline-block;
+	height: 30px;
+	text-indent: -99999em;
+}
+#header .navArea #top_menu li.contact{
+	padding-right: 8px;
+	background: url(../img/line.png) no-repeat 59px 0; 
+}
+#header .navArea #top_menu li.sitemap{
+	padding: 0 8px 0 8px;
+	background: url(../img/line.png) no-repeat 63px 0;
+}
+/*#header .navArea #top_menu li.global ul.on{
+	display: none;
+}*/
+
+#header .navArea #top_menu li a#contact{
+	width: 52px;
+	height: 21px;
+	background: url(../img/top_contact.png) no-repeat 0 -21px;
+}
+#header .navArea #top_menu li a#sitemap{
+	width: 49px;
+	height: 21px;
+	background: url(../img/top_sitemap.png) no-repeat 0 -21px;
+}
+#header .navArea #top_menu li a#global{
+	width: 97px;
+	height: 21px;
+	background: url(../img/top_global.png) no-repeat 0 -21px; 
+}
+#header .navArea #top_menu li a#language{
+	width: 120px;
+	height: 23px;
+	background: url(../img/top_language.png) no-repeat 0 0;
+	padding-right: 0; 
+}
+#header .navArea #top_menu > li > a#contact:hover,
+#header .navArea #top_menu > li > a#sitemap:hover
+/*#header .navArea #top_menu > li > a#global:hover,
+#header .navArea #top_menu > li > a#language:hover*/
+{
+	background-position: 0 0px;
+}
+
+/*#header global 영역 시작*/
+
+#header .navArea #top_menu li.global{
+	padding: 0 23px 0 8px;
+	position: relative;
+	/*background: orange;*/
+}
+#header .navArea #top_menu li.global ul{
+	position: absolute;
+	top: 15px;
+	left: -2px;
+	width: 105px;
+	color: #aaa;
+	text-align: right;
+	border-right: 1px solid #c8c8c8;
+	border-left: 1px solid #c8c8c8;
+	/*background: teal;*/
+}
+#header .navArea #top_menu li.global ul.on{
+	display: none;
+}
+#header .navArea #top_menu li.global ul li.first{
+	padding-top: 15px;
+}
+#header .navArea #top_menu li.global ul li{
+	padding-bottom: 4px;
+}
+#header .navArea #top_menu li.global ul li a{
+	font-family: 'NanumGothic','돋움';
+	color:#797474;
+	text-decoration: none;
+}
+ /*#header globl 영역 끝*/
+
+/*#header language 영역 시작*/ 
+#header .navArea #top_menu li.language{
+	position: relative;
+	/*background: orange;*/
+}
+#header .navArea #top_menu li.language ul{
+	position: absolute;
+	top: 18px;
+	left: 0;
+	width: 117px;
+	color: #aaa;
+	text-align: center;
+	border: 1px solid #c8c8c8;
+	border-top-color:transparent; 
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	/*background: teal;*/
+}
+#header .navArea #top_menu li.language ul.on{
+	display: none;
+}
+#header .navArea #top_menu li.language ul li.first{
+	padding-top: 9px;
+}
+#header .navArea #top_menu li.language ul li{
+	padding-bottom: 4px;
+}
+#header .navArea #top_menu li.language ul li a{
+	font-family: 'NanumGothic','돋움';
+	color:#797474;
+	text-decoration: none;
+}
+/*#heaer language 영역 끝*/
+
+
+#header:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+#container #span{
+	margin: 0 auto;
+	width: 769px;
+	margin-top: 100px;
+	padding-bottom: 600px;
+	background: url(../img/visual_01.png) no-repeat 0 0;
+	-webkit-animation:ani 5s linear infinite alternate;
+	animation: ani 5s linear infinite alternate;
+}
+#container #span:hover{
+	-webkit-animation-play-state:paused;
+	animation-play-state:paused;
+}
+#container #contents{
+	padding-bottom: 60px;
+	*zoom:1;
+}
+#container #contents dl{
+	float: left;
+}
+#container #contents:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+#container #contents .news{
+	width: 335px;
+	margin: 25px 0 5px 90px;
+}
+#container #contents .notice{
+	width: 335px;
+	margin: 25px 90px 5px 57px;
+}
+
+
+#container #contents dl dt{
+	*zoom:1;
+	/*padding-bottom: 5px;*/
+}
+#container #contents dl dt p{
+	float: left;
+}
+#container #contents dl dt a{
+	float: right;
+}
+#container #contents dl dt:after{
+	content: '';
+	display: block;
+	clear:both;
+}
+
+#container #contents dl dd{
+	display: block;
+	/*border-top: 2px solid #c8c8c8;*/
+	/*border-bottom: 2px solid #c8c8c8;*/
+}
+#container #contents dl dd ul{
+	padding: 10px 0 10px 0
+}
+#container #contents dl dd ul li{
+	font-size: 11px;
+	text-align: left;
+	background: url(../img/pink_dot.png) no-repeat 0 10px;
+	*zoom:1;
+}
+#container #contents dl dd ul li a{
+	float: left;
+	padding: 5px 0 0 13px;
+	display:block;
+	overflow:hidden;
+	width:238px;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	-o-text-overow:ellipsis;
+	-moz-binding:url(js/ellipsis.xml#ellipsis)undefinedundefinedundefined
+}
+#container #contents dl dd ul li span{
+	float: right;
+	padding-top: 5px;
+}
+#container #contents dl dd ul li:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+#footer{
+	font-family: 'NanumGothic','돋움';
+	padding-bottom: 40px;
+	*zoom:1;
+}
+#footer .btm_logo{
+	float: left;
+}
+#footer .btm_logo a{
+	display: block;
+	width: 146px;
+	height: 36px;
+	background: url(../img/london.png) no-repeat 0 0;
+	text-indent: -9999em;
+}
+#footer .btm_float{
+	float: right;
+	width: 600px;
+	margin-right: 100px;
+	font-size: 11px;
+	color: #aaa;
+}
+#footer .btm_float ul {
+	*zoom:1;
+}
+#footer .btm_float ul li{
+	float: right;
+}
+#footer .btm_float ul li a,
+#footer .btm_float ul li p{
+	font-family: arial,sans-serif;
+	text-decoration: none;
+	color: #aaa;
+}
+#footer .btm_float ul:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+#footer .btm_float p{
+	text-align: right;
+}
+#footer:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+#footer ul .name{ padding-right: 5px}
+#footer ul .address{ padding-right: 10px}
+#footer ul .phone{ padding-right: 10px}
+/*#footer ul .email{}*/
+

@@ -1,0 +1,171 @@
+@charset "utf-8";
+@import url("common.css");
+@font-face{
+font-family:"Nanum Gothic";
+src:url('/fonts/NanumGothic.eot');
+src:url('/fonts/NanumGothic.eot?#iefix') format('embedded-opentype'),
+url('/fonts/NanumGothic.woff') format('woff'),
+url('/fonts/NanumGothic.ttf') format('truetype');
+url('/fonts/NanumGothic.svg#NanumGothic') format('svg')
+src:local(※), url('/fonts/NanumGothic.woff') format('woff');
+}
+
+@import url("nav.css");
+/*#popup*/
+#popup{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 400px;
+	height: 600px;
+	background: url(../img/event.png) no-repeat 0 0;
+	z-index: 200;
+}
+#popup>p{
+	/*text-align: right;*/
+	position: absolute;
+	top: 100%;
+	right: 15px;
+	margin-top:-30px
+}
+
+/*#contents*/
+#contents{
+	position: relative;
+	display: block;
+}
+#contents .span{
+	/*margin-top: 10px;*/
+	width: 980px;
+	height: 538px;
+	overflow: hidden;
+}
+#contents .span #visual{
+	display: block;
+	width: 6000px;
+	height: 538px;
+	margin: 0;
+	padding: 0;
+}
+#contents .span #visual li{
+	float: left;
+	list-style-type: none;
+	width: 980px;
+	height: 538px;
+}
+#contents .span #visual:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+#contents .banner{
+	position: absolute;
+	top: 441px;
+	left: 0;
+	z-index:20; 
+
+}
+/*#contents .span p{
+	position: absolute;
+	z-index: 20;
+	top:441px;
+	left:0;
+}*/
+
+/*#contents .content*/
+#contents .content .info{
+	margin-top: 10px;
+	overflow: hidden;
+}
+#contents .info dl{
+	float: left;
+	width: 239px;
+	height: 208px;
+	border: 1px solid #f0f0f0;
+	margin-right: 5px;
+	position: relative;
+}
+#contents .content .info dl:last-child{
+	margin-right: 0;
+}
+#contents .content .info dl.newMenue{
+	background: #ffffff;
+}
+#contents .content .info dl.event{
+	background: #f8f8f8;
+}
+#contents .content .info dl.gallery{
+	background: #ffffff;
+}
+#contents .content .info dl.news{
+	background: #f8f8f8;
+}
+#contents .content .info dl dt{
+	padding:15px 0 15px 0;
+	overflow: hidden;
+}
+/*#contents .content .info dl dt a{
+	text-decoration: none;
+	color: #606060;
+}*/
+#contents .content .info dl.gallery dt a{
+	font-family: arial;
+}
+#contents .content .info dl dt .title{
+	float: left;
+	padding-left: 15px;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: sans-serif;
+	text-decoration: none;
+	color: #606060;
+}
+#contents .content .info dl dt .more{
+	float: right;
+	padding-right: 15px;
+}
+
+#contents .content .info dl dd{
+	display: block;
+	width: 209px;
+	height: 143px;
+	margin-left: 14px;
+}
+
+#contents .content .info dl.newMenu dd{
+	background: url(../img/Mmenu01.png) no-repeat 0 0;
+}
+#contents .content .info dl.event dd{
+	background: url(../img/Mmenu02.png) no-repeat 0 0;
+}
+#contents .content .info dl.gallery dd{
+	background: url(../img/Mmenu03.png) no-repeat 0 0;
+}
+#contents .content .info dl.news dd{
+	padding-top: 10px;
+}
+#contents .content .info dl.news dd ul li{
+	padding-left: 15px;
+	background: url(../img/dot.png) no-repeat 8px 10px;
+	line-height: 2;
+}
+
+#contents .content .info dl.news dd ul li a{
+	display: block;
+	width:190px;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	text-decoration: none;
+	color: #303030;
+}
+
+
+
+
+
+
+
+
+
+

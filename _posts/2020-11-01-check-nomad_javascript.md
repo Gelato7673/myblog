@@ -1,11 +1,10 @@
 ---
 layout: blog_page
-menu: speach
-big_group: Myblog
-small_group: IT 기술
+menu: study_program
+big_group: Daily Programming
+small_group: 강의/book/clonecoding
 background: map.jpg
 title:  <b>[강의]</b> Nomad Coders - 바닐라 JS로 크롬 앱 만들기
-subtitle: "Javascript"
 date_start: 2020-08-01
 date_end: 2020-08-08
 tags: javascript

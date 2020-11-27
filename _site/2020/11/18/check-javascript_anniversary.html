@@ -1,0 +1,450 @@
+<!doctype html>
+<html>
+  <head>
+        <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gelato7673</title>
+
+    <!-- favicon -->
+	<link rel="shortcut icon" type="image/x-icon" href="/myblog/assets/img/favicon/favicon.png" />
+	
+	<!-- css vendor -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Poor+Story&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="/myblog/assets/css/syntax.css">
+
+    <!-- sass style -->
+    <link rel="stylesheet" href="/myblog/assets/css/styles.css">
+  </head>
+  <body class="blog-page">
+
+    
+		<section class="page-title">
+      <p class="img-area">
+        <img src="/myblog/assets/img/map.jpg" alt="">
+      </p>
+      
+
+      <div class="inner-wrap">
+        <p class="main-title">
+          <b>[side project]</b> Javascript - 기념일 계산기 만들기
+        </p>
+        <p class="sub-title">
+          
+        </p>
+
+        <ul class="page-info">
+          <li class="writer">Gelato</li>
+          <li class="date">Aug 8. 2020</li>
+        </ul>
+      </div>
+
+    </section>
+
+    <article class="page-contents Myblog">
+      <div class="inner-wrap">
+        <h3 id="기념일-계산기-만들기">기념일 계산기 만들기!</h3>
+
+<h4 id="서론">서론</h4>
+<p>지난번에 Do it 과 Javascript 강의를 들으면서, 공부했던 실습 부분들을 스스로 만들어 보면서, 복습하는 시간들을 가지려고 한다.<br />
+첫번째 실습은 Javascript로 간단한 기념일 계산기 만들기 프로그램 이었다.<br />
+원래 css와 html 파일은 doit 책의 실습 파일에서 제공되지만, 뭔가 좀더 눈에 확 띄게 만들고 싶다는 욕심이 들어서 ㅎㅎ 직접 css와 html 을 만들기로 했다. (세삼 html과 css의 코드량이 일반 programming language보다 많다는 생각을 하게 되었다.. Javascript 실습하는데 css랑 html 코딩길이역시 만만치 않다 ㅎㅎ)</p>
+
+<h4 id="제작순서">제작순서</h4>
+<ol>
+  <li>핑크색 계산기를 상상하면서 html과 css를 사용해서 디자인을 만들어 보자.</li>
+  <li>자바스크립트를 이용해서 프로그램을 만들어 본다.   <br />
+1) 기본적으로 오늘날짜가 메인창에 떠있도록 만든다.  <br />
+2) ‘처음만난날’을 입력하고 버튼을 입력하면, 값을 가지고 있게 한다.  <br />
+3) 각 버튼을 누를때 버튼에 해당되는 계산을 ‘처음만난날’을 기준으로 해서 창에 뜨게한다.</li>
+</ol>
+
+<h4 id="공부한-내용들">공부한 내용들</h4>
+<p>이번 실습을 통해서 공부한 내용들은 다음과 같다.</p>
+<ol>
+  <li>객체를 많이 사용해보았다.</li>
+  <li>date()관련 함수들을 많이 사용해보았다.</li>
+  <li>eventlistener로 이벤트를 연결했다. (오답노트)</li>
+</ol>
+
+<h4 id="오답노트">오답노트</h4>
+
+<ol>
+  <li>addEvneListener
+기념일을 계산해주는 calc함수를 추가해보자. 처음에 이렇게 추가했다.</li>
+</ol>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">//500일 기념일 계산</span>
+<span class="kd">let</span> <span class="nx">calcDate</span> <span class="o">=</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+
+    <span class="kd">let</span> <span class="nx">annivSeconds</span> <span class="o">=</span> <span class="nx">firstmeet</span><span class="p">()</span> <span class="o">+</span> <span class="mi">500</span><span class="o">*</span><span class="p">(</span><span class="mi">1000</span><span class="o">*</span><span class="mi">60</span><span class="o">*</span><span class="mi">60</span><span class="o">*</span><span class="mi">24</span><span class="p">);</span>
+    <span class="kd">let</span> <span class="nx">annivDate</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">(</span><span class="nx">annivSeconds</span><span class="p">);</span>
+    <span class="kd">let</span> <span class="nx">anniv</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="na">year</span><span class="p">:</span> <span class="nx">annivDate</span><span class="p">.</span><span class="nx">getFullYear</span><span class="p">(),</span>
+        <span class="na">month</span><span class="p">:</span> <span class="nx">annivDate</span><span class="p">.</span><span class="nx">getMonth</span><span class="p">()</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span>
+        <span class="na">date</span><span class="p">:</span> <span class="nx">annivDate</span><span class="p">.</span><span class="nx">getDate</span><span class="p">()</span>
+    <span class="p">}</span>
+    <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="dl">"</span><span class="s2">.show-date</span><span class="dl">"</span><span class="p">).</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="s2">`500일은 </span><span class="p">${</span><span class="nx">anniv</span><span class="p">.</span><span class="nx">year</span><span class="p">}</span><span class="s2">년 </span><span class="p">${</span><span class="nx">anniv</span><span class="p">.</span><span class="nx">month</span><span class="p">}</span><span class="s2">월 </span><span class="p">${</span><span class="nx">anniv</span><span class="p">.</span><span class="nx">date</span><span class="p">}</span><span class="s2">일`</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="c1">//500일</span>
+<span class="kd">let</span> <span class="nx">fiveHundred</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="dl">"</span><span class="s2">#first-year</span><span class="dl">"</span><span class="p">);</span>
+<span class="nx">fiveHundred</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="dl">"</span><span class="s2">click</span><span class="dl">"</span><span class="p">,</span> <span class="nx">calcDate</span><span class="p">);</span>
+</code></pre></div></div>
+
+<p>여기까지는 잘되었다. <br />
+그런데, 만약 이런식으로 함수를 생성하고 추가하면, 나는 calcDate 함수를 2개 더 만들어야 했다.  <br />
+그래서, 머리를 좀 써야겠다고 생각하고 다음과 같이 수정했다.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">//500일 기념일 계산</span>
+<span class="kd">let</span> <span class="nx">calcDate</span> <span class="o">=</span> <span class="p">(</span><span class="nx">days</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+
+    <span class="kd">let</span> <span class="nx">annivSeconds</span> <span class="o">=</span> <span class="nx">firstmeet</span><span class="p">()</span> <span class="o">+</span> <span class="nx">days</span><span class="o">*</span><span class="p">(</span><span class="mi">1000</span><span class="o">*</span><span class="mi">60</span><span class="o">*</span><span class="mi">60</span><span class="o">*</span><span class="mi">24</span><span class="p">);</span>
+    <span class="kd">let</span> <span class="nx">annivDate</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">(</span><span class="nx">annivSeconds</span><span class="p">);</span>
+    <span class="kd">let</span> <span class="nx">anniv</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="na">year</span><span class="p">:</span> <span class="nx">annivDate</span><span class="p">.</span><span class="nx">getFullYear</span><span class="p">(),</span>
+        <span class="na">month</span><span class="p">:</span> <span class="nx">annivDate</span><span class="p">.</span><span class="nx">getMonth</span><span class="p">()</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span>
+        <span class="na">date</span><span class="p">:</span> <span class="nx">annivDate</span><span class="p">.</span><span class="nx">getDate</span><span class="p">()</span>
+    <span class="p">}</span>
+    <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="dl">"</span><span class="s2">.show-date</span><span class="dl">"</span><span class="p">).</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="s2">`500일은 </span><span class="p">${</span><span class="nx">anniv</span><span class="p">.</span><span class="nx">year</span><span class="p">}</span><span class="s2">년 </span><span class="p">${</span><span class="nx">anniv</span><span class="p">.</span><span class="nx">month</span><span class="p">}</span><span class="s2">월 </span><span class="p">${</span><span class="nx">anniv</span><span class="p">.</span><span class="nx">date</span><span class="p">}</span><span class="s2">일`</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="c1">//500일</span>
+<span class="kd">let</span> <span class="nx">fiveHundred</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="dl">"</span><span class="s2">#first-year</span><span class="dl">"</span><span class="p">);</span>
+<span class="nx">fiveHundred</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="dl">"</span><span class="s2">click</span><span class="dl">"</span><span class="p">,</span> <span class="nx">calcDate</span><span class="p">(</span><span class="mi">500</span><span class="p">));</span>
+</code></pre></div></div>
+
+<p>비웃지 않아주시길 ㅋㅋ 어쨌든 함수는 동작이 안되었다. <br />
+왜 안되었을까? 왜 addEventListner에 추가하는 함수는 인자를 받을 수 없는걸까.<br />
+그이유는 이 함수는 자동으로 event를 인자로 가지는 함수이기 때문이었다. <br />
+그럼.. 함수를 두개 더 만들어야 하나.. 라는 생각을 하다가, 남들은 어떻게 처리하나 구경 다니기로 했다.<br />
+그러다가 찾은 영상 하나. <a href="https://www.youtube.com/watch?v=ncv3UwUarUc">(생활코딩-addEvnetListener방식)</a>
+<img src="/myblog/assets/conts_img/20201119_001358.png" alt="생활코딩캡쳐" /></p>
+
+<p>으흠~ switch를 이용해 봐야겠다. 그리하여 이렇게 수정되었다.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">calcDate</span> <span class="o">=</span> <span class="p">(</span><span class="nx">event</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="kd">let</span> <span class="nx">days</span><span class="p">;</span>
+    <span class="kd">let</span> <span class="nx">c</span><span class="p">;</span>
+    <span class="k">switch</span><span class="p">(</span><span class="nx">event</span><span class="p">.</span><span class="nx">Target</span><span class="p">.</span><span class="nx">id</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">case</span> <span class="dl">'</span><span class="s1">days500</span><span class="dl">'</span><span class="p">:</span>
+            <span class="nx">days</span> <span class="o">=</span> <span class="mi">500</span><span class="p">;</span>
+            <span class="nx">c</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">500일</span><span class="dl">'</span><span class="p">;</span>
+            <span class="k">break</span><span class="p">;</span>
+        <span class="k">case</span> <span class="dl">'</span><span class="s1">days100</span><span class="dl">'</span><span class="p">:</span>
+            <span class="nx">days</span> <span class="o">=</span> <span class="mi">100</span><span class="p">;</span>
+            <span class="nx">c</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">100일</span><span class="dl">'</span><span class="p">;</span>
+            <span class="k">break</span><span class="p">;</span>
+        <span class="k">case</span> <span class="dl">'</span><span class="s1">year1</span><span class="dl">'</span><span class="p">:</span>
+            <span class="nx">days</span> <span class="o">=</span> <span class="mi">365</span><span class="p">;</span>
+            <span class="nx">c</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">1년</span><span class="dl">'</span><span class="p">;</span>
+            <span class="k">break</span><span class="p">;</span>
+    <span class="p">}</span>
+    
+    <span class="kd">let</span> <span class="nx">annivSeconds</span> <span class="o">=</span> <span class="nx">firstmeet</span><span class="p">()</span> <span class="o">+</span> <span class="nx">days</span><span class="o">*</span><span class="p">(</span><span class="mi">1000</span><span class="o">*</span><span class="mi">60</span><span class="o">*</span><span class="mi">60</span><span class="o">*</span><span class="mi">24</span><span class="p">);</span>
+    <span class="kd">let</span> <span class="nx">annivDate</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">(</span><span class="nx">annivSeconds</span><span class="p">);</span>
+    <span class="kd">let</span> <span class="nx">anniv</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="na">year</span><span class="p">:</span> <span class="nx">annivDate</span><span class="p">.</span><span class="nx">getFullYear</span><span class="p">(),</span>
+        <span class="na">month</span><span class="p">:</span> <span class="nx">annivDate</span><span class="p">.</span><span class="nx">getMonth</span><span class="p">()</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span>
+        <span class="na">date</span><span class="p">:</span> <span class="nx">annivDate</span><span class="p">.</span><span class="nx">getDate</span><span class="p">()</span>
+    <span class="p">}</span>
+    <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="dl">"</span><span class="s2">.show-date</span><span class="dl">"</span><span class="p">).</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="s2">`</span><span class="p">${</span><span class="nx">c</span><span class="p">}</span><span class="s2">은 </span><span class="p">${</span><span class="nx">anniv</span><span class="p">.</span><span class="nx">year</span><span class="p">}</span><span class="s2">년 </span><span class="p">${</span><span class="nx">anniv</span><span class="p">.</span><span class="nx">month</span><span class="p">}</span><span class="s2">월 </span><span class="p">${</span><span class="nx">anniv</span><span class="p">.</span><span class="nx">date</span><span class="p">}</span><span class="s2">일`</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kd">let</span> <span class="nx">fiveHundred</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="dl">"</span><span class="s2">#first-year</span><span class="dl">"</span><span class="p">);</span>
+<span class="nx">fiveHundred</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="dl">"</span><span class="s2">click</span><span class="dl">"</span><span class="p">,</span> <span class="nx">calcDate</span><span class="p">);</span>
+</code></pre></div></div>
+
+<p>응.. 근데 또 안돼. 왜 안되니이..^^  <br />
+정확히 어떻게 안되었냐 하면, 함수에서 console.log(event.target.id);를 입력했을때, &lt;li&gt;(이벤트가 활성화되고 있는 area)의  id가 나오길 기대했는데,  emptystring 이라는 글이 콘솔에 뜨고 있었다. <br />
+음.. id를 못 잡아내는거네? 그래서, 몇가지 실험에 들어갔다. (이건 html 부분이랑 함께봐야해서 함께 써놓겠다.)</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"button-group"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;li</span> <span class="na">id=</span><span class="s">"today"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;p&gt;</span>오늘 몇일째?<span class="nt">&lt;/p&gt;</span>
+        <span class="nt">&lt;p&gt;&lt;i</span> <span class="na">class=</span><span class="s">"far fa-heart"</span><span class="nt">&gt;&lt;/i&gt;&lt;/p&gt;</span>
+    <span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li</span> <span class="na">id=</span><span class="s">"days500"</span> <span class="na">class=</span><span class="s">"unique"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;p&gt;</span>500일<span class="nt">&lt;/p&gt;</span>
+        <span class="nt">&lt;p&gt;&lt;i</span> <span class="na">class=</span><span class="s">"far fa-heart"</span><span class="nt">&gt;&lt;/i&gt;&lt;/p&gt;</span>
+    <span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li</span> <span class="na">id=</span><span class="s">"days100"</span> <span class="na">class=</span><span class="s">"unique"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;p&gt;</span>100일<span class="nt">&lt;/p&gt;</span>
+        <span class="nt">&lt;p&gt;&lt;i</span> <span class="na">class=</span><span class="s">"far fa-heart"</span><span class="nt">&gt;&lt;/i&gt;&lt;/p&gt;</span>
+    <span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;li</span> <span class="na">id=</span><span class="s">"year1"</span> <span class="na">class=</span><span class="s">"unique"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;p&gt;</span>1년<span class="nt">&lt;/p&gt;</span>
+        <span class="nt">&lt;p&gt;&lt;i</span> <span class="na">class=</span><span class="s">"far fa-heart"</span><span class="nt">&gt;&lt;/i&gt;&lt;/p&gt;</span>
+    <span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span>
+</code></pre></div></div>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">let</span> <span class="nx">calcDate</span> <span class="o">=</span> <span class="p">(</span><span class="nx">event</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+	<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">event</span><span class="p">.</span><span class="nx">target</span><span class="p">.</span><span class="nx">id</span><span class="p">);</span> <span class="c1">//console -&gt; emptystring 이 뜬다.</span>
+	<span class="nx">event</span><span class="p">.</span><span class="nx">target</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">visibility</span> <span class="o">=</span> <span class="dl">"</span><span class="s2">hidden</span><span class="dl">"</span> <span class="c1">//li전체가 사라지지 않고, li안에 첫번째p만 스타일이 사라진다.</span>
+<span class="p">}</span>
+
+<span class="kd">let</span> <span class="nx">fiveHundred</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="dl">"</span><span class="s2">#first-year</span><span class="dl">"</span><span class="p">);</span>
+<span class="nx">fiveHundred</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="dl">"</span><span class="s2">click</span><span class="dl">"</span><span class="p">,</span> <span class="nx">calcDate</span><span class="p">);</span>
+</code></pre></div></div>
+
+<p>event.target.style.visibility = “hidden” 구문에서 첫번째 p만 안보이게 된다는 거슨?!<br />
+ target이 가리키고 있는것이 첫번째 p라는건데?? 조금 옮겨서 클릭을 해보니까 조금씩 달라지는 콘솔..<br />
+ 아하. 그렇다면, 지금 이벤트가 일어나는 area를 가리키고 있는게 아니라, 내가 클릭하고 있는 그 포인트를 target하고 있구나.<br />
+ 이벤트가 일어나는 area자체를 타겟팅 해야하는데?!<br />
+ Mozila 문서를 뒤져보자. 뒤적뒤적..<br />
+<a href="https://developer.mozilla.org/en-US/docs/Web/API/Event/Comparison_of_Event_Targets">Mozilla event target</a></p>
+
+<p>그리하여 최종완성..</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">//날짜별 기념일</span>
+<span class="kd">let</span> <span class="nx">calcDate</span> <span class="o">=</span> <span class="p">(</span><span class="nx">event</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="kd">let</span> <span class="nx">days</span><span class="p">;</span>
+    <span class="kd">let</span> <span class="nx">c</span><span class="p">;</span>
+    <span class="k">switch</span><span class="p">(</span><span class="nx">event</span><span class="p">.</span><span class="nx">currentTarget</span><span class="p">.</span><span class="nx">id</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">case</span> <span class="dl">'</span><span class="s1">days500</span><span class="dl">'</span><span class="p">:</span>
+            <span class="nx">days</span> <span class="o">=</span> <span class="mi">500</span><span class="p">;</span>
+            <span class="nx">c</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">500일</span><span class="dl">'</span><span class="p">;</span>
+            <span class="k">break</span><span class="p">;</span>
+        <span class="k">case</span> <span class="dl">'</span><span class="s1">days100</span><span class="dl">'</span><span class="p">:</span>
+            <span class="nx">days</span> <span class="o">=</span> <span class="mi">100</span><span class="p">;</span>
+            <span class="nx">c</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">100일</span><span class="dl">'</span><span class="p">;</span>
+            <span class="k">break</span><span class="p">;</span>
+        <span class="k">case</span> <span class="dl">'</span><span class="s1">year1</span><span class="dl">'</span><span class="p">:</span>
+            <span class="nx">days</span> <span class="o">=</span> <span class="mi">365</span><span class="p">;</span>
+            <span class="nx">c</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">1년</span><span class="dl">'</span><span class="p">;</span>
+            <span class="k">break</span><span class="p">;</span>
+    <span class="p">}</span>
+    
+    <span class="kd">let</span> <span class="nx">annivSeconds</span> <span class="o">=</span> <span class="nx">firstmeet</span><span class="p">()</span> <span class="o">+</span> <span class="nx">days</span><span class="o">*</span><span class="p">(</span><span class="mi">1000</span><span class="o">*</span><span class="mi">60</span><span class="o">*</span><span class="mi">60</span><span class="o">*</span><span class="mi">24</span><span class="p">);</span>
+    <span class="kd">let</span> <span class="nx">annivDate</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">(</span><span class="nx">annivSeconds</span><span class="p">);</span>
+    <span class="kd">let</span> <span class="nx">anniv</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="na">year</span><span class="p">:</span> <span class="nx">annivDate</span><span class="p">.</span><span class="nx">getFullYear</span><span class="p">(),</span>
+        <span class="na">month</span><span class="p">:</span> <span class="nx">annivDate</span><span class="p">.</span><span class="nx">getMonth</span><span class="p">()</span> <span class="o">+</span> <span class="mi">1</span><span class="p">,</span>
+        <span class="na">date</span><span class="p">:</span> <span class="nx">annivDate</span><span class="p">.</span><span class="nx">getDate</span><span class="p">()</span>
+    <span class="p">}</span>
+    <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="dl">"</span><span class="s2">.show-date</span><span class="dl">"</span><span class="p">).</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="s2">`</span><span class="p">${</span><span class="nx">c</span><span class="p">}</span><span class="s2">은 </span><span class="p">${</span><span class="nx">anniv</span><span class="p">.</span><span class="nx">year</span><span class="p">}</span><span class="s2">년 </span><span class="p">${</span><span class="nx">anniv</span><span class="p">.</span><span class="nx">month</span><span class="p">}</span><span class="s2">월 </span><span class="p">${</span><span class="nx">anniv</span><span class="p">.</span><span class="nx">date</span><span class="p">}</span><span class="s2">일`</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="c1">//날짜별 함수</span>
+<span class="kd">let</span> <span class="nx">unique</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelectorAll</span><span class="p">(</span><span class="dl">"</span><span class="s2">.unique</span><span class="dl">"</span><span class="p">);</span>
+<span class="nx">unique</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="nx">element</span> <span class="o">=&gt;</span> <span class="p">{</span>
+    <span class="nx">element</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="dl">"</span><span class="s2">click</span><span class="dl">"</span><span class="p">,</span> <span class="nx">calcDate</span><span class="p">);</span>
+<span class="p">});</span>
+</code></pre></div></div>
+
+<p>앞에서 진행해 온 내용과 추가로 조금 달라진 부분이  있다면, 이 함수를 여러 번 추가해야해서, queyrSelectorAll(클래스네임)으로 해서 배열로 만든 후에 forEach를 만든후에 추가했다는 점 정도가 있겠다.</p>
+
+<p>** 이 문제를 해결하면서, 해결포인트를 바로 target으로 접근하지 못하고 처음에 event bubbling에러가 아닐까? 하고 생각한 지점이 있었는데, 이는 내가 event bubbling을 제대로 이해하지 못하고 있었어서 생긴 문제점 이었던 것 같다.<br />
+그래서, 이번엔 그냥 글을 읽어보고 끝나지 않고, 하나씩 실습해 보면서 이해해보았고, 마무리로 글로쓰면서 한번더 기억해 보려고 한다.<br />
+일단, 이벤트 버블링이 생각보다 자연스러운 현상인 것이, DOM은 tree구조로 되어있고, 따라서 클릭지점은 어떤 지점에 속한 지점일 수밖에 없다.<br />
+아까 내가 클릭했던 &lt;p&gt;가 &lt;li&gt;에 속해 있는 것처럼 말이다.<br />
+이때, 만약 p와 li에 모두 이벤트가 걸려있다면, p를 클릭한다고 해도 p의 이벤트만 발현되는 것이 아니라 li의 이벤트도 (p는 li에 속해있으니까!) 발현되는 것이 event bubbling 이다. 반대로, li를 클릭했을때 p의 이벤트까지 발현되는 것이 capturing인 것이다. <br />
+이걸 막기 위해서 쓸 수 있는 코드로는 아래 함수가 있다. 그러나, 무조건 막을 생각을 하기보다는 어떻게 하면 잘 이용할지에 관한 지혜가 필요하다.</p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">logEvent</span><span class="p">(</span><span class="nx">event</span><span class="p">)</span> <span class="p">{</span>
+	<span class="nx">event</span><span class="p">.</span><span class="nx">stopPropagation</span><span class="p">();</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>유용한 사진으로 답글을 달아놓은 <a href="https://stackoverflow.com/questions/7398290/unable-to-understand-usecapture-parameter-in-addeventlistener">stackoverflow</a> 를 링크하며 오답노트를 마치려 한다.</p>
+
+<h4 id="더공부하고-싶은-내용">더공부하고 싶은 내용</h4>
+<p>이번에 만들면서 찾아보게 된 youtube영상들이 있는데, 자바스크립트를 더 공부하고 싶은 마음도 있어서 언젠가 다시 보게 되지 않을까.. 하고 링크를 남겨둔다.</p>
+<ul>
+  <li><a href="https://www.youtube.com/watch?v=s1vpVCrT8f4&amp;t=350s">드림코딩 by 엘리 - Javascript콜백</a></li>
+  <li><a href="https://www.youtube.com/watch?v=zGBkPTwydeg">생활코딩</a></li>
+  <li>으흠, 다음번에는 javascript 의 this속성을 좀 잘 써보고 싶다.</li>
+</ul>
+
+<h4 id="참고사항">참고사항</h4>
+<ul>
+  <li><a href="https://github.com/Gelato7673/js-anniv.calculator.git">이번실습 코드가 담겨져 있는 git repository 바로가기</a></li>
+  <li>본실습은 visual studio Code를 사용하고, doit 책을 참고하여 진행하였습니다.</li>
+</ul>
+
+
+
+        
+          <ul class="tags">
+            
+              <li>javascript</li>
+            
+          </ul>
+        
+
+        <!-- disque:s -->
+        
+          <div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+
+var disqus_config = function () {
+this.page.url = 'https://gelato7673.github.io/myblog/2020/11/18/check-javascript_anniversary.html';  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = 'https://gelato7673.github.io/myblog/2020/11/18/check-javascript_anniversary.html'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://gelato7673.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        
+        <!-- disque:e -->
+      </div>
+    </article>
+
+
+
+
+
+    <!-- footer:s -->
+    <div class="footer">
+
+      <div class="inner-wrap">
+
+        <div class="other-pages">
+          <!-- list-area:s -->
+          <div class="list-area">
+            
+            
+            
+
+              <div class="title-area-wrap">
+                <ul class="title-area">
+                  <li class="section">Myblog</li>
+                  <li class="main-title"><a href="/myblog/campusnote">IT 기술</a></li>
+                </ul>
+                
+                <span class="bar" id="left-bar"><ion-icon name="chevron-back-outline"></ion-icon></span></li>
+                
+                <ul class="count count_1">
+                  <li class="now">1</li>
+                  <li class="total">3</li>
+                </ul>
+                
+                <ul class="count count_2">
+                  <li class="now">2</li>
+                  <li class="total">3</li>
+                </ul>
+                
+                <ul class="count count_3">
+                  <li class="now">3</li>
+                  <li class="total">3</li>
+                </ul>
+                
+                <span class="bar" id="right-bar"><ion-icon name="chevron-forward-outline"></ion-icon></span>
+
+              </div>
+
+              
+                <ul class="list list_1">
+                
+  
+  
+  
+    <!-- list:s -->
+
+  
+  <li>
+    <a class="title" href="/myblog/2020/11/01/side-checklist.html">[]</a>
+  </li>
+  
+  <li>
+    <a class="title" href="/myblog/2020/08/29/check-git.html">GIT</a>
+  </li>
+  
+  <li>
+    <a class="title" href="/myblog/2020/11/18/check-javascript_anniversary.html"><b>[side project]</b> Javascript - 기념일 계산기 만들기</a>
+  </li>
+  
+  <li>
+    <a class="title" href="/myblog/2020/11/13/javascript.html">Javascript</a>
+  </li>
+  
+    
+  <!-- list:e -->
+
+                </ul>
+              
+                <ul class="list list_2">
+                
+  
+  
+  
+    <!-- list:s -->
+
+  
+  <li>
+    <a class="title" href="/myblog/2020/08/29/check-font_icon.html">Font-icon</a>
+  </li>
+  
+  <li>
+    <a class="title" href="/myblog/2020/10/16/makingdrawer.html"><b>[Toy Project]</b> 블로그에서 쓸 drawer를 만들어보자!!</a>
+  </li>
+  
+  <li>
+    <a class="title" href="/myblog/2020/10/24/check-css.html">CSS</a>
+  </li>
+  
+  <li>
+    <a class="title" href="/myblog/2020/08/29/check-makingblog.html"><b>[blog]</b>github pages에서 블로그 만들고 관리하기</a>
+  </li>
+  
+    
+  <!-- list:e -->
+
+                </ul>
+              
+                <ul class="list list_3">
+                
+  
+  
+  
+    <!-- list:s -->
+
+  
+  <li>
+    <a class="title" href="/myblog/2020/08/29/check-html.html">HTML</a>
+  </li>
+  
+  <li>
+    <a class="title" href="/myblog/2020/09/20/check-sublimetext3.html">각종 프로그램 단축키</a>
+  </li>
+  
+  <li>
+    <a class="title" href="/myblog"></a>
+  </li>
+  
+  <li>
+    <a class="title" href="/myblog"></a>
+  </li>
+  
+    
+  <!-- list:e -->
+
+                </ul>
+              
+          </div>
+          <!-- list-area:e -->
+
+          <!-- cover-area:s -->
+          <div class="cover-area"style="background:url(/myblog/assets/img/campusnote.jpg) no-repeat;background-size: cover;">
+            <p class="title">IT 기술</p>
+            <p class="writer">by. Gelato</p>
+          </div>
+          <!-- cover-area:e -->
+        </div>
+      
+      </div>
+    </div>
+    <!-- footer:e -->
+    <script id="dsq-count-scr" src="//gelato7673.disqus.com/count.js" async></script>
+    <script src="/myblog/assets/js/page.js"></script>
+  </body>
+</html>

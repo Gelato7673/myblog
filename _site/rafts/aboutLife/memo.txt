@@ -1,0 +1,99 @@
+@font-face
+
+https://developer.mozilla.org/ko/docs/Web/CSS/@font-face
+
+뭐지, 선임은 종류별로 다 찾아서 집어 넣어둔 건가. 어디서 이렇게 다 종류별로 찾아서..
+아. Nanum Gothic 이니까 naver page 에서 찾아서 넣어뒀구만.
+
+------------
+
+움짤 만들기
+
+https://brunch.co.kr/@eastgo/451
+http://blog.naver.com/PostView.nhn?blogId=hmes00&logNo=220772781791&categoryNo=0&parentCategoryNo=21&viewDate=&currentPage=1&postListTopCurrentPage=1&from=search
+
+동영상을 홈페이지 전면에 넣기. 소리 볼륨 넣어서.
+
+https://codepen.io/
+
+=================
+Intro 용으로.. 너무 이쁘다.
+https://codepen.io/dudleystorey/pen/knqyK
+
+=================
+
+돌아가게 하는 것은 너의 몫.
+포트폴리오의 모든 코드는 너가 이해하고 칠것.
+
+================
+
+favicon 만들기!
+
+============================
+배경 만들기
+https://codepen.io/dudleystorey/pen/knqyK
+
+동영상
+https://codepen.io/heff/pen/EarCt
+
+video 태그 관련 글
+https://m.blog.naver.com/skydoor2014/221667330746
+https://developer.mozilla.org/ko/docs/Web/HTML/Element/video
+
+===================
+color 
+https://cssgradient.io/
+https://aboooks.tistory.com/82
+
+---------------------------
+참고사이트
+https://ppss.kr/
+https://ionicons.com/
+
+==============================
+
+그냥 내 취미 블로그 하나 만들어야 겠다. 
+여기에는 가급적. 영어로만 업로드 하도록. 그리고 그 전의 것들을 안보이도록 해야지 (List 만들고 말야)
+[여행관련 블로그]
+
+아이패드에 친구들 생일 체크
+[아이패드를 좀.. 자주 봐야할듯 ^^?;;]
+
+그냥 생일 써 두는게 나을듯..
+다녀온건 나중에 포스팅 하더라도..
+그냥 내용은 한곳에 몰아두는게 편할지도..^^;;
+
+============
+https://www.youtube.com/watch?v=-qxftowgSNw
+
+할까말까.. 고민하다가 2020 하반기 QT배달을 시작해 봅니당 :)
+개인적으로 좋아하시는 걸로 큐티 하시는 분도 많겠지만,
+아무것도 하고 싶지 않을때 이 영상이 조그마한 위로가 되길 바라며..ㅎㅎ
+답장은 하지 않으셔도 됩니다. 
+오늘도 힘내세요 !
+
+=======================
+list-style
+http://webberstudy.com/html-css/css-1/list-style/
+
+=========================
+font-icon
+https://stackoverflow.com/questions/20782368/use-font-awesome-icon-as-css-content
+
+https://rgy0409.tistory.com/3075
+
+=======================================================================================
+
+
+[웹 애플리케이션 만들기]
+
+ㅋㅋㅋ 전략
+(컨텐츠, 컨테이너, 커뮤니티) 이 셋이 함께되어야 일이 잘 된다. 
+컨텐츠 : 생활코딩
+컨테이너 : 오픈튜토리얼스
+커뮤니티 : 생활코딩 페이스북 그룹, 생활생산자 모임
+
+
+생활코딩 페이스북 그룹
+생활 생산자 모임
+

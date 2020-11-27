@@ -1,0 +1,167 @@
+@charset "utf-8";
+@import url(common.css);
+@import url(http://fonts.googleapis.com/css?family=Quicksand|Cantora+One);
+
+body{
+	font-family: 'Quicksand',Helvetica,sans-serif;
+	border-top: 8px solid #1b1b1b;
+}
+
+/* header start */
+#header{
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 0 20px 50px;
+}
+#header:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+#header .logo{
+	float: left;
+	padding: 30px 0 15px 0;
+}
+#header .logo a{
+	display: block;
+	font: bold 1.8em Tahoma,Helvetica,sans-serif;
+	color: #1b1b1b;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#header .gnb{
+	padding-top: 24px;
+}
+#header .gnb ul{
+	float: right;
+	font-family: arial,Helvetica,sans-serif;
+}
+#header .gnb ul li{
+	float: left;
+	margin-right: 15px;
+}
+#header .gnb ul li:last-child{
+	margin-right: 0;
+}
+#header .gnb ul li a{
+	display: block;
+	padding: 6px 50px 6px 0;
+	border-bottom: 1px solid #aaa;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#header .gnb ul li a:hover{
+	border-bottom-color: #222;
+}
+/* header end */
+
+/* contents start */
+#contents{
+
+}
+#contents ul{
+
+}
+#contents ul:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+#contents ul li{
+	position: relative;
+	float: left;
+	width: 33.3333%;
+}
+#contents ul li.a{background-color: #969696;}
+#contents ul li.b{background-color: #848484;}
+#contents ul li.c{background-color: #9e9e9e;}
+#contents ul li.d{background-color: #bfbfbf;}
+#contents ul li.e{background-color: #929292;}
+#contents ul li.f{background-color: #aaaaaa;}
+
+#contents ul li a{
+	display: block;
+	-webkit-transition: all 1s;
+	transition: all 1s;
+}
+#contents ul li a strong{
+	display: block;
+	position: absolute;
+	top: 50%;
+	margin-top: -1.3em;
+	width: 100%;
+	opacity: 0;
+	color: #fff;
+	font-family: arial,Helvetica,sans-serif;
+	font-size: 2.6em;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	-webkit-transition: opacity 0.5s;
+	transition: opacity 0.5s;
+}
+#contents ul li a img{
+	max-width: 100%;
+}
+#contents ul li.a a:hover{background-color: #f6365a;}
+#contents ul li.b a:hover{background-color: #13f59a;}
+#contents ul li.c a:hover{background-color: #ffde3d;}
+#contents ul li.d a:hover{background-color: #879ff7;}
+#contents ul li.e a:hover{background-color: #2f9bf6;}
+#contents ul li.f a:hover{background-color: #f6735e;}
+
+#contents ul li a:hover strong{
+	opacity: 1;
+}
+/* contents end */
+
+/* footer start */
+#footer{
+	position: relative;
+	max-width: 1170px;
+	margin: 40px auto 0;
+	padding: 15px 20px 40px;
+	border-top: 1px solid #ddd;
+	font-size: 1.2em;
+	text-align: left;
+}
+#footer .copy{
+	
+}
+#footer address{
+	
+}
+#footer .sns{
+	position: absolute;
+	right: 20px;
+	top: 15px;
+}
+#footer .sns li{
+	float: left;
+	margin-left: 10px;
+}
+#footer .sns li a{
+	display: block;
+	width: 32px;
+	height: 32px;
+	text-indent: -9999em;
+}
+#footer .sns li:nth-child(1) a{
+	background-image: url(../img/icon_twt.png);
+	-webkit-transition: all 1s;
+	transition: all 1s;
+}
+#footer .sns li:nth-child(1) a:hover{
+	background-image: url(../img/icon_twt_ov.png);
+}
+#footer .sns li:nth-child(2) a{
+	background-image: url(../img/icon_ghub.png);
+	-webkit-transition: all 1s;
+	transition: all 1s;
+}
+#footer .sns li:nth-child(2) a:hover{
+	background-image: url(../img/icon_ghub_ov.png);
+}
+/* footer end */

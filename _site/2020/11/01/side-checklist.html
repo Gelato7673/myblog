@@ -1,0 +1,252 @@
+<!doctype html>
+<html>
+  <head>
+        <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gelato7673</title>
+
+    <!-- favicon -->
+	<link rel="shortcut icon" type="image/x-icon" href="/myblog/assets/img/favicon/favicon.png" />
+	
+	<!-- css vendor -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Poor+Story&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="/myblog/assets/css/syntax.css">
+
+    <!-- sass style -->
+    <link rel="stylesheet" href="/myblog/assets/css/styles.css">
+  </head>
+  <body class="blog-page">
+
+    
+    <section class="page-title none-background">
+    
+
+      <div class="inner-wrap">
+        <p class="main-title">
+          []
+        </p>
+        <p class="sub-title">
+          todoList만들기
+        </p>
+
+        <ul class="page-info">
+          <li class="writer">Gelato</li>
+          <li class="date">Aug 8. 2020</li>
+        </ul>
+      </div>
+
+    </section>
+
+    <article class="page-contents Myblog">
+      <div class="inner-wrap">
+        <h3 id="오답노트">오답노트</h3>
+<ol>
+  <li>
+    <p>일단. 오타가 없는지 살펴라</p>
+  </li>
+  <li>
+    <p>뭐가 잘못되었는지 찾아서 해결해 보자.</p>
+  </li>
+  <li>
+    <p>빠르게 체크하면서 넘어가야 한다. 같은걸 두번 시도하고 있지 말아라.</p>
+  </li>
+  <li>
+    <p>뭔가 잘 안될때는 기술문서를 꼼꼼히 잘 읽어라. 기능은 모두 설명되어있다.
+-&gt; append child 에 대하여 :https://developer.mozilla.org/ko/docs/Web/API/Node/appendChild</p>
+  </li>
+  <li>
+    <p>문제를 한정해서 생각해라, 다른 문제로 새지 마라.</p>
+  </li>
+</ol>
+
+<p>addeventlistner가 두번 나오는 이유: 1) 두번추가 되었기 때문에 2) event bubbling 때문에?
+3) 글로 써가면서 추론해 나간다. 
+현상을 정확히 글로 써서 구체화 한다  -&gt; 필요한 것이 무엇인지 쓰고, 찾아본다.
+-&gt; 어떻게 해결하면 좋을지 글로 써본다.  -&gt; 그걸 코드로 만들어 본다.</p>
+
+<p>Event listenr 지워주기</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>// let eve = removeBtns[0].getAttribute('data');
+// console.log(eve);
+
+
+// function removeF() {
+//     console.log('click');
+// }
+
+// for (var i=0; i&lt;removeBtns.length; i++) {
+//     let eve = removeBtns[i].getAttribute('data');
+//     if(eve) {
+//         removeBtns[i].removeEventListener('click', removeF);
+//     }
+//     removeBtns[i].addEventListener('click', removeF);
+//     removeBtns[i].setAttribute('data','eve');
+// }
+</code></pre></div></div>
+
+
+        
+          <ul class="tags">
+            
+              <li>get-job</li>
+            
+          </ul>
+        
+
+        <!-- disque:s -->
+        
+        <!-- disque:e -->
+      </div>
+    </article>
+
+
+
+
+
+    <!-- footer:s -->
+    <div class="footer">
+
+      <div class="inner-wrap">
+
+        <div class="other-pages">
+          <!-- list-area:s -->
+          <div class="list-area">
+            
+            
+            
+
+              <div class="title-area-wrap">
+                <ul class="title-area">
+                  <li class="section">Myblog</li>
+                  <li class="main-title"><a href="/myblog/campusnote">오답노트</a></li>
+                </ul>
+                
+                <span class="bar" id="left-bar"><ion-icon name="chevron-back-outline"></ion-icon></span></li>
+                
+                <ul class="count count_1">
+                  <li class="now">1</li>
+                  <li class="total">3</li>
+                </ul>
+                
+                <ul class="count count_2">
+                  <li class="now">2</li>
+                  <li class="total">3</li>
+                </ul>
+                
+                <ul class="count count_3">
+                  <li class="now">3</li>
+                  <li class="total">3</li>
+                </ul>
+                
+                <span class="bar" id="right-bar"><ion-icon name="chevron-forward-outline"></ion-icon></span>
+
+              </div>
+
+              
+                <ul class="list list_1">
+                
+  
+  
+  
+    <!-- list:s -->
+
+  
+  <li>
+    <a class="title" href="/myblog/2020/11/01/side-checklist.html">[]</a>
+  </li>
+  
+  <li>
+    <a class="title" href="/myblog/2020/08/29/check-git.html">GIT</a>
+  </li>
+  
+  <li>
+    <a class="title" href="/myblog/2020/11/18/check-javascript_anniversary.html"><b>[side project]</b> Javascript - 기념일 계산기 만들기</a>
+  </li>
+  
+  <li>
+    <a class="title" href="/myblog/2020/11/13/javascript.html">Javascript</a>
+  </li>
+  
+    
+  <!-- list:e -->
+
+                </ul>
+              
+                <ul class="list list_2">
+                
+  
+  
+  
+    <!-- list:s -->
+
+  
+  <li>
+    <a class="title" href="/myblog/2020/08/29/check-font_icon.html">Font-icon</a>
+  </li>
+  
+  <li>
+    <a class="title" href="/myblog/2020/10/16/makingdrawer.html"><b>[Toy Project]</b> 블로그에서 쓸 drawer를 만들어보자!!</a>
+  </li>
+  
+  <li>
+    <a class="title" href="/myblog/2020/10/24/check-css.html">CSS</a>
+  </li>
+  
+  <li>
+    <a class="title" href="/myblog/2020/08/29/check-makingblog.html"><b>[blog]</b>github pages에서 블로그 만들고 관리하기</a>
+  </li>
+  
+    
+  <!-- list:e -->
+
+                </ul>
+              
+                <ul class="list list_3">
+                
+  
+  
+  
+    <!-- list:s -->
+
+  
+  <li>
+    <a class="title" href="/myblog/2020/08/29/check-html.html">HTML</a>
+  </li>
+  
+  <li>
+    <a class="title" href="/myblog/2020/09/20/check-sublimetext3.html">각종 프로그램 단축키</a>
+  </li>
+  
+  <li>
+    <a class="title" href="/myblog"></a>
+  </li>
+  
+  <li>
+    <a class="title" href="/myblog"></a>
+  </li>
+  
+    
+  <!-- list:e -->
+
+                </ul>
+              
+          </div>
+          <!-- list-area:e -->
+
+          <!-- cover-area:s -->
+          <div class="cover-area"style="background:url(/myblog/assets/img/campusnote.jpg) no-repeat;background-size: cover;">
+            <p class="title">오답노트</p>
+            <p class="writer">by. Gelato</p>
+          </div>
+          <!-- cover-area:e -->
+        </div>
+      
+      </div>
+    </div>
+    <!-- footer:e -->
+    <script id="dsq-count-scr" src="//gelato7673.disqus.com/count.js" async></script>
+    <script src="/myblog/assets/js/page.js"></script>
+  </body>
+</html>

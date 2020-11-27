@@ -1,14 +1,13 @@
 ---
 layout: blog_page
-menu: speach
-big_group: Myblog
-small_group: IT 기술
+menu: trend
+big_group: Daily Programming
+small_group: 기술트랜드
 background: map.jpg
 title:  "<b>[trend search]</b> 한 주간 개발과 관련된 내용을 모아서 정리해보자"
-subtitle: "dependency-manager, preprocessors, phython"
 date_start: 2020-10-18
 date_end: 2020-10-24
-tags: githubpage
+tags: githubpage, dependency-manager, preprocessors, phython
 comments: true
 ---
 

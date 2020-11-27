@@ -1,0 +1,50 @@
+@charset "utf-8";
+@import url(common.css);
+.body{
+	margin: 0 auto;
+}
+.top{
+	*zoom:1;
+	padding-bottom: 30px;
+	background-color: #999999;
+}
+.top .toparea{
+	margin: 0 100px 0 700px; 
+}
+.top dl{
+	*zoom:1;
+	float: left;
+}
+.top dd{
+	float: left;
+}
+.top dl:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.top:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.top .top1{
+	width: 200px;
+	padding-left: 100px;
+}
+
+#header{}
+
+.spot{}
+
+#container{}
+
+.quick{}
+
+.radio{}
+
+.family{}
+
+.footer{}
+

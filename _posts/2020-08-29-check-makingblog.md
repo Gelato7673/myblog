@@ -1,14 +1,13 @@
 ---
 layout: blog_page
-menu: campusnote
-big_group: Myblog
-small_group: 오답노트
+menu: MB
+big_group: Daily Programming
+small_group: 블로그관리
 background: map.jpg
 title:  <b>[blog]</b>github pages에서 블로그 만들고 관리하기
-subtitle: "jekyll, liquid, fireball"
 date_start: 2020-08-29
 date_end: 2020-10-26
-tags: githubpage
+tags: githubpage, jekyll, liquid, fireball
 comments: true
 ---
 
@@ -67,7 +66,7 @@ function sample(highlight) {
 	{{ post.subtitle }}
 {% endif %} 
 {% endraw %}</code></pre>
-
+- [highlight추가하기](https://moon9342.github.io/jekyll-rouge)
 
 
 #### markdown

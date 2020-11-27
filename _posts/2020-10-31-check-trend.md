@@ -1,14 +1,13 @@
 ---
 layout: blog_page
-menu: speach
-big_group: Myblog
-small_group: IT 기술
+menu: trend
+big_group: Daily Programming
+small_group: 기술트랜드
 background: map.jpg
 title: <b>[trend search]</b>2020. 10. 5주차
-subtitle: "dependency-manager, preprocessors, phython"
 date_start: 2020-10-23
 date_end: 2020-10-29
-tags: githubpage
+tags: Javascript(ES6)
 comments: true
 ---
 

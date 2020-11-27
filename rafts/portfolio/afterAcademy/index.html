@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Kiwi's portfolio</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/jquery-1.11.2.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<style>
+		@import url(http://fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+		/*padding area*/
+		.paddingArea{
+			padding-bottom: 750px;
+		}
+		
+		/*빗자루탄 큰 마녀*/
+		#content .wikid{
+			position: absolute;
+			top: 250px;
+			left: 135px;
+			-webkit-animation: myanim 5s infinite; /* Chrome, Opera 15+, Safari 5+ */
+         	animation: myanim 5s infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+		}
+		@-webkit-keyframes myanim {
+		  0%   { top: 200px; }
+		  50%  { top: 260px; }
+		  100% { top: 200px; }
+		}
+		@keyframes myanim {
+		  0%   { top: 200px; }
+		  50%  { top: 260px; }
+		  100% { top: 200px; }
+		}
+		#content .wikid img{
+			width: 550px;
+			height: auto;
+		}
+		#content #welcome{
+			position: absolute;
+			top: 345px;
+			right: 300px;
+			width: 100px;
+			height: 70px;
+			border: 2px dashed black;
+			border-radius: 50%;
+			text-indent: 10px;
+			padding: 10px 30px 10px 40px;
+			/*padding-top: 10px;
+			padding-bottom:10px;
+			padding-left: 40px;
+			padding-right: 30px;*/
+		}
+
+		/*내용변하는 말풍선*/
+		#content #welcome .text{
+				font-family: 'Nanum Pen Script', cursive;
+				font-size: 20px;
+				color: #333333;
+				text-decoration: none;
+					-webkit-transition: all 1s;
+					-moz-transition: all 1s;
+					-ms-transition: all 1s;
+					-o-transition: all 1s;
+					transition: all 1s;
+		}
+		#content #welcome a:hover{
+			background-color: rgba(89,218,80,0.5);
+		}
+		#content #welcome .text .click{
+			font-family: 'Nanum Pen Script', cursive;
+			font-size: 15px;
+			color: #47C83E;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="paddingArea">
+		
+		<div id="header">
+			<h1 class="blind">kiwi's portfolio</h1>
+			<div class="menu">
+				<h2 class="blind">Main menu</h2>
+				<p class="left"><a href="#">Home</a></p>
+				<p class="left"><a href="html/about.html">About me</a></p>
+				<p class="right"><a href="http://goodforyou.dothome.co.kr">Blog</a></p>
+				<p class="right"><a href="html/practice.html">Practice</a></p>
+				<p class="right"><a href="html/portfolio.html">Portfolio</a></p>
+			</div><!-- menu end -->		
+		</div>	<!-- header end -->
+
+		<div id="content">
+			<h3 class="blind">Wikid's welcomepage</h3>
+			<p class="wikid"><img src="img/wikid.png" alt="big_wikid"></p>	
+			<div id="welcome">
+				<a class="text">포트폴리오 페이지에 오신것을 환영합니다 :) <span class="click">Click!</span></a>
+			</div><!-- welcome end -->		
+		</div>	<!-- content end -->
+	</div><!-- paddingArea end -->
+	<script>
+	$('#welcome').click(function(){
+		$(this).children('.text').text('천천히 둘러보세요, 그리고..')
+		.parent('#welcome').click(function(){
+		$(this).children('.text').text('좋은 소식 기대하겠습니다!!')
+		.parent('#welcome').click(function(){
+		$(this).children('.text').text('감사합니다~ :-)')
+	})
+	})
+	});
+
+</script>
+</body>
+</html>

@@ -24,66 +24,45 @@
 			by.Gelato
 		</dd>
 	</dl>
-
+	
 	<dl>
-		<dt class="post-it">My Blog</dt>
+		<dt class="post-it">Daily Programming</dt>
 		<dd>
 			<ul>
+				<li><a href="{{site.baseurl}}/trend">기술트랜드</a></li>
+				<li><a href="{{site.baseurl}}/study_program">강의/book/clonecoding</a></li>
+				<li><a href="{{site.baseurl}}/side">SideProject/ToyProject</a></li>
+				<li><a href="{{site.baseurl}}/MB">블로그관리</a></li>
+				<li><a href="{{site.baseurl}}/etc_note">etc.오답노트</a></li>
+				<li><a href="{{site.baseurl}}/tech_docu">기술별 참고사항</a></li>
 				{% if jekyll.environment == "admin" %}
-				<li><a href="{{site.baseurl}}/graffiti">Graffiti</a></li>
-				<li><a href="{{site.baseurl}}/workingspace">작가의 서랍</a></li>
-				<li><a href="{{site.baseurl}}/search">검색서비스의 역사</a></li>
 				<li><a href="{{site.baseurl}}/algorithm">1일 1알고리즘</a></li>
-				<li><a href="{{site.baseurl}}/community">커뮤니티활동</a></li>
+				<li><a href="{{site.baseurl}}/search">검색서비스의 역사</a></li>
 				{% endif %}
-				<li><a href="{{site.baseurl}}/campusnote">오답노트</a></li>
-				<li><a href="{{site.baseurl}}/speach">IT 기술</a></li>
 			</ul>
 		</dd>
+		<dt class="post-it solo"><a href="">포트폴리오</a></dt>
 		{% if jekyll.environment == "admin" %}
-		<dt class="post-it">My currial</dt>
+
+		<dt class="post-it">My Developer Life</dt>
 		<dd>
 			<ul>
-				<li><a href="#">포트폴리오(CRIC이후)</a></li>
+				<li><a href="{{site.baseurl}}/graffiti">Graffiti</a></li>
+				<li><a href="{{site.baseurl}}/career">커리어 관리</a></li>
+				<li><a href="{{site.baseurl}}/community">커뮤니티활동</a></li>
 			</ul>
 		</dd>
-		<dt class="post-it">인생의 공부들</dt>
+
+		<dt class="post-it">Study for my life</dt>
 		<dd>
 			<ul>
 				<li><a href="{{site.baseurl}}/english">English</a></li>
+				<li><a href="{{site.baseurl}}/book">독서</a></li>
 				<li><a href="{{site.baseurl}}/stock">증권</a></li>
 				<li><a href="{{site.baseurl}}/realestate">부동산</a></li>
 				<li><a href="{{site.baseurl}}/datascientist">Datascientist</a></li>
 				<li><a href="{{site.baseurl}}/goldenage">노후준비</a></li>
-			</ul>
-		</dd>
-		<dt class="post-it">취미 공부</dt>
-		<dd>
-			<ul>
-				<li><a href="{{site.baseurl}}/book">독서</a></li>
-				<li><a href="{{site.baseurl}}/sociology">사회학</a></li>
-				<li><a href="{{site.baseurl}}/pastoral">신학,철학,세계사</a></li>
-				<li><a href="{{site.baseurl}}/psychology">심리학</a></li>
-				<li><a href="{{site.baseurl}}/brain">뇌과학</a></li>
-				<li><a href="{{site.baseurl}}/AI">인공지능</a></li>
-				<li><a href="{{site.baseurl}}/statistics">통계</a></li>
-				<li><a href="{{site.baseurl}}/physics">물리학</a></li>
-			</ul>
-		</dd>
-		<dt class="post-it">삶을 풍요롭게</dt>
-		<dd>
-			<ul>
-				<li><a href="{{site.baseurl}}/picture">풍경사진</a></li>
 				<li><a href="{{site.baseurl}}/business">사업</a></li>
-			</ul>
-		</dd>
-		<dt class="post-it solo"><a href="#">삶에 대하여</a></dt>
-		<dt class="post-it solo"><a href="#">Medium</a></dt>
-		<dt class="post-it solo"><a href="#">인스타</a></dt>
-		<dt class="post-it">기타 이야기들</dt>
-		<dd>
-			<ul>
-				<li><a href="{{site.baseurl}}/googleMeet_Notice">교회 모바일 안내문</a></li>
 			</ul>
 		</dd>
 		{% endif %}

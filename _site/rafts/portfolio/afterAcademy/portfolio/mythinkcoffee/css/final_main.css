@@ -1,0 +1,303 @@
+@charset "utf-8";
+@import url(common.css);
+
+body{
+	background: url(../img/body_bg.jpg);
+}
+.wrap{
+	margin: 0 auto;
+	width: 1120px;
+	background: #fff;
+}
+
+/*#header area*/
+header{
+	width: 980px;
+	margin: 0 auto;
+	padding-bottom: 120px;
+}
+.headerArea{
+	padding-top: 15px;
+	position: relative;
+}
+header .headerArea> h1> a{
+	/*display: block;*/
+	text-indent: -99999em;
+	width:103px;
+	height:102px;
+	position: absolute;
+	top: 15px;
+	left: 10px;
+	background: url(../img/logo.gif) no-repeat 0 0;
+}
+/*topmenu*/
+header .headerArea #topmenu{
+	float: right;
+	clear: both;
+	margin-bottom: 10px;
+}
+header .headerArea #topmenu dd{
+	float: left;
+	margin-left: 15px;
+}
+header .headerArea #topmenu dd a{
+	font-family: arial;
+	color: skyblue;
+}
+
+/*navArea*/
+header .headerArea .navArea{
+	float: right;
+	clear: both;
+	margin-left:20px;
+}
+
+header .headerArea .navArea #nav{
+	position: relative;
+}
+header .headerArea .navArea #nav>li {
+	float: left;
+	/*margin-left: 50px;*/
+}
+header .headerArea .navArea #nav>li>a{
+	height: 53px;
+	text-indent:-999em;
+}
+header .headerArea .navArea #nav .about>a{
+	display: block;
+	width: 177px;
+	background: url(../img/mn1.gif);
+}
+header .headerArea .navArea #nav .store>a{
+	display: block;
+	width: 145px;
+	background: url(../img/mn2.gif);
+}
+header .headerArea .navArea #nav .product>a{
+	display: block;
+	width: 171px;
+	background: url(../img/mn3.gif);
+}
+header .headerArea .navArea #nav .partnership>a{
+	display: block;
+	width: 204px;
+	background: url(../img/mn4.gif);
+}
+header .headerArea .navArea #nav .customer>a{
+	display: block;
+	width: 127px;
+	background: url(../img/mn5.gif);
+}
+/*subMenu*/
+header .headerArea .navArea #nav>li>ul{
+	position: absolute;
+	top: 50px;
+	left: 0;
+	width: 824px;
+	line-height: 30px;
+	background-color: #5a471b;
+}
+header .headerArea .navArea #nav>li>ul>li{
+	float: left;
+}
+header .headerArea .navArea #nav>li>ul>li>a{
+	color: #fff;
+}
+header .headerArea .navArea #nav>li>ul:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+header .headerArea .navArea #nav>li>ul>li>a{
+	color: #fff;
+}
+header .headerArea .navArea #nav>li>ul>li{
+	text-indent: 10px;
+}
+header .headerArea .navArea #nav>.about>ul>li:first-child{
+	text-indent: 13px;
+}
+header .headerArea .navArea #nav>.store>ul>li:first-child{
+	text-indent: 133px;
+}
+header .headerArea .navArea #nav>.product>ul>li:first-child{
+	text-indent: 223px;
+}
+header .headerArea .navArea #nav>.partnership>ul>li:first-child{
+	text-indent: 500px;
+}
+header .headerArea .navArea #nav>.customer>ul>li:first-child{
+	text-indent: 570px;
+}
+
+
+
+
+
+/*header .headerArea .navArea #nav>li>ul{
+	display: none
+}*/
+/*content*/
+
+#content{
+	width: 980px;
+	margin: 0 auto
+}
+/*banner*/
+#content .bannerArea #banner{
+	position: relative;
+}
+#content .bannerArea #banner .banner{
+	overflow: hidden;
+}
+#content .bannerArea #banner .banner>ul{
+	float: right;
+	height: 85px;
+	width: 280px;
+	padding-top: 14px;
+	border-bottom: 1px dashed #c8c8c8;
+}
+#content .bannerArea #banner .banner>ul:hover{
+	background: url(../img/flash-on.png);
+}
+#content .bannerArea #banner .banner>ul>li{
+	float: left;
+}
+#content .bannerArea #banner .banner>ul>li:nth-child(2){
+	width: 110px;
+	margin-left: 10px;
+}
+#content .bannerArea #banner .banner>ul>li:nth-child(1){
+	margin-left: 13px;
+}
+
+/*banner hover*/
+
+/*banner큰 이미지*/
+#content .bannerArea #banner .banner>ul>li>img{
+	width: 121px;
+	height:69px;
+}
+#content .bannerArea #banner .banner > p{
+	position: absolute;
+	/*display: none*/
+	top: 0;
+	left: 0;
+}
+
+/*#contents 공통사항*/
+.contents{
+	margin: 45px 0 45px 0;
+	overflow: hidden;
+}
+.contents dl{
+	float: left;
+	margin-right: 40px;
+}
+.contents dl:last-child{
+	margin-right: 0;
+}
+.contents dl>dt{
+	height: 23px;
+	border-bottom: 3px solid brown;
+}
+.contents dl>dt>span:nth-child(1){
+	float: left;	
+}
+.contents dl>dt>span:nth-child(2){
+	float: right;	
+}
+
+/*#contents 세부사항*/
+/*notice*/
+.contents .notice{
+	width: 243px;
+}
+.contents .notice >dd >ul{
+	margin-top: 10px;
+}
+.contents .notice >dd >ul >li{
+	margin-bottom: 15px;
+}
+
+/*event*/
+.contents .event{
+	width: 200px;
+}
+.contents .event >dd{
+	margin-top: 10px;
+}
+.contents .event >dd >a >img{
+	width: 200px;
+	height: auto;
+}
+
+/*contact_us*/
+.contents .contact_us{
+	width: 200px;
+}
+.contents .contact_us >dd >.con_img{
+	float: left;
+}
+.contents .contact_us >dd >.one{
+	margin:10px 0 10px 2px; 
+}
+.contents .contact_us >dd >.two{
+	padding-right: 2px;
+}
+
+/*service*/
+.contents .service_center{
+	width: 217px;
+}
+.contents .service_center>dd>p{
+	float: left;
+}
+.contents .service_center>dd>ul{
+	float: right;
+}
+.contents .service_center>dd>ul>li:first-child{
+	margin-top: 10px;
+}
+.contents .service_center>dd>ul>li{
+	margin-bottom: 5px;
+}
+
+/*footer #btn_nav*/
+footer #btn_nav{
+	background: url(../img/ft_menu_bg.jpg) repeat-x;
+	overflow: hidden;
+	/*padding-bottom: 30px;*/
+	margin: 0;
+	height: 170px;
+}
+footer #btn_nav dl{
+	float: left;
+	margin-left: 80px;
+}
+footer #btn_nav dl>dt>a{
+	font: bold 18px/50px arial,sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+}
+footer #btn_nav dl>dt>a>img{
+	vertical-align: middle;
+}
+footer #btn_nav dl>dd>a{
+	font: 11px arial,sans-serif;
+	color: #fff;
+}
+
+/*footer .copy*/
+footer .copy{
+	background: #5A471B;
+	position: relative;
+	padding: 40px 50px;
+	color: #303030;
+	margin-top: -1px;
+}
+footer .copy h3{
+	position: absolute;
+	right: 50px;
+	top: 15px;
+}
