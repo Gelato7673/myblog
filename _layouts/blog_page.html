@@ -4,7 +4,8 @@
     {% include head.html %}
   </head>
   <body class="blog-page">
-
+    {% include navigation.html %}
+    
     {% if page.background != none %}
 		<section class="page-title">
       <p class="img-area">
@@ -21,7 +22,7 @@
 
         <ul class="page-info">
           <li class="writer">Gelato</li>
-          <li class="date">Aug 8. 2020</li>
+          <li class="date">{{ page.date_start | date: '%b %d' }} - {{ page.date_end | date: '%b %d, %y' }}</li>
         </ul>
       </div>
 

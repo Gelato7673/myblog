@@ -11,7 +11,10 @@
 	
 	<!-- css vendor -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" crossorigin="anonymous"/>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Poor+Story&display=swap" rel="stylesheet"> 
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">     
+<!--     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Poor+Story&display=swap" rel="stylesheet">  -->
     <link rel="stylesheet" href="/myblog/assets/css/syntax.css">
 
     <!-- sass style -->
@@ -19,8 +22,65 @@
   </head>
   <body>
 
-  	<div class="wrap">
-      <header>
+    <div class="wrap">
+      <header class="menu-wrap">
+	<div class="logoarea">
+		<a href="https://gelato7673.github.io/myblog/">
+			<img src="/myblog/assets/img/favicon/favicon.png" alt="">
+			<span>Gelato</span>
+		</a>
+	</div>
+	<input type="checkbox" class="toggle">
+	<div class="hamburger"><div></div></div>
+	<div class="menu">
+		
+		<div>
+		
+
+			<dl>
+				
+				<dd>
+					<ul>
+						<li><a href="/myblog/trend">기술트랜드</a></li>
+						<li><a href="/myblog/study_program">강의/book/clonecoding</a></li>
+						<li><a href="/myblog/side">SideProject/ToyProject</a></li>
+						<li><a href="/myblog/MB">블로그관리</a></li>
+						<li><a href="/myblog/etc_note">etc.오답노트</a></li>
+						<li><a href="/myblog/tech_docu">기술별 참고사항</a></li>
+						
+					</ul>
+				</dd>
+				
+			</dl>
+		</div>
+	</div>
+</header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <header>
 	<ul>
 		<li class="logo">
 			<a href="#"><i class="fas fa-align-justify"></i></a>
@@ -51,200 +111,152 @@
 		<dt class="post-it">Daily Programming</dt>
 		<dd>
 			<ul>
-				<li><a href="/myblog/trend">trend</a></li>
+				<li><a href="/myblog/trend">기술트랜드</a></li>
 				<li><a href="/myblog/study_program">강의/book/clonecoding</a></li>
 				<li><a href="/myblog/side">SideProject/ToyProject</a></li>
 				<li><a href="/myblog/MB">블로그관리</a></li>
 				<li><a href="/myblog/etc_note">etc.오답노트</a></li>
 				<li><a href="/myblog/tech_docu">기술별 참고사항</a></li>
 				
-				<li><a href="/myblog/algorithm">1일 1알고리즘</a></li>
-				<li><a href="/myblog/search">검색서비스의 역사</a></li>
-				
 			</ul>
 		</dd>
 		<dt class="post-it solo"><a href="">포트폴리오</a></dt>
 		
-
-		<dt class="post-it">My Developer Life</dt>
-		<dd>
-			<ul>
-				<li><a href="/myblog/graffiti">Graffiti</a></li>
-				<li><a href="/myblog/workingspace">작가의 서랍=> 곧 없앨 메뉴</a></li>
-				<li><a href="/myblog/career">커리어 관리</a></li>
-				<li><a href="/myblog/community">커뮤니티활동</a></li>
-			</ul>
-		</dd>
-
-		<dt class="post-it">Study for my life</dt>
-		<dd>
-			<ul>
-				<li><a href="/myblog/english">English</a></li>
-				<li><a href="/myblog/book">독서</a></li>
-				<li><a href="/myblog/stock">증권</a></li>
-				<li><a href="/myblog/realestate">부동산</a></li>
-				<li><a href="/myblog/datascientist">Datascientist</a></li>
-				<li><a href="/myblog/goldenage">노후준비</a></li>
-				<li><a href="/myblog/business">사업</a></li>
-			</ul>
-		</dd>
-		<dt class="post-it solo"><a href="#">Medium</a></dt>
-		<dt class="post-it solo"><a href="#">인스타</a></dt>
-<!-- <dt class="post-it solo"><a href="#">2019 삶에 대하여</a></dt> -->
-
-<!-- 		<dt class="post-it">취미 공부</dt>
-		<dd>
-			<ul>
-				<li><a href="/myblog/sociology">사회학</a></li>
-				<li><a href="/myblog/pastoral">신학,철학,세계사</a></li>
-				<li><a href="/myblog/psychology">심리학</a></li>
-				<li><a href="/myblog/brain">뇌과학</a></li>
-				<li><a href="/myblog/AI">인공지능</a></li>
-				<li><a href="/myblog/statistics">통계</a></li>
-				<li><a href="/myblog/physics">물리학</a></li>
-			</ul>
-		</dd> -->
-
-<!-- 		<dt class="post-it">기타 이야기들</dt>
-		<dd>
-			<ul>
-				<li><a href=""></a></li>
-			</ul>
-		</dd> -->
-		
 	</dl>
-</nav>
+</nav> -->
 
-  		<div class="inner-wrap">
-  			<section class="intro-spot">
-	  			<img src="/myblog/assets/img/intro4.jpg" alt="">
-<!--           <span>
-            부다페스트에 가면 gelato rosa라는 젤라또 가게가 있다.<br>
-            성 이스트반 성당 바로 맞은 편에 있는 이 가게는 기술자들이 젤라또를 이용해 장미모양의 아이스크림을 즉석에서 만들어 준다.<br> 
-            신기하기도 하고 맛도 있어서 입소문이 나는 바람에 많은 여행자들이 들르는 가게였다.<br>
-            나는 컨디션이 안 좋아서 부다페스트 여행 내내 힘들어 하고 있었는데, 이 젤라또 가게에서 만들어준 장미모양의 젤라또가 나한테 얼마나 위로가 되던지 ㅎㅎ <br>
-            이것저것 공부할것도 많고, 지칠때 마다 블로그에 와서 쉬어가면 좋겠다는 생각이 들어서 블로그 이름은 gelato로 짓게 되었다. 
-          </span> -->
-  			</section>
+      <div class="inner-wrap">
+        <section class="book-intro">
+          <ul>
+            <li>
+              <div class="book-cover" style="background:url(/myblog/assets/img/gelato.jpg) center no-repeat;background-size: cover;">
+                <!-- <p class="title"></p> -->
+                <p class="writer">Gelato's Tech Blog</p>
+              </div>
+            </li>
+            <li>
+              <div class="book-about">
+                <p class="title-area">
+                  <span class="title">기술블로그</span>
+                  <span class="count"><i class="fas fa-book-reader"></i><span id="exp_count">30</span> 글</span>
+                </p>
+                <p class="book-descript">
+                  안녕하세요<br>Front-end 개발자로 일하고 있습니다. <br>예전에 여행을 하다가 너무 지쳐있었을때 사먹었던 젤라또 덕분에 여행을 끝까지 마칠 수 있었던 기억이 있습니다.<br>이 기술블로그가 개발자생활의 젤라또 같은 의미가 되었으면 합니다.
+                </p>
+                <!-- <ul class="tags">
+                  
+                </ul> -->
+              </div>
+            </li>
+          </ul>
+        </section>
 
-  			<article class="blog-list">
+        <article class="blog-list">
         
         
         
           
-          
-    				<dl class="list">
-              <dt>
-                <ul>
-                  <li class="title">
-                    <span class="main-title">
-                      <a href="/myblog/2020/11/01/side-checklist.html">
-                        <span class="count">1.</span>
-                        []
-                      </a>
-                    </span>
-                  </li>
-                  <li class="date">
-                    <span>11. 23 - 11. 23. 2020</span>
-                    <!-- <span>November 27, 2020</span> -->
-                  </li>
-                </ul>
+            <dl class="list">
+              <dt class="title">
+                <span class="main-title">
+                  <a href="/myblog/2020/11/28/blog.html">
+                    <span class="count">1.</span>
+                    <b>[blog update]</b> 2020.11.28 블로그 업데이트 & 관리내용
+                  </a>
+                </span>
               </dt>
               <dd>
                 <p class="contents">
                     
-                    <span class="sub-title">
-                      todoList만들기
-                    </span>
-                    
-                    
-                    오답노트
-
   
-    일단. 오타가 없는지 살펴라
+    
+      메뉴체계 바꾸기
+      기존에 너무 메뉴체계가 많았고, 쓸모없는 내용도 너무 많이 들어가 있었다.
+      메뉴체계를 좀더 간결하고 보기좋게 변화시키고, 거기에 알맞도록 포스팅을 다시 분류하는 작업을 했다.
+    
   
   
-    뭐가 잘못되었는지 찾아서 해결해 보자.
+    폰트 바꾸기
   
-  
-    빠르게 체크하면서 넘어가야 한다. 같은걸 두번 시도하고 있지 말아라.
-  
-  
-    뭔가 잘 안될때는 기술문서를 꼼꼼히 잘 읽어라. 기능은 모두 설명되어있다.
--&gt; append child 에 대하여 :https://developer.mozilla.org/ko/docs/Web/API/Node/appendChild
-  
-  
-    문제를 한정해서 생각해라, 다른 문제로 새지 마라.
-  
+  느낌변화
+github pages them [https://jekyllthemes.io/github-pages-themes]
 
 
-addeventlistner가 두번 나오는 이유: 1) 두번추가 되었기 때문에 2) event bubbling 때문에?
-3) 글로 써가면서 추론해 나간다. 
-현상을 정확히 글로 써서 구체화 한다  -&gt; 필요한 것이 무엇인지 쓰고, 찾아본다.
--&gt; 어떻게 해결하면 좋을지 글로 써본다.  -&gt; 그걸 코드로 만들어 본다.
-
-Event listenr 지워주기
-
-// let eve = removeBtns[0].getAttribute('data');
-// console.log(eve);
-
-
-// function removeF() {
-//     console.log('click');
-// }
-
-// for (var i=0; i&lt;removeBtns.length; i++) {
-//     let eve = removeBtns[i].getAttribute('data');
-//     if(eve) {
-//         removeBtns[i].removeEventListener('click', removeF);
-//     }
-//     removeBtns[i].addEventListener('click', removeF);
-//     removeBtns[i].setAttribute('data','eve');
-// }
-
-
-                  
                 </p>
 
+                <ul class="datearea">
+                  
+                    <li class="tagarea">
+                      <ul class="tags">
+                        
+                          <li>time</li>
+                        
+                      </ul>
+                    </li>
+                  
+                    <li class="date">
+                      <span>11. 27 - 12. 01. 2020</span>
+                    </li>
+                </ul>
                 
-                  <ul class="tags">
-                    
-                      <li>get-job</li>
+                  <ul>
                     
                   </ul>
                 
 
               </dd>
             </dl>
-            
           
           
-          
-    				<dl class="list">
-              <dt>
-                <ul>
-                  <li class="title">
-                    <span class="main-title">
-                      <a href="/myblog/2020/08/29/check-git.html">
-                        <span class="count">2.</span>
-                        GIT
-                      </a>
-                    </span>
-                  </li>
-                  <li class="date">
-                    <span>08. 29 - 11. 19. 2020</span>
-                    <!-- <span>November 27, 2020</span> -->
-                  </li>
-                </ul>
+            <dl class="list">
+              <dt class="title">
+                <span class="main-title">
+                  <a href="/myblog/2020/11/28/drawer.html">
+                    <span class="count">2.</span>
+                    <b>[side project]</b>javascript - drawer기능 만들어보기
+                  </a>
+                </span>
               </dt>
               <dd>
                 <p class="contents">
+                    스크랩 하기. 깔끔하고 괜찮은 메뉴를 하나 구현하고 싶었다. (마음이 바뀌어서 화려하게 변할지도 모른다 ㅋㅋ 현재는 화려하다..) 어쩄든, 모바일에서도 잘 작동할 괜찮은 drawer를 하나 구현해 보자. 마음에 드는 후보군 스크립을 먼저 해볼까나. 일단 브런치를 좋아하니까 브런치 drawer tistory 스타일1 tistory 스타일2 : 여담이지만, 나는 이 메뉴 스타일이 그렇게 좋더라. pure drawer drawer모음 음. tistory 스타일1처럼 깔끔하고, drawr모음 첫번째것 처럼 약간 반투명하고 깔끔하게 나오면 좋겠다는 생각이 들었다. css로 동작하는 drawer 과거에는 jquery로...
+                </p>
+
+                <ul class="datearea">
+                  
+                    <li class="tagarea">
+                      <ul class="tags">
+                        
+                          <li>time</li>
+                        
+                      </ul>
+                    </li>
+                  
+                    <li class="date">
+                      <span>11. 28 - 12. 01. 2020</span>
+                    </li>
+                </ul>
+                
+                  <ul>
                     
-                    <span class="sub-title">
-                      distributed version control system, github
-                    </span>
-                    
-                    
+                  </ul>
+                
+
+              </dd>
+            </dl>
+          
+          
+            <dl class="list">
+              <dt class="title">
+                <span class="main-title">
+                  <a href="/myblog/2020/08/29/check-git.html">
+                    <span class="count">3.</span>
+                    GIT
+                  </a>
+                </span>
+              </dt>
+              <dd>
+                <p class="contents">
                     git 관련 기술들 정리
 
   git명령어를 모르겠다? 여길 찾아봐야해!
@@ -254,191 +266,51 @@ Event listenr 지워주기
   git관련내용, 영어가 부담스럽다면?
 
 
-                  
                 </p>
 
+                <ul class="datearea">
+                  
+                    <li class="tagarea">
+                      <ul class="tags">
+                        
+                          <li>distributed</li>
+                        
+                          <li>version</li>
+                        
+                          <li>control</li>
+                        
+                          <li>system,</li>
+                        
+                          <li>github</li>
+                        
+                      </ul>
+                    </li>
+                  
+                    <li class="date">
+                      <span>08. 29 - 11. 19. 2020</span>
+                    </li>
+                </ul>
                 
-                  <ul class="tags">
-                    
-                      <li>githubpage</li>
+                  <ul>
                     
                   </ul>
                 
 
               </dd>
             </dl>
-            
           
           
-          
-    				<dl class="list">
-              <dt>
-                <ul>
-                  <li class="title">
-                    <span class="main-title">
-                      <a href="/myblog/2020/11/14/IT_field_meno.html">
-                        <span class="count">3.</span>
-                        IT 업체에 대해 알아봄(메모장)
-                      </a>
-                    </span>
-                  </li>
-                  <li class="date">
-                    <span>11. 14 - 11. 14. 2020</span>
-                    <!-- <span>November 27, 2020</span> -->
-                  </li>
-                </ul>
+            <dl class="list">
+              <dt class="title">
+                <span class="main-title">
+                  <a href="/myblog/2020/11/13/javascript.html">
+                    <span class="count">4.</span>
+                    Javascript
+                  </a>
+                </span>
               </dt>
               <dd>
                 <p class="contents">
-                    
-                    
-                    IT 프리랜서에 대해서 업계에 대해서 설명하는 영상 https://www.youtube.com/watch?v=adUUD7oC0fM 노동자에 대한 4차 산업혁명 영상 http://www.newstof.com/news/articleView.html?idxno=1069 5인 미만 업체는 해고해도 아무 문제 없어 http://news.kbs.co.kr/news/view.do?ncd=4460543 okky는 빼자. 너무 부정적인 사이트 인것 같아. ========= 스타트업으로 알아보겠다 =&gt; 로켓펀치 사람 뽑는데 돈 좀 쓰는 곳으로 알아보겠다=&gt; 원티드 회사 평점과 함께 알아보겠다 =&gt; 잡플래닛 최대한 많은 회사들을 알아보겠다 =&gt; 사람인/잡코리아 ========= ####걸러야 하는 회사에 관한 기록 잡플 평점1점대 회사 it노조 게시판에서 회사이름 검색해서 나오는 회사 채용사이트에 구인공고를 몇달째 계속 올려놓는 회사 it노조 사이트 it업계의 평균 근속년수에 대한 이야기 it노조 글들이 살아지는 것에 대한 반박 글들 등. 몰라도 되는데 들어와도 된다고 하는 회사, 그리고 혼자서 파견 내보내는 회사는 믿고 걸러야 하는것인가. 면접본 사람들에 대한 참견글들 면접 개발 질문들은, 그 언어에 관한걸 물어보는 것 같다. 그러니까. 너무 걱정하지마. 면접에 대해서 읽어볼 만한 글들 면접에 대해 읽어볼 글 기술 검증에 대한글 개발 면접에 관한글 개발회사에 관련된 글 면접에 관한글 회사선택에 관한글 SI탈출계획이라니.. 마이다스아이티 정확하게 취업분야를 정해라 후배개발자에게 전하고 싶은말 할줄아는게 개발밖에 없다. 개발공부와 이직방법 ####신입 개발자에게 할법할 질문들도 많이 올라온다. 이때, 무시하거나 싫어하지 말고 성실하고 배우겠다는 자세로 공손히 대답하는 것이 중요하다. 할줄 아는것이 개발밖에 없는것은 정말로 문제가 될 수 있겠다는 생각이 든다. 어떤 분야에 대한 도메인 지식이 필요하다는 생각이 드는 부분이다. 어떻게 하면, 이 두가지를 모두 잘 할 수...
-                  
-                </p>
-
-                
-                  <ul class="tags">
-                    
-                      <li>It</li>
-                    
-                      <li>field</li>
-                    
-                  </ul>
-                
-
-              </dd>
-            </dl>
-            
-          
-          
-          
-    				<dl class="list">
-              <dt>
-                <ul>
-                  <li class="title">
-                    <span class="main-title">
-                      <a href="/myblog/2020/11/14/IT_field_agency.html">
-                        <span class="count">4.</span>
-                        IT 업체에 대해 알아봄 (채용정보.업체정보)
-                      </a>
-                    </span>
-                  </li>
-                  <li class="date">
-                    <span>11. 14 - 11. 14. 2020</span>
-                    <!-- <span>November 27, 2020</span> -->
-                  </li>
-                </ul>
-              </dt>
-              <dd>
-                <p class="contents">
-                    
-                    <span class="sub-title">
-                      채용보는법
-                    </span>
-                    
-                    
-                    괜찮은 이력서 사이트들 스타트업으로 알아보겠다 =&gt; 로켓펀치 사람 뽑는데 돈 좀 쓰는 곳으로 알아보겠다=&gt; 원티드 회사 평점과 함께 알아보겠다 =&gt; 잡플래닛 최대한 많은 회사들을 알아보겠다 =&gt; 사람인/잡코리아 외국계 기업으로 알아보겠다 =&gt; people n Job / Linked in / Indeed / Glassdoor / AngelList 프로그래밍 전문 사이트 =&gt; StackOverflow / Hacker News 회사가 하는일, 연봉정보, 평판등을 조회할 수 있는곳 회사관련 평판 조회사이트 블라인드_회사리뷰 Jobplanet 크레딧잡 기업정보 및 연봉정보 원티드 잡코리아 사람인 더팀스 (뭐하는데야?) 링크드인 한국 기업정보 조회하하고 알아보는 법 사람인 기업분석 기업 분석하는 방법 금융 어플을 이용한다. 네이버 금융 이용 팍스넷 한경컨센서스 네이버금융(리서치)부문 -&gt; 경쟁사들과 5개년을 비교하면서 보고, 영업이익등이 출렁인 구간이 있다면 왜 그랬는지를 생각해 본다. dart 이용하기 dart : http://dart.fss.or.kr/ 이용 방법 : 회사명을 쓰고, 기간을 전체로 잡은후, 정기공시로 검색해서 가장 최근 정기공시를 본다. 분기보고서의 “사업의내용”부분을 확인해 본다. (그냥 최근에 올라온 글들로 동향을 볼수도 있긴 하다만..) “손익 계산서에서” [이부분은 증권가 어플들을 통해서 률을 보는것이 나을 수도 있을듯.] 매출액 : 매출액이 꾸준히 증가하고 있는지 (해당시장의 위축? 경쟁력의 상실?) (매출성장이 2~ 3% : 대한민국 평균수준/ 매출성장 10% : 이익급증 가능) 매출원가 : 매출원가는 크게 줄어들 수 없음. 판매비와 관리비 : 관리비는 그나마 감소할 수가 있음. 영업이익 : 영업이익이 여러해 동안 적자상태라면은 거르는것이 좋을 수도 있다. (현실적인 호재성 적자가 없다면.. 음.. 기대심리로 주식을...
-                  
-                </p>
-
-                
-                  <ul class="tags">
-                    
-                      <li>get-job</li>
-                    
-                  </ul>
-                
-
-              </dd>
-            </dl>
-            
-          
-          
-          
-    				<dl class="list">
-              <dt>
-                <ul>
-                  <li class="title">
-                    <span class="main-title">
-                      <a href="/myblog/2020/11/14/IT_field_agency_info.html">
-                        <span class="count">5.</span>
-                        IT 업체에 대한글
-                      </a>
-                    </span>
-                  </li>
-                  <li class="date">
-                    <span>11. 14 - 11. 14. 2020</span>
-                    <!-- <span>November 27, 2020</span> -->
-                  </li>
-                </ul>
-              </dt>
-              <dd>
-                <p class="contents">
-                    
-                    
-                    ###이력서 쓸 기업들 sesarch
-
-####history
-
-####기업분석
-[사람인 기업분석]
-[!!강추!! NICE평가정보 보고서]
-
-####주변기업들
-
-####회사느낌
-
-  워라밸은 나쁘지 않은 느낌.
-  원래 삼성 그룹의 인하우스 컨설팅 조직으로 있던 조직이에요.
-  SDS 자회사에 구 오픈타이드란 정보만 있고
-  카이스트 아니면 겉돌지 않을까 근무환경은 최고라 들음
-  멀리 갈 필요 없이 잡플래닛 1분만 훑어보시면 두 사업부의 분위기가 극명하게 다르다는걸 알 수 있으실거에요 ㄷㄷ 컨설팅사업부와 소프트웨어사업부는 실질적으로 사명만 같은 다른 회사입니다.
-  라인이 있고, 맘에 들면 잘 챙겨주고 ㅋㅋ 뭐..그런게 쎈가보다.
-
-
-
-
-
-                  
-                </p>
-
-                
-                  <ul class="tags">
-                    
-                      <li>It</li>
-                    
-                      <li>field</li>
-                    
-                  </ul>
-                
-
-              </dd>
-            </dl>
-            
-          
-          
-          
-    				<dl class="list">
-              <dt>
-                <ul>
-                  <li class="title">
-                    <span class="main-title">
-                      <a href="/myblog/2020/11/13/javascript.html">
-                        <span class="count">6.</span>
-                        Javascript
-                      </a>
-                    </span>
-                  </li>
-                  <li class="date">
-                    <span>11. 13 - 11. 13. 2020</span>
-                    <!-- <span>November 27, 2020</span> -->
-                  </li>
-                </ul>
-              </dt>
-              <dd>
-                <p class="contents">
-                    
-                    
                     git 관련 기술들 정리
 
   git을 입문하기에 가장 좋은 설명서! git 간편안내서 - 어렵지 않아요!
@@ -446,326 +318,203 @@ Event listenr 지워주기
   git 삭제하기
 
 
-                  
                 </p>
 
+                <ul class="datearea">
+                  
+                    <li class="tagarea">
+                      <ul class="tags">
+                        
+                          <li>ECMA</li>
+                        
+                          <li>Script,</li>
+                        
+                          <li>Javascript</li>
+                        
+                      </ul>
+                    </li>
+                  
+                    <li class="date">
+                      <span>11. 13 - 11. 13. 2020</span>
+                    </li>
+                </ul>
                 
-                  <ul class="tags">
-                    
-                      <li>ECMA</li>
-                    
-                      <li>Script,</li>
-                    
-                      <li>Javascript</li>
+                  <ul>
                     
                   </ul>
                 
 
               </dd>
             </dl>
-            
           
           
-          
-    				<dl class="list">
-              <dt>
-                <ul>
-                  <li class="title">
-                    <span class="main-title">
-                      <a href="/myblog/2020/11/18/check-javascript_anniversary.html">
-                        <span class="count">7.</span>
-                        <b>[side project]</b> Javascript - 기념일 계산기 만들기
-                      </a>
-                    </span>
-                  </li>
-                  <li class="date">
-                    <span>11. 12 - 11. 13. 2020</span>
-                    <!-- <span>November 27, 2020</span> -->
-                  </li>
-                </ul>
+            <dl class="list">
+              <dt class="title">
+                <span class="main-title">
+                  <a href="/myblog/2020/11/18/check-javascript_anniversary.html">
+                    <span class="count">5.</span>
+                    <b>[side project]</b> Javascript - 기념일 계산기 만들기
+                  </a>
+                </span>
               </dt>
               <dd>
                 <p class="contents">
-                    
-                    
-                    기념일 계산기 만들기! 서론 지난번에 Do it 과 Javascript 강의를 들으면서, 공부했던 실습 부분들을 스스로 만들어 보면서, 복습하는 시간들을 가지려고 한다. 첫번째 실습은 Javascript로 간단한 기념일 계산기 만들기 프로그램 이었다. 원래 css와 html 파일은 doit 책의 실습 파일에서 제공되지만, 뭔가 좀더 눈에 확 띄게 만들고 싶다는 욕심이 들어서 ㅎㅎ 직접 css와 html 을 만들기로 했다. (세삼 html과 css의 코드량이 일반 programming language보다 많다는 생각을 하게 되었다.. Javascript 실습하는데 css랑 html 코딩길이역시 만만치 않다 ㅎㅎ) 제작순서 핑크색 계산기를 상상하면서 html과 css를 사용해서 디자인을 만들어 보자. 자바스크립트를 이용해서 프로그램을 만들어 본다. 1) 기본적으로 오늘날짜가 메인창에 떠있도록 만든다. 2) ‘처음만난날’을 입력하고 버튼을 입력하면, 값을 가지고 있게 한다. 3) 각 버튼을 누를때 버튼에 해당되는 계산을 ‘처음만난날’을 기준으로 해서 창에 뜨게한다. 공부한 내용들 이번 실습을 통해서 공부한 내용들은 다음과 같다. 객체를 많이 사용해보았다. date()관련 함수들을 많이 사용해보았다. eventlistener로 이벤트를 연결했다. (오답노트) 오답노트 addEvneListener 기념일을 계산해주는 calc함수를 추가해보자. 처음에 이렇게 추가했다. //500일 기념일 계산 let calcDate = () =&gt; { let annivSeconds = firstmeet() + 500*(1000*60*60*24); let annivDate = new Date(annivSeconds); let anniv = { year: annivDate.getFullYear(), month: annivDate.getMonth() + 1, date: annivDate.getDate() } document.querySelector(".show-date").innerHTML = `500일은 ${anniv.year}년 ${anniv.month}월 ${anniv.date}일`; } //500일 let fiveHundred = document.querySelector("#first-year"); fiveHundred.addEventListener("click", calcDate); 여기까지는 잘되었다. 그런데, 만약 이런식으로 함수를 생성하고 추가하면,...
-                  
+                    기념일 계산기 만들기! 서론 지난번에 Do it 과 Javascript 강의를 들으면서, 공부했던 실습 부분들을 스스로 만들어 보면서, 복습하는 시간들을 가지려고 한다. 첫번째 실습은 Javascript로 간단한 기념일 계산기 만들기 프로그램 이었다. 원래 css와 html 파일은 doit 책의 실습 파일에서 제공되지만, 뭔가 좀더 눈에 확 띄게 만들고 싶다는 욕심이 들어서 ㅎㅎ 직접 css와 html 을 만들기로 했다. (세삼 html과 css의 코드량이 일반 programming language보다 많다는 생각을 하게 되었다.. Javascript 실습하는데 css랑 html...
                 </p>
 
+                <ul class="datearea">
+                  
+                    <li class="tagarea">
+                      <ul class="tags">
+                        
+                          <li>javascript</li>
+                        
+                      </ul>
+                    </li>
+                  
+                    <li class="date">
+                      <span>11. 12 - 11. 13. 2020</span>
+                    </li>
+                </ul>
                 
-                  <ul class="tags">
-                    
-                      <li>javascript</li>
+                  <ul>
                     
                   </ul>
                 
 
               </dd>
             </dl>
-            
           
           
-          
-    				<dl class="list">
-              <dt>
-                <ul>
-                  <li class="title">
-                    <span class="main-title">
-                      <a href="/myblog/2020/11/07/check-book-doitjavascript.html">
-                        <span class="count">8.</span>
-                        <b>[book]</b> Doit! 웹 프로그래밍을 위한 자바스크립트 기본편
-                      </a>
-                    </span>
-                  </li>
-                  <li class="date">
-                    <span>11. 06 - 11. 10. 2020</span>
-                    <!-- <span>November 27, 2020</span> -->
-                  </li>
-                </ul>
+            <dl class="list">
+              <dt class="title">
+                <span class="main-title">
+                  <a href="/myblog/2020/11/07/check-book-doitjavascript.html">
+                    <span class="count">6.</span>
+                    <b>[book]</b> Doit! 웹 프로그래밍을 위한 자바스크립트 기본편
+                  </a>
+                </span>
               </dt>
               <dd>
                 <p class="contents">
-                    
-                    <span class="sub-title">
-                      Javascript
-                    </span>
-                    
-                    
-                    책소개 책 제목 : Doit! 웹 프로그래밍을 위한 자바스크립트 기본편 지은이 : 고경희 출판사 : 이지스퍼블리싱 Javascript API를 사용하거나, 홈페이지 속 Componenet를 만들어 본 경험도 많이 있지만, 그래도 한번쯤 Javascript를 다시 한번 정리해 보고 싶었던 것 같다. 과거에 Javascript와 관련해서 head first 책이나, 다른 책들도 읽어본 적이 있었는데 그 당시에는 언어에 관련된 설명 (변수 설정하는법, if문 등등..) 이 주된 내용이어서, 그보다는 좀더 실무적인 내용이 많았으면 좋겠다고 생각 했었는데, 이 책은 가볍게 이론도 정리해 주면서 실무에서 많이 쓰이는 용법과 내용도 함께 담고 있어서, 한번쯤 그동안 썼던 Javascript를 정리하기에 좋은 기회가 되었다. 처음 책을 사서 펼쳤을때, ES5로 설명되어있다고 해서 조금.. 내가 원한것과는 다른데? 라고 생각했었다. (나는 ES6로 자바스크립트를 다시 한번 정리하고 싶은 마음이 컸기에 최근 출간된 책을 다시 산건데..) 그러나, 중요 개념을 설명한 다음에 밑에 ES6로 변경하여 구현할때의 문법을 함께 정리해 주어서 읽고나서는 만족스러웠던 책이었다. 특히, 이 책은 실제로 홈페이지 제작시에 자주 사용되는 component들을 실습 과제로 설정해 두고, 설명해 주는 부분이 많아서 이 책으로 입문하신다면 실무에서 매우 유용하리라는 생각이 들었다. 사실, 만들어 보는 것만큼 유용한 것이 어디있으랴. 그런 부분에서 실습과제와 설명의 양의 배치가 적절하다는 느낌(!) 이었던 것 같다. ^^ 이 책의 장점을 한번에 요약하면 다음과 같다. 이론을 간편하게 정리할 수 있다. (350페이지 미만) ES5로 쓰여졌으나, 중요한 ES6문법은 함께 정리해 준다. 기본적인 내용만...
-                  
+                    책소개 책 제목 : Doit! 웹 프로그래밍을 위한 자바스크립트 기본편 지은이 : 고경희 출판사 : 이지스퍼블리싱 Javascript API를 사용하거나, 홈페이지 속 Componenet를 만들어 본 경험도 많이 있지만, 그래도 한번쯤 Javascript를 다시 한번 정리해 보고 싶었던 것 같다. 과거에 Javascript와 관련해서 head first 책이나, 다른 책들도 읽어본 적이 있었는데 그 당시에는 언어에 관련된 설명 (변수 설정하는법, if문 등등..) 이 주된 내용이어서, 그보다는 좀더 실무적인 내용이 많았으면 좋겠다고 생각 했었는데, 이 책은...
                 </p>
 
+                <ul class="datearea">
+                  
+                    <li class="tagarea">
+                      <ul class="tags">
+                        
+                          <li>javascript</li>
+                        
+                      </ul>
+                    </li>
+                  
+                    <li class="date">
+                      <span>11. 06 - 11. 10. 2020</span>
+                    </li>
+                </ul>
                 
-                  <ul class="tags">
-                    
-                      <li>javascript</li>
+                  <ul>
                     
                   </ul>
                 
 
               </dd>
             </dl>
-            
           
           
-          
-    				<dl class="list">
-              <dt>
-                <ul>
-                  <li class="title">
-                    <span class="main-title">
-                      <a href="/myblog/2020/11/07/check-trend.html">
-                        <span class="count">9.</span>
-                        <b>[trend search]</b>2020. 11. 1주차
-                      </a>
-                    </span>
-                  </li>
-                  <li class="date">
-                    <span>11. 01 - 11. 07. 2020</span>
-                    <!-- <span>November 27, 2020</span> -->
-                  </li>
-                </ul>
+            <dl class="list">
+              <dt class="title">
+                <span class="main-title">
+                  <a href="/myblog/2020/11/07/check-trend.html">
+                    <span class="count">7.</span>
+                    <b>[trend search]</b>2020. 11. 1주차
+                  </a>
+                </span>
               </dt>
               <dd>
                 <p class="contents">
-                    
-                    <span class="sub-title">
-                      community
-                    </span>
-                    
-                    
-                    reddit, stack-overflow, facebook, okky 개발을 하면서 stack-overflow 외에 다른 커뮤니티는 그다지 이용할 생각을 하지 못했던 것 같다. 글을 읽는다거나, youtube, 기술 블로그 들을 보면서 기술 동향에 대한 이야기들을 다룬 잘 갖춰진 글들은 읽었지만, 커뮤니티 사이트는 많이 보지 않았던 것 같은데. 이번기회에 한번 둘러 보기로 했다. facebook과 okky는 일반적여서 딱히 이야기 할것은 없을 것 같고, reddidt과 stack-overflow를 위주로 이야기 하려고 한다. 처음 시작은, 내가 평소에 즐겨 구독하는 개발자 한분이 trend search를 히는 주요 수단으로 reddit을 추천하면서 시작되었다. reddit wikipedia의 설명을 빌리자면, reddit에 대한 설명은 다음과 같다. “Reddit is an American social news aggregation, web content rating, and discussion website.” 즉, 인기있는 뉴스나 글들이 순서대로 rating되는 사이트 이다. 영어의 Acronym(두문자어)가 많기 때문에, formal한 글에 비해서 난이도가 있을 수 있다는 점 ^^;;; 그래서, 이것저것 찾아볼 일이 많았다. 인터넷 용어 설명해 주는 유튜브 ㅋㅋ 그러나 이것만으로는 커버할 수 없다. 그래도 우선 대강 알아듣기 위해 찾아봤다 특징적였던 점은, 아무래도 커뮤니티 이다 보니 ‘의견 or 고민(?)’ 같은것을 나누는 분위기라는 점이었다. 물론 홍보 글들도 나름 있겠지만, rating을 많이 받은 글들은 아무래도 가치 있다고 사람들이 느끼는 의견과 고민이 많았던 것 같다. 예를들어, 어떤 기술을 도입해야 하는가? 라는 질문에 있어서, 그 기술에 스팩과 장단점을 봤을때, 도입해도 괜찮다. 안괜찮다. 이런식의 글들이 많은 느낌이었다. 자신의 개발 진로에 관한 글이라던가, 현재 개발의...
-                  
+                    reddit, stack-overflow, facebook, okky 개발을 하면서 stack-overflow 외에 다른 커뮤니티는 그다지 이용할 생각을 하지 못했던 것 같다. 글을 읽는다거나, youtube, 기술 블로그 들을 보면서 기술 동향에 대한 이야기들을 다룬 잘 갖춰진 글들은 읽었지만, 커뮤니티 사이트는 많이 보지 않았던 것 같은데. 이번기회에 한번 둘러 보기로 했다. facebook과 okky는 일반적여서 딱히 이야기 할것은 없을 것 같고, reddidt과 stack-overflow를 위주로 이야기 하려고 한다. 처음 시작은, 내가 평소에 즐겨 구독하는 개발자 한분이 trend search를...
                 </p>
 
+                <ul class="datearea">
+                  
+                    <li class="tagarea">
+                      <ul class="tags">
+                        
+                          <li>community</li>
+                        
+                          <li>reddit</li>
+                        
+                          <li>stack-overflow</li>
+                        
+                      </ul>
+                    </li>
+                  
+                    <li class="date">
+                      <span>11. 01 - 11. 07. 2020</span>
+                    </li>
+                </ul>
                 
-                  <ul class="tags">
-                    
-                      <li>community</li>
-                    
-                      <li>reddit</li>
-                    
-                      <li>stack-overflow</li>
+                  <ul>
                     
                   </ul>
                 
 
               </dd>
             </dl>
-            
           
           
-          
-    				<dl class="list">
-              <dt>
-                <ul>
-                  <li class="title">
-                    <span class="main-title">
-                      <a href="/myblog/2020/11/01/document.html">
-                        <span class="count">10.</span>
-                        공부해서, 써봐야지 하는 일들의 목록
-                      </a>
-                    </span>
-                  </li>
-                  <li class="date">
-                    <span>11. 01 - 11. 01. 2020</span>
-                    <!-- <span>November 27, 2020</span> -->
-                  </li>
-                </ul>
+            <dl class="list">
+              <dt class="title">
+                <span class="main-title">
+                  <a href="/myblog/2020/10/31/check-trend.html">
+                    <span class="count">8.</span>
+                    <b>[trend search]</b>2020. 10. 5주차
+                  </a>
+                </span>
               </dt>
               <dd>
                 <p class="contents">
-                    
-                    
-                    나중에 포스팅하고 싶은 내용들
-
-  Javascript trend를 봐가면서 해야할지도.
-  vue.js / Typescript
-  React.js / Angular
-  Dependency Manager (npm / gulp / grunt…)
-  Pre-Processor (sass / less…)
-  Phythone 그리고 Django..
-  Node.js 그리고 Angular..
-
-
-                  
+                    Javascript, Vue.js, Typescript Front-end에서 중요한 기술들 3가지에 대해 이것저것 찾아보는 시간을 가졌다. 첫 술에 배부를 생각 말고, 앞으로도 열심히 찾아보고 읽어봐야지..라는 생각을 하면서. ^^;; 이것저것 알아본 내용들을 정리해 본다. Javascript(ES6)와 이후의 발전동향 ES6란? ES6는 ECMA Script 6의 줄임말로, 다른이름으로 ECMA Script 2015라는 이름이 있다. 따라서, 2015년에 나왔다. ES5와 ES6사이에는 꽤 긴 공백이 있었고, ES6가 처음나왔을때 많은 브라우저에서 그 스펙을 뒷받침해 주지 못했다. 그러나, 이후에 개발된 다양한 프레임워크에서 ES6를 채택하였고, 브라우저의...
                 </p>
 
+                <ul class="datearea">
+                  
+                    <li class="tagarea">
+                      <ul class="tags">
+                        
+                          <li>Javascript(ES6)</li>
+                        
+                      </ul>
+                    </li>
+                  
+                    <li class="date">
+                      <span>10. 23 - 10. 29. 2020</span>
+                    </li>
+                </ul>
                 
-                  <ul class="tags">
-                    
-                      <li>front-end,</li>
-                    
-                      <li>javascript,</li>
-                    
-                      <li>dependency-manager</li>
+                  <ul>
                     
                   </ul>
                 
 
               </dd>
             </dl>
-            
           
           
-          
-    				<dl class="list">
-              <dt>
-                <ul>
-                  <li class="title">
-                    <span class="main-title">
-                      <a href="/myblog/2020/11/01/toyproject.html">
-                        <span class="count">11.</span>
-                        하고싶은 프로젝트들 목록
-                      </a>
-                    </span>
-                  </li>
-                  <li class="date">
-                    <span>11. 01 - 11. 01. 2020</span>
-                    <!-- <span>November 27, 2020</span> -->
-                  </li>
-                </ul>
+            <dl class="list">
+              <dt class="title">
+                <span class="main-title">
+                  <a href="/myblog/2020/08/29/check-font_icon.html">
+                    <span class="count">9.</span>
+                    Font-icon
+                  </a>
+                </span>
               </dt>
               <dd>
                 <p class="contents">
-                    
-                    
-                    해보고 싶은 프로젝트 목록들
-
-  생산성 관리툴 (Monday.com) 같은것? : 간트 차트랑, 캘랜더 형식, to-do list 등으로 제공해 주는 기본 생산성 관리툴들
-  프랭클린 다이어리 같은것 말야. (데이터 공간 확보가 애매한데.. 그건 생각을 해보자구.)
-  좌석 배치도 : 코로 나 시대에 쉽게 사용할 수 있는 좌석 배치도를 하나 만들어서 사용해 보고 싶다.
-  간단하게 홈페이지를 만드는 앱을 만들어 보자. (nomad coder에서 말했던것)
-
-
-
-                  
-                </p>
-
-                
-                  <ul class="tags">
-                    
-                      <li>toyproject,</li>
-                    
-                      <li>sideproject</li>
-                    
-                  </ul>
-                
-
-              </dd>
-            </dl>
-            
-          
-          
-          
-    				<dl class="list">
-              <dt>
-                <ul>
-                  <li class="title">
-                    <span class="main-title">
-                      <a href="/myblog/2020/10/31/check-trend.html">
-                        <span class="count">12.</span>
-                        <b>[trend search]</b>2020. 10. 5주차
-                      </a>
-                    </span>
-                  </li>
-                  <li class="date">
-                    <span>10. 23 - 10. 29. 2020</span>
-                    <!-- <span>November 27, 2020</span> -->
-                  </li>
-                </ul>
-              </dt>
-              <dd>
-                <p class="contents">
-                    
-                    <span class="sub-title">
-                      dependency-manager, preprocessors, phython
-                    </span>
-                    
-                    
-                    Javascript, Vue.js, Typescript Front-end에서 중요한 기술들 3가지에 대해 이것저것 찾아보는 시간을 가졌다. 첫 술에 배부를 생각 말고, 앞으로도 열심히 찾아보고 읽어봐야지..라는 생각을 하면서. ^^;; 이것저것 알아본 내용들을 정리해 본다. Javascript(ES6)와 이후의 발전동향 ES6란? ES6는 ECMA Script 6의 줄임말로, 다른이름으로 ECMA Script 2015라는 이름이 있다. 따라서, 2015년에 나왔다. ES5와 ES6사이에는 꽤 긴 공백이 있었고, ES6가 처음나왔을때 많은 브라우저에서 그 스펙을 뒷받침해 주지 못했다. 그러나, 이후에 개발된 다양한 프레임워크에서 ES6를 채택하였고, 브라우저의 지원율 또한 늘어났다. 그럼, ES6는 무엇이 다를까? ES6-Features.org 개인적으로 추천! 달라진 코드를 한눈에 비교할 수 있다. ES6-Features.org : github repository ECMAScript official website W3C HTML5 Korean Interest Group 에서 진행한 W3C HTML5 KIG 회의 발표자료 ES6까지의 발전을 기록한 글. Naver D2를 보다가 “ECMAScript 6 에디터이기도 했던 Allen Wirfs-Brock과 Brendan Eich는 매우 간헐적(13~15년 주기)으로 열리는 The History of Programming Languages Conference에서 지난 20년(1995~2015)간의 JavaScript 역사를 다룬 190페이지 분량의 방대한 내용의 문서 JavaScript: the first 20 years를 3년의 작업 시간을 거쳐 완성 후 공개했습니다” 라는 내용을 발견하여서 관련 링크를 따라가 글을 읽어보았다. 이번엔 대강 읽어서 딱히 정리까진 어렵겠지만, 정독해 볼만한 가치가 있는 글 이었다. 링크: JavaScript: the first 20 years - Allen Wirfs-Brock, Brendan Eich ES6이후의 발전을 기록한 글. 이번에 Javascript에 관한 글을 찾아보면서 Naver D2의 ‘Javascript 동향’관련 글들에서 배울 수 있는...
-                  
-                </p>
-
-                
-                  <ul class="tags">
-                    
-                      <li>githubpage</li>
-                    
-                  </ul>
-                
-
-              </dd>
-            </dl>
-            
-          
-          
-          
-    				<dl class="list">
-              <dt>
-                <ul>
-                  <li class="title">
-                    <span class="main-title">
-                      <a href="/myblog/2020/08/29/check-font_icon.html">
-                        <span class="count">13.</span>
-                        Font-icon
-                      </a>
-                    </span>
-                  </li>
-                  <li class="date">
-                    <span>08. 29 - 10. 26. 2020</span>
-                    <!-- <span>November 27, 2020</span> -->
-                  </li>
-                </ul>
-              </dt>
-              <dd>
-                <p class="contents">
-                    
-                    <span class="sub-title">
-                      fontawesome, ioni-cons
-                    </span>
-                    
-                    
                     폰트아이콘 관련 기술들 정리
 
 
@@ -773,92 +522,180 @@ Event listenr 지워주기
   presued element로 fontawesome 사용하기
 
 
-                  
                 </p>
 
+                <ul class="datearea">
+                  
+                    <li class="tagarea">
+                      <ul class="tags">
+                        
+                          <li>fontawesome,</li>
+                        
+                          <li>ioni-cons</li>
+                        
+                      </ul>
+                    </li>
+                  
+                    <li class="date">
+                      <span>08. 29 - 10. 26. 2020</span>
+                    </li>
+                </ul>
                 
-                  <ul class="tags">
-                    
-                      <li>githubpage</li>
+                  <ul>
                     
                   </ul>
                 
 
               </dd>
             </dl>
-            
           
           
-          
-    				<dl class="list">
-              <dt>
-                <ul>
-                  <li class="title">
-                    <span class="main-title">
-                      <a href="/myblog/2020/09/19/community.html">
-                        <span class="count">14.</span>
-                        노마드 코드의 챌린지 언젠가 하고싶어
-                      </a>
-                    </span>
-                  </li>
-                  <li class="date">
-                    <span>08. 29 - 10. 26. 2020</span>
-                    <!-- <span>November 27, 2020</span> -->
-                  </li>
-                </ul>
+            <dl class="list">
+              <dt class="title">
+                <span class="main-title">
+                  <a href="/myblog/2020/08/29/check-html.html">
+                    <span class="count">10.</span>
+                    HTML
+                  </a>
+                </span>
               </dt>
               <dd>
                 <p class="contents">
-                    
-                    <span class="sub-title">
-                      front-end, full-stack, challenge
-                    </span>
-                    
-                    
-                    노마드 코드의 챌린지는 꼭 함께 한번 해봐야겠다. 즐거운 경험이 될 것 같아!
+                    html 관련 기술들 정리
 
-                  
+
+  html5 시맨틱 태그
+
+
                 </p>
 
+                <ul class="datearea">
+                  
+                    <li class="tagarea">
+                      <ul class="tags">
+                        
+                          <li>HyperText</li>
+                        
+                          <li>Markup</li>
+                        
+                          <li>Language,</li>
+                        
+                          <li>html5</li>
+                        
+                      </ul>
+                    </li>
+                  
+                    <li class="date">
+                      <span>08. 29 - 10. 26. 2020</span>
+                    </li>
+                </ul>
                 
-                  <ul class="tags">
-                    
-                      <li>community</li>
+                  <ul>
                     
                   </ul>
                 
 
               </dd>
             </dl>
-            
           
           
-          
-    				<dl class="list">
-              <dt>
-                <ul>
-                  <li class="title">
-                    <span class="main-title">
-                      <a href="/myblog/2020/10/24/check-css.html">
-                        <span class="count">15.</span>
-                        CSS
-                      </a>
-                    </span>
-                  </li>
-                  <li class="date">
-                    <span>08. 29 - 10. 26. 2020</span>
-                    <!-- <span>November 27, 2020</span> -->
-                  </li>
-                </ul>
+            <dl class="list">
+              <dt class="title">
+                <span class="main-title">
+                  <a href="/myblog/2020/08/29/check-makingblog.html">
+                    <span class="count">11.</span>
+                    <b>[blog]</b>github pages에서 블로그 만들고 관리하기
+                  </a>
+                </span>
               </dt>
               <dd>
                 <p class="contents">
+                    여기에 기록하려고 하는것은.. 일단, 거창한 기록을 하려는 것이 아니다. 그저, 만들때 찾아봤던 사이트들의 링크를 남김으로써, 이후에도 참고 자료로 쓰고 싶을 뿐이다. 만약, jekyll로 githubpage를 만들고 싶어서 찾아왔다면, 블로그들을 찾아보기보다는 jekyll의 original document를 꼭 참고하라고 이야기 하고 싶다. 어떤 개발이든, original document를 보는것은 정말 좋은 습관이고, 특히나 jekyll은 docs가 매우 잘되어있다. 중요한 앞부분의 tutorial은 심지어 마음씨 좋은 분이 한국어로 번역도 해두셔서 읽기가 매우 쉽다.!! 중요 참고 사이트들 지킬(Jekyll) Docs : https://jekyllrb-ko.github.io/...
+                </p>
+
+                <ul class="datearea">
+                  
+                    <li class="tagarea">
+                      <ul class="tags">
+                        
+                          <li>githubpage,</li>
+                        
+                          <li>jekyll,</li>
+                        
+                          <li>liquid,</li>
+                        
+                          <li>fireball</li>
+                        
+                      </ul>
+                    </li>
+                  
+                    <li class="date">
+                      <span>08. 29 - 10. 26. 2020</span>
+                    </li>
+                </ul>
+                
+                  <ul>
                     
-                    <span class="sub-title">
-                      cascading style sheets, CSS3
-                    </span>
+                  </ul>
+                
+
+              </dd>
+            </dl>
+          
+          
+            <dl class="list">
+              <dt class="title">
+                <span class="main-title">
+                  <a href="/myblog/2020/09/20/check-sublimetext3.html">
+                    <span class="count">12.</span>
+                    각종 프로그램 단축키
+                  </a>
+                </span>
+              </dt>
+              <dd>
+                <p class="contents">
+                    sublime-text3
+
+파일 바로열기 : ctrl+p
+https://zzznara2.tistory.com/276
+
+                </p>
+
+                <ul class="datearea">
+                  
+                    <li class="tagarea">
+                      <ul class="tags">
+                        
+                          <li>sublimetext3</li>
+                        
+                      </ul>
+                    </li>
+                  
+                    <li class="date">
+                      <span>08. 29 - 10. 26. 2020</span>
+                    </li>
+                </ul>
+                
+                  <ul>
                     
-                    
+                  </ul>
+                
+
+              </dd>
+            </dl>
+          
+          
+            <dl class="list">
+              <dt class="title">
+                <span class="main-title">
+                  <a href="/myblog/2020/10/24/check-css.html">
+                    <span class="count">13.</span>
+                    CSS
+                  </a>
+                </span>
+              </dt>
+              <dd>
+                <p class="contents">
                     CSS 관련 기술들 정리
 
 
@@ -881,756 +718,173 @@ div {
   box-sizing 요소
 
 
-                  
                 </p>
 
+                <ul class="datearea">
+                  
+                    <li class="tagarea">
+                      <ul class="tags">
+                        
+                          <li>cascading</li>
+                        
+                          <li>style</li>
+                        
+                          <li>sheets,</li>
+                        
+                          <li>CSS3</li>
+                        
+                      </ul>
+                    </li>
+                  
+                    <li class="date">
+                      <span>08. 29 - 10. 26. 2020</span>
+                    </li>
+                </ul>
                 
-                  <ul class="tags">
-                    
-                      <li>githubpage</li>
+                  <ul>
                     
                   </ul>
                 
 
               </dd>
             </dl>
-            
           
           
-          
-    				<dl class="list">
-              <dt>
-                <ul>
-                  <li class="title">
-                    <span class="main-title">
-                      <a href="/myblog/2020/08/29/check-makingblog.html">
-                        <span class="count">16.</span>
-                        <b>[blog]</b>github pages에서 블로그 만들고 관리하기
-                      </a>
-                    </span>
-                  </li>
-                  <li class="date">
-                    <span>08. 29 - 10. 26. 2020</span>
-                    <!-- <span>November 27, 2020</span> -->
-                  </li>
-                </ul>
+            <dl class="list">
+              <dt class="title">
+                <span class="main-title">
+                  <a href="/myblog/2020/10/27/check-trend.html">
+                    <span class="count">14.</span>
+                    <b>[trend search]</b> 한 주간 개발과 관련된 내용을 모아서 정리해보자
+                  </a>
+                </span>
               </dt>
               <dd>
                 <p class="contents">
-                    
-                    <span class="sub-title">
-                      jekyll, liquid, fireball
-                    </span>
-                    
-                    
-                    여기에 기록하려고 하는것은.. 일단, 거창한 기록을 하려는 것이 아니다. 그저, 만들때 찾아봤던 사이트들의 링크를 남김으로써, 이후에도 참고 자료로 쓰고 싶을 뿐이다. 만약, jekyll로 githubpage를 만들고 싶어서 찾아왔다면, 블로그들을 찾아보기보다는 jekyll의 original document를 꼭 참고하라고 이야기 하고 싶다. 어떤 개발이든, original document를 보는것은 정말 좋은 습관이고, 특히나 jekyll은 docs가 매우 잘되어있다. 중요한 앞부분의 tutorial은 심지어 마음씨 좋은 분이 한국어로 번역도 해두셔서 읽기가 매우 쉽다.!! 중요 참고 사이트들 지킬(Jekyll) Docs : https://jekyllrb-ko.github.io/ liquid문법 : https://shopify.github.io/liquid/ markdown문법 : https://daringfireball.net/projects/markdown/syntax sass문법 : http://thesassway.com/ 언제나 그렇듯 stackoverflow에 왠만한건 다 있다 추후에 구현하고 싶은 내용들 지킬에 검색창 달기 https://imyeonn.github.io/blog/blog/30/ 태그모음달기 오답노트 github pages 프로젝트 별로 github pages 만들기 github pages에서 코드 그대로 보이도록 만들기 rouge 파일을 이용해서 코드의 syntax highlight 사용하기(https://moon9342.github.io/jekyll-rouge) rouge 파일을 이용한 코드 추가 예시 function sample(highlight) { var foo = 'Hello World'; } jekyll front-matter front-matter default 설정하기 pagination data formatting liquid 문법으로, 현재 데이터 얻는법 variables collection alphabetically sorting으로 변경 count만들기 : stackoverflow count만들기 : github 이미지 파일 추가 liquid문법의 include를 이용해서, 함수처럼 사용할수 있다고?! include문법 소개 깜빡하기 쉬운 liquid문법, elseif가 아니라 elsif다. 헉. jekyll 에 gem 파일 추가하는 법 subtitle이 없을 경우에 나오지 않도록 처리 (if문 사용) {% if post.subtitle != none %} {{ post.subtitle }} {% endif %} highlight추가하기 markdown...
-                  
+                    Trend search?! 한 주 동안 개발과 관련되서 ‘search’했던 내용들 중에, 나중에도 읽어보면 좋을 것 같은 내용들을 잘 정리해 두어야지. 이런 마음으로 시작하게 된 게시물 이다. 이름은 거창하지만, 굳이말하자면 한주간의 주제별 스크랩 자료랄까. trend라는 말이 들어간건, 그래도 웹 개발의 빠른 흐름을 놓치면 안되겠다는 생각에, 현재 웹trend를 반영하는 스크랩 자료들도 꼭 넣고 싶다는 하나의 바램이랄까. ^^;; 그런데, 실제로는 trend를 좇기보다는 그때그때 내가 필요한 것들, 내가 알아봐야 하는 것들을 중심으로 스크랩 될 것...
                 </p>
 
+                <ul class="datearea">
+                  
+                    <li class="tagarea">
+                      <ul class="tags">
+                        
+                          <li>githubpage,</li>
+                        
+                          <li>dependency-manager,</li>
+                        
+                          <li>preprocessors,</li>
+                        
+                          <li>phython</li>
+                        
+                      </ul>
+                    </li>
+                  
+                    <li class="date">
+                      <span>10. 18 - 10. 24. 2020</span>
+                    </li>
+                </ul>
                 
-                  <ul class="tags">
-                    
-                      <li>githubpage</li>
+                  <ul>
                     
                   </ul>
                 
 
               </dd>
             </dl>
-            
           
           
-          
-    				<dl class="list">
-              <dt>
-                <ul>
-                  <li class="title">
-                    <span class="main-title">
-                      <a href="/myblog/2020/10/16/makingdrawer.html">
-                        <span class="count">17.</span>
-                        <b>[Toy Project]</b> 블로그에서 쓸 drawer를 만들어보자!!
-                      </a>
-                    </span>
-                  </li>
-                  <li class="date">
-                    <span>10. 26 - 10. 26. 2020</span>
-                    <!-- <span>November 27, 2020</span> -->
-                  </li>
-                </ul>
+            <dl class="list">
+              <dt class="title">
+                <span class="main-title">
+                  <a href="/myblog/2020/11/01/check-nomad_javascript.html">
+                    <span class="count">15.</span>
+                    <b>[강의]</b> Nomad Coders - 바닐라 JS로 크롬 앱 만들기
+                  </a>
+                </span>
               </dt>
               <dd>
                 <p class="contents">
-                    
-                    <span class="sub-title">
-                      navigation
-                    </span>
-                    
-                    
-                    
-
-                  
+                    Nomad coders 니콜라스&amp;린 부부가 함께 운영하는 Nomad coders는 Youtube채널과 강의사이트로 운영되고 있다. (아, 슬랙 채널도 있다.) 다양한 방식으로 의견을 주고 받을 수 있고, 최신 업데이트 되는 기술에 관한 내용도 피드 받을 수 있어서 늘 보고 있는 채널&amp;사이트 이다. 다소 딱딱하게 소개를 했는데, 채널과 사이트는 전혀 딱딱하지 않은 느낌이니 오해 없으시길 ㅎㅎ 나는 개인적으로 잘 이용하고 있어서 심심한 감사의 인사를 전하고 싶다 :) Nomad coders “Youtube” 일단 채널은 심심할때 보면 좋다....
                 </p>
 
+                <ul class="datearea">
+                  
+                    <li class="tagarea">
+                      <ul class="tags">
+                        
+                          <li>javascript</li>
+                        
+                      </ul>
+                    </li>
+                  
+                    <li class="date">
+                      <span>08. 01 - 08. 08. 2020</span>
+                    </li>
+                </ul>
                 
-                  <ul class="tags">
-                    
-                      <li>javascript</li>
+                  <ul>
                     
                   </ul>
                 
 
               </dd>
             </dl>
-            
           
           
-          
-    				<dl class="list">
-              <dt>
-                <ul>
-                  <li class="title">
-                    <span class="main-title">
-                      <a href="/myblog/2020/09/20/check-sublimetext3.html">
-                        <span class="count">18.</span>
-                        각종 프로그램 단축키
-                      </a>
-                    </span>
-                  </li>
-                  <li class="date">
-                    <span>08. 29 - 10. 26. 2020</span>
-                    <!-- <span>November 27, 2020</span> -->
-                  </li>
-                </ul>
+            <dl class="list">
+              <dt class="title">
+                <span class="main-title">
+                  <a href="/myblog/2020/10/27/check-book-github.html">
+                    <span class="count">16.</span>
+                    <b>[book]</b> Doit! 지옥에서 온 문서 관리자 깃&깃허브 입문
+                  </a>
+                </span>
               </dt>
               <dd>
                 <p class="contents">
-                    
-                    <span class="sub-title">
-                      sublimetext3
-                    </span>
-                    
-                    
-                    sublime-text3
-
-파일 바로열기 : ctrl+p
-https://zzznara2.tistory.com/276
-
-                  
+                    책소개 책 제목 : Doit! 지옥에서 온 문서 관리자 깃&amp;깃허브 입문 지은이 : 이고잉, 고경희 출판사 : 이지스퍼블리싱 git과 github에 관한 내용을 전혀 모르는 것은 아니었다. 이전에 프로젝트도 해 본적이 있고 해서.. 그렇지만, 시간이 흐르고.. ^^; 이전회사에서는 svn을 더 선호하는 경향이 있어서 개인 프로젝트가 아니면 git을 쓸 일이 많이 없었던 것 같다. 그러다 보니까 가물가물 한 것 같길래, 간단히 쓱 리뷰할 수 있는 책을 한권 구입하고 싶다는 생각이 들었다. 그러니까,...
                 </p>
 
+                <ul class="datearea">
+                  
+                    <li class="tagarea">
+                      <ul class="tags">
+                        
+                          <li>git,</li>
+                        
+                          <li>github</li>
+                        
+                      </ul>
+                    </li>
+                  
+                    <li class="date">
+                      <span>08. 05 - 08. 07. 2020</span>
+                    </li>
+                </ul>
                 
-                  <ul class="tags">
-                    
-                      <li>sublimetext3</li>
+                  <ul>
                     
                   </ul>
                 
 
               </dd>
             </dl>
-            
-          
-          
-          
-    				<dl class="list">
-              <dt>
-                <ul>
-                  <li class="title">
-                    <span class="main-title">
-                      <a href="/myblog/2020/09/19/wanted.html">
-                        <span class="count">19.</span>
-                        검색 서비스
-                      </a>
-                    </span>
-                  </li>
-                  <li class="date">
-                    <span>10. 26 - 10. 26. 2020</span>
-                    <!-- <span>November 27, 2020</span> -->
-                  </li>
-                </ul>
-              </dt>
-              <dd>
-                <p class="contents">
-                    
-                    <span class="sub-title">
-                      search, algorithm
-                    </span>
-                    
-                    
-                    프로그래머에게 무엇을 만들고 싶어? 라고 묻는 것은 상당히 중요한 질문이다.
-
-글쎄, 처음에도 지금도, 내가 생각하는 것 중에 하나는 정보에 있다.
-
-“검색 서비스”의 발전과 진화 과정에 대해 배우고 싶고, 검색서비스의 구현에 대해서 배우고 싶다.
-
-이 문제를 깊게 파고 들어가다 보면 좋은 소스가 나올 것 같다.
-
-검색 서비스에서 어떻게 사람들이 소외되게 되는지. 이런것에 초점을 맞추면, 분명 더 나은 서비스라던가 세상의 중요한 것들을 알 수 있을 것 같다.
-
-세상은 점차 검색 서비스를 중심으로 움직이고 있는것 같으니까 말이다.
-
-                  
-                </p>
-
-                
-                  <ul class="tags">
-                    
-                      <li>search</li>
-                    
-                  </ul>
-                
-
-              </dd>
-            </dl>
-            
-          
-          
-          
-    				<dl class="list">
-              <dt>
-                <ul>
-                  <li class="title">
-                    <span class="main-title">
-                      <a href="/myblog/2020/08/29/check-html.html">
-                        <span class="count">20.</span>
-                        HTML
-                      </a>
-                    </span>
-                  </li>
-                  <li class="date">
-                    <span>08. 29 - 10. 26. 2020</span>
-                    <!-- <span>November 27, 2020</span> -->
-                  </li>
-                </ul>
-              </dt>
-              <dd>
-                <p class="contents">
-                    
-                    <span class="sub-title">
-                      HyperText Markup Language, html5
-                    </span>
-                    
-                    
-                    html 관련 기술들 정리
-
-
-  html5 시맨틱 태그
-
-
-                  
-                </p>
-
-                
-                  <ul class="tags">
-                    
-                      <li>githubpage</li>
-                    
-                  </ul>
-                
-
-              </dd>
-            </dl>
-            
-          
-          
-          
-    				<dl class="list">
-              <dt>
-                <ul>
-                  <li class="title">
-                    <span class="main-title">
-                      <a href="/myblog/2020/11/10/trend.html">
-                        <span class="count">21.</span>
-                        <b>[trend search]</b> 한 주간 개발과 관련된 내용을 모아서 정리해보자
-                      </a>
-                    </span>
-                  </li>
-                  <li class="date">
-                    <span>10. 18 - 10. 24. 2020</span>
-                    <!-- <span>November 27, 2020</span> -->
-                  </li>
-                </ul>
-              </dt>
-              <dd>
-                <p class="contents">
-                    
-                    <span class="sub-title">
-                      dependency-manager, preprocessors, phython
-                    </span>
-                    
-                    
-                    기억에 남는 youtube or posting
-goodbye j-Query
-처음 퍼블리싱을 배울 때만해도, j-Query가 괜찮았었는데 ㅎㅎ 어느덧 뒤안길로 밀려나고 있다는 사실이 약간 씁쓸하기도 하고, 기술이란 이런건가 싶기도 하고. 그런 심경이 들었다. 어쩄든 한 동안은 잘썼고, 이래저래 편리한 점이 많기도 하지만. j-query만 쓰게되면 javascript 공부를 소홀히 하게 될 수도 있다는 점에 동감한다. 정말이지 계속 성장하는 개발자가 된다는 것은 힘들다는 생각 등을 하면서..
-
-NLP 자연어 처리
-나는 자연어 처리와 검색시스템에 전부터 관심을 가지고 있었다. 그냥, 늘 관심이 있다. 일단 내 현업에서 써야 하는걸 배우느 라고 자꾸만 뒤로 밀려나는 기분이 들어서 좀 그렇지만. 어쟀든 관심은 있으니까 늘 리스트에는 올라와 있는 그런 기분이다. 
-간단히 php로 해서 NLP API를 만드는 그런 과정 이었는데, 꽤나 흥미로웠다.
-
-
-                  
-                </p>
-
-                
-                  <ul class="tags">
-                    
-                      <li>githubpage</li>
-                    
-                  </ul>
-                
-
-              </dd>
-            </dl>
-            
-          
-          
-          
-    				<dl class="list">
-              <dt>
-                <ul>
-                  <li class="title">
-                    <span class="main-title">
-                      <a href="/myblog/2020/09/15/scrap.html">
-                        <span class="count">22.</span>
-                        임시로 스크랩하고, 대충 내용볼려고 만들어 놓은 페이지
-                      </a>
-                    </span>
-                  </li>
-                  <li class="date">
-                    <span>10. 18 - 10. 24. 2020</span>
-                    <!-- <span>November 27, 2020</span> -->
-                  </li>
-                </ul>
-              </dt>
-              <dd>
-                <p class="contents">
-                    
-                    
-                    무엇을 스크랩 할 것인가. 어디에서 스크랩 할 것인가. 어떤식으로 스크랩 할 것인가. 유튜브나. 뭐.. front-end에서 배울만 한점 트렌드나 뭐 이런걸 서치할 수 있는 곳도 필요하다. 나름대로 해서 정리를 해두는 것도 중요하다. 프로그래밍을 공부할때의 조언들 Nomad Coders - 프로그래밍 독학할때 자주 하는 실수 5가지 https://www.youtube.com/watch?v=FF6CF8TZIhE 이두히 - 멋쟁이 사자처럼? https://www.youtube.com/watch?v=PDLZ1wyTy_I 뭐든지 많이 쓸만한 것들을 만들고, 실제로 서비스 하는 과정에서 배울것 :) 개벌이랑 학벌은 거의 비례하지 않는 것 가지 않다. 실제 실력에 대해서 중요. 현재 채용의 트렌드 같은것도? 개발이란 쉽게 시작할 수도 있고, 어렵게 시작할 수도 있는거구나. 조 코딩 https://www.youtube.com/watch?v=wpUiN5hBnyc 음.. 너무 어렵게 시작하지 말고 쉽게 시작하라는것? https://www.youtube.com/watch?v=72gZEC0O1D8 C언어 부터 배우면, 프로그래밍에 관해서 아주 세세한 부분까지 배울 수 있다는것. : 프로그래밍에는 항상 이렇게 두가지 의견이 공존한다. 사실 둘다 맞는 말이다. 누군가는 일이 터지면 막으라고 하지만.. 글쎄, 그게 잘 막아질 수도 있지만. 아닐 수도 있다 확실히 ㅋㅋㅋ 항상 기억해야할 법칙은, 어느정도는 알아보자. 하지만, 가다가 막히면?! 그건 그때가서 처리할 필요가 있지 ㅋㅋㅋ 크리티컬한 부분은 미리 알아보려고 노력하겠지만, 가장 중요한건 챙기고 가겠지만. 다 알 수는 없다는것! 공부하는 바른 습관이 중요하다. 습관의 refactoring에 대하여 개발을 하는 사람이라면, 누구나 refactoring을 알고 있을 것이다. 지금까지 해왔던 방식을 점검하고, 더 나은 코드로 바꿈으로써, 그것이 지속가능하도록. 지속가능하게 유지보수 될 수 있도록 노력하는 것이다. 적절한 시기에 refactoring을 해가면서 관리한다면, 추후에 큰...
-                  
-                </p>
-
-                
-                  <ul class="tags">
-                    
-                      <li>clipping,trendsearch</li>
-                    
-                  </ul>
-                
-
-              </dd>
-            </dl>
-            
-          
-          
-          
-    				<dl class="list">
-              <dt>
-                <ul>
-                  <li class="title">
-                    <span class="main-title">
-                      <a href="/myblog/2020/10/27/check-trend.html">
-                        <span class="count">23.</span>
-                        <b>[trend search]</b> 한 주간 개발과 관련된 내용을 모아서 정리해보자
-                      </a>
-                    </span>
-                  </li>
-                  <li class="date">
-                    <span>10. 18 - 10. 24. 2020</span>
-                    <!-- <span>November 27, 2020</span> -->
-                  </li>
-                </ul>
-              </dt>
-              <dd>
-                <p class="contents">
-                    
-                    <span class="sub-title">
-                      dependency-manager, preprocessors, phython
-                    </span>
-                    
-                    
-                    Trend search?! 한 주 동안 개발과 관련되서 ‘search’했던 내용들 중에, 나중에도 읽어보면 좋을 것 같은 내용들을 잘 정리해 두어야지. 이런 마음으로 시작하게 된 게시물 이다. 이름은 거창하지만, 굳이말하자면 한주간의 주제별 스크랩 자료랄까. trend라는 말이 들어간건, 그래도 웹 개발의 빠른 흐름을 놓치면 안되겠다는 생각에, 현재 웹trend를 반영하는 스크랩 자료들도 꼭 넣고 싶다는 하나의 바램이랄까. ^^;; 그런데, 실제로는 trend를 좇기보다는 그때그때 내가 필요한 것들, 내가 알아봐야 하는 것들을 중심으로 스크랩 될 것 같다. 하지만, 그때로써는 가장 최신의 내용을 스크랩 할 것이고, 매주 그렇게 알아보다보면 나름대로 새로운 trend에 관해 캐치 될 테니까 매주 이 렇게 정리하는 일 자체가 나름대로 trend를 좇는 방법이지 않을까 하고 위안삼아 본다. 일단, 이번페이지에서는 ‘트렌드’를 위주로 살펴볼 수 있는 사이트 들을 정리해두고, 이 부분은 추후에도 계속 추가해 나가야 할 것 같다. (즐겨 찾기 목록은 늘 바뀌니까 ^^;;) 한주간 주간 스크랩은 다음글에서 따로 올리기로~ 웹 트렌드. 어디에서 알아볼까? Youtube Nomad coder 웹 트렌드에 관한 게시물들이 꽤 올라오는데, 인상적인 것들이 있었다. 만약, 강의가 듣고 싶다면 Nomad coder 홈페이지로 이동해서 들을 수 있다. 무료강의도 간혹 있고, 무엇보다 challenge코스가 있으니 참고하시길. EO Enterpreneurship &amp; Opportunities 라는 이름의 채널, 스타트업이나 새로운 사업등에 도전한 사람들의 이야기가 많이 올라오고, 그러다보니 자연스럽게 스타트업에서 일하는 개발자들의 이야기를 들을 수 있다. Medium Medium 아직 무엇을 딱히 구독해서 읽는 정도는...
-                  
-                </p>
-
-                
-                  <ul class="tags">
-                    
-                      <li>githubpage</li>
-                    
-                  </ul>
-                
-
-              </dd>
-            </dl>
-            
-          
-          
-          
-    				<dl class="list">
-              <dt>
-                <ul>
-                  <li class="title">
-                    <span class="main-title">
-                      <a href="/myblog/2020/11/15/IT_field_arragement.html">
-                        <span class="count">24.</span>
-                        IT 업체에 대해 알아봄(정리)
-                      </a>
-                    </span>
-                  </li>
-                  <li class="date">
-                    <span>10. 15 - 10. 15. 2020</span>
-                    <!-- <span>November 27, 2020</span> -->
-                  </li>
-                </ul>
-              </dt>
-              <dd>
-                <p class="contents">
-                    
-                    
-                    여러장단점들. 회사에 대해서 서치한 것들 정리. ###자본에 따라서 외국계 기업 장: 복지가 좋다. (문화와 워라밸등), 여성도 차별을 덜 받는다. 단: 끊임없는 경력개발이 필요하다. 내 필드로만 이동이 가능할 수 있음. 지사임으로 언제든지 본사에서 철수 명령이 내려올 수 있고, 계약직임. 본사 돌아가는 내용을 잘 알기가 어렵다. 아무리 승진해도 지사의 윗자리이고 (그마저도 본사에서 내려오는 경우가 다수임) 대기업 장: 급여가 좋다. (하는 일이 그리 어렵지 않은데 업계 평균보다 훨씬 좋은편), 잘 안망하니까 안정적이다. 단: 개발실력이 늘기에 그리 좋은 환경은 아닌듯.. 아닌가? 많이 바꾸고 있다고는 들었는데, 꼰대들이 많을 것 같은 느낌이다. ㅋㅋ 개발안하지만 업계에 오래 있었던 꼰대들… 이것도 힘들지 껄껄 중견기업 장: 음.. 중견기업은 여러종류가 있다. 자체 혹은, 대기업이나 국가사업에 종속되는 경우로 나뉠 수 있겠다. SI가 많겠지..? 솔루션 회사라면 또 문화가 다르겠지..? 그래도 start up이나 소기업보다는 급여가 안정적일 가능성이 좀더 높다. 현실적으로 여기에 속한 회사가 많다. 단: 중견기업은 살아남아야 하는 치열함 속에 있어서, 일이 바쁠 가능성이 있고, 복지나 이런것도 그냥 별로일 가능성도 있다. 기술도 SI이고 누군가의 용역이고, 빨리 만들어야하고, 하기 싫은 일을 하청받아서 한다면 로우한 기술을 써야 할 수도 있다. start up 장: 음.. 애들이 젊다 (이건 장&amp;단), 문화도 젊다, 새로운 기술을 빠르게 받아들이고 적용한다, 그렇기에 새로운 기술을 쓸 수 있다. 100곳 중에 한 곳은 대박 유니콘 일 수도 있다. 단: 조직운영이 서투를 수 있다....
-                  
-                </p>
-
-                
-                  <ul class="tags">
-                    
-                      <li>It</li>
-                    
-                      <li>field</li>
-                    
-                  </ul>
-                
-
-              </dd>
-            </dl>
-            
-          
-          
-          
-    				<dl class="list">
-              <dt>
-                <ul>
-                  <li class="title">
-                    <span class="main-title">
-                      <a href="/myblog/2020/09/15/history.html">
-                        <span class="count">25.</span>
-                        기술경력서를 쓴다는것
-                      </a>
-                    </span>
-                  </li>
-                  <li class="date">
-                    <span>10. 15 - 10. 15. 2020</span>
-                    <!-- <span>November 27, 2020</span> -->
-                  </li>
-                </ul>
-              </dt>
-              <dd>
-                <p class="contents">
-                    
-                    
-                    기술경력서를 쓴다는것. 나의 프로젝트를 돌아본다는 것. 일단, 무슨일을 했는지가 기억이 안날 수 있다. 그럴땐, 이전에 가지고 있던 나의 스케쥴 표를 보자. 일을 너무 많이했을 경우, 우후죽순으로 했을 경우. 일단 내가 무슨일을 했는지가 기억이 안 날 수도 있다. 그럴때는, 이전 스케쥴 표를 보면서, 일단 내가 몇일부터 몇일까지 무슨일을 했는가를 쭉 나열한다. 거기서, 내가 사용한 기술들도 일단 나열한다. (어떤건 디자인 스킬이들어가 있고, 어떤건 javascript 스킬이 빠져 있을 수도 있다.) 홈페이지를 각각 들어가 본다. 홈페이지를 돌아보다 보면, 각 홈페이지 마다 특징적으로 기억에 남는 에피소드가 있을 수 있다. 그런 점들은 추후에 기술경력을 쓸때에 녹여서 쓰는 것이 좋다. 그 홈페이지를 만들면서 특별하게 내가 배운 점들이기 때문에 기억에 남는 부분이기 때문이다. 물론, 녹여쓰기게 좀 그런 내용이면 뺀다 ㅎㅎ 하지만, 보통은 녹여서 쓸 수 있고, 그런 경험들에서 배운 것도 있다. 예를들어, 클라이언트가 홈페이지 메인페이지를 3번정도 뒤집었다고 치자. 다 코딩이 된 후에 했다고 치자. 무엇을 배웠는가? 내가 디자인을 했다면, 좀더 클라이언트의 요구를 세련된 디자인으로 녹이도록 여러번 노력 했을 것이다. 내가 코딩부분만 했다면, 몇번을 뒤집고 다시 만들어도 최대한 componenet를 재 사용 가능하게 만들어서, 다시 만들어야 하는 상황에서도 어렵지 않도록 코딩을 하는 법을 익히도록 노력했을 것이다. SI 업체에서 일해본 사람들은 모두 공감하겠지만, 이런일은 생각보다 흔하다. 이제 대강의 기술 경력을 기술해 본다. 기술 경력을 어떻게 쓸 것인가 라는 부분에서 엄청 고민과...
-                  
-                </p>
-
-                
-                  <ul class="tags">
-                    
-                      <li>skill-resume</li>
-                    
-                  </ul>
-                
-
-              </dd>
-            </dl>
-            
-          
-          
-          
-    				<dl class="list">
-              <dt>
-                <ul>
-                  <li class="title">
-                    <span class="main-title">
-                      <a href="/myblog/2020/08/29/sample.html">
-                        <span class="count">26.</span>
-                        test
-                      </a>
-                    </span>
-                  </li>
-                  <li class="date">
-                    <span>09. 12 - 09. 12. 2020</span>
-                    <!-- <span>November 27, 2020</span> -->
-                  </li>
-                </ul>
-              </dt>
-              <dd>
-                <p class="contents">
-                    
-                    <span class="sub-title">
-                      test sample
-                    </span>
-                    
-                    
-                    
-
-                  
-                </p>
-
-                
-                  <ul class="tags">
-                    
-                      <li>jekyll</li>
-                    
-                      <li>tags</li>
-                    
-                      <li>tree</li>
-                    
-                  </ul>
-                
-
-              </dd>
-            </dl>
-            
-          
-          
-          
-    				<dl class="list">
-              <dt>
-                <ul>
-                  <li class="title">
-                    <span class="main-title">
-                      <a href="/myblog/2020/11/01/check-nomad_javascript.html">
-                        <span class="count">27.</span>
-                        <b>[강의]</b> Nomad Coders - 바닐라 JS로 크롬 앱 만들기
-                      </a>
-                    </span>
-                  </li>
-                  <li class="date">
-                    <span>08. 01 - 08. 08. 2020</span>
-                    <!-- <span>November 27, 2020</span> -->
-                  </li>
-                </ul>
-              </dt>
-              <dd>
-                <p class="contents">
-                    
-                    <span class="sub-title">
-                      Javascript
-                    </span>
-                    
-                    
-                    Nomad coders 니콜라스&amp;린 부부가 함께 운영하는 Nomad coders는 Youtube채널과 강의사이트로 운영되고 있다. (아, 슬랙 채널도 있다.) 다양한 방식으로 의견을 주고 받을 수 있고, 최신 업데이트 되는 기술에 관한 내용도 피드 받을 수 있어서 늘 보고 있는 채널&amp;사이트 이다. 다소 딱딱하게 소개를 했는데, 채널과 사이트는 전혀 딱딱하지 않은 느낌이니 오해 없으시길 ㅎㅎ 나는 개인적으로 잘 이용하고 있어서 심심한 감사의 인사를 전하고 싶다 :) Nomad coders “Youtube” 일단 채널은 심심할때 보면 좋다. 이 채널의 가장 좋은 점은 무겁지 않다는 데에 있다. 무겁지 않지만, 중요한 것에 대해서는 훓고 지나가니까 보면서 더 관심이 생기면 책을 찾아보거나 전문 기술 사이트들을 들어가서 확인하면 된다. 강의 사이트로 가도 좋고 ~ 얼마전에 j-query에 관한 영상을 봤는데. 정말이지, 나 처음배울때만 해도 j-query없이는 일하기 힘들 만큼 유행중이었다. 지금은 goodbye.. 현업에선 한동안 쓰겠지만.. 영상의 이야기 처럼, 요즘은 javascript의 스펙과 browser의 스펙이 너무 좋아졌기 때문에..안뇽..ㅜㅜ 슬프기도 하고, 새로운 기술에 기쁘기도 하고 ㅎㅎ 민트초코와 하와이안 피자에 대한 호불호를 조사하는 영상도 재미있게 봤었다 ㅋㅋㅋㅋ (보다가 민초가 먹고 싶어서 나가서 사와 버렸..) NLP에 대해서 관심은 있었으나 다른 할일에 밀려서 잘 알아보지 못 하고 있었는데, NLP관련 구글API를 이용해 twitter를 분석하는 것이 재미있어 보였다. 그외에도 해킹 영화에 관한 리액션이나 ㅋㅋㅋ 평소 공부하는 방법, 개발자의 하루등 재미있는 영상도 많다 ㅎㅎ Nomad coders “Website” Website의 강의들 역시 그렇게 무겁지는...
-                  
-                </p>
-
-                
-                  <ul class="tags">
-                    
-                      <li>javascript</li>
-                    
-                  </ul>
-                
-
-              </dd>
-            </dl>
-            
-          
-          
-          
-    				<dl class="list">
-              <dt>
-                <ul>
-                  <li class="title">
-                    <span class="main-title">
-                      <a href="/myblog/2020/10/27/check-book-github.html">
-                        <span class="count">28.</span>
-                        <b>[book]</b> Doit! 지옥에서 온 문서 관리자 깃&깃허브 입문
-                      </a>
-                    </span>
-                  </li>
-                  <li class="date">
-                    <span>08. 05 - 08. 07. 2020</span>
-                    <!-- <span>November 27, 2020</span> -->
-                  </li>
-                </ul>
-              </dt>
-              <dd>
-                <p class="contents">
-                    
-                    <span class="sub-title">
-                      git, github
-                    </span>
-                    
-                    
-                    책소개 책 제목 : Doit! 지옥에서 온 문서 관리자 깃&amp;깃허브 입문 지은이 : 이고잉, 고경희 출판사 : 이지스퍼블리싱 git과 github에 관한 내용을 전혀 모르는 것은 아니었다. 이전에 프로젝트도 해 본적이 있고 해서.. 그렇지만, 시간이 흐르고.. ^^; 이전회사에서는 svn을 더 선호하는 경향이 있어서 개인 프로젝트가 아니면 git을 쓸 일이 많이 없었던 것 같다. 그러다 보니까 가물가물 한 것 같길래, 간단히 쓱 리뷰할 수 있는 책을 한권 구입하고 싶다는 생각이 들었다. 그러니까, 약간 쿡북같은. 간단히 쓱 리뷰하고, 생각 안날때 찾아볼수 있고, 옆에 놓아둘 수 있는. 그렇지만 중요한 원리는 잘 설명되어 있길 바라는..(바라는것도 많다.) 뭐 그런 책을 찾고 있었다. 마침, 그 당시에 생활코딩을 통해서 ‘웹 어플리케이션 만들기’ 프로젝트를 진행하고 있었는데, (사실 이 프로젝트를 진행하면서 역시 개인프로젝트는 뭔가 기록하면서 해야해!! 전에 git을 썼었는데, 기억이 가물가물하네 ㅜㅜ 다시 써봐야겠다!! 이렇게 된것임..tmi) 이 고잉 님의 강의가 만드는 것 자체는 심플하면서(기초에 충실하면서), 중요한 원리는 시간을 들여서 설명해 주는 그런 강의였다. 덕분에, front-end 부분과 back-end부분이 한번에 정리되는 느낌을 이 프로젝트를 통해서 받을 수 있었기 때문에, git강의도 관심이 생긴 찰나였다. 그런데, 이미 아는 내용이기도 하고.. 강의를 천천히 다 듣고 있기에는 스킵할 부분이 많은것 같고, (원래 전자책 보다 종이 책을 선호하기도 하고), 생활코딩을 늘 잘 사용하니까 후원(?)의 의미도 담아 ㅋㅋㅋ.. 그래서 이 책을 구입하게 된 것이다. 만약, 책을 사기보다 강의를...
-                  
-                </p>
-
-                
-                  <ul class="tags">
-                    
-                      <li>git,</li>
-                    
-                      <li>github</li>
-                    
-                  </ul>
-                
-
-              </dd>
-            </dl>
-            
-          
-          
-          
-    				<dl class="list">
-              <dt>
-                <ul>
-                  <li class="title">
-                    <span class="main-title">
-                      <a href="/myblog/2020/10/27/check-clone-webapplication.html">
-                        <span class="count">29.</span>
-                        <b>[clone-coding]</b> 웹 어플리케이션 만들기(구버전) -생활코딩
-                      </a>
-                    </span>
-                  </li>
-                  <li class="date">
-                    <span>07. 01 - 07. 10. 2020</span>
-                    <!-- <span>November 27, 2020</span> -->
-                  </li>
-                </ul>
-              </dt>
-              <dd>
-                <p class="contents">
-                    
-                    <span class="sub-title">
-                      git, github
-                    </span>
-                    
-                    
-                    ###
-
-                  
-                </p>
-
-                
-                  <ul class="tags">
-                    
-                      <li>webapplication</li>
-                    
-                  </ul>
-                
-
-              </dd>
-            </dl>
-            
-          
-          
-          
-    				<dl class="list">
-              <dt>
-                <ul>
-                  <li class="title">
-                    <span class="main-title">
-                      <a href="/myblog/2020/11/23/side-checklist.html">
-                        <span class="count">30.</span>
-                        Side Checklist
-                      </a>
-                    </span>
-                  </li>
-                  <li class="date">
-                    <span> - </span>
-                    <!-- <span>November 27, 2020</span> -->
-                  </li>
-                </ul>
-              </dt>
-              <dd>
-                <p class="contents">
-                    
-                    
-                    
-
-                  
-                </p>
-
-                
-
-              </dd>
-            </dl>
-            
-          
-          
-          
-    				<dl class="list">
-              <dt>
-                <ul>
-                  <li class="title">
-                    <span class="main-title">
-                      <a href="/myblog/2020/10/27/check-clone-todolist.html">
-                        <span class="count">31.</span>
-                        Check Clone Todolist
-                      </a>
-                    </span>
-                  </li>
-                  <li class="date">
-                    <span> - </span>
-                    <!-- <span>November 27, 2020</span> -->
-                  </li>
-                </ul>
-              </dt>
-              <dd>
-                <p class="contents">
-                    
-                    
-                    
-
-                  
-                </p>
-
-                
-
-              </dd>
-            </dl>
-            
-          
-          
-          
-    				<dl class="list">
-              <dt>
-                <ul>
-                  <li class="title">
-                    <span class="main-title">
-                      <a href="/myblog/2020/10/27/check-clone-pagenation.html">
-                        <span class="count">32.</span>
-                        Check Clone Pagenation
-                      </a>
-                    </span>
-                  </li>
-                  <li class="date">
-                    <span> - </span>
-                    <!-- <span>November 27, 2020</span> -->
-                  </li>
-                </ul>
-              </dt>
-              <dd>
-                <p class="contents">
-                    
-                    
-                    
-
-                  
-                </p>
-
-                
-
-              </dd>
-            </dl>
-            
           
 
-  			</article>
-  		</div>
-  	</div>	
+          <span id ="all_count" style="display: none;">16</span>
 
+        </article>
+      </div>
+    </div>  
+
+
+
+    <script>
+      var count = document.getElementById('all_count');
+      var all_count = count.innerHTML;
+      var exp_count = document.getElementById('exp_count');
+      exp_count.innerHTML = all_count;
+    </script>
   </body>
 </html>

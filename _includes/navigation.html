@@ -1,4 +1,91 @@
-<header>
+<header class="menu-wrap">
+	<div class="logoarea">
+		<a href="https://gelato7673.github.io/myblog/">
+			<img src="/myblog/assets/img/favicon/favicon.png" alt="">
+			<span>Gelato</span>
+		</a>
+	</div>
+	<input type="checkbox" class="toggle">
+	<div class="hamburger"><div></div></div>
+	<div class="menu">
+		{% if jekyll.environment == "admin" %}
+		<div class="full-menu">
+		{% else %}
+		<div>
+		{% endif %}
+
+			<dl>
+				{% if jekyll.environment == "admin" %}
+				<dt class="post-it">Daily Programming</dt>
+				{% endif %}
+				<dd>
+					<ul>
+						<li><a href="{{site.baseurl}}/trend">기술트랜드</a></li>
+						<li><a href="{{site.baseurl}}/study_program">강의/book/clonecoding</a></li>
+						<li><a href="{{site.baseurl}}/side">SideProject/ToyProject</a></li>
+						<li><a href="{{site.baseurl}}/MB">블로그관리</a></li>
+						<li><a href="{{site.baseurl}}/etc_note">etc.오답노트</a></li>
+						<li><a href="{{site.baseurl}}/tech_docu">기술별 참고사항</a></li>
+						{% if jekyll.environment == "admin" %}
+						<li><a href="{{site.baseurl}}/algorithm">1일 1알고리즘</a></li>
+						<li><a href="{{site.baseurl}}/search">검색서비스의 역사</a></li>
+						{% endif %}
+					</ul>
+				</dd>
+				{% if jekyll.environment == "admin" %}
+				<dt class="post-it solo"><a href="">포트폴리오</a></dt>
+				<dt class="post-it">My Developer Life</dt>
+				<dd>
+					<ul>
+						<li><a href="{{site.baseurl}}/graffiti">Graffiti</a></li>
+						<li><a href="{{site.baseurl}}/career">커리어 관리</a></li>
+						<li><a href="{{site.baseurl}}/community">커뮤니티활동</a></li>
+					</ul>
+				</dd>
+
+				<dt class="post-it">Study for my life</dt>
+				<dd>
+					<ul>
+						<li><a href="{{site.baseurl}}/english">English</a></li>
+						<li><a href="{{site.baseurl}}/book">독서</a></li>
+						<li><a href="{{site.baseurl}}/stock">증권</a></li>
+						<li><a href="{{site.baseurl}}/realestate">부동산</a></li>
+						<li><a href="{{site.baseurl}}/datascientist">Datascientist</a></li>
+						<li><a href="{{site.baseurl}}/goldenage">노후준비</a></li>
+						<li><a href="{{site.baseurl}}/business">사업</a></li>
+					</ul>
+				</dd>
+				{% endif %}
+			</dl>
+		</div>
+	</div>
+</header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <header>
 	<ul>
 		<li class="logo">
 			<a href="#"><i class="fas fa-align-justify"></i></a>
@@ -67,4 +154,4 @@
 		</dd>
 		{% endif %}
 	</dl>
-</nav>
+</nav> -->

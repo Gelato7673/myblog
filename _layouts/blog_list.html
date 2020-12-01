@@ -13,7 +13,7 @@
 	  			<ul>
             <li>
               <div class="book-cover" style="background:url({{site.baseurl}}/assets/img/{{page.menu}}.jpg) center no-repeat;background-size: cover;">
-                <p class="title">{{ page.title }}</p>
+                <!-- <p class="title">{{ page.title }}</p> -->
                 <p class="writer">{{ page.group }}</p>
               </div>
             </li>
@@ -26,11 +26,11 @@
                 <p class="book-descript">
                   {{ page.explanation }}
                 </p>
-                <ul class="tags">
+                <!-- <ul class="tags">
                   {% for item in page.words %}
                     <li>{{ item }}</li>
                   {% endfor %}
-                </ul>
+                </ul> -->
               </div>
             </li>
           </ul>
@@ -43,34 +43,38 @@
           {% if page.menu == post.menu %}
           {% assign i = i | plus:1 %}
     				<dl class="list">
-              <dt>
-                <ul>
-                  <li class="title">
-                    <span class="main-title">
-                      <a href="{{ post.url | prepend: site.baseurl }}">
-                        <span class="count">{{ i }}.</span>
-                        {{ post.title }}
-                      </a>
-                    </span>
-                  </li>
-                  <li class="date">
-                    <span>{{ post.date_start | date: '%m. %d' }} - {{ post.date_end | date: '%m. %d. %Y' }}</span>
-                    <!-- <span>{{ site.time | date: '%B %d, %Y' }}</span> -->
-                  </li>
-                </ul>
+              <dt class="title">
+                <span class="main-title">
+                  <a href="{{ post.url | prepend: site.baseurl }}">
+                    <span class="count">{{ i }}.</span>
+                    {{ post.title }}
+                  </a>
+                </span>
               </dt>
               <dd>
                 <p class="contents">
-                    {{ post.content | strip_html | truncatewords:200 }}
+                    {{ post.content | strip_html | truncatewords:70 }}
                 </p>
 
-                {% if post.tags != empty %}
-                  <ul class="tags">
-                    {% for tag in post.tags %}
-                      <li>{{ tag }}</li>
-                    {% endfor %}
+                <ul class="datearea">
+                  {% if post.tags != empty %}
+                    <li class="tagarea">
+                      <ul class="tags">
+                        {% for tag in post.tags %}
+                          <li>{{ tag }}</li>
+                        {% endfor %}
+                      </ul>
+                    </li>
+                  {% endif %}
+                    <li class="date">
+                      <span>{{ post.date_start | date: '%m. %d' }} - {{ post.date_end | date: '%m. %d. %Y' }}</span>
+                    </li>
+                </ul>
+                
+                  <ul>
+                    
                   </ul>
-                {% endif %}
+                
 
               </dd>
             </dl>

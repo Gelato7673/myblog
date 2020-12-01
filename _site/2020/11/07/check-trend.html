@@ -11,14 +11,118 @@
 	
 	<!-- css vendor -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" crossorigin="anonymous"/>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Poor+Story&display=swap" rel="stylesheet"> 
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">     
+<!--     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Poor+Story&display=swap" rel="stylesheet">  -->
     <link rel="stylesheet" href="/myblog/assets/css/syntax.css">
 
     <!-- sass style -->
     <link rel="stylesheet" href="/myblog/assets/css/styles.css">
   </head>
   <body class="blog-page">
+    <header class="menu-wrap">
+	<div class="logoarea">
+		<a href="https://gelato7673.github.io/myblog/">
+			<img src="/myblog/assets/img/favicon/favicon.png" alt="">
+			<span>Gelato</span>
+		</a>
+	</div>
+	<input type="checkbox" class="toggle">
+	<div class="hamburger"><div></div></div>
+	<div class="menu">
+		
+		<div>
+		
 
+			<dl>
+				
+				<dd>
+					<ul>
+						<li><a href="/myblog/trend">기술트랜드</a></li>
+						<li><a href="/myblog/study_program">강의/book/clonecoding</a></li>
+						<li><a href="/myblog/side">SideProject/ToyProject</a></li>
+						<li><a href="/myblog/MB">블로그관리</a></li>
+						<li><a href="/myblog/etc_note">etc.오답노트</a></li>
+						<li><a href="/myblog/tech_docu">기술별 참고사항</a></li>
+						
+					</ul>
+				</dd>
+				
+			</dl>
+		</div>
+	</div>
+</header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <header>
+	<ul>
+		<li class="logo">
+			<a href="#"><i class="fas fa-align-justify"></i></a>
+		</li>
+		<li class="title">
+			<a href="/myblog/index.html">
+				<img src="/myblog/assets/img/favicon/favicon.png" alt="">
+				<span>Gelato</span>
+			</a>
+		</li>
+		<li class="search">
+			
+		</li>
+	</ul>
+</header>
+
+<nav>
+	<dl class="profile-area">
+		<dt class="profile-images">
+			<p>profile-image</p>
+		</dt>
+		<dd class="writer">
+			by.Gelato
+		</dd>
+	</dl>
+	
+	<dl>
+		<dt class="post-it">Daily Programming</dt>
+		<dd>
+			<ul>
+				<li><a href="/myblog/trend">기술트랜드</a></li>
+				<li><a href="/myblog/study_program">강의/book/clonecoding</a></li>
+				<li><a href="/myblog/side">SideProject/ToyProject</a></li>
+				<li><a href="/myblog/MB">블로그관리</a></li>
+				<li><a href="/myblog/etc_note">etc.오답노트</a></li>
+				<li><a href="/myblog/tech_docu">기술별 참고사항</a></li>
+				
+			</ul>
+		</dd>
+		<dt class="post-it solo"><a href="">포트폴리오</a></dt>
+		
+	</dl>
+</nav> -->
+    
     
 		<section class="page-title">
       <p class="img-area">
@@ -30,19 +134,16 @@
         <p class="main-title">
           <b>[trend search]</b>2020. 11. 1주차
         </p>
-        <p class="sub-title">
-          community
-        </p>
 
         <ul class="page-info">
           <li class="writer">Gelato</li>
-          <li class="date">Aug 8. 2020</li>
+          <li class="date">Nov 01 - Nov 07, 20</li>
         </ul>
       </div>
 
     </section>
 
-    <article class="page-contents Myblog">
+    <article class="page-contents Daily Programming">
       <div class="inner-wrap">
         <h3 id="reddit-stack-overflow-facebook-okky">reddit, stack-overflow, facebook, okky</h3>
 <p>개발을 하면서 stack-overflow 외에 다른 커뮤니티는 그다지 이용할 생각을 하지 못했던 것 같다. 글을 읽는다거나, youtube, 기술 블로그 들을 보면서 기술 동향에 대한 이야기들을 다룬 잘 갖춰진 글들은 읽었지만, 커뮤니티 사이트는 많이 보지 않았던 것 같은데. 이번기회에 한번 둘러 보기로 했다. facebook과 okky는 일반적여서 딱히 이야기 할것은 없을 것 같고, reddidt과 stack-overflow를 위주로 이야기 하려고 한다.<br />
@@ -104,8 +205,8 @@ stack exchange는 많은 커뮤니티 사이트 들을 연결해 주는 하나�
 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
 
 var disqus_config = function () {
-this.page.url = 'https://gelato7673.github.io/myblog/2020/11/07/check-trend.html';  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = 'https://gelato7673.github.io/myblog/2020/11/07/check-trend.html'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+this.page.url = 'http://localhost:4000/myblog/2020/11/07/check-trend.html';  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = 'http://localhost:4000/myblog/2020/11/07/check-trend.html'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 };
 
 (function() { // DON'T EDIT BELOW THIS LINE
@@ -139,20 +240,15 @@ s.setAttribute('data-timestamp', +new Date());
 
               <div class="title-area-wrap">
                 <ul class="title-area">
-                  <li class="section">Myblog</li>
-                  <li class="main-title"><a href="/myblog/speach">IT 기술</a></li>
+                  <li class="section">Daily Programming</li>
+                  <li class="main-title"><a href="/myblog/trend">기술트랜드</a></li>
                 </ul>
                 
                 <span class="bar" id="left-bar"><ion-icon name="chevron-back-outline"></ion-icon></span></li>
                 
                 <ul class="count count_1">
                   <li class="now">1</li>
-                  <li class="total">2</li>
-                </ul>
-                
-                <ul class="count count_2">
-                  <li class="now">2</li>
-                  <li class="total">2</li>
+                  <li class="total">1</li>
                 </ul>
                 
                 <span class="bar" id="right-bar"><ion-icon name="chevron-forward-outline"></ion-icon></span>
@@ -169,10 +265,6 @@ s.setAttribute('data-timestamp', +new Date());
 
   
   <li>
-    <a class="title" href="/myblog/2020/11/07/check-book-doitjavascript.html"><b>[book]</b> Doit! 웹 프로그래밍을 위한 자바스크립트 기본편</a>
-  </li>
-  
-  <li>
     <a class="title" href="/myblog/2020/11/07/check-trend.html"><b>[trend search]</b>2020. 11. 1주차</a>
   </li>
   
@@ -181,36 +273,11 @@ s.setAttribute('data-timestamp', +new Date());
   </li>
   
   <li>
-    <a class="title" href="/myblog/2020/11/10/trend.html"><b>[trend search]</b> 한 주간 개발과 관련된 내용을 모아서 정리해보자</a>
-  </li>
-  
-    
-  <!-- list:e -->
-
-                </ul>
-              
-                <ul class="list list_2">
-                
-  
-  
-  
-    <!-- list:s -->
-
-  
-  <li>
     <a class="title" href="/myblog/2020/10/27/check-trend.html"><b>[trend search]</b> 한 주간 개발과 관련된 내용을 모아서 정리해보자</a>
   </li>
   
   <li>
-    <a class="title" href="/myblog/2020/11/01/check-nomad_javascript.html"><b>[강의]</b> Nomad Coders - 바닐라 JS로 크롬 앱 만들기</a>
-  </li>
-  
-  <li>
-    <a class="title" href="/myblog/2020/10/27/check-book-github.html"><b>[book]</b> Doit! 지옥에서 온 문서 관리자 깃&깃허브 입문</a>
-  </li>
-  
-  <li>
-    <a class="title" href="/myblog/2020/10/27/check-clone-webapplication.html"><b>[clone-coding]</b> 웹 어플리케이션 만들기(구버전) -생활코딩</a>
+    <a class="title" href="/myblog"></a>
   </li>
   
     
@@ -222,8 +289,8 @@ s.setAttribute('data-timestamp', +new Date());
           <!-- list-area:e -->
 
           <!-- cover-area:s -->
-          <div class="cover-area"style="background:url(/myblog/assets/img/speach.jpg) no-repeat;background-size: cover;">
-            <p class="title">IT 기술</p>
+          <div class="cover-area"style="background:url(/myblog/assets/img/trend.jpg) no-repeat;background-size: cover;">
+            <p class="title">기술트랜드</p>
             <p class="writer">by. Gelato</p>
           </div>
           <!-- cover-area:e -->

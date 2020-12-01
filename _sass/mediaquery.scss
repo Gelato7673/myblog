@@ -1,64 +1,68 @@
 @media screen and (max-width: 1000px) {
-	.inner-wrap {
-		width: 100% !important;
-	}
-	.other-pages {
-		display: none !important;
+
+	//메뉴부분
+	.menu-wrap .toggle:checked ~ .menu {
+		width: 40vw;
 	}
 
-	#disqus_thread {
+	//리스트 페이지
+	.book-intro {
+		// margin-top: 85px;
+		display: none;
+	}
+	.blog-list {
+		padding: 65px 10px 0 0;
+	}
+	.inner-wrap {
 		width: 100%;
 	}
-	.page-contents {
-		padding: 40px 0 0 !important;
-	}
 
+	//page 페이지
 	.blog-page {
 		.inner-wrap {
 			padding: 0 10px;
 		}
 		.page-title {
-			height: 200px;
-			
-			.main-title {
-				padding-top: 30px;
-			}
+			height: 300px;	
 			.img-area {
-				height: 200px;
+				height: 300px;
 			}
 			img {
 				top: 0;
+				width: auto;
+			}
+			.main-title {
+				position: relative;
+				top:0;
+				left:0;
+				padding-top: 160px;
+				font-size: 23px;
 			}
 			.page-info {
+				position: relative;
+				top:0;
+				left:0;
 				padding-top: 20px;
 			}
+			
 		}
-	}
 
-	nav {
-		display: none !important;
-	}
-	.book-intro {
-		display: none !important;
-	}
-	.intro-spot img {
-		width: 100%;
-	}
-	.blog-list .list {
-		border-bottom: 0 solid transparent;
-		margin: 10px 0;
-		li {
-			float:none !important;
-		}
-		.date {
+		//footer
+		.footer {
 			display: none;
 		}
-		.title .main-title a {
-			display: block;
-			white-space: nowrap;
-			overflow: hidden;
-			text-overflow: ellipsis;
-		}
 	}
 
+
+}
+
+
+
+
+
+@media screen and (max-width: 500px) {
+	//메뉴부분
+	.menu-wrap .toggle:checked ~ .menu {
+		width: 100vw;
+	}
 }

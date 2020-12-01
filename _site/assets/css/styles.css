@@ -1,5 +1,5 @@
 @charset "UTF-8";
-body { font-family: "Helvetica", sans-serif; color: #333; }
+body { font-family: "Nanum Gothic", sans-serif; color: #333; }
 
 body, ul, li, p, dd { margin: 0; padding: 0; }
 
@@ -11,91 +11,97 @@ a, a:hover, a:link, a:visited, a:active { font-size: 18px; font-weight: 600; col
 
 .inner-wrap { width: 1000px; margin: 0 auto; }
 
-header { border-bottom: 1px solid #ddd; }
+.menu-wrap { position: fixed; top: 0; left: 0; z-index: 100; }
 
-header ul { display: table; width: 100%; }
+.menu-wrap .logoarea { position: fixed; top: 0; left: 0; width: 100%; padding: 10px 0; height: 57px; text-align: center; border-bottom: 1px solid #ddd; background-color: white; z-index: 105; }
 
-header ul li { display: table-cell; line-height: 60px; }
+.menu-wrap .logoarea img { width: 35px; vertical-align: middle; }
 
-header ul .logo { width: 30%; padding-left: 15px; text-align: left; font-size: 32px; }
+.menu-wrap .logoarea span { padding-left: 5px; vertical-align: middle; font-size: 22px; font-weight: 800; letter-spacing: -1px; }
 
-header ul .title { text-align: center; width: 40%; font-size: 23px; }
+.menu-wrap .toggle { position: absolute; top: 13px; left: 16px; width: 25px; height: 25px; opacity: 0; z-index: 200; cursor: pointer; }
 
-header ul .title a { vertical-align: middle; }
+.menu-wrap .hamburger { position: absolute; top: 8px; left: 12px; display: flex; width: 40px; height: 40px; padding: 10px; background: transparent; flex-direction: column; justify-content: center; align-items: center; background: transparent; z-index: 110; }
 
-header ul .title a span { font-size: 25px; vertical-align: middle; }
+.menu-wrap .hamburger > div { position: relative; top: 0; left: 0; width: 100%; height: 2px; background: #333; transition: all 0.4s ease-in; }
 
-header ul .title a img { vertical-align: middle; width: 35px; padding-right: 5px; }
+.menu-wrap .hamburger > div:before, .menu-wrap .hamburger > div:after { content: ''; position: absolute; top: 7px; left: 0; width: 100%; height: 2px; background: #333; transition: all 0.4s ease-in; }
 
-header ul .search { width: 30%; padding-right: 15px; text-align: right; font-size: 27px; /*width 30%의 퍼센트로 padding-right를 지정할 수 있음 좋겠다.*/ }
+.menu-wrap .hamburger > div:after { top: -7px; }
 
-.blog-page .footer .list-area .title-area-wrap:after, .blog-page .footer .other-pages:after, .blog-page .page-title .page-info:after, .blog-page .tags:after, .blog-list .list .tags:after, .blog-list .list > dt ul:after, .book-about .tags:after, .book-intro > ul:after { content: ''; display: block; clear: both; }
+.menu-wrap .toggle:checked + .hamburger > div { transform: rotate(135deg); }
+
+.menu-wrap .toggle:checked + .hamburger > div:before, .menu-wrap .toggle:checked + .hamburger > div:after { top: 0; transform: rotate(90deg); }
+
+.menu-wrap .toggle:checked:hover + .hamburger > div { transform: rotate(225deg); }
+
+.menu-wrap .menu { position: fixed; top: 0; left: 0; width: 0; height: 100vh; background: rgba(255, 255, 255, 0.9); transition: all 0.4s ease-in; }
+
+.menu-wrap .menu > div { position: relative; top: 0; left: 0; height: 100%; width: 100%; flex: none; display: flex; align-items: center; justify-content: center; text-align: left; opacity: 0; transition: opacity 0.4s ease; }
+
+.menu-wrap .menu > div a { opacity: 0; transition: all 0.4s ease; }
+
+.menu-wrap .toggle:checked ~ .menu { width: 20vw; }
+
+.menu-wrap .toggle:checked ~ .menu > div { opacity: 1; }
+
+.menu-wrap .toggle:checked ~ .menu > div a { opacity: 1; }
+
+.menu-wrap .toggle:checked ~ .menu > div a:hover { color: #1897c4; transition: all 0.4s ease; }
+
+.menu { font-size: 16px; border-right: 1px solid #ddd; }
+
+.menu li { line-height: 2.5 !important; }
+
+.menu .full-menu { font-size: 14px; }
+
+.menu .full-menu li { line-height: 1.6 !important; }
+
+.menu .full-menu dt { font-size: 15px !important; font-weight: 600 !important; }
+
+.menu .full-menu dt a { font-size: 15px !important; font-weight: 600 !important; }
+
+.menu .full-menu .solo { margin-bottom: 20px; }
+
+.menu .full-menu dd { margin-bottom: 20px; }
+
+.menu .full-menu a { font-size: 14px !important; font-weight: 500 !important; }
+
+.blog-page .footer .list-area .title-area-wrap:after, .blog-page .footer .other-pages:after, .blog-page .page-title .page-info:after, .blog-page .tags:after, .blog-list .list .tags:after, .blog-list .list .datearea:after, .book-about .tags:after, .book-intro > ul:after { content: ''; display: block; clear: both; }
 
 .blog-list .list .tags li { float: left; font-size: 12px; margin-right: 10px; color: #B2B2B2; padding: 3px 5px; display: inline-block; text-align: center; border: 1px solid #B2B2B2; border-radius: 10px; }
 
-.blog-list .list .contents { display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-
 body { position: relative; }
 
-nav { position: absolute; top: 67px; left: 0; width: 260px; height: 2500px; background: url(../img/nav_bg_07.png); z-index: 100; font-family: 'Poor Story', cursive; }
-
-nav a { text-decoration: none; }
-
-nav a:hover { text-decoration: underline; }
-
-nav .profile-area { margin: 50px 0 100px; }
-
-nav .profile-area p { margin: 0 auto; text-indent: -9999px; width: 180px; height: 180px; background: url(../img/gelato_rose.jpg) center center no-repeat; background-size: cover; border: 1px solid transparent; border-radius: 50%; }
-
-nav .profile-area .writer { padding: 15px 0 0 0; text-align: center; color: rgba(255, 255, 255, 0.9); font-weight: 800; font-size: 25px; }
-
-nav .post-it { font-size: 20px; font-weight: 600; color: #1897c4; margin-left: 15px; display: inline-block; width: 190px; height: 30px; background-color: rgba(255, 255, 255, 0.5); vertical-align: middle; box-shadow: 2px 3px 5px 2px rgba(0, 0, 0, 0.1); -webkit-box-shadow: 2px 3px 5px 2px rgba(0, 0, 0, 0.1); -moz-box-shadow: 2px 3px 5px 2px rgba(0, 0, 0, 0.1); }
-
-nav .post-it:before { content: ''; display: inline-block; margin-right: 10px; width: 48px; height: 30px; background-color: rgba(255, 0, 0, 0.2); vertical-align: middle; }
-
-nav .solo { margin-bottom: 40px; }
-
-nav .solo a { color: #1897c4; }
-
-nav dd:not(.writer) { padding: 20px 0 40px 50px; }
-
-nav dd:not(.writer) li { line-height: 2.2; }
-
-nav dd:not(.writer) li:before { content: '-'; padding-right: 10px; color: #fff; }
-
-nav dd:not(.writer) li a, nav dd:not(.writer) li a:hover, nav dd:not(.writer) li a:link, nav dd:not(.writer) li a:visited, nav dd:not(.writer) li a:active { color: #fff; }
-
-.book-intro { margin-top: 20px; }
+.book-intro { margin-top: 85px; }
 
 .book-intro > ul li { float: left; }
 
-.book-cover { position: relative; height: 450px; width: 320px; padding-top: 112.5px; border-radius: 5px; text-align: center; box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.2); -webkit-box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.2); -moz-box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.2); }
+.book-cover { position: relative; height: 280px; width: 320px; padding-top: 70px; border-radius: 5px; text-align: center; box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.2); -webkit-box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.2); -moz-box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.2); }
 
-.book-cover .title { margin: 0 auto; padding: 20px; width: 160px; height: 225px; background-color: rgba(255, 255, 255, 0.5); font-size: 20px; line-height: 1.8; font-weight: 600; }
+.book-cover .title { margin: 0 auto; padding: 20px; width: 160px; height: 140px; background-color: rgba(255, 255, 255, 0.5); font-size: 20px; line-height: 1.8; font-weight: 600; }
 
-.book-cover .writer { position: absolute; width: 320px; text-align: center; bottom: 30px; color: #fff; }
+.book-cover .writer { position: absolute; width: 320px; text-align: center; bottom: 20px; color: #fff; }
 
-.book-about { width: 650px; height: 450px; position: relative; margin-left: 20px; padding: 35px; border: 1px solid #efefef; box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.2); -webkit-box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.2); -moz-box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.2); }
+.book-about { width: 650px; height: 280px; position: relative; margin-left: 20px; padding: 50px 40px; border: 1px solid #efefef; box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.2); -webkit-box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.2); -moz-box-shadow: 2px 2px 3px 0px rgba(0, 0, 0, 0.2); }
 
 .book-about .title-area:after { content: ''; display: block; clear: both; }
 
-.book-about .title { float: left; font-size: 25px; }
+.book-about .title { float: left; font-size: 25px; font-weight: 600; }
 
 .book-about .count { float: right; color: #B2B2B2; font-size: 15px; }
 
 .book-about .count i { padding-right: 10px; }
 
-.book-about .book-descript { margin-top: 25px; line-height: 1.6; }
+.book-about .book-descript { margin-top: 30px; line-height: 1.6; }
 
 .book-about .tags { position: absolute; bottom: 35px; left: 35px; }
 
 .book-about .tags li { float: left; font-size: 12px; margin-right: 10px; color: #B2B2B2; padding: 4px 8px; display: inline-block; text-align: center; border: 1px solid #B2B2B2; border-radius: 10px; }
 
-.blog-list { padding: 40px 10px 0 0; }
+.blog-list { padding: 2px 10px 0 0; }
 
-.blog-list .list { border-top: 1px solid #efefef; border-bottom: 1px solid #efefef; padding: 15px 10px; margin: 30px 0; }
-
-.blog-list .list .title { float: left; }
+.blog-list .list { border-bottom: 1px solid #efefef; padding: 50px 10px; margin: 0; }
 
 .blog-list .list .title span { font-size: 18px !important; font-weight: 600; }
 
@@ -103,11 +109,9 @@ nav dd:not(.writer) li a, nav dd:not(.writer) li a:hover, nav dd:not(.writer) li
 
 .blog-list .list .title .count { display: inline-block; padding-right: 10px; }
 
-.blog-list .list .date { float: right; color: #B2B2B2; }
-
 .blog-list .list > dd { padding-top: 15px; }
 
-.blog-list .list .contents { color: #9a9595; }
+.blog-list .list .contents { color: #9a9595; line-height: 1.5; }
 
 .blog-list .list .contents span { line-height: 1.6; }
 
@@ -115,7 +119,11 @@ nav dd:not(.writer) li a, nav dd:not(.writer) li a:hover, nav dd:not(.writer) li
 
 .blog-list .list .contents .sub-title:after { display: inline-block; padding-left: 5px; content: '|'; }
 
-.blog-list .list .tags { padding-top: 20px; }
+.blog-list .list .datearea { padding-top: 20px; }
+
+.blog-list .list .datearea .tagarea { float: left; }
+
+.blog-list .list .datearea .date { float: right; color: #B2B2B2; }
 
 .blog-page #disqus_thread { margin: 120px 0; }
 
@@ -131,25 +139,31 @@ nav dd:not(.writer) li a, nav dd:not(.writer) li a:hover, nav dd:not(.writer) li
 
 .blog-page .none-background .page-info { color: #9a9595 !important; }
 
-.blog-page .page-title { height: 400px; color: #fff; position: relative; width: 100%; }
+.blog-page .page-title { height: 480px; color: #fff; position: relative; width: 100%; }
 
-.blog-page .page-title .img-area { position: absolute; width: 100%; height: 400px; overflow: hidden; z-index: -2; }
+.blog-page .page-title .img-area { position: absolute; width: 100%; height: 480px; overflow: hidden; z-index: -2; }
 
 .blog-page .page-title img { position: absolute; top: -33%; z-index: -1; width: 100%; filter: blur(2px) brightness(0.8); }
 
-.blog-page .page-title .main-title { padding-top: 200px; font-size: 34px; }
+.blog-page .page-title .inner-wrap { position: relative; }
+
+.blog-page .page-title .main-title { position: absolute; top: 250px; left: 0; font-size: 34px; }
 
 .blog-page .page-title .main-title b { padding-right: 10px; }
 
 .blog-page .page-title .sub-title { padding-top: 10px; font-size: 15px; color: rgba(255, 255, 255, 0.7); }
 
-.blog-page .page-title .page-info { padding-top: 50px; font-size: 12px; }
+.blog-page .page-title .page-info { position: absolute; top: 350px; left: 0; }
 
 .blog-page .page-title .page-info li { display: inline; }
+
+.blog-page .page-title .page-info .writer { font-size: 13px; }
 
 .blog-page .page-title .page-info .writer:before { padding-right: 5px; content: 'by'; text-decoration: italic; color: #fff; }
 
 .blog-page .page-title .page-info .writer:after { content: 'ㆍ'; }
+
+.blog-page .page-title .page-info .date { font-size: 15px; }
 
 .blog-page .page-contents { padding: 40px 0 160px; }
 
@@ -237,6 +251,8 @@ nav dd:not(.writer) li a, nav dd:not(.writer) li a:hover, nav dd:not(.writer) li
 
 .page-contents pre.highlight, .page-contents figure.highlight { margin: 0; padding: 10px 15px; line-height: 1.5; }
 
-@media screen and (max-width: 1000px) { .inner-wrap { width: 100% !important; } .other-pages { display: none !important; } #disqus_thread { width: 100%; } .page-contents { padding: 40px 0 0 !important; } .blog-page .inner-wrap { padding: 0 10px; } .blog-page .page-title { height: 200px; } .blog-page .page-title .main-title { padding-top: 30px; } .blog-page .page-title .img-area { height: 200px; } .blog-page .page-title img { top: 0; } .blog-page .page-title .page-info { padding-top: 20px; } nav { display: none !important; } .book-intro { display: none !important; } .intro-spot img { width: 100%; } .blog-list .list { border-bottom: 0 solid transparent; margin: 10px 0; } .blog-list .list li { float: none !important; } .blog-list .list .date { display: none; } .blog-list .list .title .main-title a { display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; } }
+@media screen and (max-width: 1000px) { .menu-wrap .toggle:checked ~ .menu { width: 40vw; } .book-intro { display: none; } .blog-list { padding: 65px 10px 0 0; } .inner-wrap { width: 100%; } .blog-page .inner-wrap { padding: 0 10px; } .blog-page .page-title { height: 300px; } .blog-page .page-title .img-area { height: 300px; } .blog-page .page-title img { top: 0; width: auto; } .blog-page .page-title .main-title { position: relative; top: 0; left: 0; padding-top: 160px; font-size: 23px; } .blog-page .page-title .page-info { position: relative; top: 0; left: 0; padding-top: 20px; } .blog-page .footer { display: none; } }
+
+@media screen and (max-width: 500px) { .menu-wrap .toggle:checked ~ .menu { width: 100vw; } }
 
 /*# sourceMappingURL=styles.css.map */
