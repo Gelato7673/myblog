@@ -1,182 +1,182 @@
-// .menu-wrap {
-// 	position: fixed;
-// 	top: 0;
-// 	left: 0;
-// 	z-index: 100;
+.menu-wrap {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
 
-// 	.logoarea {
-// 		position: fixed;
-// 		top: 0;
-// 		left: 0;
-// 		width: 100%;
-// 		padding: 10px 0;
-// 		height: 57px;
-// 		text-align: center;
-// 		border-bottom: 1px solid #ddd;
-// 		background-color: rgba(255,255,255,1);
-// 		z-index: 105;
+	.logoarea {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		padding: 10px 0;
+		height: 57px;
+		text-align: center;
+		border-bottom: 1px solid #ddd;
+		background-color: rgba(255,255,255,1);
+		z-index: 105;
 
-// 		img {
-// 			width: 35px;
-// 			vertical-align: middle;
-// 		}
-// 		span {
-// 			padding-left: 5px;
-// 			vertical-align: middle;
-// 			font-size: 22px;
-// 			font-weight: 800;
-// 			letter-spacing: -1px;
-// 		}
-// 	}
-// 	.toggle {
-// 		position: absolute;
-// 		top: 13px;
-// 		left: 16px;
-// 		width: 25px;
-// 		height: 25px;
-// 		opacity: 0;
-// 		z-index: 200;
-// 		cursor: pointer;
-// 	}
-// 	.hamburger {
-// 		position: absolute;
-// 		top: 8px;
-// 		left: 12px;
-// 		display: flex;
-// 		width: 40px;
-// 		height: 40px;
-// 		padding: 10px;
-// 		background: transparent;
-// 		flex-direction: column;
-// 		justify-content: center;
-// 		align-items: center;
-// 		background: transparent;
-// 		z-index: 110;
+		img {
+			width: 35px;
+			vertical-align: middle;
+		}
+		span {
+			padding-left: 5px;
+			vertical-align: middle;
+			font-size: 22px;
+			font-weight: 800;
+			letter-spacing: -1px;
+		}
+	}
+	.toggle {
+		position: absolute;
+		top: 13px;
+		left: 16px;
+		width: 25px;
+		height: 25px;
+		opacity: 0;
+		z-index: 200;
+		cursor: pointer;
+	}
+	.hamburger {
+		position: absolute;
+		top: 8px;
+		left: 12px;
+		display: flex;
+		width: 40px;
+		height: 40px;
+		padding: 10px;
+		background: transparent;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		background: transparent;
+		z-index: 110;
 
-// 		> div {
-// 			position: relative;
-// 			top: 0;
-// 			left: 0;
-// 			width: 100%;
-// 			height: 2px;
-// 			background: #333;
-// 			transition: all 0.4s ease-in;
-// 		}
+		> div {
+			position: relative;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 2px;
+			background: #333;
+			transition: all 0.4s ease-in;
+		}
 
-// 		> div:before,
-// 		> div:after {
-// 			content: '';
-// 			position: absolute;
-// 			top: 7px;
-// 			left: 0;
-// 			width: 100%;
-// 			height: 2px;
-// 			background: #333;
-// 			transition: all 0.4s ease-in;
-// 		}
-// 		> div:after {
-// 			top: -7px;
-// 		}
-// 	}
+		> div:before,
+		> div:after {
+			content: '';
+			position: absolute;
+			top: 7px;
+			left: 0;
+			width: 100%;
+			height: 2px;
+			background: #333;
+			transition: all 0.4s ease-in;
+		}
+		> div:after {
+			top: -7px;
+		}
+	}
 
-// 	// animation
-// 	.toggle:checked + .hamburger > div {
-// 			transform: rotate(135deg);
-// 		}
-// 	.toggle:checked + .hamburger > div:before,
-// 	.toggle:checked + .hamburger > div:after {
-// 		top: 0;
-// 		transform: rotate(90deg);
-// 	}
-// 	.toggle:checked:hover + .hamburger > div {
-// 	  transform: rotate(225deg);
-// 	}
+	// animation
+	.toggle:checked + .hamburger > div {
+			transform: rotate(135deg);
+		}
+	.toggle:checked + .hamburger > div:before,
+	.toggle:checked + .hamburger > div:after {
+		top: 0;
+		transform: rotate(90deg);
+	}
+	.toggle:checked:hover + .hamburger > div {
+	  transform: rotate(225deg);
+	}
 
-// 	//메뉴
-// 	.menu {
-// 		position: fixed;
-// 		top: 0;
-// 		left: 0;
-// 		width: 0;
-// 		height: 100vh;
-// 		background: rgba(255, 255, 255, 0.9);
-// 		transition: all 0.4s ease-in;
+	//메뉴
+	.menu {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 0;
+		height: 100vh;
+		background: rgba(255, 255, 255, 0.9);
+		transition: all 0.4s ease-in;
 
-// 		> div {
-// 			position: relative;
-// 			top: 0;
-// 			left: 0;
-// 			height: 100%;
-// 			width: 100%;
-// 			flex: none;
-// 			display: flex;
-// 			align-items: center;
-// 			justify-content: center;
-// 			text-align: left;
-// 			opacity: 0;
-// 			transition: opacity 0.4s ease;
+		> div {
+			position: relative;
+			top: 0;
+			left: 0;
+			height: 100%;
+			width: 100%;
+			flex: none;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			text-align: left;
+			opacity: 0;
+			transition: opacity 0.4s ease;
 
-// 			a {
-// 				opacity: 0;
-// 				transition: all 0.4s ease;
-// 			}
-// 		}
-// 	}
+			a {
+				opacity: 0;
+				transition: all 0.4s ease;
+			}
+		}
+	}
 
-// 	.toggle:checked ~ .menu {
-// 		width: 20vw;
-// 	}
-// 	.toggle:checked ~ .menu > div {
-// 		opacity: 1;
-// 	}
-// 	.toggle:checked ~ .menu > div a {
-// 		opacity: 1;
-// 	}
-// 	.toggle:checked ~ .menu > div a:hover {
-// 		color: #1897c4;
-// 		transition: all 0.4s ease;
-// 	}
+	.toggle:checked ~ .menu {
+		width: 20vw;
+	}
+	.toggle:checked ~ .menu > div {
+		opacity: 1;
+	}
+	.toggle:checked ~ .menu > div a {
+		opacity: 1;
+	}
+	.toggle:checked ~ .menu > div a:hover {
+		color: #1897c4;
+		transition: all 0.4s ease;
+	}
 	
-// }
+}
 
 
-// //메뉴 안쪽 스타일
-// .menu {
-// 	font-size: 16px;
-// 	border-right: 1px solid #ddd;
+//메뉴 안쪽 스타일
+.menu {
+	font-size: 16px;
+	border-right: 1px solid #ddd;
 
-// 	li {
-// 		line-height: 2.5 !important;
-// 	}
-// }
+	li {
+		line-height: 2.5 !important;
+	}
+}
 
-// .menu {
-// 	.full-menu {
-// 		font-size: 14px;
+.menu {
+	.full-menu {
+		font-size: 14px;
 
-// 		li {
-// 		line-height: 1.6 !important;
-// 		}
+		li {
+		line-height: 1.6 !important;
+		}
 
-// 		dt {
-// 			font-size: 15px !important;
-// 			font-weight: 600 !important;
-// 			a {
-// 				font-size: 15px !important;
-// 				font-weight: 600 !important;
-// 			}
-// 		}
+		dt {
+			font-size: 15px !important;
+			font-weight: 600 !important;
+			a {
+				font-size: 15px !important;
+				font-weight: 600 !important;
+			}
+		}
 
-// 		.solo {
-// 			margin-bottom: 20px;
-// 		}
-// 		dd {
-// 			margin-bottom: 20px;
-// 		}
+		.solo {
+			margin-bottom: 20px;
+		}
+		dd {
+			margin-bottom: 20px;
+		}
 
-// 		a {
-// 			font-size: 14px !important;
-// 			font-weight: 500 !important;
-// 		}
-// 	}
-// }
+		a {
+			font-size: 14px !important;
+			font-weight: 500 !important;
+		}
+	}
+}

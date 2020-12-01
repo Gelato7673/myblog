@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/myblog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/myblog/" rel="alternate" type="text/html" /><updated>2020-12-01T12:15:22+09:00</updated><id>http://localhost:4000/myblog/feed.xml</id><entry><title type="html">[blog update] 2020.11.28 블로그 업데이트 &amp;amp; 관리내용</title><link href="http://localhost:4000/myblog/2020/11/28/blog.html" rel="alternate" type="text/html" title="[blog update] 2020.11.28 블로그 업데이트 &amp;amp; 관리내용" /><published>2020-11-28T00:00:00+09:00</published><updated>2020-11-28T00:00:00+09:00</updated><id>http://localhost:4000/myblog/2020/11/28/blog</id><content type="html" xml:base="http://localhost:4000/myblog/2020/11/28/blog.html">&lt;ol&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/myblog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/myblog/" rel="alternate" type="text/html" /><updated>2020-12-01T14:56:42+09:00</updated><id>http://localhost:4000/myblog/feed.xml</id><entry><title type="html">[blog update] 2020.11.28 블로그 업데이트 &amp;amp; 관리내용</title><link href="http://localhost:4000/myblog/2020/11/28/blog.html" rel="alternate" type="text/html" title="[blog update] 2020.11.28 블로그 업데이트 &amp;amp; 관리내용" /><published>2020-11-28T00:00:00+09:00</published><updated>2020-11-28T00:00:00+09:00</updated><id>http://localhost:4000/myblog/2020/11/28/blog</id><content type="html" xml:base="http://localhost:4000/myblog/2020/11/28/blog.html">&lt;ol&gt;
   &lt;li&gt;
     &lt;dl&gt;
       &lt;dt&gt;메뉴체계 바꾸기&lt;/dt&gt;
@@ -11,60 +11,7 @@
   &lt;/li&gt;
   &lt;li&gt;느낌변화
 github pages them [https://jekyllthemes.io/github-pages-themes]&lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><category term="time" /><summary type="html">메뉴체계 바꾸기 기존에 너무 메뉴체계가 많았고, 쓸모없는 내용도 너무 많이 들어가 있었다. 메뉴체계를 좀더 간결하고 보기좋게 변화시키고, 거기에 알맞도록 포스팅을 다시 분류하는 작업을 했다.</summary></entry><entry><title type="html">[side project]javascript - drawer기능 만들어보기</title><link href="http://localhost:4000/myblog/2020/11/28/drawer.html" rel="alternate" type="text/html" title="[side project]javascript - drawer기능 만들어보기" /><published>2020-11-28T00:00:00+09:00</published><updated>2020-11-28T00:00:00+09:00</updated><id>http://localhost:4000/myblog/2020/11/28/drawer</id><content type="html" xml:base="http://localhost:4000/myblog/2020/11/28/drawer.html">&lt;h3 id=&quot;스크랩-하기&quot;&gt;스크랩 하기.&lt;/h3&gt;
-&lt;p&gt;깔끔하고 괜찮은 메뉴를 하나 구현하고 싶었다. (마음이 바뀌어서 화려하게 변할지도 모른다 ㅋㅋ 현재는 화려하다..)
-어쩄든, 모바일에서도 잘 작동할 괜찮은 drawer를 하나 구현해 보자.&lt;/p&gt;
-
-&lt;p&gt;마음에 드는 후보군 스크립을 먼저 해볼까나.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://brunch.co.kr/brunchbook/lost&quot;&gt;일단 브런치를 좋아하니까 브런치 drawer&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://gonna-be.tistory.com/2&quot;&gt;tistory 스타일1&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://octorbirth.tistory.com/4&quot;&gt;tistory 스타일2 &lt;/a&gt;: 여담이지만, 나는 이 메뉴 스타일이 그렇게 좋더라.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://mac81.github.io/pure-drawer/&quot;&gt;pure drawer&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cssscript.com/tag/drawer-menu/&quot;&gt;drawer모음&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;음. tistory 스타일1처럼 깔끔하고, drawr모음 첫번째것 처럼 약간 반투명하고 깔끔하게 나오면 좋겠다는 생각이 들었다.&lt;/p&gt;
-
-&lt;h4 id=&quot;css로-동작하는-drawer&quot;&gt;css로 동작하는 drawer&lt;/h4&gt;
-&lt;p&gt;과거에는 jquery로 동작하는 drawer를 썼었는데, 이번기회에 css로만 동작하는 메뉴를 써봤더니 너무 라이트 하고 좋아졌다는 생각이 들었다. 역시 과거보다 브라우저 스펙이 많이 좋아졌구나 ^^;&lt;/p&gt;
-
-&lt;h4 id=&quot;css3의-내용들-정리&quot;&gt;css3의 내용들 정리&lt;/h4&gt;
-
-&lt;p&gt;체크박스로 만들고, z-index를 위로 올린단 생각.
-모양은 z-index뒤로 놓고, display:flex 요소들을 이용해 만든다는 생각.&lt;/p&gt;
-
-  	display: flex;
-  	https://developer.mozilla.org/en-US/docs/Glossary/Flex#Learn_more
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;flex-direction: column;
-https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction
-
-align-items: center;
-https://developer.mozilla.org/en-US/docs/Web/CSS/align-items
-
-
-justify-content: center;
-https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content
-
-flex: none;
-https://developer.mozilla.org/en-US/docs/Web/CSS/flex
-
-about shorthand properties
-https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties
-
-
-vh, vw
-https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Sizing_items_in_CSS
-
-transition
-https://developer.mozilla.org/en-US/docs/Web/CSS/var()
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;top-사라졌다가-나오면서-스크롤-진행에-따라서-밑에-줄이-생기도록&quot;&gt;top 사라졌다가 나오면서, 스크롤 진행에 따라서 밑에 줄이 생기도록&lt;/h3&gt;
-
-&lt;h3 id=&quot;점차-밑으로-로딩되면서-길어지도록&quot;&gt;점차 밑으로 로딩되면서 길어지도록.&lt;/h3&gt;</content><author><name></name></author><category term="time" /><summary type="html">스크랩 하기. 깔끔하고 괜찮은 메뉴를 하나 구현하고 싶었다. (마음이 바뀌어서 화려하게 변할지도 모른다 ㅋㅋ 현재는 화려하다..) 어쩄든, 모바일에서도 잘 작동할 괜찮은 drawer를 하나 구현해 보자.</summary></entry><entry><title type="html">[side project] Javascript - 기념일 계산기 만들기</title><link href="http://localhost:4000/myblog/2020/11/18/check-javascript_anniversary.html" rel="alternate" type="text/html" title="[side project] Javascript - 기념일 계산기 만들기" /><published>2020-11-18T00:00:00+09:00</published><updated>2020-11-18T00:00:00+09:00</updated><id>http://localhost:4000/myblog/2020/11/18/check-javascript_anniversary</id><content type="html" xml:base="http://localhost:4000/myblog/2020/11/18/check-javascript_anniversary.html">&lt;h3 id=&quot;기념일-계산기-만들기&quot;&gt;기념일 계산기 만들기!&lt;/h3&gt;
+&lt;/ol&gt;</content><author><name></name></author><category term="time" /><summary type="html">메뉴체계 바꾸기 기존에 너무 메뉴체계가 많았고, 쓸모없는 내용도 너무 많이 들어가 있었다. 메뉴체계를 좀더 간결하고 보기좋게 변화시키고, 거기에 알맞도록 포스팅을 다시 분류하는 작업을 했다.</summary></entry><entry><title type="html">[side project] Javascript - 기념일 계산기 만들기</title><link href="http://localhost:4000/myblog/2020/11/18/check-javascript_anniversary.html" rel="alternate" type="text/html" title="[side project] Javascript - 기념일 계산기 만들기" /><published>2020-11-18T00:00:00+09:00</published><updated>2020-11-18T00:00:00+09:00</updated><id>http://localhost:4000/myblog/2020/11/18/check-javascript_anniversary</id><content type="html" xml:base="http://localhost:4000/myblog/2020/11/18/check-javascript_anniversary.html">&lt;h3 id=&quot;기념일-계산기-만들기&quot;&gt;기념일 계산기 만들기!&lt;/h3&gt;
 
 &lt;h4 id=&quot;서론&quot;&gt;서론&lt;/h4&gt;
 &lt;p&gt;지난번에 Do it 과 Javascript 강의를 들으면서, 공부했던 실습 부분들을 스스로 만들어 보면서, 복습하는 시간들을 가지려고 한다.&lt;br /&gt;
@@ -553,4 +500,24 @@ vue.js 홈페이지에 들어가면 따라하면서 쉽게 시작해 볼 수 있
 ⇒ &lt;a href=&quot;https://opentutorials.org/course/3837&quot;&gt;생활코딩 git강의들으러 바로가기&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;따라 하면서 이해도 잘되고, 지금도 까먹으면 옆에두고 볼 수 있는 책 ^^!
-덕분에 공부 잘했습니다~ !&lt;/p&gt;</content><author><name></name></author><category term="git," /><category term="github" /><summary type="html">책소개 책 제목 : Doit! 지옥에서 온 문서 관리자 깃&amp;amp;깃허브 입문 지은이 : 이고잉, 고경희 출판사 : 이지스퍼블리싱</summary></entry></feed>
+덕분에 공부 잘했습니다~ !&lt;/p&gt;</content><author><name></name></author><category term="git," /><category term="github" /><summary type="html">책소개 책 제목 : Doit! 지옥에서 온 문서 관리자 깃&amp;amp;깃허브 입문 지은이 : 이고잉, 고경희 출판사 : 이지스퍼블리싱</summary></entry><entry><title type="html">CSS</title><link href="http://localhost:4000/myblog/2020/10/24/check-css.html" rel="alternate" type="text/html" title="CSS" /><published>2020-10-24T00:00:00+09:00</published><updated>2020-10-24T00:00:00+09:00</updated><id>http://localhost:4000/myblog/2020/10/24/check-css</id><content type="html" xml:base="http://localhost:4000/myblog/2020/10/24/check-css.html">&lt;h3 id=&quot;css-관련-기술들-정리&quot;&gt;CSS 관련 기술들 정리&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Glossary/CSS_Selector&quot;&gt;인접형제 선택자&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.w3schools.com/cssref/css3_pr_word-break.asp&quot;&gt;word-break&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/:not&quot;&gt;css not 선택자&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ellipsis 처리하기&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;white-space&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;nowrap&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;overflow&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;hidden&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;text-overflow&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ellipsis&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.educative.io/edpresso/how-to-crop-an-image-in-css&quot;&gt;css로 이미지 요소 crop하기&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/filter&quot;&gt;filter css&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;text-decoration-thickness : only working in Firefox&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/ko/docs/Web/CSS/box-sizing&quot;&gt;box-sizing 요소&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="cascading" /><category term="style" /><category term="sheets," /><category term="CSS3" /><summary type="html">CSS 관련 기술들 정리</summary></entry></feed>
