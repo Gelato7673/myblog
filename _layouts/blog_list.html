@@ -13,7 +13,6 @@
 	  			<ul>
             <li>
               <div class="book-cover" style="background:url({{site.baseurl}}/assets/img/{{page.menu}}.jpg) center no-repeat;background-size: cover;">
-                <!-- <p class="title">{{ page.title }}</p> -->
                 <p class="writer">{{ page.group }}</p>
               </div>
             </li>
@@ -26,11 +25,6 @@
                 <p class="book-descript">
                   {{ page.explanation }}
                 </p>
-                <!-- <ul class="tags">
-                  {% for item in page.words %}
-                    <li>{{ item }}</li>
-                  {% endfor %}
-                </ul> -->
               </div>
             </li>
           </ul>
@@ -40,7 +34,7 @@
         {% assign sorted = site.posts | sort: 'date_end' | reverse%}
         {% assign i=0 %}
         {% for post in sorted %}
-          {% if page.menu == post.menu %}
+          {% if page.menu == post.menu or page.menu == 'gelato' %}
           {% assign i = i | plus:1 %}
     				<dl class="list">
               <dt class="title">
