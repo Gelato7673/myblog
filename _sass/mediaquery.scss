@@ -1,9 +1,7 @@
 @media screen and (max-width: 1000px) {
 
 	//메뉴부분
-	.menu-wrap .toggle:checked ~ .menu {
-		width: 40vw;
-	}
+
 
 	//리스트 페이지
 	.book-intro {
@@ -60,9 +58,3 @@
 
 
 
-@media screen and (max-width: 500px) {
-	//메뉴부분
-	.menu-wrap .toggle:checked ~ .menu {
-		width: 100vw;
-	}
-}
