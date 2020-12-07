@@ -12,13 +12,14 @@ comments: true
 ---
 
 ### 전반적으로 블로그 디자인 등 손보기
-이전블로그모습
-[!이전블로그모습]({{site.baseurl}}/assets/conts_img/page_index.png)
 
-개편이후 블로그 모습
-[!현재블로그모습]({{site.baseurl}}/assets/conts_img/page02_index.png)
+#### 이전블로그모습
+<img src="{{site.baseurl}}/assets/conts_img/page_index.png" style="width:100%; max-width: 1000px; border: 1px solid #efefef;">
 
-개편내용
+#### 개편이후 블로그 모습
+<img src="{{site.baseurl}}/assets/conts_img/page02_index.png" style="width:100%; max-width: 1000px; border: 1px solid #efefef;">
+
+#### 개편내용
 - 메뉴 정리
 - 전체적으로 디자인 정리
 
