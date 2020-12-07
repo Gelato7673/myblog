@@ -1,0 +1,260 @@
+<!doctype html>
+<html>
+  <head>
+        <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gelato7673</title>
+
+    <!-- favicon -->
+	<link rel="shortcut icon" type="image/x-icon" href="/myblog/assets/img/favicon/favicon.png" />
+	
+	<!-- css vendor -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" crossorigin="anonymous"/>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">     
+<!--     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Poor+Story&display=swap" rel="stylesheet">  -->
+    <link rel="stylesheet" href="/myblog/assets/css/syntax.css">
+
+    <!-- sass style -->
+    <link rel="stylesheet" href="/myblog/assets/css/styles.css">
+  </head>
+  <body class="blog-page">
+    <header class="menu-wrap">
+	<div class="logoarea">
+		<a href="https://gelato7673.github.io/myblog/">
+			<img src="/myblog/assets/img/favicon/favicon.png" alt="">
+			<span>Gelato</span>
+		</a>
+	</div>
+	<input type="checkbox" class="toggle">
+	<div class="hamburger"><div></div></div>
+	<div class="menu">
+		
+		<div class="full-menu">
+		
+
+			<dl>
+				
+				<dt class="post-it">Daily Programming</dt>
+				
+				<dd>
+					<ul>
+						<li><a href="/myblog/trend">기술트랜드</a></li>
+						<li><a href="/myblog/study_program">강의/book/clonecoding</a></li>
+						<li><a href="/myblog/side">SideProject/ToyProject</a></li>
+						<li><a href="/myblog/MB">블로그관리</a></li>
+						<li><a href="/myblog/etc_note">etc.오답노트</a></li>
+						<li><a href="/myblog/tech_docu">기술별 참고사항</a></li>
+						
+						<li><a href="/myblog/algorithm">1일 1알고리즘</a></li>
+						<li><a href="/myblog/search">검색서비스의 역사</a></li>
+						
+					</ul>
+				</dd>
+				
+				<dt class="post-it solo"><a href="">포트폴리오</a></dt>
+				<dt class="post-it">My Developer Life</dt>
+				<dd>
+					<ul>
+						<li><a href="/myblog/graffiti">Graffiti</a></li>
+						<li><a href="/myblog/career">커리어 관리</a></li>
+						<li><a href="/myblog/community">커뮤니티활동</a></li>
+					</ul>
+				</dd>
+
+				<dt class="post-it">Study for my life</dt>
+				<dd>
+					<ul>
+						<li><a href="/myblog/english">English</a></li>
+						<li><a href="/myblog/book">독서</a></li>
+						<li><a href="/myblog/stock">증권</a></li>
+						<li><a href="/myblog/realestate">부동산</a></li>
+						<li><a href="/myblog/datascientist">Datascientist</a></li>
+						<li><a href="/myblog/goldenage">노후준비</a></li>
+						<li><a href="/myblog/business">사업</a></li>
+					</ul>
+				</dd>
+				
+			</dl>
+		</div>
+	</div>
+</header>
+
+    
+    
+    <section class="page-title none-background">
+    
+
+      <div class="inner-wrap">
+        <p class="main-title">
+          todoList만들기 에서, 지우는 이벤트를 추가하기
+        </p>
+
+        <ul class="page-info">
+          <li class="writer">Gelato</li>
+          <li class="date">Nov 23 - Nov 23, 20</li>
+        </ul>
+      </div>
+
+    </section>
+
+    <article class="page-contents Daily Programming">
+      <div class="inner-wrap">
+        <h3 id="오답노트">오답노트</h3>
+<p>**무언가를 코딩으로 만들다가 잘 안될때 먼저 생각해봐야 할 내용들.</p>
+<ol>
+  <li>일단. 오타가 없는지 살펴라</li>
+  <li>뭐가 잘못되었는지 찾는 것이 먼저, 제대로 원인을 파악하고, 해결방법을 생각할것.(물론 얻어걸릴때도있지만.)<br />
+=&gt; 이부분이 잘 안될때에는, 글로 써가면서 추론해 나가는것도 좋은 생각이다.</li>
+  <li>빠르게 체크하면서 넘어가야 한다. 같은걸 두번 시도하고 있지 말아라.</li>
+  <li>뭔가 잘 안될때는 기술문서를 꼼꼼히 잘 읽어라. 기능은 모두 설명되어있다.</li>
+  <li>문제를 한정해서 생각해라, 다른 문제로 새지 마라.</li>
+</ol>
+
+<h3 id="문제">문제</h3>
+<p>** 책을 보면서 to-do list 내용을 실습해 보고 있었다. <br />
+to-do list textform에 내용을 입력하고, 입력 버튼을 누르면 아래와 같은 매커니즘으로, 내용옆에 삭제 버튼이 달려서 추가가 되는 페이지 였다.</p>
+
+<p>수정한 내용은 다음과 같았다.</p>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">newRegister</span><span class="p">()</span> <span class="p">{</span>
+    <span class="kd">let</span> <span class="nx">newP</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="dl">'</span><span class="s1">p</span><span class="dl">'</span><span class="p">);</span>
+    <span class="kd">let</span> <span class="nx">userName</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="dl">'</span><span class="s1">#userName</span><span class="dl">'</span><span class="p">);</span>
+    <span class="kd">let</span> <span class="nx">newText</span><span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">createTextNode</span><span class="p">(</span><span class="nx">userName</span><span class="p">.</span><span class="nx">value</span><span class="p">)</span>
+    <span class="nx">newP</span><span class="p">.</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">newText</span><span class="p">);</span>
+
+    <span class="c1">//del추가</span>
+    <span class="kd">let</span> <span class="nx">delBtn</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="dl">'</span><span class="s1">span</span><span class="dl">'</span><span class="p">);</span>
+    <span class="kd">let</span> <span class="nx">delText</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">createTextNode</span><span class="p">(</span><span class="dl">'</span><span class="s1">X</span><span class="dl">'</span><span class="p">);</span>
+    <span class="nx">delBtn</span><span class="p">.</span><span class="nx">setAttribute</span><span class="p">(</span><span class="dl">'</span><span class="s1">class</span><span class="dl">'</span><span class="p">,</span> <span class="dl">'</span><span class="s1">del</span><span class="dl">'</span><span class="p">);</span>
+    <span class="nx">delBtn</span><span class="p">.</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">delText</span><span class="p">);</span>
+    <span class="nx">newP</span><span class="p">.</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">delBtn</span><span class="p">);</span>
+
+    <span class="kd">let</span> <span class="nx">nameList</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="dl">'</span><span class="s1">#nameList</span><span class="dl">'</span><span class="p">);</span>
+    <span class="nx">nameList</span><span class="p">.</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">newP</span><span class="p">);</span>
+
+    <span class="nx">userName</span><span class="p">.</span><span class="nx">value</span> <span class="o">=</span><span class="dl">''</span><span class="p">;</span>
+
+    <span class="kd">var</span> <span class="nx">removeBtns</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelectorAll</span><span class="p">(</span><span class="dl">"</span><span class="s2">.del</span><span class="dl">"</span><span class="p">);</span>
+    <span class="kd">function</span> <span class="nx">removeF</span><span class="p">()</span> <span class="p">{</span>
+        <span class="k">if</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">parentNode</span><span class="p">.</span><span class="nx">parentNode</span><span class="p">)</span>
+            <span class="k">this</span><span class="p">.</span><span class="nx">parentNode</span><span class="p">.</span><span class="nx">parentNode</span><span class="p">.</span><span class="nx">removeChild</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">parentNode</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="k">for</span> <span class="p">(</span><span class="kd">var</span> <span class="nx">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="nx">i</span><span class="o">&lt;</span><span class="nx">removeBtns</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">if</span><span class="p">(</span><span class="nx">removeBtns</span><span class="p">.</span><span class="nx">length</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">for</span><span class="p">(</span><span class="kd">var</span> <span class="nx">j</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="nx">j</span><span class="o">&lt;</span><span class="p">(</span><span class="nx">removeBtns</span><span class="p">.</span><span class="nx">length</span><span class="o">-</span><span class="mi">1</span><span class="p">);</span> <span class="nx">j</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+                <span class="nx">removeBtns</span><span class="p">[</span><span class="nx">j</span><span class="p">].</span><span class="nx">removeEventListener</span><span class="p">(</span><span class="dl">'</span><span class="s1">click</span><span class="dl">'</span><span class="p">,</span> <span class="nx">removeF</span><span class="p">);</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+        <span class="nx">removeBtns</span><span class="p">[</span><span class="nx">i</span><span class="p">].</span><span class="nx">addEventListener</span><span class="p">(</span><span class="dl">'</span><span class="s1">click</span><span class="dl">'</span><span class="p">,</span> <span class="nx">removeF</span><span class="p">);</span>
+    <span class="p">}</span>
+    
+<span class="p">}</span>
+</code></pre></div></div>
+<p>for문 위의 내용까지는 책의 내용과 거의 같다고 볼 수 있다. 
+내가 수정하게된 내용들은 for문으로 해서 addEventListener했던 내용을 지우는 구문인데,
+addEvnetListener가 매번 새롭게 추가되는 과정에서, 이전에 입력되어있던 내용들은 event가 반복적으로 추가되는 현상을 콘솔을 통해 발견하고 수정했던 부분이었다.</p>
+
+<p>마지막으로, appendchild에 관해서 찾아본 Mozila문서를 링크 걸어놓으려고 한다.</p>
+<ul>
+  <li><a href="https://developer.mozilla.org/ko/docs/Web/API/Node/appendChild">appendchild</a></li>
+</ul>
+
+
+        
+          <ul class="tags">
+            
+              <li>todoList</li>
+            
+          </ul>
+        
+
+        <!-- disque:s -->
+        
+        <!-- disque:e -->
+      </div>
+    </article>
+
+
+
+
+
+    <!-- footer:s -->
+    <div class="footer">
+
+      <div class="inner-wrap">
+
+        <div class="other-pages">
+          <!-- list-area:s -->
+          <div class="list-area">
+            
+            
+            
+
+              <div class="title-area-wrap">
+                <ul class="title-area">
+                  <li class="section">Daily Programming</li>
+                  <li class="main-title"><a href="/myblog/etc_note">etc.오답노트</a></li>
+                </ul>
+                
+                <span class="bar" id="left-bar"><ion-icon name="chevron-back-outline"></ion-icon></span></li>
+                
+                <ul class="count count_1">
+                  <li class="now">1</li>
+                  <li class="total">1</li>
+                </ul>
+                
+                <span class="bar" id="right-bar"><ion-icon name="chevron-forward-outline"></ion-icon></span>
+
+              </div>
+
+              
+                <ul class="list list_1">
+                
+  
+  
+  
+    <!-- list:s -->
+
+  
+  <li>
+    <a class="title" href="/myblog/2020/11/01/side-checklist.html">todoList만들기 에서, 지우는 이벤트를 추가하기</a>
+  </li>
+  
+  <li>
+    <a class="title" href="/myblog"></a>
+  </li>
+  
+  <li>
+    <a class="title" href="/myblog"></a>
+  </li>
+  
+  <li>
+    <a class="title" href="/myblog"></a>
+  </li>
+  
+    
+  <!-- list:e -->
+
+                </ul>
+              
+          </div>
+          <!-- list-area:e -->
+
+          <!-- cover-area:s -->
+          <div class="cover-area"style="background:url(/myblog/assets/img/etc_note.jpg) no-repeat;background-size: cover;">
+            <p class="title">etc.오답노트</p>
+            <p class="writer">by. Gelato</p>
+          </div>
+          <!-- cover-area:e -->
+        </div>
+      
+      </div>
+    </div>
+    <!-- footer:e -->
+    <script id="dsq-count-scr" src="//gelato7673.disqus.com/count.js" async></script>
+    <script src="/myblog/assets/js/page.js"></script>
+  </body>
+</html>

@@ -1,0 +1,273 @@
+<!doctype html>
+<html>
+  <head>
+        <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gelato7673</title>
+
+    <!-- favicon -->
+	<link rel="shortcut icon" type="image/x-icon" href="/myblog/assets/img/favicon/favicon.png" />
+	
+	<!-- css vendor -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" crossorigin="anonymous"/>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">     
+<!--     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Poor+Story&display=swap" rel="stylesheet">  -->
+    <link rel="stylesheet" href="/myblog/assets/css/syntax.css">
+
+    <!-- sass style -->
+    <link rel="stylesheet" href="/myblog/assets/css/styles.css">
+  </head>
+  <body class="blog-page">
+    <header class="menu-wrap">
+	<div class="logoarea">
+		<a href="https://gelato7673.github.io/myblog/">
+			<img src="/myblog/assets/img/favicon/favicon.png" alt="">
+			<span>Gelato</span>
+		</a>
+	</div>
+	<input type="checkbox" class="toggle">
+	<div class="hamburger"><div></div></div>
+	<div class="menu">
+		
+		<div class="full-menu">
+		
+
+			<dl>
+				
+				<dt class="post-it">Daily Programming</dt>
+				
+				<dd>
+					<ul>
+						<li><a href="/myblog/trend">기술트랜드</a></li>
+						<li><a href="/myblog/study_program">강의/book/clonecoding</a></li>
+						<li><a href="/myblog/side">SideProject/ToyProject</a></li>
+						<li><a href="/myblog/MB">블로그관리</a></li>
+						<li><a href="/myblog/etc_note">etc.오답노트</a></li>
+						<li><a href="/myblog/tech_docu">기술별 참고사항</a></li>
+						
+						<li><a href="/myblog/algorithm">1일 1알고리즘</a></li>
+						<li><a href="/myblog/search">검색서비스의 역사</a></li>
+						
+					</ul>
+				</dd>
+				
+				<dt class="post-it solo"><a href="">포트폴리오</a></dt>
+				<dt class="post-it">My Developer Life</dt>
+				<dd>
+					<ul>
+						<li><a href="/myblog/graffiti">Graffiti</a></li>
+						<li><a href="/myblog/career">커리어 관리</a></li>
+						<li><a href="/myblog/community">커뮤니티활동</a></li>
+					</ul>
+				</dd>
+
+				<dt class="post-it">Study for my life</dt>
+				<dd>
+					<ul>
+						<li><a href="/myblog/english">English</a></li>
+						<li><a href="/myblog/book">독서</a></li>
+						<li><a href="/myblog/stock">증권</a></li>
+						<li><a href="/myblog/realestate">부동산</a></li>
+						<li><a href="/myblog/datascientist">Datascientist</a></li>
+						<li><a href="/myblog/goldenage">노후준비</a></li>
+						<li><a href="/myblog/business">사업</a></li>
+					</ul>
+				</dd>
+				
+			</dl>
+		</div>
+	</div>
+</header>
+
+    
+    
+		<section class="page-title">
+      <p class="img-area">
+        <img src="/myblog/assets/img/map.jpg" alt="">
+      </p>
+      
+
+      <div class="inner-wrap">
+        <p class="main-title">
+          <b>[side project]</b>javascript - drawer기능 만들어보기
+        </p>
+
+        <ul class="page-info">
+          <li class="writer">Gelato</li>
+          <li class="date">Nov 28 - Dec 07, 20</li>
+        </ul>
+      </div>
+
+    </section>
+
+    <article class="page-contents Daily Programming">
+      <div class="inner-wrap">
+        <h3 id="스크랩-하기">스크랩 하기.</h3>
+<p>깔끔하고 괜찮은 메뉴를 하나 구현하고 싶었다. (마음이 바뀌어서 화려하게 변할지도 모른다 ㅋㅋ 현재는 화려하다..)
+어쩄든, 모바일에서도 잘 작동할 괜찮은 drawer를 하나 구현해 보자.</p>
+
+<p>마음에 드는 후보군 스크랩</p>
+
+<ul>
+  <li><a href="https://brunch.co.kr/brunchbook/lost">일단 브런치를 좋아하니까 브런치 drawer</a></li>
+  <li><a href="https://gonna-be.tistory.com/2">tistory 스타일1</a></li>
+  <li><a href="https://octorbirth.tistory.com/4">tistory 스타일2 </a>: 여담이지만, 나는 이 메뉴 스타일이 그렇게 좋더라.</li>
+  <li><a href="https://mac81.github.io/pure-drawer/">pure drawer</a></li>
+  <li><a href="https://www.cssscript.com/tag/drawer-menu/">drawer모음</a></li>
+</ul>
+
+<p>=&gt; tistory 스타일1처럼 깔끔하고, drawr모음 첫번째것 처럼 약간 반투명하고 깔끔하게 나오면 좋겠다는 생각이 들었다.</p>
+
+<h4 id="css로-동작하는-drawer">css로 동작하는 drawer</h4>
+<p>과거에는 jquery로 동작하는 drawer를 썼었는데, 이번기회에 css로만 동작하는 메뉴를 써봤더니 너무 라이트 하고 좋다는 생각이 들었다. 
+그래서, 이번 drawer는 css3를 이용해서 만들기로 했다.</p>
+
+<h4 id="drawer메뉴를-만들면서-사용한-css3문법-및-아이디어-정리">drawer메뉴를 만들면서, 사용한 css3문법 및 아이디어 정리.</h4>
+
+<p>참조해서 만든 사이트 링크 : <a href="https://www.cssscript.com/demo/hamburger-overlay-navigation-drawer/">drawer메뉴</a></p>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css">  	<span class="nt">display</span><span class="o">:</span> <span class="nt">flex</span><span class="o">;</span>
+  	<span class="nt">https</span><span class="o">://</span><span class="nt">developer</span><span class="nc">.mozilla.org</span><span class="o">/</span><span class="nt">en-US</span><span class="o">/</span><span class="nt">docs</span><span class="o">/</span><span class="nt">Glossary</span><span class="o">/</span><span class="nt">Flex</span><span class="nf">#Learn_more</span>
+
+	<span class="nt">flex-direction</span><span class="o">:</span> <span class="nt">column</span><span class="o">;</span>
+	<span class="nt">https</span><span class="o">://</span><span class="nt">developer</span><span class="nc">.mozilla.org</span><span class="o">/</span><span class="nt">en-US</span><span class="o">/</span><span class="nt">docs</span><span class="o">/</span><span class="nt">Web</span><span class="o">/</span><span class="nt">CSS</span><span class="o">/</span><span class="nt">flex-direction</span>
+
+	<span class="nt">align-items</span><span class="o">:</span> <span class="nt">center</span><span class="o">;</span>
+	<span class="nt">https</span><span class="o">://</span><span class="nt">developer</span><span class="nc">.mozilla.org</span><span class="o">/</span><span class="nt">en-US</span><span class="o">/</span><span class="nt">docs</span><span class="o">/</span><span class="nt">Web</span><span class="o">/</span><span class="nt">CSS</span><span class="o">/</span><span class="nt">align-items</span>
+
+	<span class="nt">justify-content</span><span class="o">:</span> <span class="nt">center</span><span class="o">;</span>
+	<span class="nt">https</span><span class="o">://</span><span class="nt">developer</span><span class="nc">.mozilla.org</span><span class="o">/</span><span class="nt">en-US</span><span class="o">/</span><span class="nt">docs</span><span class="o">/</span><span class="nt">Web</span><span class="o">/</span><span class="nt">CSS</span><span class="o">/</span><span class="nt">justify-content</span>
+
+	<span class="nt">flex</span><span class="o">:</span> <span class="nt">none</span><span class="o">;</span>
+	<span class="nt">https</span><span class="o">://</span><span class="nt">developer</span><span class="nc">.mozilla.org</span><span class="o">/</span><span class="nt">en-US</span><span class="o">/</span><span class="nt">docs</span><span class="o">/</span><span class="nt">Web</span><span class="o">/</span><span class="nt">CSS</span><span class="o">/</span><span class="nt">flex</span>
+
+	<span class="nt">about</span> <span class="nt">shorthand</span> <span class="nt">properties</span>
+	<span class="nt">https</span><span class="o">://</span><span class="nt">developer</span><span class="nc">.mozilla.org</span><span class="o">/</span><span class="nt">en-US</span><span class="o">/</span><span class="nt">docs</span><span class="o">/</span><span class="nt">Web</span><span class="o">/</span><span class="nt">CSS</span><span class="o">/</span><span class="nt">Shorthand_properties</span>
+
+	<span class="nt">vh</span><span class="o">,</span> <span class="nt">vw</span>
+	<span class="nt">https</span><span class="o">://</span><span class="nt">developer</span><span class="nc">.mozilla.org</span><span class="o">/</span><span class="nt">en-US</span><span class="o">/</span><span class="nt">docs</span><span class="o">/</span><span class="nt">Learn</span><span class="o">/</span><span class="nt">CSS</span><span class="o">/</span><span class="nt">Building_blocks</span><span class="o">/</span><span class="nt">Sizing_items_in_CSS</span>
+
+	<span class="nt">transition</span>
+	<span class="nt">https</span><span class="o">://</span><span class="nt">developer</span><span class="nc">.mozilla.org</span><span class="o">/</span><span class="nt">en-US</span><span class="o">/</span><span class="nt">docs</span><span class="o">/</span><span class="nt">Web</span><span class="o">/</span><span class="nt">CSS</span><span class="o">/</span><span class="nt">var</span><span class="o">()</span></code></pre></figure>
+
+
+
+        
+          <ul class="tags">
+            
+              <li>time</li>
+            
+          </ul>
+        
+
+        <!-- disque:s -->
+        
+          <div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+
+var disqus_config = function () {
+this.page.url = 'https://gelato7673.github.io/myblog/2020/11/28/drawer.html';  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = 'https://gelato7673.github.io/myblog/2020/11/28/drawer.html'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://gelato7673.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        
+        <!-- disque:e -->
+      </div>
+    </article>
+
+
+
+
+
+    <!-- footer:s -->
+    <div class="footer">
+
+      <div class="inner-wrap">
+
+        <div class="other-pages">
+          <!-- list-area:s -->
+          <div class="list-area">
+            
+            
+            
+
+              <div class="title-area-wrap">
+                <ul class="title-area">
+                  <li class="section">Daily Programming</li>
+                  <li class="main-title"><a href="/myblog/MD">블로그관리</a></li>
+                </ul>
+                
+                <span class="bar" id="left-bar"><ion-icon name="chevron-back-outline"></ion-icon></span></li>
+                
+                <ul class="count count_1">
+                  <li class="now">1</li>
+                  <li class="total">1</li>
+                </ul>
+                
+                <span class="bar" id="right-bar"><ion-icon name="chevron-forward-outline"></ion-icon></span>
+
+              </div>
+
+              
+                <ul class="list list_1">
+                
+  
+  
+  
+    <!-- list:s -->
+
+  
+  <li>
+    <a class="title" href="/myblog/2020/11/28/drawer.html"><b>[side project]</b>javascript - drawer기능 만들어보기</a>
+  </li>
+  
+  <li>
+    <a class="title" href="/myblog"></a>
+  </li>
+  
+  <li>
+    <a class="title" href="/myblog"></a>
+  </li>
+  
+  <li>
+    <a class="title" href="/myblog"></a>
+  </li>
+  
+    
+  <!-- list:e -->
+
+                </ul>
+              
+          </div>
+          <!-- list-area:e -->
+
+          <!-- cover-area:s -->
+          <div class="cover-area"style="background:url(/myblog/assets/img/MD.jpg) no-repeat;background-size: cover;">
+            <p class="title">블로그관리</p>
+            <p class="writer">by. Gelato</p>
+          </div>
+          <!-- cover-area:e -->
+        </div>
+      
+      </div>
+    </div>
+    <!-- footer:e -->
+    <script id="dsq-count-scr" src="//gelato7673.disqus.com/count.js" async></script>
+    <script src="/myblog/assets/js/page.js"></script>
+  </body>
+</html>
