@@ -3,7 +3,7 @@ layout: blog_page
 menu: etc_note
 big_group: Daily Programming
 small_group: etc.오답노트
-background:
+background: map.jpg
 title:  "todoList만들기 에서, 지우는 이벤트를 추가하기"
 date_start: 2020-11-23
 date_end: 2020-11-23
