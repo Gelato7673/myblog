@@ -7,7 +7,7 @@ background: map.jpg
 title:  <b>[blog]</b>블로그 스타일등 업데이트
 date_start: 2020-12-02
 date_end: 2020-12-05
-tags: style, scss, drawer
+tags: style scss drawer
 comments: true
 ---
 
