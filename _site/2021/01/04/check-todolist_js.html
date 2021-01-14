@@ -92,12 +92,12 @@
 
       <div class="inner-wrap">
         <p class="main-title">
-          Font-icon
+          <b>[clone coding]</b> Javascript - Todolist Sigle Application
         </p>
 
         <ul class="page-info">
           <li class="writer">Gelato</li>
-          <li class="date">Aug 29 - Oct 26, 20</li>
+          <li class="date">Dec 22 - Dec 25, 20</li>
         </ul>
       </div>
 
@@ -105,20 +105,47 @@
 
     <article class="page-contents Daily Programming">
       <div class="inner-wrap">
-        <h3 id="폰트아이콘-관련-기술들-정리">폰트아이콘 관련 기술들 정리</h3>
+        <p>Nomad coders의 바닐라 JS로 크롬 앱 만들기 를 통해 직접 따라해보면서 완성한 Todolist Singlie Application 이며, Javascript로 제작하였다.</p>
 
+<p>
+<img src="/myblog/assets/conts_img/JS_todolist.png" style="width:500px; border: 1px solid #efefef;" />
+</p>
+
+<h3 id="제작순서">제작순서</h3>
+<p>Vue.js에 이어서 두번재로 만드는 todolist Single Application 이었다. Vue때와 다른 점이 있다면 Vanila Javascript라는 점, 그리고 순서구현에 있어서 기능을 먼저 구현했다는 점이 있다. 공동점은 두 프로젝트 모두 css와 javascript를 componenets별로 나누어서 제작했다는 점이 있을 것 같다.</p>
+
+<ol>
+  <li>일단 기능을 중심으로 components를 나누고 만들 순서를 정한다. (지난프로그램과 다르게, 여러 기능을 구현하였다)
+    <ul>
+      <li>시간표시</li>
+      <li>background 사진 변경</li>
+      <li>이름입력받아 표시</li>
+      <li>현재지역의 온도표시</li>
+      <li>할일입력</li>
+    </ul>
+  </li>
+  <li>그 components의 기능을 구현하자. (데이터 연동은 나중으로 미룬다. 그냥 그 컴포넌트 안에서 구현되는 정도의 기능이면 된다.)
+    <ul>
+      <li>vue.js와 다르게, 데이터의 연동 부분까지 한번에 끝</li>
+    </ul>
+  </li>
+  <li>보이는 껍데기를 만든다. html으로 구조를 만들고, css로 보이는 스타일을 입혀주자.</li>
+  <li>transition 효과등 animation 효과를 추가해서 좀더 자연스럽게 보이도록 노력한다.</li>
+</ol>
+
+<h3 id="참고문헌-저장소">참고문헌, 저장소</h3>
 <ul>
-  <li><a href="https://m.blog.naver.com/PostView.nhn?blogId=reactionweb&amp;logNo=220337009100&amp;proxyReferer=https:%2F%2Fwww.google.com%2F">폰트 아이콘 모음</a></li>
-  <li><a href="https://stackoverflow.com/questions/20782368/use-font-awesome-icon-as-css-content">presued element로 fontawesome 사용하기</a></li>
+  <li>참고강의 : “바닐라 JS로 크롬 앱 만들기” - Nomad coders</li>
+  <li>git 저장소 : <a href="https://github.com/Gelato7673/js_todolist.git">https://github.com/Gelato7673/js_todolist</a></li>
 </ul>
 
 
         
           <ul class="tags">
             
-              <li>fontawesome,</li>
+              <li>javascript</li>
             
-              <li>ioni-cons</li>
+              <li>vue</li>
             
           </ul>
         
@@ -133,8 +160,8 @@
 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
 
 var disqus_config = function () {
-this.page.url = 'https://gelato7673.github.io/myblog/2020/08/29/check-font_icon.html';  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = 'https://gelato7673.github.io/myblog/2020/08/29/check-font_icon.html'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+this.page.url = 'https://gelato7673.github.io/myblog/2021/01/04/check-todolist_js.html';  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = 'https://gelato7673.github.io/myblog/2021/01/04/check-todolist_js.html'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 };
 
 (function() { // DON'T EDIT BELOW THIS LINE
@@ -169,7 +196,7 @@ s.setAttribute('data-timestamp', +new Date());
               <div class="title-area-wrap">
                 <ul class="title-area">
                   <li class="section">Daily Programming</li>
-                  <li class="main-title"><a href="/myblog/tech_docu">기술별 참고사항</a></li>
+                  <li class="main-title"><a href="/myblog/study_program">강의/book/clonecoding</a></li>
                 </ul>
                 
                 <span class="bar" id="left-bar"><ion-icon name="chevron-back-outline"></ion-icon></span></li>
@@ -198,19 +225,19 @@ s.setAttribute('data-timestamp', +new Date());
 
   
   <li>
-    <a class="title" href="/myblog/2020/08/29/check-git.html">GIT</a>
+    <a class="title" href="/myblog/2021/01/04/check-todolist_js.html"><b>[clone coding]</b> Javascript - Todolist Sigle Application</a>
   </li>
   
   <li>
-    <a class="title" href="/myblog/2020/10/24/check-css.html">CSS</a>
+    <a class="title" href="/myblog/2020/12/20/check-todolist.html"><b>[clone coding]</b> vue.js - Todolist Sigle Application</a>
   </li>
   
   <li>
-    <a class="title" href="/myblog/2020/08/29/check-font_icon.html">Font-icon</a>
+    <a class="title" href="/myblog/2020/12/20/check-doitvue.html"><b>[book]</b> Doit! 예제로 이해하고 실전프로젝트로 완성한다! Vue.js 입문</a>
   </li>
   
   <li>
-    <a class="title" href="/myblog/2020/08/29/check-html.html">HTML</a>
+    <a class="title" href="/myblog/2020/11/07/check-book-doitjavascript.html"><b>[book]</b> Doit! 웹 프로그래밍을 위한 자바스크립트 기본편</a>
   </li>
   
     
@@ -227,11 +254,11 @@ s.setAttribute('data-timestamp', +new Date());
 
   
   <li>
-    <a class="title" href="/myblog/2020/09/20/check-sublimetext3.html">각종 프로그램 단축키</a>
+    <a class="title" href="/myblog/2020/11/01/check-nomad_javascript.html"><b>[강의]</b> Nomad Coders - 바닐라 JS로 크롬 앱 만들기</a>
   </li>
   
   <li>
-    <a class="title" href="/myblog"></a>
+    <a class="title" href="/myblog/2020/10/27/check-book-github.html"><b>[book]</b> Doit! 지옥에서 온 문서 관리자 깃&깃허브 입문</a>
   </li>
   
   <li>
@@ -251,8 +278,8 @@ s.setAttribute('data-timestamp', +new Date());
           <!-- list-area:e -->
 
           <!-- cover-area:s -->
-          <div class="cover-area"style="background:url(/myblog/assets/img/tech_docu.jpg) no-repeat;background-size: cover;">
-            <p class="title">기술별 참고사항</p>
+          <div class="cover-area"style="background:url(/myblog/assets/img/study_program.jpg) no-repeat;background-size: cover;">
+            <p class="title">강의/book/clonecoding</p>
             <p class="writer">by. Gelato</p>
           </div>
           <!-- cover-area:e -->

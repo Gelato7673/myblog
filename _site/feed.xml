@@ -1,4 +1,255 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/myblog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/myblog/" rel="alternate" type="text/html" /><updated>2020-12-07T12:06:34+09:00</updated><id>http://localhost:4000/myblog/feed.xml</id><entry><title type="html">[blog]블로그 스타일등 업데이트</title><link href="http://localhost:4000/myblog/2020/12/05/managinbblog.html" rel="alternate" type="text/html" title="[blog]블로그 스타일등 업데이트" /><published>2020-12-05T00:00:00+09:00</published><updated>2020-12-05T00:00:00+09:00</updated><id>http://localhost:4000/myblog/2020/12/05/managinbblog</id><content type="html" xml:base="http://localhost:4000/myblog/2020/12/05/managinbblog.html">&lt;h3 id=&quot;전반적으로-블로그-디자인-등-손보기&quot;&gt;전반적으로 블로그 디자인 등 손보기&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://gelato7673.github.io/myblog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://gelato7673.github.io/myblog/" rel="alternate" type="text/html" /><updated>2021-01-14T15:34:25+09:00</updated><id>https://gelato7673.github.io/myblog/feed.xml</id><entry><title type="html">[clone coding] Javascript - Todolist Sigle Application</title><link href="https://gelato7673.github.io/myblog/2021/01/04/check-todolist_js.html" rel="alternate" type="text/html" title="[clone coding] Javascript - Todolist Sigle Application" /><published>2021-01-04T00:00:00+09:00</published><updated>2021-01-04T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2021/01/04/check-todolist_js</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2021/01/04/check-todolist_js.html">&lt;p&gt;Nomad coders의 바닐라 JS로 크롬 앱 만들기 를 통해 직접 따라해보면서 완성한 Todolist Singlie Application 이며, Javascript로 제작하였다.&lt;/p&gt;
+
+&lt;p&gt;
+&lt;img src=&quot;/myblog/assets/conts_img/JS_todolist.png&quot; style=&quot;width:500px; border: 1px solid #efefef;&quot; /&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&quot;제작순서&quot;&gt;제작순서&lt;/h3&gt;
+&lt;p&gt;Vue.js에 이어서 두번재로 만드는 todolist Single Application 이었다. Vue때와 다른 점이 있다면 Vanila Javascript라는 점, 그리고 순서구현에 있어서 기능을 먼저 구현했다는 점이 있다. 공동점은 두 프로젝트 모두 css와 javascript를 componenets별로 나누어서 제작했다는 점이 있을 것 같다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;일단 기능을 중심으로 components를 나누고 만들 순서를 정한다. (지난프로그램과 다르게, 여러 기능을 구현하였다)
+    &lt;ul&gt;
+      &lt;li&gt;시간표시&lt;/li&gt;
+      &lt;li&gt;background 사진 변경&lt;/li&gt;
+      &lt;li&gt;이름입력받아 표시&lt;/li&gt;
+      &lt;li&gt;현재지역의 온도표시&lt;/li&gt;
+      &lt;li&gt;할일입력&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;그 components의 기능을 구현하자. (데이터 연동은 나중으로 미룬다. 그냥 그 컴포넌트 안에서 구현되는 정도의 기능이면 된다.)
+    &lt;ul&gt;
+      &lt;li&gt;vue.js와 다르게, 데이터의 연동 부분까지 한번에 끝&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;보이는 껍데기를 만든다. html으로 구조를 만들고, css로 보이는 스타일을 입혀주자.&lt;/li&gt;
+  &lt;li&gt;transition 효과등 animation 효과를 추가해서 좀더 자연스럽게 보이도록 노력한다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;참고문헌-저장소&quot;&gt;참고문헌, 저장소&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;참고강의 : “바닐라 JS로 크롬 앱 만들기” - Nomad coders&lt;/li&gt;
+  &lt;li&gt;git 저장소 : &lt;a href=&quot;https://github.com/Gelato7673/js_todolist.git&quot;&gt;https://github.com/Gelato7673/js_todolist&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="javascript" /><category term="vue" /><summary type="html">Nomad coders의 바닐라 JS로 크롬 앱 만들기 를 통해 직접 따라해보면서 완성한 Todolist Singlie Application 이며, Javascript로 제작하였다.</summary></entry><entry><title type="html">[trend search] 2021.1.2주차</title><link href="https://gelato7673.github.io/myblog/2021/01/04/trend.html" rel="alternate" type="text/html" title="[trend search] 2021.1.2주차" /><published>2021-01-04T00:00:00+09:00</published><updated>2021-01-04T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2021/01/04/trend</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2021/01/04/trend.html">&lt;h3 id=&quot;이번주에-css에-관해서-생각해본-내용들&quot;&gt;이번주에 CSS에 관해서 생각해본 내용들&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;em, rem
+&lt;a href=&quot;https://developer.mozilla.org/ko/docs/Web/CSS/font-size&quot;&gt;출처: Mozilla css font-size&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;containing block
+&lt;a href=&quot;https://developer.mozilla.org/ko/docs/Web/CSS/All_About_The_Containing_Block&quot;&gt;출처: Mozilla css containingBlock&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;vh, wh
+&lt;a href=&quot;https://developer.mozilla.org/ko/docs/Web/CSS/length&quot;&gt;출처: Mozilla css length&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Flexbox
+&lt;a href=&quot;https://developer.mozilla.org/ko/docs/Web/CSS/CSS_Flexible_Box_Layout/Flexbox%EC%9D%98_%EA%B8%B0%EB%B3%B8_%EA%B0%9C%EB%85%90&quot;&gt;출처: Mozilla css flexbox&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Grid Layout
+&lt;a href=&quot;https://developer.mozilla.org/ko/docs/Web/CSS/CSS_Grid_Layout&quot;&gt;출처: Mozilla css GridLayout&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;dl&gt;
+      &lt;dt&gt;transform&lt;/dt&gt;
+      &lt;dd&gt;재미있는점 - none이 아닌 값을 지정하면 새로운 쌓임 맥락을 생성합니다. 이 경우, position이 fixed거나 absolute인 요소의 컨테이닝 블록으로서 작용합니다.
+:&lt;a href=&quot;https://developer.mozilla.org/ko/docs/Web/CSS/transform&quot;&gt;출처: Mozilla css transform&lt;/a&gt;&lt;/dd&gt;
+    &lt;/dl&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;perspective
+&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/perspective&quot;&gt;출처: Mozilla css perspective&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;attr()
+&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/attr()&quot;&gt;출처: Mozilla css attr()&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;dl&gt;
+      &lt;dt&gt;calc()&lt;/dt&gt;
+      &lt;dd&gt;CSS로도 계산이 된다는것 ! &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/calc()&quot;&gt;출처: Mozilla css calc()&lt;/a&gt;&lt;/dd&gt;
+    &lt;/dl&gt;
+  &lt;/li&gt;
+  &lt;li&gt;자꾸보고 써본다면 의미있는 css모음집
+&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Archive/CSS3&quot;&gt;출처: Mozilla css Archive&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;front-end-인터뷰&quot;&gt;Front-end 인터뷰&lt;/h3&gt;
+
+&lt;h4 id=&quot;브라우저-엔진별로-달라지는-스타일에-대처하는-방법들&quot;&gt;브라우저 엔진별로 달라지는 스타일에 대처하는 방법들&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;prefix&lt;/li&gt;
+  &lt;li&gt;reset style sheet&lt;/li&gt;
+  &lt;li&gt;meta tag&lt;/li&gt;
+  &lt;li&gt;conditional comment&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;반응형-방식&quot;&gt;반응형 방식&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;Mostly Fluid&lt;/li&gt;
+  &lt;li&gt;column drop&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;front-end-인터뷰-스크랩&quot;&gt;Front-end 인터뷰 스크랩&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/Frontend/comments/kipg81/how_to_prepare_for_a_lead_frontend_developer/?utm_source=share&amp;amp;utm_medium=web2x&amp;amp;context=3&quot;&gt;reddit&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/yangshun/front-end-interview-handbook/blob/master/contents/kr/README.md&quot;&gt;front-end-interview-handbook&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;mvc-model-svg-canvas-restfulapi-post와-get&quot;&gt;MVC-model, Svg, Canvas, RestfulAPI, Post와 Get&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;MVC-model
+    &lt;ul&gt;
+      &lt;li&gt;MVC 는 일종의 디자인 패턴이다. (&lt;a href=&quot;https://m.blog.naver.com/jhc9639/220967034588&quot;&gt;간단한 설명&lt;/a&gt;)&lt;/li&gt;
+      &lt;li&gt;Controller는 View와 라이프 사이클과 강하게 연결되어있어서 분리하기 어렵고, 코드 분석/수정과 테스트가 모두 힘들어지며, 복잡하게 엮어있는 모델과 뷰는 여러 Side-Effect가 생겨 프로그램 운영이 힘들어진다.&lt;/li&gt;
+      &lt;li&gt;그래서, 이러한 문제점 보완을 위한 여러 다양한 패턴들이 있다.&lt;/li&gt;
+      &lt;li&gt;MVP, MVVM, Viper, Clean Architecture, Flux, Redux, RxMVVM&lt;/li&gt;
+      &lt;li&gt;직접 구현해 보는 것이가장 좋은 공부방법. 이라는것은 두말하면 잔소리일듯&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;SVG&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/ko/docs/Web/SVG/Tutorial&quot;&gt;Mozilla svg tutorial&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://svgontheweb.com/ko/&quot;&gt;웹에서 svg 사용하기 실습가이드&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://opentutorials.org/course/2418/13666&quot;&gt;생활코딩 - svg&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Canvas API
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/ko/docs/Web/HTML/Canvas&quot;&gt;Mozilla Canvas API&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;WebGL
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/ko/docs/Web/API/WebGL_API&quot;&gt;Mozilla WebGL&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;REST API
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.redhat.com/ko/topics/integration/whats-the-difference-between-soap-rest&quot;&gt;RedHat&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://meetup.toast.com/posts/92&quot;&gt;Toast Meetup - 알아듣기쉽게 설명!&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;GraphQl
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.redhat.com/ko/topics/api/what-is-graphql&quot;&gt;RedHat&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Post &amp;amp; Get
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://hongsii.github.io/2017/08/02/what-is-the-difference-get-and-post/&quot;&gt;블로그 : https://hongsii.github.io/2017/08/02/what-is-the-difference-get-and-post/&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;reddit에서-구독받은-내용들&quot;&gt;reddit에서 구독받은 내용들&lt;/h3&gt;
+
+&lt;h4 id=&quot;디자인-툴-관련&quot;&gt;디자인 툴 관련&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://startupstash.com/web-design-resources/&quot;&gt;startup stash (design tools)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://visly.app/blogposts/visly--build-react-components-visually&quot;&gt;Visly&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;포트폴리오-만들때-참고할-사이트&quot;&gt;포트폴리오 만들때 참고할 사이트&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;animxyz - Toolkit&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/Frontend/comments/ked5vz/my_brother_and_i_made_the_first_composable_css/?utm_source=share&amp;amp;utm_medium=web2x&amp;amp;context=3&quot;&gt;reddit 관련글 게시&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://animxyz.com/&quot;&gt;https://animxyz.com/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://animxyz.com/docs&quot;&gt;https://animxyz.com/docs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gridsome.org/&quot;&gt;Gridsome&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ingram-projects/animxyz&quot;&gt;animxyz - github source&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;그외-알고-싶었던-내용들&quot;&gt;그외 알고 싶었던 내용들&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;boilerplate&lt;/li&gt;
+  &lt;li&gt;Tailwind-esque approach&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs&quot;&gt;Favicon 2021&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;따라해-보고-싶은-좋은-front-end-작품들&quot;&gt;따라해 보고 싶은 좋은 Front-end 작품(?)들&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/Frontend/comments/kfkvci/learn_to_make_a_christmas_game_using_html5_canvas/?utm_source=share&amp;amp;utm_medium=web2x&amp;amp;context=3&quot;&gt;간단한 크리스 마스 게임 만들어 보기&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://e-commerce-in-25-days.netlify.app/&quot;&gt;netlify로 E-commerce in 25days 만들기&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/javascript/comments/kkf956/drawings_animated_by_your_current_time_of_day/?utm_source=share&amp;amp;utm_medium=web2x&amp;amp;context=3&quot;&gt;Draft Island(https://daftisland.netlify.app/) reddit 글&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/javascript/comments/k7rxg7/open_source_airtable_built_using_reactjs/?utm_source=share&amp;amp;utm_medium=web2x&amp;amp;context=3&quot;&gt;Firetable(https://firetable.io/) reddit 글&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;공부할-내용들&quot;&gt;공부할 내용들&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/Frontend/comments/kkhn4y/rethinking_my_tech_stack_for_2021/?utm_source=share&amp;amp;utm_medium=web2x&amp;amp;context=3&quot;&gt;CSS에 관해(https://www.ryangittings.co.uk/blog/writing-modern-css-with-blyth/) reddit 글 &lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Front-end에서 어떤 언어들이 인기가 있는지? 왜 인기가 있는지??&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="githubpage," /><category term="dependency-manager," /><category term="preprocessors," /><category term="phython" /><summary type="html">이번주에 CSS에 관해서 생각해본 내용들 em, rem 출처: Mozilla css font-size</summary></entry><entry><title type="html">[book] Doit! 예제로 이해하고 실전프로젝트로 완성한다! Vue.js 입문</title><link href="https://gelato7673.github.io/myblog/2020/12/20/check-doitvue.html" rel="alternate" type="text/html" title="[book] Doit! 예제로 이해하고 실전프로젝트로 완성한다! Vue.js 입문" /><published>2020-12-20T00:00:00+09:00</published><updated>2020-12-20T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2020/12/20/check-doitvue</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2020/12/20/check-doitvue.html">&lt;h3 id=&quot;책소개&quot;&gt;책소개&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;책 제목 : Doit! 예제로 이해하고 실전 프로젝트로 완성한다! Vue.js 입문&lt;/li&gt;
+  &lt;li&gt;지은이 : 장기효&lt;/li&gt;
+  &lt;li&gt;출판사 : 이지스퍼블리싱&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;책의-장점&quot;&gt;책의 장점&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;책이 얇다. 내가 이 책을 선택하게 된 큰 이유중 하나다 (^^;)&lt;/li&gt;
+  &lt;li&gt;큰 줄기에서 중요한 내용들을 집고 넘어갈 수 있다.  사실, 자잘한 내용은 기술문서를 참고하면 됨으로 괜찮다.&lt;/li&gt;
+  &lt;li&gt;예제로 따라해 볼 수도 있고, 뒤에 실습으로 마무리 해 볼 수 있다.&lt;/li&gt;
+  &lt;li&gt;초보자가 잘 모를 수 있다고 생각한 부분들에 대한 코멘트나, 현장에서 쓸때의 tip등이 뒤에 들어가 있다.&lt;/li&gt;
+  &lt;li&gt;vue.js의 이론적 설명들..예를들어 배경이되는 기술들 소개, life cycle, vue의 구조에 관한 내용들도 있다.&lt;/li&gt;
+  &lt;li&gt;이 책을 공부하면서 좀 더 공부해 보고 싶은 내용도 생겼다. 그런 내용들은 추후에 따로 다루도록 해야겠다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;공부방법&quot;&gt;공부방법&lt;/h3&gt;
+&lt;p&gt;내가 이 책으로 공부한 방법은 다음과 같다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;앞에 vue.js에 관한 개념은 눈으로 읽고 중요해보이는 부분은 펜으로 표시한다.&lt;/li&gt;
+  &lt;li&gt;본격적으로 기술에 관한 내용이 나오기 시작하면, 눈으로 읽되 예제는  따라하고, 퀴즈를 풀어가면서 읽는다. (읽는다기보다는 직접 클론코딩한다는 느낌으로 vue.js를 익힌다.)&lt;/li&gt;
+  &lt;li&gt;그렇게 배워가다보면은 중반정도를 지나고 슬슬 어려운 개념이 나온다 ㅋㅋ 그동안 앞에서 배운 내용을 확실하지 않으면, 뒷부분의 데이터 버스 등의 중요한 개념들부분에서 혼란이 올 수 있다.&lt;/li&gt;
+  &lt;li&gt;그래서, 그런 개념들이 나올 즈음에 책 읽기를 멈추고, &lt;a href=&quot;https://kr.vuejs.org/v2/guide/index.html&quot;&gt;vue.js 사이트&lt;/a&gt;에 들어가서 기술문서들에 설명되어있는 vue.js 주요 명령어들을 다시한번 따라하면서 익혔다.
+책이 한눈에 vue.js의 주요 흐름을 따라가기에 좋다면, 기술문서는 다양하고 구체적인 예시들이 나와있어서 vue.js명령어를 이해하기에 좋다. 특히 vue.js의 기술문서는 잘 되어있는 편이니 추천!&lt;/li&gt;
+  &lt;li&gt;이렇게 한번 기술문서를 탐독하고 나서 이후의 데이터 이동에 관한 내용을 마저 공부하면, 이해도 쉽고 기술문서보면서 애매했던 부분도 정리가 잘 된다.&lt;/li&gt;
+  &lt;li&gt;그리고 나서 todo list 싱글 어플리케이션 만드는 실전프로젝트로 마무리를 하면, vue.js의 실제사용모습을 이해할 수 있다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;기술문서를-읽을때&quot;&gt;기술문서를 읽을때…&lt;/h4&gt;
+&lt;p&gt;기술문서를 읽을때 모든 명령어를 이해하고 지나간다면 좋겠지만, 예제가 충분치 않거나 이해가 안되는 명령어를 만날 수 있다.&lt;br /&gt;
+꼭 그런것은 아니지만, 아마도.. Javascript의 이해도가 높다면 vue.js의 명령어가 어렵지 않겠지만, 내 느낌상 Javscript에서 아직 익숙치 않았던 구간은 Vue에서 만나도 익숙치 않더라.&lt;br /&gt;
+그럴땐, 일단 넘어가서 다음 명령어들의 예시를 읽어나가자. 물론, 실제 프로젝트에서 반복적으로 그 명령어가 사용되는 상황이고, 계속해서 이해하지 못해서 에러가 난다면 파고들어서 이해하고 지나갈 필요가 있다. &lt;br /&gt;
+하지만, 그냥 처음 읽는 상황이라면 일단 넘어가서 계속 읽어나가다가 보면 앞에서 이해 못했던 내용을 뒤의 다른 명령어의 예시에서 이해하게 될 수도 있다. 그럼으로, 처음 기술문서를 읽을때는 개념과 예시만 확인하고 일단 넘어가는것도 괜찮은것 같다. &lt;br /&gt;
+어차피 실제로 무언가를 만들어보면서 기술문서를 다시봐야만 한다. 그럼으로, 처음 기술문서를 읽을때에는 이걸 완벽히 이해하겠다는 마음보다는 그 문법에 익숙해 지겠다는 마음으로 보는 것이 좋은것 같다.&lt;/p&gt;</content><author><name></name></author><category term="javascript" /><category term="vue" /><summary type="html">책소개 책 제목 : Doit! 예제로 이해하고 실전 프로젝트로 완성한다! Vue.js 입문 지은이 : 장기효 출판사 : 이지스퍼블리싱</summary></entry><entry><title type="html">[clone coding] vue.js - Todolist Sigle Application</title><link href="https://gelato7673.github.io/myblog/2020/12/20/check-todolist.html" rel="alternate" type="text/html" title="[clone coding] vue.js - Todolist Sigle Application" /><published>2020-12-20T00:00:00+09:00</published><updated>2020-12-20T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2020/12/20/check-todolist</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2020/12/20/check-todolist.html">&lt;p&gt;“Doit! 예제로 이해하고 실전프로젝트로 완성한다! Vue.js 입문” 책 뒷편에 나온 코드들을 직접 따라해보면서 완성한 Todolist Singlie 
+Application 입니다. Vue.js로 제작하였습니다.&lt;/p&gt;
+
+&lt;p&gt;
+&lt;img src=&quot;/myblog/assets/conts_img/20201220_124720.png&quot; style=&quot;width:500px; border: 1px solid #efefef;&quot; /&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&quot;clone-coding--실전-프로젝트는-어떻게-따라하면-공부가-잘-될까&quot;&gt;Clone coding &amp;amp; 실전 프로젝트는 어떻게 따라하면, 공부가 잘 될까?&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;일단은 따라서 clonecoding을 해본다.&lt;/li&gt;
+  &lt;li&gt;익숙한 언어라면 처음부터 어떻게 싱글 어플리케이션을 구성하면 될지 스스로 풀어보는 것도 좋지만, vue.js로 싱글어플리케이션을 제작해 보는것은 처음이기 때문에 clonecoding형식으로 따라해보는 것이 좋을것 같았다.&lt;/li&gt;
+  &lt;li&gt;중반쯤까지 clonecoding을 하다보면은, 뭔가 꼬여서 잘 안된다는 느낌을 받는다. 왜냐하면, 어플리케이션을 스스로 구성하고 이해하면서 코드를 짜고 있는것이 아닌 단순 clonecoding상태이기 때문에 조금만 가도 꼬인다 ㅋㅋㅋ&lt;/li&gt;
+  &lt;li&gt;이때부터, 다시 내가 싱글 어플리케이션을 만들어 본다는 느낌으로 앞부터 스스로 다시 구성해보면서 코딩해본다.(머리로 잘 안될때는 펜과 종이를 이용해라) 그러면, 앞에서 무작정 따라 했던 내용이 정리되어서 들어올 것이다.&lt;/li&gt;
+  &lt;li&gt;뒷 부분을 참조해 가면서 실전 프로젝트를 마무리 짓는다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;싱글어플리케이션-만들때-순서--느낀점&quot;&gt;싱글어플리케이션 만들때 순서 &amp;amp; 느낀점&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;일단 기능을 중심으로 조각조각 components를 나눈다. 내가 생각한것 보다 더 잘게 나눠야 하는듯.&lt;/li&gt;
+  &lt;li&gt;일단 보이는 껍데기를 만든다. html으로 구조를 만들고, css로 보이는 스타일을 입혀주자.&lt;/li&gt;
+  &lt;li&gt;그 components의 기능을 구현하자. (데이터 연동은 나중으로 미룬다. 그냥 그 컴포넌트 안에서 구현되는 정도의 기능이면 된다.)&lt;/li&gt;
+  &lt;li&gt;데이터가 잘 연동될 수 있도록 코드를 수정하자. data-flow에 관련된 코드는 App.vue에 들어가 있게 되는 것 같다.&lt;/li&gt;
+  &lt;li&gt;transition 효과등 animation 효과를 추가해서 좀더 자연스럽게 보이도록 노력한다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;참고문헌-저장소&quot;&gt;참고문헌, 저장소&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;참고문헌 : “Doit! 예제로 이해하고 실전프로젝트로 완성한다! Vue.js 입문”&lt;/li&gt;
+  &lt;li&gt;git 저장소 : &lt;a href=&quot;https://github.com/Gelato7673/vue_todolist.git&quot;&gt;https://github.com/Gelato7673/vue_todolist.git&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="javascript" /><category term="vue" /><summary type="html">“Doit! 예제로 이해하고 실전프로젝트로 완성한다! Vue.js 입문” 책 뒷편에 나온 코드들을 직접 따라해보면서 완성한 Todolist Singlie Application 입니다. Vue.js로 제작하였습니다.</summary></entry><entry><title type="html">[blog]블로그 스타일등 업데이트</title><link href="https://gelato7673.github.io/myblog/2020/12/05/managinbblog.html" rel="alternate" type="text/html" title="[blog]블로그 스타일등 업데이트" /><published>2020-12-05T00:00:00+09:00</published><updated>2020-12-05T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2020/12/05/managinbblog</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2020/12/05/managinbblog.html">&lt;h3 id=&quot;전반적으로-블로그-디자인-등-손보기&quot;&gt;전반적으로 블로그 디자인 등 손보기&lt;/h3&gt;
 
 &lt;h4 id=&quot;이전블로그모습&quot;&gt;이전블로그모습&lt;/h4&gt;
 &lt;p&gt;&lt;img src=&quot;/myblog/assets/conts_img/page_index.png&quot; style=&quot;width:100%; max-width: 1000px; border: 1px solid #efefef;&quot; /&gt;&lt;/p&gt;
@@ -10,7 +261,7 @@
 &lt;ul&gt;
   &lt;li&gt;메뉴 정리&lt;/li&gt;
   &lt;li&gt;전체적으로 디자인 정리&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="style" /><category term="scss" /><category term="drawer" /><summary type="html">전반적으로 블로그 디자인 등 손보기</summary></entry><entry><title type="html">[side project]javascript - drawer기능 만들어보기</title><link href="http://localhost:4000/myblog/2020/11/28/drawer.html" rel="alternate" type="text/html" title="[side project]javascript - drawer기능 만들어보기" /><published>2020-11-28T00:00:00+09:00</published><updated>2020-11-28T00:00:00+09:00</updated><id>http://localhost:4000/myblog/2020/11/28/drawer</id><content type="html" xml:base="http://localhost:4000/myblog/2020/11/28/drawer.html">&lt;h3 id=&quot;스크랩-하기&quot;&gt;스크랩 하기.&lt;/h3&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="style" /><category term="scss" /><category term="drawer" /><summary type="html">전반적으로 블로그 디자인 등 손보기</summary></entry><entry><title type="html">[side project]javascript - drawer기능 만들어보기</title><link href="https://gelato7673.github.io/myblog/2020/11/28/drawer.html" rel="alternate" type="text/html" title="[side project]javascript - drawer기능 만들어보기" /><published>2020-11-28T00:00:00+09:00</published><updated>2020-11-28T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2020/11/28/drawer</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2020/11/28/drawer.html">&lt;h3 id=&quot;스크랩-하기&quot;&gt;스크랩 하기.&lt;/h3&gt;
 &lt;p&gt;깔끔하고 괜찮은 메뉴를 하나 구현하고 싶었다. (마음이 바뀌어서 화려하게 변할지도 모른다 ㅋㅋ 현재는 화려하다..)
 어쩄든, 모바일에서도 잘 작동할 괜찮은 drawer를 하나 구현해 보자.&lt;/p&gt;
 
@@ -49,7 +300,7 @@
 	&lt;span class=&quot;nt&quot;&gt;vh&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;vw&lt;/span&gt;
 	&lt;span class=&quot;nt&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;://&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;developer&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.mozilla.org&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;en-US&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;docs&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;Learn&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;CSS&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;Building_blocks&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;Sizing_items_in_CSS&lt;/span&gt;  
 	&lt;span class=&quot;nt&quot;&gt;transition&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;://&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;developer&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.mozilla.org&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;en-US&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;docs&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;Web&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;CSS&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;var&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name></name></author><category term="time" /><summary type="html">스크랩 하기. 깔끔하고 괜찮은 메뉴를 하나 구현하고 싶었다. (마음이 바뀌어서 화려하게 변할지도 모른다 ㅋㅋ 현재는 화려하다..) 어쩄든, 모바일에서도 잘 작동할 괜찮은 drawer를 하나 구현해 보자.</summary></entry><entry><title type="html">[side project] Javascript - 기념일 계산기 만들기</title><link href="http://localhost:4000/myblog/2020/11/18/check-javascript_anniversary.html" rel="alternate" type="text/html" title="[side project] Javascript - 기념일 계산기 만들기" /><published>2020-11-18T00:00:00+09:00</published><updated>2020-11-18T00:00:00+09:00</updated><id>http://localhost:4000/myblog/2020/11/18/check-javascript_anniversary</id><content type="html" xml:base="http://localhost:4000/myblog/2020/11/18/check-javascript_anniversary.html">&lt;h3 id=&quot;기념일-계산기-만들기&quot;&gt;기념일 계산기 만들기!&lt;/h3&gt;
+	&lt;span class=&quot;nt&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;://&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;developer&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.mozilla.org&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;en-US&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;docs&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;Web&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;CSS&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;var&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name></name></author><category term="time" /><summary type="html">스크랩 하기. 깔끔하고 괜찮은 메뉴를 하나 구현하고 싶었다. (마음이 바뀌어서 화려하게 변할지도 모른다 ㅋㅋ 현재는 화려하다..) 어쩄든, 모바일에서도 잘 작동할 괜찮은 drawer를 하나 구현해 보자.</summary></entry><entry><title type="html">[side project] Javascript - 기념일 계산기 만들기</title><link href="https://gelato7673.github.io/myblog/2020/11/18/check-javascript_anniversary.html" rel="alternate" type="text/html" title="[side project] Javascript - 기념일 계산기 만들기" /><published>2020-11-18T00:00:00+09:00</published><updated>2020-11-18T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2020/11/18/check-javascript_anniversary</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2020/11/18/check-javascript_anniversary.html">&lt;h3 id=&quot;기념일-계산기-만들기&quot;&gt;기념일 계산기 만들기!&lt;/h3&gt;
 
 &lt;h4 id=&quot;서론&quot;&gt;서론&lt;/h4&gt;
 &lt;p&gt;지난번에 Do it 과 Javascript 강의를 들으면서, 공부했던 실습 부분들을 스스로 만들어 보면서, 복습하는 시간들을 가지려고 한다.&lt;br /&gt;
@@ -265,7 +516,7 @@
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/Gelato7673/js-anniv.calculator.git&quot;&gt;이번실습 코드가 담겨져 있는 git repository 바로가기&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;본실습은 visual studio Code를 사용하고, doit 책을 참고하여 진행하였습니다.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="javascript" /><summary type="html">기념일 계산기 만들기!</summary></entry><entry><title type="html">[book] Doit! 웹 프로그래밍을 위한 자바스크립트 기본편</title><link href="http://localhost:4000/myblog/2020/11/07/check-book-doitjavascript.html" rel="alternate" type="text/html" title="[book] Doit! 웹 프로그래밍을 위한 자바스크립트 기본편" /><published>2020-11-07T00:00:00+09:00</published><updated>2020-11-07T00:00:00+09:00</updated><id>http://localhost:4000/myblog/2020/11/07/check-book-doitjavascript</id><content type="html" xml:base="http://localhost:4000/myblog/2020/11/07/check-book-doitjavascript.html">&lt;h3 id=&quot;책소개&quot;&gt;책소개&lt;/h3&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="javascript" /><summary type="html">기념일 계산기 만들기!</summary></entry><entry><title type="html">[book] Doit! 웹 프로그래밍을 위한 자바스크립트 기본편</title><link href="https://gelato7673.github.io/myblog/2020/11/07/check-book-doitjavascript.html" rel="alternate" type="text/html" title="[book] Doit! 웹 프로그래밍을 위한 자바스크립트 기본편" /><published>2020-11-07T00:00:00+09:00</published><updated>2020-11-07T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2020/11/07/check-book-doitjavascript</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2020/11/07/check-book-doitjavascript.html">&lt;h3 id=&quot;책소개&quot;&gt;책소개&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;책 제목 : Doit! 웹 프로그래밍을 위한 자바스크립트 기본편&lt;/li&gt;
   &lt;li&gt;지은이 : 고경희&lt;/li&gt;
@@ -321,7 +572,7 @@
 &lt;blockquote&gt;
   &lt;p&gt;진짜 어려움은 극복할 수 있다. 정복할 수 없는 것은 상상 속의 어려움뿐이다. -시어도어 N.베일
 Real difficulties can be overcome; it is only the imaginary ones that are unconquerable. -Theodore N.Vail&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name></name></author><category term="javascript" /><summary type="html">책소개 책 제목 : Doit! 웹 프로그래밍을 위한 자바스크립트 기본편 지은이 : 고경희 출판사 : 이지스퍼블리싱</summary></entry><entry><title type="html">[trend search]2020. 11. 1주차</title><link href="http://localhost:4000/myblog/2020/11/07/check-trend.html" rel="alternate" type="text/html" title="[trend search]2020. 11. 1주차" /><published>2020-11-07T00:00:00+09:00</published><updated>2020-11-07T00:00:00+09:00</updated><id>http://localhost:4000/myblog/2020/11/07/check-trend</id><content type="html" xml:base="http://localhost:4000/myblog/2020/11/07/check-trend.html">&lt;h3 id=&quot;reddit-stack-overflow-facebook-okky&quot;&gt;reddit, stack-overflow, facebook, okky&lt;/h3&gt;
+&lt;/blockquote&gt;</content><author><name></name></author><category term="javascript" /><summary type="html">책소개 책 제목 : Doit! 웹 프로그래밍을 위한 자바스크립트 기본편 지은이 : 고경희 출판사 : 이지스퍼블리싱</summary></entry><entry><title type="html">[trend search]2020. 11. 1주차</title><link href="https://gelato7673.github.io/myblog/2020/11/07/check-trend.html" rel="alternate" type="text/html" title="[trend search]2020. 11. 1주차" /><published>2020-11-07T00:00:00+09:00</published><updated>2020-11-07T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2020/11/07/check-trend</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2020/11/07/check-trend.html">&lt;h3 id=&quot;reddit-stack-overflow-facebook-okky&quot;&gt;reddit, stack-overflow, facebook, okky&lt;/h3&gt;
 &lt;p&gt;개발을 하면서 stack-overflow 외에 다른 커뮤니티는 그다지 이용할 생각을 하지 못했던 것 같다. 글을 읽는다거나, youtube, 기술 블로그 들을 보면서 기술 동향에 대한 이야기들을 다룬 잘 갖춰진 글들은 읽었지만, 커뮤니티 사이트는 많이 보지 않았던 것 같은데. 이번기회에 한번 둘러 보기로 했다. facebook과 okky는 일반적여서 딱히 이야기 할것은 없을 것 같고, reddidt과 stack-overflow를 위주로 이야기 하려고 한다.&lt;br /&gt;
 처음 시작은, 내가 평소에 즐겨 구독하는 개발자 한분이 trend search를 히는 주요 수단으로 reddit을 추천하면서 시작되었다.&lt;/p&gt;
 
@@ -356,7 +607,7 @@ stack-overflwo외에도 &lt;a href=&quot;https://stackexchange.com/&quot;&gt;sta
 쉽게 말해서, stackoverflow는 stackexchange를 통해서 갈 수 있는 커뮤니티 들 중 하나라고 생각하면 된다.
 stack exchange는 많은 커뮤니티 사이트 들을 연결해 주는 하나의 통합 사이트 인데, &lt;a href=&quot;https://stackexchange.com/sites#&quot;&gt;그중 가장 큰 비중을 차지하는 사이트가 바로 stackOverflow이기 때문이다. (이링크를 타고 가면, stackExchange가 연결해주는 모든 사이트를 볼 수 있다.)&lt;/a&gt;이 두 사이트의 비교에 관한 질문은 stackExchange에도 올라와 있고, 다음 &lt;a href=&quot;https://meta.stackexchange.com/questions/79593/what-is-the-difference-between-stack-overflow-and-stack-exchange&quot;&gt;링크를 타고 가면 볼 수있다.&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;내가, stack-overflow의 위엄(?)를 느끼는 순간중에 하나는 이 사이트의 &lt;a href=&quot;https://insights.stackoverflow.com/survey&quot;&gt;Annual Developer Survey&lt;/a&gt;를 볼때다. 현재 개발자들의 동향을 볼 수 있으니 참고해볼만 한다.&lt;/p&gt;</content><author><name></name></author><category term="community" /><category term="reddit" /><category term="stack-overflow" /><summary type="html">reddit, stack-overflow, facebook, okky 개발을 하면서 stack-overflow 외에 다른 커뮤니티는 그다지 이용할 생각을 하지 못했던 것 같다. 글을 읽는다거나, youtube, 기술 블로그 들을 보면서 기술 동향에 대한 이야기들을 다룬 잘 갖춰진 글들은 읽었지만, 커뮤니티 사이트는 많이 보지 않았던 것 같은데. 이번기회에 한번 둘러 보기로 했다. facebook과 okky는 일반적여서 딱히 이야기 할것은 없을 것 같고, reddidt과 stack-overflow를 위주로 이야기 하려고 한다. 처음 시작은, 내가 평소에 즐겨 구독하는 개발자 한분이 trend search를 히는 주요 수단으로 reddit을 추천하면서 시작되었다.</summary></entry><entry><title type="html">[강의] Nomad Coders - 바닐라 JS로 크롬 앱 만들기</title><link href="http://localhost:4000/myblog/2020/11/01/check-nomad_javascript.html" rel="alternate" type="text/html" title="[강의] Nomad Coders - 바닐라 JS로 크롬 앱 만들기" /><published>2020-11-01T00:00:00+09:00</published><updated>2020-11-01T00:00:00+09:00</updated><id>http://localhost:4000/myblog/2020/11/01/check-nomad_javascript</id><content type="html" xml:base="http://localhost:4000/myblog/2020/11/01/check-nomad_javascript.html">&lt;h3 id=&quot;nomad-coders&quot;&gt;Nomad coders&lt;/h3&gt;
+&lt;p&gt;내가, stack-overflow의 위엄(?)를 느끼는 순간중에 하나는 이 사이트의 &lt;a href=&quot;https://insights.stackoverflow.com/survey&quot;&gt;Annual Developer Survey&lt;/a&gt;를 볼때다. 현재 개발자들의 동향을 볼 수 있으니 참고해볼만 한다.&lt;/p&gt;</content><author><name></name></author><category term="community" /><category term="reddit" /><category term="stack-overflow" /><summary type="html">reddit, stack-overflow, facebook, okky 개발을 하면서 stack-overflow 외에 다른 커뮤니티는 그다지 이용할 생각을 하지 못했던 것 같다. 글을 읽는다거나, youtube, 기술 블로그 들을 보면서 기술 동향에 대한 이야기들을 다룬 잘 갖춰진 글들은 읽었지만, 커뮤니티 사이트는 많이 보지 않았던 것 같은데. 이번기회에 한번 둘러 보기로 했다. facebook과 okky는 일반적여서 딱히 이야기 할것은 없을 것 같고, reddidt과 stack-overflow를 위주로 이야기 하려고 한다. 처음 시작은, 내가 평소에 즐겨 구독하는 개발자 한분이 trend search를 히는 주요 수단으로 reddit을 추천하면서 시작되었다.</summary></entry><entry><title type="html">[강의] Nomad Coders - 바닐라 JS로 크롬 앱 만들기</title><link href="https://gelato7673.github.io/myblog/2020/11/01/check-nomad_javascript.html" rel="alternate" type="text/html" title="[강의] Nomad Coders - 바닐라 JS로 크롬 앱 만들기" /><published>2020-11-01T00:00:00+09:00</published><updated>2020-11-01T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2020/11/01/check-nomad_javascript</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2020/11/01/check-nomad_javascript.html">&lt;h3 id=&quot;nomad-coders&quot;&gt;Nomad coders&lt;/h3&gt;
 
 &lt;p&gt;니콜라스&amp;amp;린 부부가 함께 운영하는 Nomad coders는 Youtube채널과 강의사이트로 운영되고 있다. (아, 슬랙 채널도 있다.) 다양한 방식으로 의견을 주고 받을 수 있고, 최신 업데이트 되는 기술에 관한 내용도 피드 받을 수 있어서 늘 보고 있는 채널&amp;amp;사이트 이다. 
 다소 딱딱하게 소개를 했는데, 채널과 사이트는 전혀 딱딱하지 않은 느낌이니 오해 없으시길 ㅎㅎ&lt;/p&gt;
@@ -389,206 +640,4 @@ stack exchange는 많은 커뮤니티 사이트 들을 연결해 주는 하나�
 &lt;/ul&gt;
 
 &lt;h4 id=&quot;그래서-javascript강의에선-무엇을-배웠는고&quot;&gt;그래서, Javascript강의에선 무엇을 배웠는고?&lt;/h4&gt;
-&lt;p&gt;일단 이 강의는 ES6로 강의한다. 그점에서 일단 좋았고, ‘바닐라 자바스크립트를 한동안 많이 안써서 잊어버린 부분이 있다!’ 싶을때 리마인드 하기 좋았다. 처음 배우는 사람도 clone coding으로 재미있게 따라할 수 있을 것 같았다. 마지막 크롬앱 만들기를 아직 좀 덜 진행했는데, 그 부분은 보완해서 만든다음에 따로 관련해서 포스팅 하려고 한다. 기회가 된다면 다음에 다른강의 challeng에 참여해서 함께 만들어 봐도 재미있을 듯 !!&lt;/p&gt;</content><author><name></name></author><category term="javascript" /><summary type="html">Nomad coders</summary></entry><entry><title type="html">todoList만들기 에서, 지우는 이벤트를 추가하기</title><link href="http://localhost:4000/myblog/2020/11/01/side-checklist.html" rel="alternate" type="text/html" title="todoList만들기 에서, 지우는 이벤트를 추가하기" /><published>2020-11-01T00:00:00+09:00</published><updated>2020-11-01T00:00:00+09:00</updated><id>http://localhost:4000/myblog/2020/11/01/side-checklist</id><content type="html" xml:base="http://localhost:4000/myblog/2020/11/01/side-checklist.html">&lt;h3 id=&quot;오답노트&quot;&gt;오답노트&lt;/h3&gt;
-&lt;p&gt;** 무언가를 코딩으로 만들다가 잘 안될때 먼저 생각해봐야 할 내용들.&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;일단. 오타가 없는지 살펴라&lt;/li&gt;
-  &lt;li&gt;뭐가 잘못되었는지 찾는 것이 먼저, 제대로 원인을 파악하고, 해결방법을 생각할것.(물론 얻어걸릴때도있지만.)&lt;br /&gt;
-=&amp;gt; 이부분이 잘 안될때에는, 글로 써가면서 추론해 나가는것도 좋은 생각이다.&lt;/li&gt;
-  &lt;li&gt;빠르게 체크하면서 넘어가야 한다. 같은걸 두번 시도하고 있지 말아라.&lt;/li&gt;
-  &lt;li&gt;뭔가 잘 안될때는 기술문서를 꼼꼼히 잘 읽어라. 기능은 모두 설명되어있다.&lt;/li&gt;
-  &lt;li&gt;문제를 한정해서 생각해라, 다른 문제로 새지 마라.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;문제&quot;&gt;문제&lt;/h3&gt;
-&lt;p&gt;** 책을 보면서 to-do list 내용을 실습해 보고 있었다. &lt;br /&gt;
-to-do list textform에 내용을 입력하고, 입력 버튼을 누르면 아래와 같은 매커니즘으로, 내용옆에 삭제 버튼이 달려서 추가가 되는 페이지 였다.&lt;/p&gt;
-
-&lt;p&gt;수정한 내용은 다음과 같았다.&lt;/p&gt;
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;newRegister&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;newP&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;createElement&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;userName&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;querySelector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;#userName&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;newText&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;createTextNode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;userName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;newP&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;appendChild&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;newText&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-
-    &lt;span class=&quot;c1&quot;&gt;//del추가&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;delBtn&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;createElement&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;span&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;delText&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;createTextNode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;delBtn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;setAttribute&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;del&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;delBtn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;appendChild&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;delText&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;newP&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;appendChild&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;delBtn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-
-    &lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;nameList&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;querySelector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;#nameList&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;nameList&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;appendChild&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;newP&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-
-    &lt;span class=&quot;nx&quot;&gt;userName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;''&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-
-    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;removeBtns&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;querySelectorAll&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.del&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;removeF&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;parentNode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;parentNode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;parentNode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;parentNode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;removeChild&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;parentNode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;removeBtns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;removeBtns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;length&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;removeBtns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-                &lt;span class=&quot;nx&quot;&gt;removeBtns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;removeEventListener&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;click&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;removeF&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-            &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-        &lt;span class=&quot;nx&quot;&gt;removeBtns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;addEventListener&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;click&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;removeF&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-    
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;for문 위의 내용까지는 책의 내용과 거의 같다고 볼 수 있다. 
-내가 수정하게된 내용들은 for문으로 해서 addEventListener했던 내용을 지우는 구문인데,
-addEvnetListener가 매번 새롭게 추가되는 과정에서, 이전에 입력되어있던 내용들은 event가 반복적으로 추가되는 현상을 콘솔을 통해 발견하고 수정했던 부분이었다.&lt;/p&gt;
-
-&lt;p&gt;마지막으로, appendchild에 관해서 찾아본 Mozila문서를 링크 걸어놓으려고 한다.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/ko/docs/Web/API/Node/appendChild&quot;&gt;appendchild&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="todoList" /><summary type="html">오답노트 ** 무언가를 코딩으로 만들다가 잘 안될때 먼저 생각해봐야 할 내용들. 일단. 오타가 없는지 살펴라 뭐가 잘못되었는지 찾는 것이 먼저, 제대로 원인을 파악하고, 해결방법을 생각할것.(물론 얻어걸릴때도있지만.) =&amp;gt; 이부분이 잘 안될때에는, 글로 써가면서 추론해 나가는것도 좋은 생각이다. 빠르게 체크하면서 넘어가야 한다. 같은걸 두번 시도하고 있지 말아라. 뭔가 잘 안될때는 기술문서를 꼼꼼히 잘 읽어라. 기능은 모두 설명되어있다. 문제를 한정해서 생각해라, 다른 문제로 새지 마라.</summary></entry><entry><title type="html">[trend search]2020. 10. 5주차</title><link href="http://localhost:4000/myblog/2020/10/31/check-trend.html" rel="alternate" type="text/html" title="[trend search]2020. 10. 5주차" /><published>2020-10-31T00:00:00+09:00</published><updated>2020-10-31T00:00:00+09:00</updated><id>http://localhost:4000/myblog/2020/10/31/check-trend</id><content type="html" xml:base="http://localhost:4000/myblog/2020/10/31/check-trend.html">&lt;h3 id=&quot;javascript-vuejs-typescript&quot;&gt;Javascript, Vue.js, Typescript&lt;/h3&gt;
-&lt;p&gt;Front-end에서 중요한 기술들 3가지에 대해 이것저것 찾아보는 시간을 가졌다.
-첫 술에 배부를 생각 말고, 앞으로도 열심히 찾아보고 읽어봐야지..라는 생각을 하면서. ^^;;
-이것저것 알아본 내용들을 정리해 본다.&lt;/p&gt;
-
-&lt;h3 id=&quot;javascriptes6와-이후의-발전동향&quot;&gt;Javascript(ES6)와 이후의 발전동향&lt;/h3&gt;
-
-&lt;h4 id=&quot;es6란&quot;&gt;ES6란?&lt;/h4&gt;
-&lt;p&gt;ES6는 ECMA Script 6의 줄임말로, 다른이름으로 ECMA Script 2015라는 이름이 있다. 따라서, 2015년에 나왔다.
-ES5와 ES6사이에는 꽤 긴 공백이 있었고, ES6가 처음나왔을때 많은 브라우저에서 그 스펙을 뒷받침해 주지 못했다.
-그러나, 이후에 개발된 다양한 프레임워크에서 ES6를 채택하였고, 브라우저의 지원율 또한 늘어났다.
-그럼, ES6는 무엇이 다를까?&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://es6-features.org/#Constants&quot;&gt;ES6-Features.org 개인적으로 추천! 달라진 코드를 한눈에 비교할 수 있다.&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/lukehoban/es6features&quot;&gt;ES6-Features.org : github repository&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://www.ecma-international.org/ecma-262/6.0/&quot;&gt;ECMAScript official website&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.slideshare.net/mixed/ecmascript2015&quot;&gt;W3C HTML5 Korean Interest Group 에서 진행한 W3C HTML5 KIG 회의 발표자료&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;es6까지의-발전을-기록한-글&quot;&gt;ES6까지의 발전을 기록한 글.&lt;/h4&gt;
-&lt;p&gt;Naver D2를 보다가 “ECMAScript 6 에디터이기도 했던 Allen Wirfs-Brock과 Brendan Eich는 매우 간헐적(13~15년 주기)으로 열리는 The History of Programming Languages Conference에서 지난 20년(1995~2015)간의 JavaScript 역사를 다룬 190페이지 분량의 방대한 내용의 문서 JavaScript: the first 20 years를 3년의 작업 시간을 거쳐 완성 후 공개했습니다” 라는 내용을 발견하여서 관련 링크를 따라가 글을 읽어보았다. 이번엔 대강 읽어서 딱히 정리까진 어렵겠지만, 정독해 볼만한 가치가 있는 글 이었다.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;링크: &lt;a href=&quot;https://dl.acm.org/doi/abs/10.1145/3386327&quot;&gt;JavaScript: the first 20 years - Allen Wirfs-Brock, Brendan Eich&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;es6이후의-발전을-기록한-글&quot;&gt;ES6이후의 발전을 기록한 글.&lt;/h4&gt;
-&lt;p&gt;이번에 Javascript에 관한 글을 찾아보면서 Naver D2의 ‘Javascript 동향’관련 글들에서 배울 수 있는 점이 참 많았다.
-특히, ‘2020년과 이후 JavaScript의 동향’ 편에서 WEBASSEMBLY의 개념이 잘 정리되어있는데, 많은 도움이 되었다. 이후에 찬찬히 읽어보고 좋은 내용들은 따로 리뷰해야겠다.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://d2.naver.com/helloworld/4268738&quot;&gt;2020년과 이후 Javascript의 동향&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://d2.naver.com/helloworld/3618177&quot;&gt;2016년과 이후 Javascript의 동향&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;vuejs&quot;&gt;Vue.js&lt;/h3&gt;
-&lt;p&gt;ES6 출시이후 여러 프레임워크가 등장하였다. Angular, React등.. 둘다 학습곡선이 약간 있는데(Angular는 약간은 아닌듯 ^^;), vue.js의 경우 배우기가 일단 매우 쉽다! 화면제어를 위해서 많이 사용된다.
-vue.js 홈페이지에 들어가면 따라하면서 쉽게 시작해 볼 수 있다.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://vuejs.org/&quot;&gt;https://vuejs.org/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://kr.vuejs.org/v2/guide/index.html&quot;&gt;한글버전 가이드 : https://kr.vuejs.org/v2/guide/index.html&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;typescript&quot;&gt;Typescript&lt;/h3&gt;
-&lt;p&gt;Microsoft에서 개발한 타입스크립트. JS 가 단순한 기능을 넘어서 서버제어의 영역까지 넘어가면서, 정적 타입 언어가 가지는 안정성이 중시되었다. 이 부분을 보완해 줄 수 있는 것이 Typescript의 장점이라고 생각되어진다.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.typescriptlang.org/&quot;&gt;https://www.typescriptlang.org/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://namu.wiki/w/TypeScript&quot;&gt;Typescript 나무위키&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://hyunseob.github.io/2018/08/12/do-you-need-to-use-ts/&quot;&gt;‘타입스크립트, 써야할까? - HyunSeob’&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://medium.com/@ehddnjs8989/typescript-%ED%95%98%EA%B8%B0-%EC%A0%84%EC%97%90-%EC%9D%B4%EC%A0%95%EB%8F%84%EB%8A%94-%EC%95%8C%EC%95%84%EC%95%BC%EC%A7%80-5179d8269193&quot;&gt;‘TypeScript 하기 전에 이정도는 알아야지! - dongwon kim’ : 타입스크립트의 장점을 잘 설명해 놓은글&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;조사하면서-알게된-용어들&quot;&gt;조사하면서 알게된 용어들&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://webassembly.org/&quot;&gt;WEBASSEMBLY&lt;/a&gt;: WebAssembly (abbreviated Wasm) is a binary instruction format for a stack-based virtual machine. Wasm is designed as a portable compilation target for programming languages, enabling deployment on the web for client and server applications.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://ykarma1996.tistory.com/72&quot;&gt;크로미움&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;브라우저 벤더란? 브라우저 벤더란 브라우저를 만들거나 파는 회사들&lt;/li&gt;
-  &lt;li&gt;MPA : Multi Page Application(MPA)&lt;/li&gt;
-  &lt;li&gt;SPA : Single Page Application(SPA)&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="Javascript(ES6)" /><summary type="html">Javascript, Vue.js, Typescript Front-end에서 중요한 기술들 3가지에 대해 이것저것 찾아보는 시간을 가졌다. 첫 술에 배부를 생각 말고, 앞으로도 열심히 찾아보고 읽어봐야지..라는 생각을 하면서. ^^;; 이것저것 알아본 내용들을 정리해 본다.</summary></entry><entry><title type="html">[trend search] 한 주간 개발과 관련된 내용을 모아서 정리해보자</title><link href="http://localhost:4000/myblog/2020/10/27/check-trend.html" rel="alternate" type="text/html" title="[trend search] 한 주간 개발과 관련된 내용을 모아서 정리해보자" /><published>2020-10-27T00:00:00+09:00</published><updated>2020-10-27T00:00:00+09:00</updated><id>http://localhost:4000/myblog/2020/10/27/check-trend</id><content type="html" xml:base="http://localhost:4000/myblog/2020/10/27/check-trend.html">&lt;h3 id=&quot;trend-search&quot;&gt;Trend search?!&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;한 주 동안 개발과 관련되서 ‘search’했던 내용들 중에, 나중에도 읽어보면 좋을 것 같은 내용들을 잘 정리해 두어야지.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;이런 마음으로 시작하게 된 게시물 이다. 이름은 거창하지만, 굳이말하자면 한주간의 주제별 스크랩 자료랄까.&lt;/p&gt;
-
-&lt;p&gt;trend라는 말이 들어간건, 그래도 웹 개발의 빠른 흐름을 놓치면 안되겠다는 생각에, 현재 웹trend를 반영하는 스크랩 자료들도 꼭 넣고 싶다는 하나의 바램이랄까. ^^;;&lt;/p&gt;
-
-&lt;p&gt;그런데, 실제로는 trend를  좇기보다는 그때그때 내가 필요한 것들, 내가 알아봐야 하는 것들을 중심으로 스크랩 될 것 같다.&lt;/p&gt;
-
-&lt;p&gt;하지만, 그때로써는 가장 최신의 내용을 스크랩 할 것이고, 매주 그렇게 알아보다보면 나름대로 새로운 trend에 관해 캐치 될 테니까 매주 이 렇게 정리하는 일 자체가 나름대로 trend를 좇는 방법이지 않을까 하고 위안삼아 본다.&lt;/p&gt;
-
-&lt;p&gt;일단, 이번페이지에서는 ‘트렌드’를 위주로 살펴볼 수 있는 사이트 들을 정리해두고, 이 부분은 추후에도 계속 추가해 나가야 할 것 같다. (즐겨 찾기 목록은 늘 바뀌니까 ^^;;) 한주간 주간 스크랩은 다음글에서 따로 올리기로~&lt;/p&gt;
-
-&lt;h3 id=&quot;웹-트렌드-어디에서-알아볼까&quot;&gt;웹 트렌드. 어디에서 알아볼까?&lt;/h3&gt;
-
-&lt;h4 id=&quot;youtube&quot;&gt;Youtube&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;dl&gt;
-      &lt;dt&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCUpJs89fSBXNolQGOYKn0YQ&quot;&gt;Nomad coder&lt;/a&gt;&lt;/dt&gt;
-      &lt;dd&gt;웹 트렌드에 관한 게시물들이 꽤 올라오는데, 인상적인 것들이 있었다. 
-만약, 강의가 듣고 싶다면 Nomad coder 홈페이지로 이동해서 들을 수 있다. 무료강의도 간혹 있고, 무엇보다 challenge코스가 있으니 참고하시길.&lt;/dd&gt;
-    &lt;/dl&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;dl&gt;
-      &lt;dt&gt;&lt;a href=&quot;https://www.youtube.com/channel/UCQ2DWm5Md16Dc3xRwwhVE7Q&quot;&gt;EO&lt;/a&gt;&lt;/dt&gt;
-      &lt;dd&gt;Enterpreneurship &amp;amp; Opportunities 라는 이름의 채널, 스타트업이나 새로운 사업등에 도전한 사람들의 이야기가 많이 올라오고, 그러다보니 자연스럽게 스타트업에서 일하는 개발자들의 이야기를 들을 수 있다.&lt;/dd&gt;
-    &lt;/dl&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;medium&quot;&gt;Medium&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;dl&gt;
-      &lt;dt&gt;&lt;a href=&quot;https://medium.com/&quot;&gt;Medium&lt;/a&gt;&lt;/dt&gt;
-      &lt;dd&gt;아직 무엇을 딱히 구독해서 읽는 정도는 아니고, 그냥 전반적으로 검색해서 읽는중&lt;/dd&gt;
-    &lt;/dl&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;facebook&quot;&gt;facebook&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.facebook.com&quot;&gt;Facebook&lt;/a&gt;
-:아직 소개할만큼 적극적으로 활동하는 커뮤니티는 없지만, 그래도 전반적으로 읽는듯&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;기술-블로그&quot;&gt;기술 블로그&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://woowabros.github.io/techcourse/2020/10/06/woowacourse.html&quot;&gt;우아한 형제들&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://medium.com/daangn&quot;&gt;당근마켓&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://tech.kakao.com/blog/&quot;&gt;kakao tech&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://d2.naver.com/home&quot;&gt;Naver D2&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;코딩교육-사이트&quot;&gt;코딩교육 사이트&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;dl&gt;
-      &lt;dt&gt;&lt;a href=&quot;https://opentutorials.org/course/1&quot;&gt;생활코딩&lt;/a&gt;&lt;/dt&gt;
-      &lt;dd&gt;가끔 들여다 보면, 꼭 필요하다고 생각하는 것들의 강의는 꾸준히 업데이트 되는 편.&lt;/dd&gt;
-    &lt;/dl&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="githubpage," /><category term="dependency-manager," /><category term="preprocessors," /><category term="phython" /><summary type="html">Trend search?!</summary></entry><entry><title type="html">[book] Doit! 지옥에서 온 문서 관리자 깃&amp;amp;깃허브 입문</title><link href="http://localhost:4000/myblog/2020/10/27/check-book-github.html" rel="alternate" type="text/html" title="[book] Doit! 지옥에서 온 문서 관리자 깃&amp;amp;깃허브 입문" /><published>2020-10-27T00:00:00+09:00</published><updated>2020-10-27T00:00:00+09:00</updated><id>http://localhost:4000/myblog/2020/10/27/check-book-github</id><content type="html" xml:base="http://localhost:4000/myblog/2020/10/27/check-book-github.html">&lt;h3 id=&quot;책소개&quot;&gt;책소개&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;책 제목 : Doit! 지옥에서 온 문서 관리자 깃&amp;amp;깃허브 입문&lt;/li&gt;
-  &lt;li&gt;지은이 : 이고잉, 고경희&lt;/li&gt;
-  &lt;li&gt;출판사 : 이지스퍼블리싱&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;git과 github에 관한 내용을 전혀 모르는 것은 아니었다. 이전에 프로젝트도 해 본적이 있고 해서..
-그렇지만, 시간이 흐르고.. ^^; 이전회사에서는 svn을 더 선호하는 경향이 있어서 개인 프로젝트가 아니면 git을 쓸 일이 많이 없었던 것 같다. 그러다 보니까 가물가물 한 것 같길래, 간단히 쓱 리뷰할 수 있는 책을 한권 구입하고 싶다는 생각이 들었다. 
-그러니까, 약간 쿡북같은. 간단히 쓱 리뷰하고, 생각 안날때 찾아볼수 있고, 옆에 놓아둘 수 있는. 
-그렇지만 중요한 원리는 잘 설명되어 있길 바라는..(바라는것도 많다.) 뭐 그런 책을 찾고 있었다.&lt;/p&gt;
-
-&lt;p&gt;마침, 그 당시에 생활코딩을 통해서 ‘웹 어플리케이션 만들기’ 프로젝트를 진행하고 있었는데, (사실 이 프로젝트를 진행하면서 역시 개인프로젝트는 뭔가 기록하면서 해야해!! 전에 git을 썼었는데, 기억이 가물가물하네 ㅜㅜ 다시 써봐야겠다!! 이렇게 된것임..tmi) 이 고잉 님의 강의가 만드는 것 자체는 심플하면서(기초에 충실하면서), 중요한 원리는 시간을 들여서 설명해 주는 그런 강의였다. 덕분에, front-end 부분과 back-end부분이 한번에 정리되는 느낌을 이 프로젝트를 통해서 받을 수 있었기  때문에, git강의도 관심이 생긴 찰나였다.&lt;/p&gt;
-
-&lt;p&gt;그런데, 이미 아는 내용이기도 하고.. 강의를 천천히 다 듣고 있기에는 스킵할 부분이 많은것 같고, (원래 전자책 보다 종이 책을 선호하기도 하고), 생활코딩을 늘 잘 사용하니까 후원(?)의 의미도 담아 ㅋㅋㅋ.. 그래서 이 책을 구입하게 된 것이다.&lt;/p&gt;
-
-&lt;p&gt;만약, 책을 사기보다 강의를 선호하는 분이라면 아래 링크에서 바로 생활코딩의 git강의를 들을 수 있다.&lt;br /&gt;
-⇒ &lt;a href=&quot;https://opentutorials.org/course/3837&quot;&gt;생활코딩 git강의들으러 바로가기&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;따라 하면서 이해도 잘되고, 지금도 까먹으면 옆에두고 볼 수 있는 책 ^^!
-덕분에 공부 잘했습니다~ !&lt;/p&gt;</content><author><name></name></author><category term="git," /><category term="github" /><summary type="html">책소개 책 제목 : Doit! 지옥에서 온 문서 관리자 깃&amp;amp;깃허브 입문 지은이 : 이고잉, 고경희 출판사 : 이지스퍼블리싱</summary></entry></feed>
+&lt;p&gt;일단 이 강의는 ES6로 강의한다. 그점에서 일단 좋았고, ‘바닐라 자바스크립트를 한동안 많이 안써서 잊어버린 부분이 있다!’ 싶을때 리마인드 하기 좋았다. 처음 배우는 사람도 clone coding으로 재미있게 따라할 수 있을 것 같았다. 마지막 크롬앱 만들기를 아직 좀 덜 진행했는데, 그 부분은 보완해서 만든다음에 따로 관련해서 포스팅 하려고 한다. 기회가 된다면 다음에 다른강의 challeng에 참여해서 함께 만들어 봐도 재미있을 듯 !!&lt;/p&gt;</content><author><name></name></author><category term="javascript" /><summary type="html">Nomad coders</summary></entry></feed>
