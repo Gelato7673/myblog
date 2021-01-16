@@ -64,12 +64,12 @@
 
       <div class="inner-wrap">
         <p class="main-title">
-          <b>[trend search]</b>2020. 10. 5주차
+          <b>[trend search]</b> 2021.1.3주차
         </p>
 
         <ul class="page-info">
           <li class="writer">Gelato</li>
-          <li class="date">Oct 23 - Oct 29, 20</li>
+          <li class="date">Jan 14 - Jan 14, 21</li>
         </ul>
       </div>
 
@@ -77,71 +77,37 @@
 
     <article class="page-contents Daily Programming">
       <div class="inner-wrap">
-        <h3 id="javascript-vuejs-typescript">Javascript, Vue.js, Typescript</h3>
-<p>Front-end에서 중요한 기술들 3가지에 대해 이것저것 찾아보는 시간을 가졌다.
-첫 술에 배부를 생각 말고, 앞으로도 열심히 찾아보고 읽어봐야지..라는 생각을 하면서. ^^;;
-이것저것 알아본 내용들을 정리해 본다.</p>
+        <p>아무생각없이 npm을 쓰다가 문득 이런 생각이 들었다. 내가 npm, node.js webpack에 대해서 제대로 알고 쓰고 있는것일까…?
+좀 더 제대로 알고 써야겠다. 이런 생각에 찾아보기 시작했다.</p>
 
-<h3 id="javascriptes6와-이후의-발전동향">Javascript(ES6)와 이후의 발전동향</h3>
+<p>먼저, 이러한 내용을 다루려면 크롬에서 자바스크립트 엔진으로 v8이 출시된 배경으로 거슬러 올라가야 한다. V8은 이전보다 훨씬 좋은 성능을 자랑했다. (자세히는 C++로 작성되었고, 자바스크립트를 바이트코드로 컴파일하고 실행하는 방식을 사용한다. - <a href="https://ko.wikipedia.org/wiki/V8_(%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8_%EC%97%94%EC%A7%84)">위키백과</a>) 이러한 배경속에서, Javascript를 브라우저에서뿐만 아니라 서버사이드나 데스크톱 애플리케이션에서도 사용하기 위한 자발적 워킹그룹인 CommonJS가 등장하게 되면서 Javascript를 범용적으로 쓰려는 시도에 박차를 가하게 된다.(D2의 ‘JavaScript 표준을 위한 움직임: CommonJS와 AMD’(https://d2.naver.com/helloworld/12864) 참고), CommonJS의 내용을 자세히 보고 있으면 왜 node.js와 npm이 필요하게 되었는지를 이해할 수 있었다.</p>
 
-<h4 id="es6란">ES6란?</h4>
-<p>ES6는 ECMA Script 6의 줄임말로, 다른이름으로 ECMA Script 2015라는 이름이 있다. 따라서, 2015년에 나왔다.
-ES5와 ES6사이에는 꽤 긴 공백이 있었고, ES6가 처음나왔을때 많은 브라우저에서 그 스펙을 뒷받침해 주지 못했다.
-그러나, 이후에 개발된 다양한 프레임워크에서 ES6를 채택하였고, 브라우저의 지원율 또한 늘어났다.
-그럼, ES6는 무엇이 다를까?</p>
+<h3 id="nodejs-npm">node.js, npm</h3>
+<p><a href="https://ko.wikipedia.org/wiki/Node.js">node.js의 위키피디아</a> 내용을 살펴보면, Node.js는 v8로 빌드된 이벤트 기반 자바스크립트 런타임 이라고 설명되어있다. node.js를 통해서 javascript를 이용하여 서버구성을 할 수 있으며, 이에 필요한 모듈들을 모아놓은 저장소를 운영하는 플랫폼이 npm이라고 할 수 있다. 뿐만 아니라, npm은 commonJS에서 나타나있는 모듈간의 의존성 관리 문제에도 관여함으로써, 여러 모듈을 사용함에 있어 충돌없이 사용가능하도록 도와주는 장치라고 생각해 볼 수 있다. npm은 node package Manager의 약자이고, node.js에 포함되어설치된다. 따라서, terminal에서 npm install이라고 명령하면 바로 설치파일이 돌아가는 것을 볼 수 있다. 이러한 모듈들은 package.json이라는 하나의 파일에 의해서 관리되는데, 이와 과련된 내용들은 다음 블로그에서 볼수 있다. (<a href="https://ljh86029926.gitbook.io/coding-apple-react/undefined/node.js-npm">https://ljh86029926.gitbook.io</a>) 사실, npm을 잘 이해하기 위해서는 직접 관련 모듈을 만들어서 올려보면 이해하기 쉬운데, 이와같은 내용을 nhn toast에서 진행해 보고 올린 링크가 있어서 첨부하려고 한다.(<a href="https://ui.toast.com/weekly-pick/ko_20170818">ToastUI</a>)</p>
+
+<h3 id="webpack">webpack</h3>
+<p>webpack은 번들러이다. 그렇다면 번들러란 무엇일까? (<a href="https://m.blog.naver.com/PostView.nhn?blogId=magnking&amp;logNo=220959942351&amp;proxyReferer=https:%2F%2F">번들러란 무엇인가?</a> / <a href="https://2dubbing.tistory.com/57">모듈사용방식과 번들러 사용이유</a>) 번들러란, 만약 css파일이 5개로 나뉘어져 있다면, 우리는 서버에게 5번 파일을 요청해야 한다. 한 개를 요청하고 받아오는데에 1초가 걸린다면, 우리는 5초가 지나야만 5개의 파일을 받아올 수 있게 되는것이다. 여기서 로딩 시간이 지연되게 된다. 그렇다고 해서, 만약 하나의 파일에 모든 파일을 집어 넣는다면? 그러지않아도 코드수가 많은 Front-end의 파일들을 하나에 집어 넣고 읽는 일은 너무나 괴로운 일이 될 것이다.. 그래서, 탄생한 것이 bundler이다.<br />
+그중에도 특히 최근에 가장 많이 쓰이는 번들러가 webpack인데, 왜 webpack이 가장 널리 쓰이는 번들러가 되었는지 생각해 보고 싶었다. 
+여러가지 이유가 있겠지만.. 일단, grunt, gulp가 가지고 있는 빌더의 기능을 포함하고 있고, 전반적인 속도가 빠르기 때문이다. (<a href="https://ehddnjs8989.medium.com/webpack%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C-%EC%95%8C%EC%95%84%EB%B4%85%EC%8B%9C%EB%8B%A4-c953181e79ad">Webpack에 대해서 알아봅시다</a> / <a href="https://d2.naver.com/helloworld/0473039">D2-브라우저 밖의 Javascript</a> / 웹팩의 기본 개념과 주요 4가지(https://creatijin.tistory.com/210))</p>
 <ul>
-  <li><a href="http://es6-features.org/#Constants">ES6-Features.org 개인적으로 추천! 달라진 코드를 한눈에 비교할 수 있다.</a></li>
-  <li><a href="https://github.com/lukehoban/es6features">ES6-Features.org : github repository</a></li>
-  <li><a href="http://www.ecma-international.org/ecma-262/6.0/">ECMAScript official website</a></li>
-  <li><a href="https://www.slideshare.net/mixed/ecmascript2015">W3C HTML5 Korean Interest Group 에서 진행한 W3C HTML5 KIG 회의 발표자료</a></li>
+  <li><a href="https://joshua1988.github.io/webpack-guide/motivation/why-webpack.html#%EC%9B%B9%ED%8C%A9%EC%9D%98-%EB%93%B1%EC%9E%A5-%EB%B0%B0%EA%B2%BD">panghyo님의 웹팩 핸드북</a></li>
 </ul>
 
-<h4 id="es6까지의-발전을-기록한-글">ES6까지의 발전을 기록한 글.</h4>
-<p>Naver D2를 보다가 “ECMAScript 6 에디터이기도 했던 Allen Wirfs-Brock과 Brendan Eich는 매우 간헐적(13~15년 주기)으로 열리는 The History of Programming Languages Conference에서 지난 20년(1995~2015)간의 JavaScript 역사를 다룬 190페이지 분량의 방대한 내용의 문서 JavaScript: the first 20 years를 3년의 작업 시간을 거쳐 완성 후 공개했습니다” 라는 내용을 발견하여서 관련 링크를 따라가 글을 읽어보았다. 이번엔 대강 읽어서 딱히 정리까진 어렵겠지만, 정독해 볼만한 가치가 있는 글 이었다.</p>
-<ul>
-  <li>링크: <a href="https://dl.acm.org/doi/abs/10.1145/3386327">JavaScript: the first 20 years - Allen Wirfs-Brock, Brendan Eich</a></li>
-</ul>
-
-<h4 id="es6이후의-발전을-기록한-글">ES6이후의 발전을 기록한 글.</h4>
-<p>이번에 Javascript에 관한 글을 찾아보면서 Naver D2의 ‘Javascript 동향’관련 글들에서 배울 수 있는 점이 참 많았다.
-특히, ‘2020년과 이후 JavaScript의 동향’ 편에서 WEBASSEMBLY의 개념이 잘 정리되어있는데, 많은 도움이 되었다. 이후에 찬찬히 읽어보고 좋은 내용들은 따로 리뷰해야겠다.</p>
-<ul>
-  <li><a href="https://d2.naver.com/helloworld/4268738">2020년과 이후 Javascript의 동향</a></li>
-  <li><a href="https://d2.naver.com/helloworld/3618177">2016년과 이후 Javascript의 동향</a></li>
-</ul>
-
-<h3 id="vuejs">Vue.js</h3>
-<p>ES6 출시이후 여러 프레임워크가 등장하였다. Angular, React등.. 둘다 학습곡선이 약간 있는데(Angular는 약간은 아닌듯 ^^;), vue.js의 경우 배우기가 일단 매우 쉽다! 화면제어를 위해서 많이 사용된다.
-vue.js 홈페이지에 들어가면 따라하면서 쉽게 시작해 볼 수 있다.</p>
-<ul>
-  <li><a href="https://vuejs.org/">https://vuejs.org/</a></li>
-  <li><a href="https://kr.vuejs.org/v2/guide/index.html">한글버전 가이드 : https://kr.vuejs.org/v2/guide/index.html</a></li>
-</ul>
-
-<h3 id="typescript">Typescript</h3>
-<p>Microsoft에서 개발한 타입스크립트. JS 가 단순한 기능을 넘어서 서버제어의 영역까지 넘어가면서, 정적 타입 언어가 가지는 안정성이 중시되었다. 이 부분을 보완해 줄 수 있는 것이 Typescript의 장점이라고 생각되어진다.</p>
-<ul>
-  <li><a href="https://www.typescriptlang.org/">https://www.typescriptlang.org/</a></li>
-  <li><a href="https://namu.wiki/w/TypeScript">Typescript 나무위키</a></li>
-  <li><a href="https://hyunseob.github.io/2018/08/12/do-you-need-to-use-ts/">‘타입스크립트, 써야할까? - HyunSeob’</a></li>
-  <li><a href="https://medium.com/@ehddnjs8989/typescript-%ED%95%98%EA%B8%B0-%EC%A0%84%EC%97%90-%EC%9D%B4%EC%A0%95%EB%8F%84%EB%8A%94-%EC%95%8C%EC%95%84%EC%95%BC%EC%A7%80-5179d8269193">‘TypeScript 하기 전에 이정도는 알아야지! - dongwon kim’ : 타입스크립트의 장점을 잘 설명해 놓은글</a></li>
-</ul>
-
-<h3 id="조사하면서-알게된-용어들">조사하면서 알게된 용어들</h3>
-<ul>
-  <li><a href="https://webassembly.org/">WEBASSEMBLY</a>: WebAssembly (abbreviated Wasm) is a binary instruction format for a stack-based virtual machine. Wasm is designed as a portable compilation target for programming languages, enabling deployment on the web for client and server applications.</li>
-  <li><a href="https://ykarma1996.tistory.com/72">크로미움</a></li>
-  <li>브라우저 벤더란? 브라우저 벤더란 브라우저를 만들거나 파는 회사들</li>
-  <li>MPA : Multi Page Application(MPA)</li>
-  <li>SPA : Single Page Application(SPA)</li>
-</ul>
+<h3 id="babel">babel</h3>
+<p>babel은 트랜스 파일러이다(최신문법으로 작성된 코드를 하위 호환 코드로 변환해줌 - <a href="https://blog.naver.com/wlsdml1103/221333865963">웹팩이란 무엇인가?</a>). 자바스크립트버전이 늘어나게 되면서, 크로스 브라우징 이슈로 인해 나왔다고 말할 수 있다. <a href="https://velog.io/@pop8682/%EB%B2%88%EC%97%AD-ES6-babel-%EA%B7%B8%EB%A6%AC%EA%B3%A0-webpack%EC%9D%84-%EC%96%B4%EB%96%BB%EA%B2%8C-%EC%82%AC%EC%9A%A9%ED%95%A0%EA%B9%8C-3dk03jhwqx">webpack에서도 babel을 불러서 사용할 수 있는데</a>, 관련내용을 링크한다. 이외에도 termi, google caja, google traceur등도 트랜스 파일러 이다.</p>
 
 
 
         
           <ul class="tags">
             
-              <li>Javascript(ES6)</li>
+              <li>nodejs,</li>
+            
+              <li>npm,</li>
+            
+              <li>webpack,</li>
+            
+              <li>javascript</li>
             
           </ul>
         
@@ -156,8 +122,8 @@ vue.js 홈페이지에 들어가면 따라하면서 쉽게 시작해 볼 수 있
 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
 
 var disqus_config = function () {
-this.page.url = 'http://localhost:4000/myblog/2020/10/31/check-trend.html';  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = 'http://localhost:4000/myblog/2020/10/31/check-trend.html'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+this.page.url = 'http://localhost:4000/myblog/2020/01/14/trend.html';  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = 'http://localhost:4000/myblog/2020/01/14/trend.html'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
 };
 
 (function() { // DON'T EDIT BELOW THIS LINE
