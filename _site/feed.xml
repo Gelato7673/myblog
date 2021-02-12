@@ -1,36 +1,101 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/myblog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/myblog/" rel="alternate" type="text/html" /><updated>2021-01-16T14:44:47+09:00</updated><id>http://localhost:4000/myblog/feed.xml</id><entry><title type="html">[clone coding] Javascript - Todolist Sigle Application</title><link href="http://localhost:4000/myblog/2021/01/04/check-todolist_js.html" rel="alternate" type="text/html" title="[clone coding] Javascript - Todolist Sigle Application" /><published>2021-01-04T00:00:00+09:00</published><updated>2021-01-04T00:00:00+09:00</updated><id>http://localhost:4000/myblog/2021/01/04/check-todolist_js</id><content type="html" xml:base="http://localhost:4000/myblog/2021/01/04/check-todolist_js.html">&lt;p&gt;Nomad coders의 바닐라 JS로 크롬 앱 만들기 를 통해 직접 따라해보면서 완성한 Todolist Singlie Application 이며, Javascript로 제작하였다.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="https://gelato7673.github.io/myblog/feed.xml" rel="self" type="application/atom+xml" /><link href="https://gelato7673.github.io/myblog/" rel="alternate" type="text/html" /><updated>2021-02-13T00:36:24+09:00</updated><id>https://gelato7673.github.io/myblog/feed.xml</id><entry><title type="html">공부해야 하는 내용들</title><link href="https://gelato7673.github.io/myblog/2021/02/12/memo.html" rel="alternate" type="text/html" title="공부해야 하는 내용들" /><published>2021-02-12T00:00:00+09:00</published><updated>2021-02-12T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2021/02/12/memo</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2021/02/12/memo.html">&lt;h3 id=&quot;todo-list&quot;&gt;Todo List&lt;/h3&gt;
 
-&lt;p&gt;
-&lt;img src=&quot;/myblog/assets/conts_img/JS_todolist.png&quot; style=&quot;width:500px; border: 1px solid #efefef;&quot; /&gt;
-&lt;/p&gt;
+&lt;h4 id=&quot;서버사이드-와-데이터-공부가-시급하다&quot;&gt;서버사이드 와 데이터 공부가 시급하다.&lt;/h4&gt;
+&lt;p&gt;서버사이드를 공부하는게 시급할듯. 정말 주말마다 해야할지도 ㅋㅋㅋ 아니 매일 해야할지도. 아니 지금해야하는구나… (먼산..)&lt;br /&gt;
+그래, 서버사이드 렌딩 공부 안 하면 이 회사에서는 밥 못 먹고 살아갈 것 같아. &lt;br /&gt;
+이럴줄 알았으면 미리 해두는건데..&lt;br /&gt;
+하지만, 뭐. 지금 후회해서 뭐하니. 하루라도 빨리 공부해서 할 생각을 해야지 뭐..&lt;/p&gt;
 
-&lt;h3 id=&quot;제작순서&quot;&gt;제작순서&lt;/h3&gt;
-&lt;p&gt;Vue.js에 이어서 두번재로 만드는 todolist Single Application 이었다. Vue때와 다른 점이 있다면 Vanila Javascript라는 점, 그리고 순서구현에 있어서 기능을 먼저 구현했다는 점이 있다. 공동점은 두 프로젝트 모두 css와 javascript를 componenets별로 나누어서 제작했다는 점이 있을 것 같다.&lt;/p&gt;
+&lt;h4 id=&quot;리액트는-밥먹다가도-눈뜨고-나서도-할만큼-잘했으면-좋겠다-아니-그렇게-해야한다&quot;&gt;리액트는 밥먹다가도 눈뜨고 나서도 할만큼 잘했으면 좋겠다. 아니 그렇게 해야한다.&lt;/h4&gt;
+&lt;p&gt;Javascript와 리액트에는 정말 능통해 져야 한다. &lt;br /&gt;
+React로 생각하는 것은 기본이 되어야 한다. &lt;br /&gt;
+미리 React로 공부하지 않은 것이 한 스럽기도 하지만, 그래도. 그 춘추전국시대에 공부를 했다가는 뻗어버렸을지도…&lt;br /&gt;
+Css-In-Js도 공부를 해 두어야 할 것 같다. (이걸 오늘한다)&lt;br /&gt;
+또 하나, Next.js도 같이 공부할 꺼다.&lt;/p&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;일단 기능을 중심으로 components를 나누고 만들 순서를 정한다. (지난프로그램과 다르게, 여러 기능을 구현하였다)
-    &lt;ul&gt;
-      &lt;li&gt;시간표시&lt;/li&gt;
-      &lt;li&gt;background 사진 변경&lt;/li&gt;
-      &lt;li&gt;이름입력받아 표시&lt;/li&gt;
-      &lt;li&gt;현재지역의 온도표시&lt;/li&gt;
-      &lt;li&gt;할일입력&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;그 components의 기능을 구현하자. (데이터 연동은 나중으로 미룬다. 그냥 그 컴포넌트 안에서 구현되는 정도의 기능이면 된다.)
-    &lt;ul&gt;
-      &lt;li&gt;vue.js와 다르게, 데이터의 연동 부분까지 한번에 끝&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;보이는 껍데기를 만든다. html으로 구조를 만들고, css로 보이는 스타일을 입혀주자.&lt;/li&gt;
-  &lt;li&gt;transition 효과등 animation 효과를 추가해서 좀더 자연스럽게 보이도록 노력한다.&lt;/li&gt;
-&lt;/ol&gt;
+&lt;h4 id=&quot;서버사이드에-데이터를-주고-받고-그-데이터를-표현하는-기술&quot;&gt;서버사이드에 데이터를 주고 받고, 그 데이터를 표현하는 기술.&lt;/h4&gt;
+&lt;p&gt;Dashboard라던가, 이런걸 하려면 이 기술이 정말로 중요하지. &lt;br /&gt;
+그리고.. 얼마전에 nomadcoder에서 봤던 agora를 써보고 싶어. (써보고 싶은게 아니라 알아봐야겠어.)&lt;/p&gt;
 
-&lt;h3 id=&quot;참고문헌-저장소&quot;&gt;참고문헌, 저장소&lt;/h3&gt;
+&lt;h4 id=&quot;써보고-싶은-새로운-기술들새롭다기보단-해야만-하는-기술들&quot;&gt;써보고 싶은, 새로운 기술들..(새롭다기보단.. 해야만 하는 기술들)&lt;/h4&gt;
 &lt;ul&gt;
-  &lt;li&gt;참고강의 : “바닐라 JS로 크롬 앱 만들기” - Nomad coders&lt;/li&gt;
-  &lt;li&gt;git 저장소 : &lt;a href=&quot;https://github.com/Gelato7673/js_todolist.git&quot;&gt;https://github.com/Gelato7673/js_todolist&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="javascript" /><category term="vue" /><summary type="html">Nomad coders의 바닐라 JS로 크롬 앱 만들기 를 통해 직접 따라해보면서 완성한 Todolist Singlie Application 이며, Javascript로 제작하였다.</summary></entry><entry><title type="html">[trend search] 2021.1.2주차</title><link href="http://localhost:4000/myblog/2021/01/04/trend.html" rel="alternate" type="text/html" title="[trend search] 2021.1.2주차" /><published>2021-01-04T00:00:00+09:00</published><updated>2021-01-04T00:00:00+09:00</updated><id>http://localhost:4000/myblog/2021/01/04/trend</id><content type="html" xml:base="http://localhost:4000/myblog/2021/01/04/trend.html">&lt;h3 id=&quot;이번주에-css에-관해서-생각해본-내용들&quot;&gt;이번주에 CSS에 관해서 생각해본 내용들&lt;/h3&gt;
+  &lt;li&gt;TypeScript, node.js로 새로운 서버 만들기 ( + graphQL)&lt;/li&gt;
+  &lt;li&gt;nest.js / next.js&lt;/li&gt;
+  &lt;li&gt;vue.js로 개인 포트폴리오 만들기&lt;/li&gt;
+  &lt;li&gt;Svelte 로 코딩 해보기 (side project)&lt;/li&gt;
+  &lt;li&gt;Flutter (Cross platform)&lt;/li&gt;
+  &lt;li&gt;트렌드 서치를 어디서 해야하려나?, 적어도 이건 꼭 봐야지!&lt;/li&gt;
+  &lt;li&gt;https://2020.stateofjs.com/ko-KR/&lt;/li&gt;
+  &lt;li&gt;Go! (Gorgonia)&lt;/li&gt;
+  &lt;li&gt;다음번 트렌드 서치는, stateofjs 의 js와 css편&lt;/li&gt;
+  &lt;li&gt;그리고, D3의 동향보고서로 해야겠다!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;커뮤니티와-다른사람의-코드를-많이-보고-기여하는것&quot;&gt;커뮤니티와 다른사람의 코드를 많이 보고, 기여하는것.&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;이제 슬슬 이런걸 해야할 때가 왔어!!&lt;/li&gt;
+  &lt;li&gt;학회나 이런것도 꼭 찾아보고 기억하도록 하렴.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;기억해&quot;&gt;기억해.&lt;/h4&gt;
+&lt;p&gt;마음만으로는 안돼. 열정을 속으로 생각하는 것만으로도 안돼.&lt;br /&gt;
+진짜로 만들어야해. 실제로 해야하는거야. 두려워 하지말고, 왔다갔다 하지말고, 그 길을 향해서 될 꺼라고 믿고 발을 디디길 바래.&lt;br /&gt;
+이번 새해는 발을 디디는 새해가 되기를 간절히 바란다.&lt;/p&gt;</content><author><name></name></author><category term="githubpage," /><category term="dependency-manager," /><category term="preprocessors," /><category term="phython" /><summary type="html">Todo List</summary></entry><entry><title type="html">[trend search] 2021.2.2주차</title><link href="https://gelato7673.github.io/myblog/2021/02/12/trend.html" rel="alternate" type="text/html" title="[trend search] 2021.2.2주차" /><published>2021-02-12T00:00:00+09:00</published><updated>2021-02-12T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2021/02/12/trend</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2021/02/12/trend.html">&lt;p&gt;미루고 미루다가 1달만에 trend search를 쓰게 되었다. trend search덕분에 컴퓨터 앞에 앉게 되었으니 다행이지. 해야하는 걸 알고 있으면서도 계속 다른일을 해서 안하게 될까봐 걱정했었는데. 다행이다. 하게 되었으니까.&lt;br /&gt;
+확실히 trend search를 쓰고 안쓰고 차이가 있는게, 써야 정리가 훨씬 잘 된다. 뭘 공부해야하는지도 보이고..&lt;br /&gt;
+맨날 이번것만 하고 써야지.. 라고 했는데, 그러지 말고 써놔야 할 것 같다.&lt;br /&gt;
+한달만에 쓰면서, 새로운 것들 보다는 내가 해왔던 일들을 적으면 좋을 것 같다.&lt;/p&gt;
+
+&lt;h3 id=&quot;javascript-es6&quot;&gt;Javascript ES6&lt;/h3&gt;
+&lt;p&gt;React 튜토리얼을 보면서, 내가 Javascript에서 부족한 부분이 정말 많구나. 하는 생각을 하게 되었던 것 같다.&lt;br /&gt;
+Mozilla에 Javascript 재입문하기(Js튜토리얼) 이라는 글이 있는데, 다시 읽어보면 ES6를 익히는데 많은 도움이 된다.&lt;br /&gt;
+https://developer.mozilla.org/ko/docs/A_re-introduction_to_JavaScript&lt;/p&gt;
+
+&lt;h3 id=&quot;react로-생각하기&quot;&gt;React로 생각하기&lt;/h3&gt;
+&lt;p&gt;기존에 html과 css로만 지내던 나로써는.. React로 생각해서 마크업하고, JS로 코딩하는 일들이 쉽지 만은 않았다. 그렇지만, 이런저런 유지보수를 하면서 React로 생각할 수 있는 기회를 많이 접할 수 있어서 좋았다. component로 생각하고 코딩하는일. CSS를 Javavascript로 코딩하는 일들 등..&lt;/p&gt;
+
+&lt;h3 id=&quot;gatsby-material-ui&quot;&gt;Gatsby, Material UI&lt;/h3&gt;
+&lt;p&gt;유지보수를 하게 된 홈페이지가 Gatsby framework와 Material UI를 쓰고 있어서 덕분에 알게 되었다. material은 다 좋은데, grid가 너무 많고.. Gatsby framework는 블로그 용으로 적합한 것 같다. seo랑 마크업 퍼블리싱 기능등이 있어서, 포스팅같은걸 올리기에 좋은데, 문제는 확장성에 있어서 여러가지 제약이 걸린다는 것이 이래저래 문제인 것 같다.&lt;/p&gt;</content><author><name></name></author><category term="githubpage," /><category term="dependency-manager," /><category term="preprocessors," /><category term="phython" /><summary type="html">미루고 미루다가 1달만에 trend search를 쓰게 되었다. trend search덕분에 컴퓨터 앞에 앉게 되었으니 다행이지. 해야하는 걸 알고 있으면서도 계속 다른일을 해서 안하게 될까봐 걱정했었는데. 다행이다. 하게 되었으니까. 확실히 trend search를 쓰고 안쓰고 차이가 있는게, 써야 정리가 훨씬 잘 된다. 뭘 공부해야하는지도 보이고.. 맨날 이번것만 하고 써야지.. 라고 했는데, 그러지 말고 써놔야 할 것 같다. 한달만에 쓰면서, 새로운 것들 보다는 내가 해왔던 일들을 적으면 좋을 것 같다.</summary></entry><entry><title type="html">이번년도에 꼭 해보고 싶은일. 1 금융공부및 주식 사보기, 2 부동산</title><link href="https://gelato7673.github.io/myblog/2021/02/12/stock.html" rel="alternate" type="text/html" title="이번년도에 꼭 해보고 싶은일. 1 금융공부및 주식 사보기, 2 부동산" /><published>2021-02-12T00:00:00+09:00</published><updated>2021-02-12T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2021/02/12/stock</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2021/02/12/stock.html">&lt;h3 id=&quot;30대에-본격적으로-들어서면서&quot;&gt;30대에 본격적으로 들어서면서.&lt;/h3&gt;
+
+&lt;p&gt;커리어 이동을 계속 할 것인지. 아니면, 여기서 여정을 멈출 것인지는 아직 확실하지 않다. 
+하지만, 회사를 보는 눈을 기를 수 있어야지 이 회사에 남을지 옮겨야 할지 등을 판단할 수 있을 것이다. 
+간다면 어떤 회사로 갈 것인지, 이 회사의 장.단점은 무엇인지 등..&lt;/p&gt;
+
+&lt;p&gt;회사들이 어떤 구조로 수익을 내고, 경쟁사는 어떠한지, 그 사이에서 이 회사가 살아남아서 잘 성장할 것인지. 
+내가 이회사를 밀어 주고 싶은지 등등… 여러가지 이유가 있겠지만. 
+어쨌든 그런 산업을 보는 눈을 기르고 싶어서. 이번년에는 주식을 사보고 싶다.&lt;/p&gt;
+
+&lt;h3 id=&quot;사고-싶은-주식-리스트와-그-이유&quot;&gt;사고 싶은 주식 리스트와 그 이유.&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;이솔(?)&lt;/li&gt;
+  &lt;li&gt;당근마켓?!&lt;/li&gt;
+  &lt;li&gt;리듐 베터리 처리기술을 가진 기업이라던지.&lt;/li&gt;
+  &lt;li&gt;친환경 이슈에서 살아남을 수 있는 기업.&lt;/li&gt;
+  &lt;li&gt;배터리 재활용 기술, 배터리 처리기술..&lt;/li&gt;
+  &lt;li&gt;남는것을 어떻게 처리할 것인가.&lt;/li&gt;
+  &lt;li&gt;종이로 봉투나 일회용 제품을 만드는 기술을 가진 기업들.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;일단-무엇을-알아야-할까&quot;&gt;일단 무엇을 알아야 할까.&lt;/h3&gt;
+&lt;p&gt;종목이 어떻게.. 상장이 되어있는지 아닌지 확인하는법. 사고 파는법. 
+그외에 주식의 기본기(?) 같은건 좀 알아야 하지 않나 싶기도 하고 그렇다. (근데, 이게 도움이 되려나..)
+금융상품들이 어떤 것들이 있는지도 좀 알아두면 좋을 것 같다. 
+난 그런걸 하나도 안 알아보고 썼던 지라..&lt;/p&gt;
+
+&lt;h3 id=&quot;그냥-여기-쓰는거지만-부동산도&quot;&gt;그냥 여기 쓰는거지만 부동산도..&lt;/h3&gt;
+&lt;p&gt;아직, 부동산은 구체적으로 아는 바가 없어서..
+그렇지만, 사무실이나 상가에 관해서 사고파는 부분이라던가. 
+집을 사려면 몇년전에 세대 분리를 하고.. 청약으로 아파트를 사는 방법 이라던가. 
+나가게 되면, 어디선가.. 서울에서 직장생활을 해야하니까. 미리 잡을 수 있도록 준비를 해두는 것이 좋을 것 같다는 
+생각이 들었다. 함께 살아서 좋은건 정말 많고 좋다. 
+그렇지만, 어떻게 하면 이 다음에 살아갈 수 있을지도 틈틈히 생각하면서 준비해 둔다면 닥쳤을때에 조금은 났지 않을까.. 
+하는 기대를 해보는 것 같다.&lt;/p&gt;</content><author><name></name></author><category term="stock," /><category term="financial" /><summary type="html">30대에 본격적으로 들어서면서.</summary></entry><entry><title type="html">[trend search] 회사 준비 관련 내용들</title><link href="https://gelato7673.github.io/myblog/2021/01/07/prepare_agency.html" rel="alternate" type="text/html" title="[trend search] 회사 준비 관련 내용들" /><published>2021-01-07T00:00:00+09:00</published><updated>2021-01-07T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2021/01/07/prepare_agency</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2021/01/07/prepare_agency.html">&lt;h3 id=&quot;회사-준비-관련-내용들&quot;&gt;회사 준비 관련 내용들&lt;/h3&gt;
+
+&lt;h4 id=&quot;soud--data-visualization-관련링크&quot;&gt;Soud / Data visualization 관련링크&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.kaleidosync.com/&quot;&gt;spotify&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/javascript/comments/kkf956/drawings_animated_by_your_current_time_of_day/?utm_source=share&amp;amp;utm_medium=web2x&amp;amp;context=3&quot;&gt;Drawings&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="agency," /><category term="react," /><category term="data" /><category term="visualization" /><summary type="html">회사 준비 관련 내용들</summary></entry><entry><title type="html">[trend search] 2021.1.2주차</title><link href="https://gelato7673.github.io/myblog/2021/01/04/trend.html" rel="alternate" type="text/html" title="[trend search] 2021.1.2주차" /><published>2021-01-04T00:00:00+09:00</published><updated>2021-01-04T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2021/01/04/trend</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2021/01/04/trend.html">&lt;h3 id=&quot;이번주에-css에-관해서-생각해본-내용들&quot;&gt;이번주에 CSS에 관해서 생각해본 내용들&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;
     &lt;p&gt;em, rem
@@ -185,7 +250,39 @@
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/Frontend/comments/kkhn4y/rethinking_my_tech_stack_for_2021/?utm_source=share&amp;amp;utm_medium=web2x&amp;amp;context=3&quot;&gt;CSS에 관해(https://www.ryangittings.co.uk/blog/writing-modern-css-with-blyth/) reddit 글 &lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Front-end에서 어떤 언어들이 인기가 있는지? 왜 인기가 있는지??&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="githubpage," /><category term="dependency-manager," /><category term="preprocessors," /><category term="phython" /><summary type="html">이번주에 CSS에 관해서 생각해본 내용들 em, rem 출처: Mozilla css font-size</summary></entry><entry><title type="html">[book] Doit! 예제로 이해하고 실전프로젝트로 완성한다! Vue.js 입문</title><link href="http://localhost:4000/myblog/2020/12/20/check-doitvue.html" rel="alternate" type="text/html" title="[book] Doit! 예제로 이해하고 실전프로젝트로 완성한다! Vue.js 입문" /><published>2020-12-20T00:00:00+09:00</published><updated>2020-12-20T00:00:00+09:00</updated><id>http://localhost:4000/myblog/2020/12/20/check-doitvue</id><content type="html" xml:base="http://localhost:4000/myblog/2020/12/20/check-doitvue.html">&lt;h3 id=&quot;책소개&quot;&gt;책소개&lt;/h3&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="githubpage," /><category term="dependency-manager," /><category term="preprocessors," /><category term="phython" /><summary type="html">이번주에 CSS에 관해서 생각해본 내용들 em, rem 출처: Mozilla css font-size</summary></entry><entry><title type="html">[clone coding] Javascript - Todolist Sigle Application</title><link href="https://gelato7673.github.io/myblog/2021/01/04/check-todolist_js.html" rel="alternate" type="text/html" title="[clone coding] Javascript - Todolist Sigle Application" /><published>2021-01-04T00:00:00+09:00</published><updated>2021-01-04T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2021/01/04/check-todolist_js</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2021/01/04/check-todolist_js.html">&lt;p&gt;Nomad coders의 바닐라 JS로 크롬 앱 만들기 를 통해 직접 따라해보면서 완성한 Todolist Singlie Application 이며, Javascript로 제작하였다.&lt;/p&gt;
+
+&lt;p&gt;
+&lt;img src=&quot;/myblog/assets/conts_img/JS_todolist.png&quot; style=&quot;width:500px; border: 1px solid #efefef;&quot; /&gt;
+&lt;/p&gt;
+
+&lt;h3 id=&quot;제작순서&quot;&gt;제작순서&lt;/h3&gt;
+&lt;p&gt;Vue.js에 이어서 두번재로 만드는 todolist Single Application 이었다. Vue때와 다른 점이 있다면 Vanila Javascript라는 점, 그리고 순서구현에 있어서 기능을 먼저 구현했다는 점이 있다. 공동점은 두 프로젝트 모두 css와 javascript를 componenets별로 나누어서 제작했다는 점이 있을 것 같다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;일단 기능을 중심으로 components를 나누고 만들 순서를 정한다. (지난프로그램과 다르게, 여러 기능을 구현하였다)
+    &lt;ul&gt;
+      &lt;li&gt;시간표시&lt;/li&gt;
+      &lt;li&gt;background 사진 변경&lt;/li&gt;
+      &lt;li&gt;이름입력받아 표시&lt;/li&gt;
+      &lt;li&gt;현재지역의 온도표시&lt;/li&gt;
+      &lt;li&gt;할일입력&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;그 components의 기능을 구현하자. (데이터 연동은 나중으로 미룬다. 그냥 그 컴포넌트 안에서 구현되는 정도의 기능이면 된다.)
+    &lt;ul&gt;
+      &lt;li&gt;vue.js와 다르게, 데이터의 연동 부분까지 한번에 끝&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;보이는 껍데기를 만든다. html으로 구조를 만들고, css로 보이는 스타일을 입혀주자.&lt;/li&gt;
+  &lt;li&gt;transition 효과등 animation 효과를 추가해서 좀더 자연스럽게 보이도록 노력한다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;참고문헌-저장소&quot;&gt;참고문헌, 저장소&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;참고강의 : “바닐라 JS로 크롬 앱 만들기” - Nomad coders&lt;/li&gt;
+  &lt;li&gt;git 저장소 : &lt;a href=&quot;https://github.com/Gelato7673/js_todolist.git&quot;&gt;https://github.com/Gelato7673/js_todolist&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="javascript" /><category term="vue" /><summary type="html">Nomad coders의 바닐라 JS로 크롬 앱 만들기 를 통해 직접 따라해보면서 완성한 Todolist Singlie Application 이며, Javascript로 제작하였다.</summary></entry><entry><title type="html">[book] Doit! 예제로 이해하고 실전프로젝트로 완성한다! Vue.js 입문</title><link href="https://gelato7673.github.io/myblog/2020/12/20/check-doitvue.html" rel="alternate" type="text/html" title="[book] Doit! 예제로 이해하고 실전프로젝트로 완성한다! Vue.js 입문" /><published>2020-12-20T00:00:00+09:00</published><updated>2020-12-20T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2020/12/20/check-doitvue</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2020/12/20/check-doitvue.html">&lt;h3 id=&quot;책소개&quot;&gt;책소개&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;책 제목 : Doit! 예제로 이해하고 실전 프로젝트로 완성한다! Vue.js 입문&lt;/li&gt;
   &lt;li&gt;지은이 : 장기효&lt;/li&gt;
@@ -220,7 +317,7 @@
 꼭 그런것은 아니지만, 아마도.. Javascript의 이해도가 높다면 vue.js의 명령어가 어렵지 않겠지만, 내 느낌상 Javscript에서 아직 익숙치 않았던 구간은 Vue에서 만나도 익숙치 않더라.&lt;br /&gt;
 그럴땐, 일단 넘어가서 다음 명령어들의 예시를 읽어나가자. 물론, 실제 프로젝트에서 반복적으로 그 명령어가 사용되는 상황이고, 계속해서 이해하지 못해서 에러가 난다면 파고들어서 이해하고 지나갈 필요가 있다. &lt;br /&gt;
 하지만, 그냥 처음 읽는 상황이라면 일단 넘어가서 계속 읽어나가다가 보면 앞에서 이해 못했던 내용을 뒤의 다른 명령어의 예시에서 이해하게 될 수도 있다. 그럼으로, 처음 기술문서를 읽을때는 개념과 예시만 확인하고 일단 넘어가는것도 괜찮은것 같다. &lt;br /&gt;
-어차피 실제로 무언가를 만들어보면서 기술문서를 다시봐야만 한다. 그럼으로, 처음 기술문서를 읽을때에는 이걸 완벽히 이해하겠다는 마음보다는 그 문법에 익숙해 지겠다는 마음으로 보는 것이 좋은것 같다.&lt;/p&gt;</content><author><name></name></author><category term="javascript" /><category term="vue" /><summary type="html">책소개 책 제목 : Doit! 예제로 이해하고 실전 프로젝트로 완성한다! Vue.js 입문 지은이 : 장기효 출판사 : 이지스퍼블리싱</summary></entry><entry><title type="html">[clone coding] vue.js - Todolist Sigle Application</title><link href="http://localhost:4000/myblog/2020/12/20/check-todolist.html" rel="alternate" type="text/html" title="[clone coding] vue.js - Todolist Sigle Application" /><published>2020-12-20T00:00:00+09:00</published><updated>2020-12-20T00:00:00+09:00</updated><id>http://localhost:4000/myblog/2020/12/20/check-todolist</id><content type="html" xml:base="http://localhost:4000/myblog/2020/12/20/check-todolist.html">&lt;p&gt;“Doit! 예제로 이해하고 실전프로젝트로 완성한다! Vue.js 입문” 책 뒷편에 나온 코드들을 직접 따라해보면서 완성한 Todolist Singlie 
+어차피 실제로 무언가를 만들어보면서 기술문서를 다시봐야만 한다. 그럼으로, 처음 기술문서를 읽을때에는 이걸 완벽히 이해하겠다는 마음보다는 그 문법에 익숙해 지겠다는 마음으로 보는 것이 좋은것 같다.&lt;/p&gt;</content><author><name></name></author><category term="javascript" /><category term="vue" /><summary type="html">책소개 책 제목 : Doit! 예제로 이해하고 실전 프로젝트로 완성한다! Vue.js 입문 지은이 : 장기효 출판사 : 이지스퍼블리싱</summary></entry><entry><title type="html">[clone coding] vue.js - Todolist Sigle Application</title><link href="https://gelato7673.github.io/myblog/2020/12/20/check-todolist.html" rel="alternate" type="text/html" title="[clone coding] vue.js - Todolist Sigle Application" /><published>2020-12-20T00:00:00+09:00</published><updated>2020-12-20T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2020/12/20/check-todolist</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2020/12/20/check-todolist.html">&lt;p&gt;“Doit! 예제로 이해하고 실전프로젝트로 완성한다! Vue.js 입문” 책 뒷편에 나온 코드들을 직접 따라해보면서 완성한 Todolist Singlie 
 Application 입니다. Vue.js로 제작하였습니다.&lt;/p&gt;
 
 &lt;p&gt;
@@ -249,7 +346,70 @@ Application 입니다. Vue.js로 제작하였습니다.&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;참고문헌 : “Doit! 예제로 이해하고 실전프로젝트로 완성한다! Vue.js 입문”&lt;/li&gt;
   &lt;li&gt;git 저장소 : &lt;a href=&quot;https://github.com/Gelato7673/vue_todolist.git&quot;&gt;https://github.com/Gelato7673/vue_todolist.git&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="javascript" /><category term="vue" /><summary type="html">“Doit! 예제로 이해하고 실전프로젝트로 완성한다! Vue.js 입문” 책 뒷편에 나온 코드들을 직접 따라해보면서 완성한 Todolist Singlie Application 입니다. Vue.js로 제작하였습니다.</summary></entry><entry><title type="html">[blog]블로그 스타일등 업데이트</title><link href="http://localhost:4000/myblog/2020/12/05/managinbblog.html" rel="alternate" type="text/html" title="[blog]블로그 스타일등 업데이트" /><published>2020-12-05T00:00:00+09:00</published><updated>2020-12-05T00:00:00+09:00</updated><id>http://localhost:4000/myblog/2020/12/05/managinbblog</id><content type="html" xml:base="http://localhost:4000/myblog/2020/12/05/managinbblog.html">&lt;h3 id=&quot;전반적으로-블로그-디자인-등-손보기&quot;&gt;전반적으로 블로그 디자인 등 손보기&lt;/h3&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="javascript" /><category term="vue" /><summary type="html">“Doit! 예제로 이해하고 실전프로젝트로 완성한다! Vue.js 입문” 책 뒷편에 나온 코드들을 직접 따라해보면서 완성한 Todolist Singlie Application 입니다. Vue.js로 제작하였습니다.</summary></entry><entry><title type="html">[book] Doit! 예제로 이해하고 실전프로젝트로 완성한다! Vue.js 입문</title><link href="https://gelato7673.github.io/myblog/2020/12/07/vue.html" rel="alternate" type="text/html" title="[book] Doit! 예제로 이해하고 실전프로젝트로 완성한다! Vue.js 입문" /><published>2020-12-07T00:00:00+09:00</published><updated>2020-12-07T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2020/12/07/vue</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2020/12/07/vue.html">&lt;ol&gt;
+  &lt;li&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;sandbox랑..&lt;/p&gt;
+
+&lt;p&gt;작성중…
+&amp;lt;!– 
+&lt;a href=&quot;https://kr.vuejs.org/v2/guide/&quot;&gt;vue.js 사이트 바로가기&lt;/a&gt;
+https://kr.vuejs.org/v2/api/#v-once&lt;/p&gt;
+
+&lt;p&gt;//npm 이랑, 음.. node.js랑 해서 어떻게 돌아가는지 . 예상하기로는..node.js로 해서 컴파일 되는것 같은데.
+v-model wow…&lt;/p&gt;
+
+&lt;p&gt;npm webpack&lt;/p&gt;
+
+&lt;p&gt;node.js 등에 대하여…&lt;/p&gt;
+
+&lt;p&gt;vue의 구동 원리에 대하여&lt;/p&gt;
+
+&lt;p&gt;///
+명령형과 선언형 코딩에 대하여서
+///&lt;/p&gt;
+
+&lt;p&gt;바인딩
+https://medium.com/pocs/%EB%B0%94%EC%9D%B8%EB%94%A9-binding-4a4a2f641b27&lt;/p&gt;
+
+&lt;p&gt;v-model 양방향 바인딩&lt;/p&gt;
+
+&lt;p&gt;&amp;lt;a v-bind:[someAttr]=”value”&amp;gt; … &amp;lt;/a&amp;gt;
+https://kr.vuejs.org/v2/guide/syntax.html
+동적 전달인자를 어떻게 처리하는지가 궁금하구먼&lt;/p&gt;
+
+&lt;p&gt;computed와 watched에 대한 예제가 더욱 필요한듯.
+https://kr.vuejs.org/v2/guide/computed.html
+이 예제를 실제로 구현해 보자.&lt;/p&gt;
+
+&lt;p&gt;3항 연산자
+https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Conditional_Operator&lt;/p&gt;
+
+&lt;p&gt;v-model은 내부적으로 서로 다른 속성을 사용하고 서로 다른 입력 요소에 대해 서로 다른 이벤트를 전송합니다 :&lt;/p&gt;
+
+&lt;p&gt;text 와 textarea 태그는 value속성과 input이벤트를 사용합니다.
+체크박스들과 라디오버튼들은 checked 속성과 change 이벤트를 사용합니다.
+Select 태그는 value를 prop으로, change를 이벤트로 사용합니다.&lt;/p&gt;
+
+&lt;p&gt;===========&lt;/p&gt;
+
+&lt;p&gt;Props page&lt;/p&gt;
+
+&lt;p&gt;https://kr.vuejs.org/v2/guide/components-props.html&lt;/p&gt;
+
+&lt;p&gt;npm에서 설치하는 방식으로 하고 싶다.
+npm, webpack, 등등.. 그리고 지우기
+** 웹팩과 브라우저 파이
+다 읽고, 쓰고,&lt;/p&gt;
+
+&lt;p&gt;//자주쓰는 cli명령어
+https://tuhbm.github.io/2017/07/17/cli/&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;to-do list 만들기
+ –&amp;gt;&lt;/p&gt;</content><author><name></name></author><category term="javascript" /><summary type="html"></summary></entry><entry><title type="html">[blog]블로그 스타일등 업데이트</title><link href="https://gelato7673.github.io/myblog/2020/12/05/managinbblog.html" rel="alternate" type="text/html" title="[blog]블로그 스타일등 업데이트" /><published>2020-12-05T00:00:00+09:00</published><updated>2020-12-05T00:00:00+09:00</updated><id>https://gelato7673.github.io/myblog/2020/12/05/managinbblog</id><content type="html" xml:base="https://gelato7673.github.io/myblog/2020/12/05/managinbblog.html">&lt;h3 id=&quot;전반적으로-블로그-디자인-등-손보기&quot;&gt;전반적으로 블로그 디자인 등 손보기&lt;/h3&gt;
 
 &lt;h4 id=&quot;이전블로그모습&quot;&gt;이전블로그모습&lt;/h4&gt;
 &lt;p&gt;&lt;img src=&quot;/myblog/assets/conts_img/page_index.png&quot; style=&quot;width:100%; max-width: 1000px; border: 1px solid #efefef;&quot; /&gt;&lt;/p&gt;
@@ -261,408 +421,4 @@ Application 입니다. Vue.js로 제작하였습니다.&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;메뉴 정리&lt;/li&gt;
   &lt;li&gt;전체적으로 디자인 정리&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="style" /><category term="scss" /><category term="drawer" /><summary type="html">전반적으로 블로그 디자인 등 손보기</summary></entry><entry><title type="html">[side project]javascript - drawer기능 만들어보기</title><link href="http://localhost:4000/myblog/2020/11/28/drawer.html" rel="alternate" type="text/html" title="[side project]javascript - drawer기능 만들어보기" /><published>2020-11-28T00:00:00+09:00</published><updated>2020-11-28T00:00:00+09:00</updated><id>http://localhost:4000/myblog/2020/11/28/drawer</id><content type="html" xml:base="http://localhost:4000/myblog/2020/11/28/drawer.html">&lt;h3 id=&quot;스크랩-하기&quot;&gt;스크랩 하기.&lt;/h3&gt;
-&lt;p&gt;깔끔하고 괜찮은 메뉴를 하나 구현하고 싶었다. (마음이 바뀌어서 화려하게 변할지도 모른다 ㅋㅋ 현재는 화려하다..)
-어쩄든, 모바일에서도 잘 작동할 괜찮은 drawer를 하나 구현해 보자.&lt;/p&gt;
-
-&lt;p&gt;마음에 드는 후보군 스크랩&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://brunch.co.kr/brunchbook/lost&quot;&gt;일단 브런치를 좋아하니까 브런치 drawer&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://gonna-be.tistory.com/2&quot;&gt;tistory 스타일1&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://octorbirth.tistory.com/4&quot;&gt;tistory 스타일2 &lt;/a&gt;: 여담이지만, 나는 이 메뉴 스타일이 그렇게 좋더라.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://mac81.github.io/pure-drawer/&quot;&gt;pure drawer&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cssscript.com/tag/drawer-menu/&quot;&gt;drawer모음&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;=&amp;gt; tistory 스타일1처럼 깔끔하고, drawr모음 첫번째것 처럼 약간 반투명하고 깔끔하게 나오면 좋겠다는 생각이 들었다.&lt;/p&gt;
-
-&lt;h4 id=&quot;css로-동작하는-drawer&quot;&gt;css로 동작하는 drawer&lt;/h4&gt;
-&lt;p&gt;과거에는 jquery로 동작하는 drawer를 썼었는데, 이번기회에 css로만 동작하는 메뉴를 써봤더니 너무 라이트 하고 좋다는 생각이 들었다. 
-그래서, 이번 drawer는 css3를 이용해서 만들기로 했다.&lt;/p&gt;
-
-&lt;h4 id=&quot;drawer메뉴를-만들면서-사용한-css3문법-및-아이디어-정리&quot;&gt;drawer메뉴를 만들면서, 사용한 css3문법 및 아이디어 정리.&lt;/h4&gt;
-
-&lt;p&gt;참조해서 만든 사이트 링크 : &lt;a href=&quot;https://www.cssscript.com/demo/hamburger-overlay-navigation-drawer/&quot;&gt;drawer메뉴&lt;/a&gt;&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;  	&lt;span class=&quot;nt&quot;&gt;display&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;flex&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-  	&lt;span class=&quot;nt&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;://&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;developer&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.mozilla.org&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;en-US&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;docs&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;Glossary&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;Flex&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;#Learn_more&lt;/span&gt;  
-	&lt;span class=&quot;nt&quot;&gt;flex-direction&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;column&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;://&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;developer&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.mozilla.org&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;en-US&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;docs&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;Web&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;CSS&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;flex-direction&lt;/span&gt;  
-	&lt;span class=&quot;nt&quot;&gt;align-items&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;center&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;://&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;developer&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.mozilla.org&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;en-US&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;docs&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;Web&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;CSS&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;align-items&lt;/span&gt;  
-	&lt;span class=&quot;nt&quot;&gt;justify-content&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;center&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;://&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;developer&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.mozilla.org&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;en-US&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;docs&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;Web&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;CSS&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;justify-content&lt;/span&gt;  
-	&lt;span class=&quot;nt&quot;&gt;flex&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;none&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;://&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;developer&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.mozilla.org&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;en-US&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;docs&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;Web&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;CSS&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;flex&lt;/span&gt;  
-	&lt;span class=&quot;nt&quot;&gt;about&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;shorthand&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;properties&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;://&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;developer&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.mozilla.org&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;en-US&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;docs&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;Web&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;CSS&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;Shorthand_properties&lt;/span&gt;  
-	&lt;span class=&quot;nt&quot;&gt;vh&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;vw&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;://&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;developer&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.mozilla.org&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;en-US&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;docs&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;Learn&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;CSS&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;Building_blocks&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;Sizing_items_in_CSS&lt;/span&gt;  
-	&lt;span class=&quot;nt&quot;&gt;transition&lt;/span&gt;
-	&lt;span class=&quot;nt&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;://&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;developer&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.mozilla.org&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;en-US&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;docs&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;Web&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;CSS&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;var&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name></name></author><category term="time" /><summary type="html">스크랩 하기. 깔끔하고 괜찮은 메뉴를 하나 구현하고 싶었다. (마음이 바뀌어서 화려하게 변할지도 모른다 ㅋㅋ 현재는 화려하다..) 어쩄든, 모바일에서도 잘 작동할 괜찮은 drawer를 하나 구현해 보자.</summary></entry><entry><title type="html">[side project] Javascript - 기념일 계산기 만들기</title><link href="http://localhost:4000/myblog/2020/11/18/check-javascript_anniversary.html" rel="alternate" type="text/html" title="[side project] Javascript - 기념일 계산기 만들기" /><published>2020-11-18T00:00:00+09:00</published><updated>2020-11-18T00:00:00+09:00</updated><id>http://localhost:4000/myblog/2020/11/18/check-javascript_anniversary</id><content type="html" xml:base="http://localhost:4000/myblog/2020/11/18/check-javascript_anniversary.html">&lt;h3 id=&quot;기념일-계산기-만들기&quot;&gt;기념일 계산기 만들기!&lt;/h3&gt;
-
-&lt;h4 id=&quot;서론&quot;&gt;서론&lt;/h4&gt;
-&lt;p&gt;지난번에 Do it 과 Javascript 강의를 들으면서, 공부했던 실습 부분들을 스스로 만들어 보면서, 복습하는 시간들을 가지려고 한다.&lt;br /&gt;
-첫번째 실습은 Javascript로 간단한 기념일 계산기 만들기 프로그램 이었다.&lt;br /&gt;
-원래 css와 html 파일은 doit 책의 실습 파일에서 제공되지만, 뭔가 좀더 눈에 확 띄게 만들고 싶다는 욕심이 들어서 ㅎㅎ 직접 css와 html 을 만들기로 했다. (세삼 html과 css의 코드량이 일반 programming language보다 많다는 생각을 하게 되었다.. Javascript 실습하는데 css랑 html 코딩길이역시 만만치 않다 ㅎㅎ)&lt;/p&gt;
-
-&lt;h4 id=&quot;제작순서&quot;&gt;제작순서&lt;/h4&gt;
-&lt;ol&gt;
-  &lt;li&gt;핑크색 계산기를 상상하면서 html과 css를 사용해서 디자인을 만들어 보자.&lt;/li&gt;
-  &lt;li&gt;자바스크립트를 이용해서 프로그램을 만들어 본다.   &lt;br /&gt;
-1) 기본적으로 오늘날짜가 메인창에 떠있도록 만든다.  &lt;br /&gt;
-2) ‘처음만난날’을 입력하고 버튼을 입력하면, 값을 가지고 있게 한다.  &lt;br /&gt;
-3) 각 버튼을 누를때 버튼에 해당되는 계산을 ‘처음만난날’을 기준으로 해서 창에 뜨게한다.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h4 id=&quot;공부한-내용들&quot;&gt;공부한 내용들&lt;/h4&gt;
-&lt;p&gt;이번 실습을 통해서 공부한 내용들은 다음과 같다.&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;객체를 많이 사용해보았다.&lt;/li&gt;
-  &lt;li&gt;date()관련 함수들을 많이 사용해보았다.&lt;/li&gt;
-  &lt;li&gt;eventlistener로 이벤트를 연결했다. (오답노트)&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h4 id=&quot;오답노트&quot;&gt;오답노트&lt;/h4&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;addEvneListener
-기념일을 계산해주는 calc함수를 추가해보자. 처음에 이렇게 추가했다.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;//500일 기념일 계산&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;calcDate&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-
-    &lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;annivSeconds&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;firstmeet&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;500&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1000&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;60&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;60&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;24&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;annivDate&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;annivSeconds&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;anniv&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;year&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;annivDate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getFullYear&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(),&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;month&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;annivDate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getMonth&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;annivDate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getDate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-    &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;querySelector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.show-date&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;innerHTML&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;`500일은 &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;anniv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;year&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;년 &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;anniv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;month&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;월 &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;anniv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;일`&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;//500일&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;fiveHundred&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;querySelector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;#first-year&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;fiveHundred&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;addEventListener&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;click&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;calcDate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;여기까지는 잘되었다. &lt;br /&gt;
-그런데, 만약 이런식으로 함수를 생성하고 추가하면, 나는 calcDate 함수를 2개 더 만들어야 했다.  &lt;br /&gt;
-그래서, 머리를 좀 써야겠다고 생각하고 다음과 같이 수정했다.&lt;/p&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;//500일 기념일 계산&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;calcDate&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;days&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-
-    &lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;annivSeconds&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;firstmeet&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;days&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1000&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;60&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;60&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;24&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;annivDate&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;annivSeconds&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;anniv&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;year&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;annivDate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getFullYear&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(),&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;month&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;annivDate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getMonth&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;annivDate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getDate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-    &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;querySelector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.show-date&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;innerHTML&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;`500일은 &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;anniv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;year&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;년 &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;anniv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;month&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;월 &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;anniv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;일`&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;//500일&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;fiveHundred&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;querySelector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;#first-year&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;fiveHundred&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;addEventListener&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;click&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;calcDate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;500&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;비웃지 않아주시길 ㅋㅋ 어쨌든 함수는 동작이 안되었다. &lt;br /&gt;
-왜 안되었을까? 왜 addEventListner에 추가하는 함수는 인자를 받을 수 없는걸까.&lt;br /&gt;
-그이유는 이 함수는 자동으로 event를 인자로 가지는 함수이기 때문이었다. &lt;br /&gt;
-그럼.. 함수를 두개 더 만들어야 하나.. 라는 생각을 하다가, 남들은 어떻게 처리하나 구경 다니기로 했다.&lt;br /&gt;
-그러다가 찾은 영상 하나. &lt;a href=&quot;https://www.youtube.com/watch?v=ncv3UwUarUc&quot;&gt;(생활코딩-addEvnetListener방식)&lt;/a&gt;
-&lt;img src=&quot;/myblog/assets/conts_img/20201119_001358.png&quot; alt=&quot;생활코딩캡쳐&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;으흠~ switch를 이용해 봐야겠다. 그리하여 이렇게 수정되었다.&lt;/p&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;calcDate&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;days&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;switch&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Target&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;days500&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;nx&quot;&gt;days&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;500&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-            &lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;500일&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;days100&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;nx&quot;&gt;days&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-            &lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;100일&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;year1&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;nx&quot;&gt;days&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;365&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-            &lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;1년&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-    
-    &lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;annivSeconds&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;firstmeet&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;days&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1000&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;60&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;60&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;24&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;annivDate&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;annivSeconds&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;anniv&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;year&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;annivDate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getFullYear&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(),&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;month&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;annivDate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getMonth&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;annivDate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getDate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-    &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;querySelector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.show-date&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;innerHTML&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;은 &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;anniv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;year&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;년 &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;anniv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;month&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;월 &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;anniv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;일`&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;fiveHundred&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;querySelector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;#first-year&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;fiveHundred&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;addEventListener&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;click&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;calcDate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;응.. 근데 또 안돼. 왜 안되니이..^^  &lt;br /&gt;
-정확히 어떻게 안되었냐 하면, 함수에서 console.log(event.target.id);를 입력했을때, &amp;lt;li&amp;gt;(이벤트가 활성화되고 있는 area)의  id가 나오길 기대했는데,  emptystring 이라는 글이 콘솔에 뜨고 있었다. &lt;br /&gt;
-음.. id를 못 잡아내는거네? 그래서, 몇가지 실험에 들어갔다. (이건 html 부분이랑 함께봐야해서 함께 써놓겠다.)&lt;/p&gt;
-
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;button-group&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;today&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;오늘 몇일째?&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&amp;lt;i&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;far fa-heart&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;days500&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;unique&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;500일&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&amp;lt;i&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;far fa-heart&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;days100&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;unique&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;100일&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&amp;lt;i&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;far fa-heart&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;year1&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;unique&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&lt;/span&gt;1년&lt;span class=&quot;nt&quot;&gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;p&amp;gt;&amp;lt;i&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;far fa-heart&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/p&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;calcDate&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;target&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//console -&amp;gt; emptystring 이 뜬다.&lt;/span&gt;
-	&lt;span class=&quot;nx&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;target&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;style&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;visibility&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;hidden&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//li전체가 사라지지 않고, li안에 첫번째p만 스타일이 사라진다.&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;fiveHundred&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;querySelector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;#first-year&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;fiveHundred&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;addEventListener&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;click&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;calcDate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;event.target.style.visibility = “hidden” 구문에서 첫번째 p만 안보이게 된다는 거슨?!&lt;br /&gt;
- target이 가리키고 있는것이 첫번째 p라는건데?? 조금 옮겨서 클릭을 해보니까 조금씩 달라지는 콘솔..&lt;br /&gt;
- 아하. 그렇다면, 지금 이벤트가 일어나는 area를 가리키고 있는게 아니라, 내가 클릭하고 있는 그 포인트를 target하고 있구나.&lt;br /&gt;
- 이벤트가 일어나는 area자체를 타겟팅 해야하는데?!&lt;br /&gt;
- Mozila 문서를 뒤져보자. 뒤적뒤적..&lt;br /&gt;
-&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/Event/Comparison_of_Event_Targets&quot;&gt;Mozilla event target&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;그리하여 최종완성..&lt;/p&gt;
-
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;//날짜별 기념일&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;calcDate&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;days&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;switch&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;currentTarget&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;days500&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;nx&quot;&gt;days&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;500&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-            &lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;500일&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;days100&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;nx&quot;&gt;days&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-            &lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;100일&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;case&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;year1&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;
-            &lt;span class=&quot;nx&quot;&gt;days&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;365&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-            &lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;1년&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;break&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-    
-    &lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;annivSeconds&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;firstmeet&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;days&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1000&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;60&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;60&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;24&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;annivDate&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;annivSeconds&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;anniv&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;year&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;annivDate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getFullYear&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(),&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;month&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;annivDate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getMonth&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-        &lt;span class=&quot;na&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;annivDate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getDate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-    &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;querySelector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.show-date&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;innerHTML&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;은 &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;anniv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;year&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;년 &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;anniv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;month&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;월 &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;anniv&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;일`&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;c1&quot;&gt;//날짜별 함수&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;unique&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;querySelectorAll&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.unique&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;unique&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;forEach&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;element&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;element&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;addEventListener&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;click&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;calcDate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;앞에서 진행해 온 내용과 추가로 조금 달라진 부분이  있다면, 이 함수를 여러 번 추가해야해서, queyrSelectorAll(클래스네임)으로 해서 배열로 만든 후에 forEach를 만든후에 추가했다는 점 정도가 있겠다.&lt;/p&gt;
-
-&lt;p&gt;** 이 문제를 해결하면서, 해결포인트를 바로 target으로 접근하지 못하고 처음에 event bubbling에러가 아닐까? 하고 생각한 지점이 있었는데, 이는 내가 event bubbling을 제대로 이해하지 못하고 있었어서 생긴 문제점 이었던 것 같다.&lt;br /&gt;
-그래서, 이번엔 그냥 글을 읽어보고 끝나지 않고, 하나씩 실습해 보면서 이해해보았고, 마무리로 글로쓰면서 한번더 기억해 보려고 한다.&lt;br /&gt;
-일단, 이벤트 버블링이 생각보다 자연스러운 현상인 것이, DOM은 tree구조로 되어있고, 따라서 클릭지점은 어떤 지점에 속한 지점일 수밖에 없다.&lt;br /&gt;
-아까 내가 클릭했던 &amp;lt;p&amp;gt;가 &amp;lt;li&amp;gt;에 속해 있는 것처럼 말이다.&lt;br /&gt;
-이때, 만약 p와 li에 모두 이벤트가 걸려있다면, p를 클릭한다고 해도 p의 이벤트만 발현되는 것이 아니라 li의 이벤트도 (p는 li에 속해있으니까!) 발현되는 것이 event bubbling 이다. 반대로, li를 클릭했을때 p의 이벤트까지 발현되는 것이 capturing인 것이다. &lt;br /&gt;
-이걸 막기 위해서 쓸 수 있는 코드로는 아래 함수가 있다. 그러나, 무조건 막을 생각을 하기보다는 어떻게 하면 잘 이용할지에 관한 지혜가 필요하다.&lt;/p&gt;
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;logEvent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-	&lt;span class=&quot;nx&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;stopPropagation&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;유용한 사진으로 답글을 달아놓은 &lt;a href=&quot;https://stackoverflow.com/questions/7398290/unable-to-understand-usecapture-parameter-in-addeventlistener&quot;&gt;stackoverflow&lt;/a&gt; 를 링크하며 오답노트를 마치려 한다.&lt;/p&gt;
-
-&lt;h4 id=&quot;더공부하고-싶은-내용&quot;&gt;더공부하고 싶은 내용&lt;/h4&gt;
-&lt;p&gt;이번에 만들면서 찾아보게 된 youtube영상들이 있는데, 자바스크립트를 더 공부하고 싶은 마음도 있어서 언젠가 다시 보게 되지 않을까.. 하고 링크를 남겨둔다.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=s1vpVCrT8f4&amp;amp;t=350s&quot;&gt;드림코딩 by 엘리 - Javascript콜백&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=zGBkPTwydeg&quot;&gt;생활코딩&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;으흠, 다음번에는 javascript 의 this속성을 좀 잘 써보고 싶다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;참고사항&quot;&gt;참고사항&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/Gelato7673/js-anniv.calculator.git&quot;&gt;이번실습 코드가 담겨져 있는 git repository 바로가기&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;본실습은 visual studio Code를 사용하고, doit 책을 참고하여 진행하였습니다.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="javascript" /><summary type="html">기념일 계산기 만들기!</summary></entry><entry><title type="html">[book] Doit! 웹 프로그래밍을 위한 자바스크립트 기본편</title><link href="http://localhost:4000/myblog/2020/11/07/check-book-doitjavascript.html" rel="alternate" type="text/html" title="[book] Doit! 웹 프로그래밍을 위한 자바스크립트 기본편" /><published>2020-11-07T00:00:00+09:00</published><updated>2020-11-07T00:00:00+09:00</updated><id>http://localhost:4000/myblog/2020/11/07/check-book-doitjavascript</id><content type="html" xml:base="http://localhost:4000/myblog/2020/11/07/check-book-doitjavascript.html">&lt;h3 id=&quot;책소개&quot;&gt;책소개&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;책 제목 : Doit! 웹 프로그래밍을 위한 자바스크립트 기본편&lt;/li&gt;
-  &lt;li&gt;지은이 : 고경희&lt;/li&gt;
-  &lt;li&gt;출판사 : 이지스퍼블리싱&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Javascript API를 사용하거나, 홈페이지 속 Componenet를 만들어 본 경험도 많이 있지만, 그래도 한번쯤 Javascript를 다시 한번 정리해 보고 싶었던 것 같다. 과거에 Javascript와 관련해서 head first 책이나, 다른 책들도 읽어본 적이 있었는데 그 당시에는 언어에 관련된 설명 (변수 설정하는법, if문 등등..) 이 주된 내용이어서, 그보다는 좀더 실무적인 내용이 많았으면 좋겠다고 생각 했었는데, 이 책은 가볍게 이론도 정리해 주면서 실무에서 많이 쓰이는 용법과 내용도 함께 담고 있어서, 한번쯤 그동안 썼던 Javascript를 정리하기에 좋은 기회가 되었다.&lt;/p&gt;
-
-&lt;p&gt;처음 책을 사서 펼쳤을때, ES5로 설명되어있다고 해서 조금.. 내가 원한것과는 다른데? 라고 생각했었다. (나는 ES6로 자바스크립트를 다시 한번 정리하고 싶은 마음이 컸기에 최근 출간된 책을 다시 산건데..) 그러나, 중요 개념을 설명한 다음에 밑에 ES6로 변경하여 구현할때의 문법을 함께 정리해 주어서 읽고나서는 만족스러웠던 책이었다.&lt;/p&gt;
-
-&lt;p&gt;특히, 이 책은 실제로 홈페이지 제작시에 자주 사용되는 component들을 실습 과제로 설정해 두고, 설명해 주는 부분이 많아서 이 책으로 입문하신다면 실무에서 매우 유용하리라는 생각이 들었다. 
-사실, 만들어 보는 것만큼 유용한 것이 어디있으랴. 그런 부분에서 실습과제와 설명의 양의 배치가 적절하다는 느낌(!) 이었던 것 같다. ^^&lt;/p&gt;
-
-&lt;p&gt;이 책의 장점을 한번에 요약하면 다음과 같다.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;이론을 간편하게 정리할 수 있다. (350페이지 미만)&lt;/li&gt;
-  &lt;li&gt;ES5로 쓰여졌으나, 중요한 ES6문법은 함께 정리해 준다.&lt;/li&gt;
-  &lt;li&gt;기본적인 내용만 있지않고, 실무에서 많이 쓰이는 event나 form, Dom, BOM에 관한 내용도 반 정도 차지하고 있다는 점이 특히 좋았다.&lt;/li&gt;
-  &lt;li&gt;실제로 component를 만드는 실습과제가 많이 있어서 좋다.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;이벤트-캡처링과-버블링&quot;&gt;이벤트 캡처링과 버블링&lt;/h4&gt;
-
-&lt;p&gt;addEventListenr 함수에 관해 설명하면서, 이벤트 캡처링 여부를 지정할 수 있다고 나와있다. 
-책에는 간단히 이벤트 캡처링은 ‘부모 노드에서 자식 노드로 이벤트가 전달되는 것’ 이고,
-이벤트 버블링은 ‘자식 노드에서 부모 노드로 이벤트가 전달되는 것’이라고 설명되어있다. Javascript에서 뭔가 잘 안된다면 callback 과 이벤트일 확률이 꽤 있었기에, 여기에 좀 더 자세한 글들을 링크해 두고 싶다.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://ko.javascript.info/bubbling-and-capturing&quot;&gt;‘JAVASCRIPT.INFO 사이트의 버블링과 캡처링’&lt;/a&gt; 이라는 글이다.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://joshua1988.github.io/web-development/javascript/event-propagation-delegation/&quot;&gt;‘CAPTAIN PANGYO 님의 이벤트관련 글’&lt;/a&gt; 이 블로그는 우연히 찾게 되었는데, 지금 보니까 이 다음에 읽으려고 하는 Do it Vue.js 저자 이신듯. 블로그가 상당히 깔끔하다는 느낌을 받을 수 있다.&lt;/li&gt;
-  &lt;li&gt;이렇게 문득 event에 대해서 알아보다가 불현듯 기억난 이전 코드 ㅎㅎ&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;click&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;e&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;preventDefault&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;j-query로 이 코드 안써본 사람 없을 것 같았다. ㅎㅎ 여기서 e가 무슨 의미가 있는지 궁금했었는데, 그냥 매개변수 였다. 나 말고도 이거에 대해 궁금해 하는 사람이 많은 것 같다. 질문과 답변 링크가 있길래 걸어둔다.
-&lt;a href=&quot;https://qastack.kr/programming/10323392/in-javascript-jquery-what-does-e-mean&quot;&gt;qstack 사이트에서 ‘Javascript / jQuery에서 (e)는 무엇을 의미합니까?’ 라는 글&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;visual-studio-code&quot;&gt;visual studio code&lt;/h4&gt;
-&lt;p&gt;이번에 사용한 IDE는 visual studio code 이다. visual studio code가 나온지는 꽤 되었는데, 이전에 한번 사용해 보고 오랜만에 다시 다운받아서 사용해 본 것 같다. UI/UX 의 느낌은 여전히 visual studio 다웠고 ^^ㅋㅋ (아마, 뭔가 딱딱한듯, 섬세한 그 visual studio만의 감성적인 감성..Microsoft감성인가.. 나만 느끼나..) 음. 편리하기도 했고, 무엇보다 visual studio 처럼 보이지만 라이트 하다는 것이 가장 큰 장점이 아닌가 싶다. ^^&lt;/p&gt;
-
-&lt;h4 id=&quot;github-repository&quot;&gt;github repository&lt;/h4&gt;
-&lt;p&gt;이 책의 실습파일들은 모두 github repository에 올라가 있어서 clone하여 사용 하면 된다.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;original repository : &lt;a href=&quot;github.com/funnycom/js-basic-book&quot;&gt;github.com/funnycom/js-basic-book&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;mygithub repository : &lt;a href=&quot;https://github.com/Gelato7673/js-basic-book&quot;&gt;https://github.com/Gelato7673/js-basic-book&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;기억에-남는-한줄&quot;&gt;기억에 남는 한줄&lt;/h3&gt;
-&lt;p&gt;책 앞장에 써있는 글이 특히 기억에 남아서 여기에 적어두려고 한다.&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;진짜 어려움은 극복할 수 있다. 정복할 수 없는 것은 상상 속의 어려움뿐이다. -시어도어 N.베일
-Real difficulties can be overcome; it is only the imaginary ones that are unconquerable. -Theodore N.Vail&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name></name></author><category term="javascript" /><summary type="html">책소개 책 제목 : Doit! 웹 프로그래밍을 위한 자바스크립트 기본편 지은이 : 고경희 출판사 : 이지스퍼블리싱</summary></entry><entry><title type="html">[trend search]2020. 11. 1주차</title><link href="http://localhost:4000/myblog/2020/11/07/check-trend.html" rel="alternate" type="text/html" title="[trend search]2020. 11. 1주차" /><published>2020-11-07T00:00:00+09:00</published><updated>2020-11-07T00:00:00+09:00</updated><id>http://localhost:4000/myblog/2020/11/07/check-trend</id><content type="html" xml:base="http://localhost:4000/myblog/2020/11/07/check-trend.html">&lt;h3 id=&quot;reddit-stack-overflow-facebook-okky&quot;&gt;reddit, stack-overflow, facebook, okky&lt;/h3&gt;
-&lt;p&gt;개발을 하면서 stack-overflow 외에 다른 커뮤니티는 그다지 이용할 생각을 하지 못했던 것 같다. 글을 읽는다거나, youtube, 기술 블로그 들을 보면서 기술 동향에 대한 이야기들을 다룬 잘 갖춰진 글들은 읽었지만, 커뮤니티 사이트는 많이 보지 않았던 것 같은데. 이번기회에 한번 둘러 보기로 했다. facebook과 okky는 일반적여서 딱히 이야기 할것은 없을 것 같고, reddidt과 stack-overflow를 위주로 이야기 하려고 한다.&lt;br /&gt;
-처음 시작은, 내가 평소에 즐겨 구독하는 개발자 한분이 trend search를 히는 주요 수단으로 reddit을 추천하면서 시작되었다.&lt;/p&gt;
-
-&lt;h4 id=&quot;reddit&quot;&gt;reddit&lt;/h4&gt;
-&lt;p&gt;wikipedia의 설명을 빌리자면, reddit에 대한 설명은 다음과 같다.&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;“Reddit is an American social news aggregation, web content rating, and discussion website.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;즉, 인기있는 뉴스나 글들이 순서대로 rating되는 사이트 이다.
-영어의 Acronym(두문자어)가 많기 때문에, formal한 글에 비해서 난이도가 있을 수 있다는 점 ^^;;; 그래서, 이것저것 찾아볼 일이 많았다.
-&lt;a href=&quot;https://www.youtube.com/watch?v=HmkncW5rktI&quot;&gt;인터넷 용어 설명해 주는 유튜브 ㅋㅋ 그러나 이것만으로는 커버할 수 없다. 그래도 우선 대강 알아듣기 위해 찾아봤다&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;특징적였던 점은, 아무래도 커뮤니티 이다 보니 ‘의견 or 고민(?)’ 같은것을 나누는 분위기라는 점이었다. 물론 홍보 글들도 나름 있겠지만, rating을 많이 받은 글들은 아무래도 가치 있다고 사람들이 느끼는 의견과 고민이 많았던 것 같다.
-예를들어, 어떤 기술을 도입해야 하는가? 라는 질문에 있어서, 그 기술에 스팩과 장단점을 봤을때, 도입해도 괜찮다. 안괜찮다. 이런식의 글들이 많은 느낌이었다. 자신의 개발 진로에 관한 글이라던가, 현재 개발의 방향(?) 같은것에 대해 걱정되거나 그런 부분들도 서로 의견을 나누는 토론느낌의 글들이 많아서 흥미로웠다.&lt;/p&gt;
-
-&lt;p&gt;한글 커뮤니티와의 차이점을 나누자면, 한국어로 된 커뮤니티들은 대부분(?) 한국사람들이다 보니, 한국의 개발환경의 현실적인 부분들이 반영된 이야기가 많이 있다고 볼 수 있을 것이다.&lt;/p&gt;
-
-&lt;p&gt;반면, reddit의 경우는 영어를 사용할 수 있는 다양하고 많은 사람들이 모이다 보니, 의견도 다양하고, 폭 넓은 이야기들도 많이 오가는 것 같은 점이 색다른 매력으로 느껴졌다.&lt;/p&gt;
-
-&lt;p&gt;레딧을 어떻게 즐겨야 할지 모르겠다고? reddit의 &lt;a href=&quot;https://www.reddit.com/wiki/reddit_101&quot;&gt;the beginners’ guide to reddit&lt;/a&gt; 을 읽어보자 !! ㅎㅎ&lt;/p&gt;
-
-&lt;h4 id=&quot;stack-overflow&quot;&gt;stack-overflow&lt;/h4&gt;
-&lt;p&gt;예전에 stack-overflow는 일부러 찾아가기 보다는 검색하다 보면 항상 나오는 사이트였다. 그런데, 요즘 stack-overflow의 동향을 살피는 것이 꽤 가치 있다는 생각이 든다. 많은 사람들로 부터 질문이 올라 온다는 것은 곧, 그 언어와 프로그래밍 기술이 현재 핫하다는 가장 큰 증거이지 않을까. 매년 stack-overflow를 통해서 가장 많이 사용하는 언어들이 발표되는데, 이것이 의미있는 지표로써 작용한다고 볼 수 있다. 또한, 여기 올라온 글들은 대부분 코드다. 읽고, 답변들을 보는 과정에서 많이 공부가 되고, 혹시 아나.. 읽다보면 내가 답해줄 수 있는 내용이 있어서 답변하는 뿌듯함을 느끼는 날이 올지 ^^;
-그런의미에서 이번주에 가입해 보고, 이곳저곳 둘러봤다.
-stack overflow 탭 중에서 bountied 라는 탭이 있는데, bountied의 뜻은 ‘장려받은’ 이다. 즉, 추천 수가 많은 질문과 답변이 모여있는 곳이었는데, 꽤 흥미로웠다.&lt;br /&gt;
-일단, &lt;a href=&quot;https://stackoverflow.com/tour&quot;&gt;stack-overflow의 tour페이지&lt;/a&gt;를 구경해 보자.
-어떻게 글을 올려야 하는건지 모르겠다고? 나무위키에 재치있는 ‘&lt;a href=&quot;https://namu.wiki/w/Stack%20Overflow&quot;&gt;유의점&lt;/a&gt;‘관련 글이 있어서 링크 걸어본다.
-stack-overflwo외에도 &lt;a href=&quot;https://stackexchange.com/&quot;&gt;stackExchange&lt;/a&gt;라는 사이트도 있다.&lt;/p&gt;
-
-&lt;p&gt;그럼, stackExchange는 무엇이고, stackOverflow는 무엇일까?
-쉽게 말해서, stackoverflow는 stackexchange를 통해서 갈 수 있는 커뮤니티 들 중 하나라고 생각하면 된다.
-stack exchange는 많은 커뮤니티 사이트 들을 연결해 주는 하나의 통합 사이트 인데, &lt;a href=&quot;https://stackexchange.com/sites#&quot;&gt;그중 가장 큰 비중을 차지하는 사이트가 바로 stackOverflow이기 때문이다. (이링크를 타고 가면, stackExchange가 연결해주는 모든 사이트를 볼 수 있다.)&lt;/a&gt;이 두 사이트의 비교에 관한 질문은 stackExchange에도 올라와 있고, 다음 &lt;a href=&quot;https://meta.stackexchange.com/questions/79593/what-is-the-difference-between-stack-overflow-and-stack-exchange&quot;&gt;링크를 타고 가면 볼 수있다.&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;내가, stack-overflow의 위엄(?)를 느끼는 순간중에 하나는 이 사이트의 &lt;a href=&quot;https://insights.stackoverflow.com/survey&quot;&gt;Annual Developer Survey&lt;/a&gt;를 볼때다. 현재 개발자들의 동향을 볼 수 있으니 참고해볼만 한다.&lt;/p&gt;</content><author><name></name></author><category term="community" /><category term="reddit" /><category term="stack-overflow" /><summary type="html">reddit, stack-overflow, facebook, okky 개발을 하면서 stack-overflow 외에 다른 커뮤니티는 그다지 이용할 생각을 하지 못했던 것 같다. 글을 읽는다거나, youtube, 기술 블로그 들을 보면서 기술 동향에 대한 이야기들을 다룬 잘 갖춰진 글들은 읽었지만, 커뮤니티 사이트는 많이 보지 않았던 것 같은데. 이번기회에 한번 둘러 보기로 했다. facebook과 okky는 일반적여서 딱히 이야기 할것은 없을 것 같고, reddidt과 stack-overflow를 위주로 이야기 하려고 한다. 처음 시작은, 내가 평소에 즐겨 구독하는 개발자 한분이 trend search를 히는 주요 수단으로 reddit을 추천하면서 시작되었다.</summary></entry><entry><title type="html">todoList만들기 에서, 지우는 이벤트를 추가하기</title><link href="http://localhost:4000/myblog/2020/11/01/side-checklist.html" rel="alternate" type="text/html" title="todoList만들기 에서, 지우는 이벤트를 추가하기" /><published>2020-11-01T00:00:00+09:00</published><updated>2020-11-01T00:00:00+09:00</updated><id>http://localhost:4000/myblog/2020/11/01/side-checklist</id><content type="html" xml:base="http://localhost:4000/myblog/2020/11/01/side-checklist.html">&lt;h3 id=&quot;오답노트&quot;&gt;오답노트&lt;/h3&gt;
-&lt;p&gt;** 무언가를 코딩으로 만들다가 잘 안될때 먼저 생각해봐야 할 내용들.&lt;/p&gt;
-&lt;ol&gt;
-  &lt;li&gt;일단. 오타가 없는지 살펴라&lt;/li&gt;
-  &lt;li&gt;뭐가 잘못되었는지 찾는 것이 먼저, 제대로 원인을 파악하고, 해결방법을 생각할것.(물론 얻어걸릴때도있지만.)&lt;br /&gt;
-=&amp;gt; 이부분이 잘 안될때에는, 글로 써가면서 추론해 나가는것도 좋은 생각이다.&lt;/li&gt;
-  &lt;li&gt;빠르게 체크하면서 넘어가야 한다. 같은걸 두번 시도하고 있지 말아라.&lt;/li&gt;
-  &lt;li&gt;뭔가 잘 안될때는 기술문서를 꼼꼼히 잘 읽어라. 기능은 모두 설명되어있다.&lt;/li&gt;
-  &lt;li&gt;문제를 한정해서 생각해라, 다른 문제로 새지 마라.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;문제&quot;&gt;문제&lt;/h3&gt;
-&lt;p&gt;** 책을 보면서 to-do list 내용을 실습해 보고 있었다. &lt;br /&gt;
-to-do list textform에 내용을 입력하고, 입력 버튼을 누르면 아래와 같은 매커니즘으로, 내용옆에 삭제 버튼이 달려서 추가가 되는 페이지 였다.&lt;/p&gt;
-
-&lt;p&gt;수정한 내용은 다음과 같았다.&lt;/p&gt;
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;newRegister&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;newP&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;createElement&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;userName&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;querySelector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;#userName&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;newText&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;createTextNode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;userName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;newP&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;appendChild&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;newText&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-
-    &lt;span class=&quot;c1&quot;&gt;//del추가&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;delBtn&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;createElement&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;span&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;delText&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;createTextNode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;X&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;delBtn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;setAttribute&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;del&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;delBtn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;appendChild&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;delText&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;newP&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;appendChild&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;delBtn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-
-    &lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;nameList&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;querySelector&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;#nameList&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;nameList&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;appendChild&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;newP&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-
-    &lt;span class=&quot;nx&quot;&gt;userName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;''&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-
-    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;removeBtns&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;querySelectorAll&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.del&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;removeF&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;parentNode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;parentNode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;parentNode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;parentNode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;removeChild&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;parentNode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-    &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;removeBtns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;removeBtns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;length&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;removeBtns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;length&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-                &lt;span class=&quot;nx&quot;&gt;removeBtns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;j&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;removeEventListener&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;click&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;removeF&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-            &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-        &lt;span class=&quot;nx&quot;&gt;removeBtns&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;].&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;addEventListener&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;click&lt;/span&gt;&lt;span class=&quot;dl&quot;&gt;'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;removeF&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-    
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;for문 위의 내용까지는 책의 내용과 거의 같다고 볼 수 있다. 
-내가 수정하게된 내용들은 for문으로 해서 addEventListener했던 내용을 지우는 구문인데,
-addEvnetListener가 매번 새롭게 추가되는 과정에서, 이전에 입력되어있던 내용들은 event가 반복적으로 추가되는 현상을 콘솔을 통해 발견하고 수정했던 부분이었다.&lt;/p&gt;
-
-&lt;p&gt;마지막으로, appendchild에 관해서 찾아본 Mozila문서를 링크 걸어놓으려고 한다.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://developer.mozilla.org/ko/docs/Web/API/Node/appendChild&quot;&gt;appendchild&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="todoList" /><summary type="html">오답노트 ** 무언가를 코딩으로 만들다가 잘 안될때 먼저 생각해봐야 할 내용들. 일단. 오타가 없는지 살펴라 뭐가 잘못되었는지 찾는 것이 먼저, 제대로 원인을 파악하고, 해결방법을 생각할것.(물론 얻어걸릴때도있지만.) =&amp;gt; 이부분이 잘 안될때에는, 글로 써가면서 추론해 나가는것도 좋은 생각이다. 빠르게 체크하면서 넘어가야 한다. 같은걸 두번 시도하고 있지 말아라. 뭔가 잘 안될때는 기술문서를 꼼꼼히 잘 읽어라. 기능은 모두 설명되어있다. 문제를 한정해서 생각해라, 다른 문제로 새지 마라.</summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="style" /><category term="scss" /><category term="drawer" /><summary type="html">전반적으로 블로그 디자인 등 손보기</summary></entry></feed>

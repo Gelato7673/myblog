@@ -3,13 +3,13 @@
 	"file": "styles.css",
 	"sources": [
 		"styles.scss",
-		"../Gelato/_sass/combined.scss",
-		"../Gelato/_sass/_header.scss",
-		"../Gelato/_sass/blog_list.scss",
-		"../Gelato/_sass/blog_page.scss",
-		"../Gelato/_sass/main_spot.scss",
-		"../Gelato/_sass/contents.scss",
-		"../Gelato/_sass/mediaquery.scss"
+		"_sass/combined.scss",
+		"_sass/_header.scss",
+		"_sass/blog_list.scss",
+		"_sass/blog_page.scss",
+		"_sass/main_spot.scss",
+		"_sass/contents.scss",
+		"_sass/mediaquery.scss"
 	],
 	"sourcesContent": [
 		"@charset \"utf-8\";\n@import \"combined\";\n@import \"blog_list\";\n@import \"blog_page\";\n@import \"main_spot\";\n@import \"contents\";\n@import \"mediaquery\";\n",
